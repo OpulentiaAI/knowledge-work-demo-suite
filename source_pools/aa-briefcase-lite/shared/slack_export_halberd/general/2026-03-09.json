@@ -1,0 +1,85 @@
+[
+  {
+    "type": "message",
+    "user": "U001",
+    "text": "Welcoming Iris Beaumont to the firm as a Research Analyst, joining the Consumer and Agri coverage. She sits on 9 near the sector team.",
+    "ts": "1773062700.856597",
+    "reactions": [
+      {
+        "count": 6,
+        "name": "tada",
+        "users": [
+          "U002",
+          "U005",
+          "U016",
+          "U017",
+          "U019",
+          "U014"
+        ]
+      },
+      {
+        "count": 2,
+        "name": "raised_hands",
+        "users": [
+          "U006",
+          "U007"
+        ]
+      }
+    ]
+  },
+  {
+    "type": "message",
+    "user": "U002",
+    "text": "Delighted to have Iris on the team.",
+    "ts": "1773063180.076827",
+    "thread_ts": "1773062700.856597",
+    "parent_user_id": "U001"
+  },
+  {
+    "type": "message",
+    "user": "U005",
+    "text": "Welcome <@U007>!",
+    "ts": "1773063600.144262",
+    "thread_ts": "1773062700.856597",
+    "parent_user_id": "U001"
+  },
+  {
+    "type": "message",
+    "user": "U007",
+    "text": "Welcome! Happy to show you the research stack whenever.",
+    "ts": "1773064080.138000",
+    "thread_ts": "1773062700.856597",
+    "parent_user_id": "U001"
+  },
+  {
+    "type": "message",
+    "user": "U019",
+    "text": "Welcome <@U007> desk and badge ready, find me on 9.",
+    "ts": "1773064800.477061",
+    "thread_ts": "1773062700.856597",
+    "parent_user_id": "U001"
+  },
+  {
+    "type": "message",
+    "user": "U016",
+    "text": "ESG carbon accounting templates move to version 2.4 from 1 April. The 2.3 versions will not be accepted after that.",
+    "ts": "1773069000.199272"
+  },
+  {
+    "type": "message",
+    "user": "U018",
+    "text": "Daylight saving started yesterday. Please double check any recurring cross-region invites, the usual off-by-one will bite.",
+    "ts": "1773073800.650962",
+    "reactions": [
+      {
+        "count": 3,
+        "name": "thinking_face",
+        "users": [
+          "U014",
+          "U005",
+          "U017"
+        ]
+      }
+    ]
+  }
+]

@@ -1,0 +1,126 @@
+[
+  {
+    "type": "message",
+    "user": "U019",
+    "text": "Snack vendor refresh today. Please send your suggestions in this thread. Last quarter we took the kombucha experiment off the menu by popular demand.",
+    "ts": "1777118400.326591",
+    "reactions": [
+      {
+        "count": 3,
+        "name": "joy",
+        "users": [
+          "U015",
+          "U017",
+          "U016"
+        ]
+      }
+    ]
+  },
+  {
+    "type": "message",
+    "user": "U015",
+    "text": "Bring back the dark chocolate almonds.",
+    "ts": "1777119300.176309",
+    "thread_ts": "1777118400.326591",
+    "parent_user_id": "U019",
+    "reactions": [
+      {
+        "count": 3,
+        "name": "+1",
+        "users": [
+          "U017",
+          "U014",
+          "U016"
+        ]
+      }
+    ]
+  },
+  {
+    "type": "message",
+    "user": "U017",
+    "text": "More fruit, less candy. Just saying.",
+    "ts": "1777120200.802872",
+    "thread_ts": "1777118400.326591",
+    "parent_user_id": "U019",
+    "reactions": [
+      {
+        "count": 2,
+        "name": "apple",
+        "users": [
+          "U019",
+          "U016"
+        ]
+      }
+    ]
+  },
+  {
+    "type": "message",
+    "user": "U001",
+    "text": "Whatever you do, no more kombucha.",
+    "ts": "1777121100.055302",
+    "thread_ts": "1777118400.326591",
+    "parent_user_id": "U019",
+    "reactions": [
+      {
+        "count": 5,
+        "name": "+1",
+        "users": [
+          "U014",
+          "U017",
+          "U015",
+          "U016",
+          "U019"
+        ]
+      }
+    ]
+  },
+  {
+    "type": "message",
+    "user": "U014",
+    "text": "Second the less sugar request. Treasury keeps reminding me about the wellness line item.",
+    "ts": "1777122000.212373",
+    "thread_ts": "1777118400.326591",
+    "parent_user_id": "U019"
+  },
+  {
+    "type": "message",
+    "user": "U016",
+    "text": "dried mango please",
+    "ts": "1777122900.355420",
+    "thread_ts": "1777118400.326591",
+    "parent_user_id": "U019",
+    "reactions": [
+      {
+        "count": 1,
+        "name": "+1",
+        "users": [
+          "U015"
+        ]
+      }
+    ]
+  },
+  {
+    "type": "message",
+    "user": "U015",
+    "text": "seconding the mango",
+    "ts": "1777123800.985984",
+    "thread_ts": "1777118400.326591",
+    "parent_user_id": "U019"
+  },
+  {
+    "type": "message",
+    "user": "U019",
+    "text": "Noted all. Keeping the kombucha retired.",
+    "ts": "1777140000.448647",
+    "reactions": [
+      {
+        "count": 2,
+        "name": "pray",
+        "users": [
+          "U001",
+          "U014"
+        ]
+      }
+    ]
+  }
+]

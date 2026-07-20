@@ -1,0 +1,18 @@
+{
+  "id": "017-workspace-product-expense-analysis",
+  "title": "Product Manager: Product Management",
+  "domain": "product-management",
+  "work_type": "workspace-analysis",
+  "persona": "Product Manager",
+  "difficulty": "hard",
+  "dataset": "Workspace-Bench-Lite",
+  "upstream_id": "15",
+  "upstream_url": "https://huggingface.co/datasets/Workspace-Bench/Workspace-Bench-Lite?row=15",
+  "license": "MIT",
+  "prompt": "prompt.md",
+  "source_docs": "source_docs",
+  "deliverables": [
+    "financial-table-key-expense-analysis-concise-version.xlsx"
+  ],
+  "rubric": "rubric.json"
+}

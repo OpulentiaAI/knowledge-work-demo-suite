@@ -1,0 +1,89 @@
+[
+  {
+    "type": "message",
+    "user": "U017",
+    "text": "Two new joiners signed up this month, welcome. We rotate moderators.",
+    "ts": "1775660400.511157",
+    "reactions": [
+      {
+        "name": "wave",
+        "users": [
+          "U010",
+          "U015",
+          "U016"
+        ],
+        "count": 3
+      }
+    ]
+  },
+  {
+    "type": "message",
+    "user": "U010",
+    "text": "Half agree, the Taiwan Semiconductor chapter is the strongest. The geopolitics section will age fast.",
+    "ts": "1775665800.678922"
+  },
+  {
+    "type": "message",
+    "user": "U016",
+    "text": "running 30 pages behind. catching up by Friday.",
+    "ts": "1775669400.261456",
+    "reactions": [
+      {
+        "name": "sweat_smile",
+        "users": [
+          "U017",
+          "U015"
+        ],
+        "count": 2
+      }
+    ]
+  },
+  {
+    "type": "message",
+    "user": "U010",
+    "text": "Power Law on my Kindle as a side project for May. Plotting ahead.",
+    "ts": "1775680200.648060",
+    "reactions": [
+      {
+        "name": "eyes",
+        "users": [
+          "U017",
+          "U015"
+        ],
+        "count": 2
+      }
+    ]
+  },
+  {
+    "type": "message",
+    "user": "U015",
+    "text": "Halfway through. The Taiwan Semiconductor chapter is excellent but a lot of the policy detail will date quickly.",
+    "ts": "1775687400.169088"
+  },
+  {
+    "type": "message",
+    "user": "U017",
+    "text": "audiobook's 17 hours but the narrator is excellent, if anyone wants it",
+    "ts": "1775688000.638427",
+    "thread_ts": "1775687400.169088",
+    "parent_user_id": "U015",
+    "reactions": [
+      {
+        "name": "headphones",
+        "users": [
+          "U010",
+          "U016"
+        ],
+        "count": 2
+      }
+    ]
+  },
+  {
+    "type": "message",
+    "user": "U016",
+    "text": "saved, thanks",
+    "ts": "1775688600.305613",
+    "thread_ts": "1775687400.169088",
+    "parent_user_id": "U015"
+  }
+]

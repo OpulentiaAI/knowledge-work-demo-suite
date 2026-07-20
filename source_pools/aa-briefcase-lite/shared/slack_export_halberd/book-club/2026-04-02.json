@@ -1,0 +1,106 @@
+[
+  {
+    "type": "message",
+    "user": "U017",
+    "text": "Reading prep memo posted. One page, three themes, three questions. Light touch.",
+    "ts": "1775136600.379598",
+    "reactions": [
+      {
+        "name": "books",
+        "users": [
+          "U010",
+          "U015",
+          "U016"
+        ],
+        "count": 3
+      }
+    ]
+  },
+  {
+    "type": "message",
+    "user": "U017",
+    "text": "Chip War for April. Big questions: are we underweighting semis as a sector, and is the policy environment really as path dependent as Miller suggests?",
+    "ts": "1775138400.351444"
+  },
+  {
+    "type": "message",
+    "user": "U015",
+    "text": "Three chapters in and I take back what I said about the export control section being dry. Miller nails the supply chain politics.",
+    "ts": "1775139200.855237",
+    "thread_ts": "1775138400.351444",
+    "parent_user_id": "U017",
+    "reactions": [
+      {
+        "name": "100",
+        "users": [
+          "U010",
+          "U017"
+        ],
+        "count": 2
+      }
+    ]
+  },
+  {
+    "type": "message",
+    "user": "U010",
+    "text": "the CHIPS Act framing aged interestingly",
+    "ts": "1775139800.532587",
+    "thread_ts": "1775138400.351444",
+    "parent_user_id": "U017",
+    "reactions": [
+      {
+        "name": "books",
+        "users": [
+          "U017",
+          "U015"
+        ],
+        "count": 2
+      }
+    ]
+  },
+  {
+    "type": "message",
+    "user": "U016",
+    "text": "ok you've sold me, picking it up tonight",
+    "ts": "1775140400.838837",
+    "thread_ts": "1775138400.351444",
+    "parent_user_id": "U017"
+  },
+  {
+    "type": "message",
+    "user": "U010",
+    "text": "I'll bring the espresso refill. Last time it ran dry by chapter 4.",
+    "ts": "1775149200.627284",
+    "reactions": [
+      {
+        "name": "coffee",
+        "users": [
+          "U017",
+          "U015",
+          "U016"
+        ],
+        "count": 3
+      }
+    ]
+  },
+  {
+    "type": "message",
+    "user": "U015",
+    "text": "Chip War April pick reconfirmed. Meeting 22 April, 18:00 small library. <@U010> and <@U016> dialling in.",
+    "ts": "1775158200.220665"
+  },
+  {
+    "type": "message",
+    "user": "U015",
+    "text": "anyone got a chapter pick? mine's the export controls one",
+    "ts": "1775161800.794855"
+  },
+  {
+    "type": "message",
+    "user": "U016",
+    "text": "the Taiwan chapter for me",
+    "ts": "1775162400.930173",
+    "thread_ts": "1775161800.794855",
+    "parent_user_id": "U015"
+  }
+]

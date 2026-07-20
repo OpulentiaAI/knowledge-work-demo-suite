@@ -1,0 +1,69 @@
+[
+  {
+    "type": "message",
+    "user": "U001",
+    "text": "Half-day today. Office closes at 13:00. See most of you at the Whaler.",
+    "ts": "1777626000.898577",
+    "reactions": [
+      {
+        "count": 4,
+        "name": "beer",
+        "users": [
+          "U005",
+          "U015",
+          "U016",
+          "U017"
+        ]
+      },
+      {
+        "count": 1,
+        "name": "raised_hands",
+        "users": [
+          "U014"
+        ]
+      }
+    ]
+  },
+  {
+    "type": "message",
+    "user": "U014",
+    "text": "Reminder: Q1 expense reports older than 90 days will not be reimbursed without a Treasury exception. Last call.",
+    "ts": "1777635000.815938"
+  },
+  {
+    "type": "message",
+    "user": "U014",
+    "text": "Friendly reminder: T&E policy v 2026.1 is in effect. Treasury exception requests are taking 3 business days; please plan ahead.",
+    "ts": "1777640400.336565"
+  },
+  {
+    "type": "message",
+    "user": "U010",
+    "text": "Quarter-end personal-trading attestation goes out tomorrow morning. 72 hours to return. No exceptions.",
+    "ts": "1777642200.592195"
+  },
+  {
+    "type": "message",
+    "user": "U015",
+    "text": "Final reminder: legacy fileshare retires today at 18:00 ET. Anything not migrated will be archived to cold storage and pulled on request only.",
+    "ts": "1777644000.982643",
+    "reactions": [
+      {
+        "count": 2,
+        "name": "eyes",
+        "users": [
+          "U005",
+          "U006"
+        ]
+      }
+    ]
+  },
+  {
+    "type": "message",
+    "user": "U015",
+    "text": "See you there.",
+    "ts": "1777647600.942835",
+    "thread_ts": "1777626000.898577",
+    "parent_user_id": "U001"
+  }
+]

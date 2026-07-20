@@ -1,0 +1,37 @@
+[
+  {
+    "type": "message",
+    "user": "U002",
+    "text": "Consumer & Agri pipeline notes from yesterday's Sector Council are in the team folder. Highlights: NA dairy carve-out tracker, the protein consolidation thesis Daniel pulled, and a new look at non-alcoholic beverages.",
+    "ts": "1776945600.735896",
+    "reactions": [
+      {
+        "count": 3,
+        "name": "eyes",
+        "users": [
+          "U001",
+          "U005",
+          "U007"
+        ]
+      }
+    ]
+  },
+  {
+    "type": "message",
+    "user": "U010",
+    "text": "Restricted list update: standard weekly refresh out via Compliance email. Please reflect on your personal trading.",
+    "ts": "1776950100.378831"
+  },
+  {
+    "type": "message",
+    "user": "U001",
+    "text": "Reminder for sector partners, sourcing budget Q2 sub-allocation due next Friday. <@U003> and <@U002> I've reached out separately.",
+    "ts": "1776951000.889170"
+  },
+  {
+    "type": "message",
+    "user": "U018",
+    "text": "Reminder: USB ports are blocked across the estate for data transfer. If you need to move large files, use the encrypted share.",
+    "ts": "1776956400.521612"
+  }
+]

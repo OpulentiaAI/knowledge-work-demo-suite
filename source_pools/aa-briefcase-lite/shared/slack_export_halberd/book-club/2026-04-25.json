@@ -1,0 +1,121 @@
+[
+  {
+    "type": "message",
+    "user": "U015",
+    "text": "Book club perk: any new joiner gets a free copy through the firm Amazon account. <@U017>'s idea, take advantage.",
+    "ts": "1777125600.512216",
+    "reactions": [
+      {
+        "name": "books",
+        "users": [
+          "U017",
+          "U010",
+          "U016"
+        ],
+        "count": 3
+      }
+    ]
+  },
+  {
+    "type": "message",
+    "user": "U015",
+    "text": "Strong vote for The Power Law. Let's go with that. Order copies via the firm Amazon account.",
+    "ts": "1777126260.001204",
+    "reactions": [
+      {
+        "name": "tada",
+        "users": [
+          "U017",
+          "U016",
+          "U010"
+        ],
+        "count": 3
+      }
+    ]
+  },
+  {
+    "type": "message",
+    "user": "U010",
+    "text": "order placed, 7 copies. arriving Tuesday.",
+    "ts": "1777126800.992916",
+    "thread_ts": "1777126260.001204",
+    "parent_user_id": "U015",
+    "reactions": [
+      {
+        "name": "raised_hands",
+        "users": [
+          "U015",
+          "U017"
+        ],
+        "count": 2
+      }
+    ]
+  },
+  {
+    "type": "message",
+    "user": "U015",
+    "text": "sevenfold for an alumni tilted firm club is a real win",
+    "ts": "1777127400.264841",
+    "thread_ts": "1777126260.001204",
+    "parent_user_id": "U015",
+    "reactions": [
+      {
+        "name": "books",
+        "users": [
+          "U017",
+          "U010",
+          "U016"
+        ],
+        "count": 3
+      }
+    ]
+  },
+  {
+    "type": "message",
+    "user": "U017",
+    "text": "May meeting confirmed 27 May, 18:00, small library. Same coffee setup.",
+    "ts": "1777131000.867475",
+    "reactions": [
+      {
+        "name": "coffee",
+        "users": [
+          "U010",
+          "U015",
+          "U016"
+        ],
+        "count": 3
+      }
+    ]
+  },
+  {
+    "type": "message",
+    "user": "U017",
+    "text": "genuine question, is anyone organizing a 'finance memoir' Q3 club? I'd join.",
+    "ts": "1777136400.096915",
+    "reactions": [
+      {
+        "name": "eyes",
+        "users": [
+          "U010",
+          "U016"
+        ],
+        "count": 2
+      }
+    ]
+  },
+  {
+    "type": "message",
+    "user": "U016",
+    "text": "spotting <@U010> a copy, I have a spare hardback. drop by 9 to grab it.",
+    "ts": "1777140000.886686",
+    "reactions": [
+      {
+        "name": "pray",
+        "users": [
+          "U017"
+        ],
+        "count": 1
+      }
+    ]
+  }
+]

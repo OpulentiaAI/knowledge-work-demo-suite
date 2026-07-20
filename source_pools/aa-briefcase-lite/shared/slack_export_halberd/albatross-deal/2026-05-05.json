@@ -1,0 +1,152 @@
+[
+  {
+    "type": "message",
+    "user": "U003",
+    "text": "Morning team. Wednesday checkpoint with Vivian at 4pm ET. Drafts in by 2.",
+    "ts": "1777986678.414113"
+  },
+  {
+    "type": "message",
+    "user": "U005",
+    "text": ":+1:",
+    "ts": "1777986722.612515"
+  },
+  {
+    "type": "message",
+    "user": "U006",
+    "text": "Will be ready.",
+    "ts": "1777986730.885701"
+  },
+  {
+    "type": "message",
+    "user": "U002",
+    "text": "Theo - for the forecast: do not just multiply population × flat per-capita. Section 2.2 of the standards doc requires you to factor in dietary-mix shift. Iris pulled the ACII dietary trends Wave 11 - flexitarian segment is now 21% and trending up, and (counter-intuitively) flexitarian + vegetarian segments consume more eggs per capita than traditional omnivores. Net effect is +0.4-0.5% per year tailwind to per-capita egg consumption on top of population growth. Build it in.",
+    "ts": "1777987200.594585"
+  },
+  {
+    "type": "message",
+    "user": "U006",
+    "text": "Got it. Will model it as ~1.3-1.5% volume CAGR at the national level - population (~0.9%) plus per-capita drift (~0.4-0.5%).",
+    "ts": "1777987290.238035"
+  },
+  {
+    "type": "message",
+    "user": "U006",
+    "text": "Quick first cut on the producer roster from yesterday's Calthorpe call + the Hartley Pearce note: Mainland 27%, Heyden 13%, Aurora ~15%, Better Eggs 10%, Zeagold 8%, Henergy 6%, long-tail ~21%. Wanted to flag the Aurora number - Calthorpe gave a 17-19 range in Part 1 but I'm being conservative pending Part 2 + the customer-concentration cross-check. Will revisit Friday after Calthorpe Part 2.",
+    "ts": "1777992120.875143"
+  },
+  {
+    "type": "message",
+    "user": "U005",
+    "text": "Ack. Will use those for the comp positioning slide as placeholder pending Part 2.",
+    "ts": "1777992480.419960"
+  },
+  {
+    "type": "message",
+    "user": "U007",
+    "text": "Calthorpe call confirmed. Sending dial-in details now.",
+    "ts": "1777996089.158726"
+  },
+  {
+    "type": "message",
+    "user": "U002",
+    "text": "Following up on Theo's stale-MPI question from yesterday - yes, the MPI numbers are 2022 and ground truth has shifted with Phase 2. Insider will give you the current era read; reconcile in the assumptions tab. Don't anchor on the 33/33/34 baseline as if it's current.",
+    "ts": "1778001762.211309"
+  },
+  {
+    "type": "message",
+    "user": "U006",
+    "text": "Got it - will surface the gap in assumptions.",
+    "ts": "1778001791.118866"
+  },
+  {
+    "type": "message",
+    "user": "U007",
+    "text": "Adding the specifics on the stale-mix point - pulled the EPF NZ FY25 annual report off their public site last night for the deal binder. They restate the same 33% colony / 33% barn / 34% free-range mix in Section 2, sourced from the December 2022 industry census. Section 2 Note verbatim: 'EPF does not publish interim estimates between censuses' with the next refresh anticipated in 2027 alongside the Phase 2 deadline. The Section 3 channel cut is also a 3-channel split with foodservice and industrial (combined) 25%, retail taking the bulk and direct as a small tail. Figures look authoritative because they're carried in the published annual, but they're a 2022 snapshot and won't refresh on the public record for at least another year+. Holding for Calthorpe's current-era read per Daniel.",
+    "ts": "1778002000.876524"
+  },
+  {
+    "type": "message",
+    "user": "U002",
+    "text": "Iris - one taxonomy note for the market overview while we're on it. MPI's four housing systems are the primary cut (free-range, barn, colony, conventional cage). Pasture-raised, organic, and omega-3 are marketing tiers - they sit on top of free-range housing, not alongside it. Don't present them as separate primary housing systems in the deck. If we need to surface the premium dynamics, show them as sub-tiers within free-range with a clear visual or textual distinction. The four MPI labels are the structural taxonomy.",
+    "ts": "1778002200.230112"
+  },
+  {
+    "type": "message",
+    "user": "U003",
+    "text": "Thinking about the deck structure. Top-line opportunities + bottom-line opportunities are usually treated as one section. Should we keep them separate?",
+    "ts": "1778007368.911952"
+  },
+  {
+    "type": "message",
+    "user": "U002",
+    "text": "Separate. Bottom-line is where the deal-team value-add lives - deal teams default to top-line and miss it. Cal-Maine 10-K spells out feed-cost ratio + automation capex; that's our anchor for the cost-out conversation. Make sure Aurora-scale gaps surface.",
+    "ts": "1778007411.835006"
+  },
+  {
+    "type": "message",
+    "user": "U005",
+    "text": "Ack. Will set up two distinct slide groups.",
+    "ts": "1778007434.434274"
+  },
+  {
+    "type": "message",
+    "user": "U003",
+    "text": "Maya - on the opportunities slides please make sure we land at least three sized top-line and at least three sized bottom-line. Don't go to Hugh with 'channel expansion is an opportunity' - size each lever in NZ$ EBITDA range and capex requirement. Run it past Marcus and Priya before final.",
+    "ts": "1778008440.120556"
+  },
+  {
+    "type": "message",
+    "user": "U005",
+    "text": "Will do. Pulling the Calthorpe Part 2 anchors for the cost-out side and using the standards-doc cost benchmarks for sizing where Calthorpe doesn't quote a number.",
+    "ts": "1778008560.645354"
+  },
+  {
+    "type": "message",
+    "user": "U007",
+    "text": "Helen Marsden call done - 51 min, transcript drafting now. Top-line: Phase 1 done end-2022, Phase 2 retailer-led to end-2027, free-range premium ~30% historically but 'trending down post-Phase 1', some colony producers expected to exit rather than convert.",
+    "ts": "1778008722.175141"
+  },
+  {
+    "type": "message",
+    "user": "U002",
+    "text": "Good. The 'trending down' premium line matches what I expected; that's our compression hypothesis.",
+    "ts": "1778008748.303611"
+  },
+  {
+    "type": "message",
+    "user": "U007",
+    "text": "Calthorpe Part 1 done - 52 min. Producer-by-producer flock numbers, Aurora at #2 by volume (17-19%, ahead of Heyden), channel split with foodservice and industrial separated. He sketched the market on a whiteboard during the call; I asked if I could screenshot - he sent me a photo of the napkin after, will attach to the transcript.",
+    "ts": "1778013251.723100"
+  },
+  {
+    "type": "message",
+    "user": "U002",
+    "text": "Great. Two follow-ups with him please - I want bottom-up flock validation in Part 2 and a reconciliation discussion in Part 3 (top-down vs his bottom-up).",
+    "ts": "1778013322.011998"
+  },
+  {
+    "type": "message",
+    "user": "U007",
+    "text": "Booked Part 2 Friday, Part 3 Monday.",
+    "ts": "1778013362.126900"
+  },
+  {
+    "type": "message",
+    "user": "U006",
+    "text": "Vivian - quick sanity check on the channel-pricing build before I push the draft. For the retail wholesale gate I'm taking the scan-data shelf price and subtracting 30% to back out the wholesale figure. Sound right?",
+    "ts": "1778014800.459106"
+  },
+  {
+    "type": "message",
+    "user": "U002",
+    "text": "Theo - no, that's the wrong convention and it'll come back at us. Shelf-over-gate is a markup factor, not a gross-margin subtraction. Apply the factor 1.33-1.54 to gate to get shelf; equivalently, divide shelf by 1.33-1.54 to back out the implied wholesale. Subtracting a flat 25-35% from shelf is a different number and a lower one - the firm view is the markup-factor form for the scan-data-backwards step. The principle is multiplicative, not additive.",
+    "ts": "1778014920.014761"
+  },
+  {
+    "type": "message",
+    "user": "U006",
+    "text": "Ah - got it. Redoing with /1.33-1.54 on the scan-data shelf side. Will document the convention in the assumptions tab.",
+    "ts": "1778014980.604114"
+  }
+]

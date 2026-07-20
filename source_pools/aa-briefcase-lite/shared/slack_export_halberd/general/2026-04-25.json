@@ -1,0 +1,99 @@
+[
+  {
+    "type": "message",
+    "user": "U014",
+    "text": "Reminder: half-day Friday 1 May. The bar tab at the Whaler is on Hugh, within reason.",
+    "ts": "1777114800.158257",
+    "reactions": [
+      {
+        "count": 4,
+        "name": "tada",
+        "users": [
+          "U005",
+          "U016",
+          "U017",
+          "U015"
+        ]
+      },
+      {
+        "count": 2,
+        "name": "beer",
+        "users": [
+          "U001",
+          "U014"
+        ]
+      }
+    ]
+  },
+  {
+    "type": "message",
+    "user": "U001",
+    "text": "Half-day Friday next week (1 May). Office closes at 13:00 for personnel appreciation. No Zoom calls scheduled internally past noon.",
+    "ts": "1777123800.294442"
+  },
+  {
+    "type": "message",
+    "user": "U019",
+    "text": "Renata here. Q3 offsite venue shortlist is back to three options. Voting form going out in <#C0CUL001|culture> next week. Let's not have another 'Saratoga' situation.",
+    "ts": "1777131729.100878",
+    "reactions": [
+      {
+        "count": 3,
+        "name": "joy",
+        "users": [
+          "U014",
+          "U005",
+          "U017"
+        ]
+      }
+    ]
+  },
+  {
+    "type": "message",
+    "user": "U001",
+    "text": "Yara M. on Talent is a few weeks in now and settling in well, sitting near Lara on 9. Say hi if you haven't yet.",
+    "ts": "1777140000.470436",
+    "reactions": [
+      {
+        "count": 3,
+        "name": "tada",
+        "users": [
+          "U017",
+          "U019",
+          "U002"
+        ]
+      },
+      {
+        "count": 1,
+        "name": "raised_hands",
+        "users": [
+          "U005"
+        ]
+      }
+    ]
+  },
+  {
+    "type": "message",
+    "user": "U017",
+    "text": "Yara's been a great add to Talent already.",
+    "ts": "1777149000.354520",
+    "thread_ts": "1777140000.470436",
+    "parent_user_id": "U001"
+  },
+  {
+    "type": "message",
+    "user": "U019",
+    "text": "She's all set up on 9, drop by anytime.",
+    "ts": "1777149601.328320",
+    "thread_ts": "1777140000.470436",
+    "parent_user_id": "U001"
+  },
+  {
+    "type": "message",
+    "user": "U016",
+    "text": "Glad she's settling in.",
+    "ts": "1777150502.061885",
+    "thread_ts": "1777140000.470436",
+    "parent_user_id": "U001"
+  }
+]

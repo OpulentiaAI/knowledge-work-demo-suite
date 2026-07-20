@@ -1,0 +1,147 @@
+[
+  {
+    "type": "message",
+    "user": "U019",
+    "text": "April birthdays! Daniel R. (5th), Maya O. (12th), Mateo S. (19th), Renata C. (24th), Yara M. (28th). Cake in the kitchen Friday.",
+    "ts": "1775044860.973341",
+    "reactions": [
+      {
+        "name": "tada",
+        "users": [
+          "U017",
+          "U015",
+          "U016",
+          "U014"
+        ],
+        "count": 4
+      },
+      {
+        "name": "cake",
+        "users": [
+          "U001",
+          "U002"
+        ],
+        "count": 2
+      }
+    ]
+  },
+  {
+    "type": "message",
+    "user": "U005",
+    "text": "ooh cake",
+    "ts": "1775045400.897116",
+    "thread_ts": "1775044860.973341",
+    "parent_user_id": "U019"
+  },
+  {
+    "type": "message",
+    "user": "U003",
+    "text": "the 5th is a Sunday, I expect a full week of celebration",
+    "ts": "1775045760.262157",
+    "thread_ts": "1775044860.973341",
+    "parent_user_id": "U019",
+    "reactions": [
+      {
+        "name": "joy",
+        "users": [
+          "U019",
+          "U005",
+          "U017"
+        ],
+        "count": 3
+      }
+    ]
+  },
+  {
+    "type": "message",
+    "user": "U019",
+    "text": "noted <@U003>",
+    "ts": "1775046100.321172",
+    "thread_ts": "1775044860.973341",
+    "parent_user_id": "U019"
+  },
+  {
+    "type": "message",
+    "user": "U017",
+    "text": "Wellness committee Friday, light agenda: gym subsidy, mental health resources, mid-year offsite venue.",
+    "ts": "1775048400.466306"
+  },
+  {
+    "type": "message",
+    "user": "U017",
+    "text": "Friday 12:00, small library. Lunch covered.",
+    "ts": "1775053800.055948",
+    "reactions": [
+      {
+        "name": "raised_hands",
+        "users": [
+          "U019",
+          "U016"
+        ],
+        "count": 2
+      }
+    ]
+  },
+  {
+    "type": "message",
+    "user": "U019",
+    "text": "Cake setup 15:30 Friday. Non negotiable as ever.",
+    "ts": "1775054700.015960"
+  },
+  {
+    "type": "message",
+    "user": "U008",
+    "text": "in",
+    "ts": "1775055200.480774"
+  },
+  {
+    "type": "message",
+    "user": "U014",
+    "text": "Anyone want to join the Halberd 5k team for the Brooklyn Half? Naomi's the captain.",
+    "ts": "1775062800.977886"
+  },
+  {
+    "type": "message",
+    "user": "U006",
+    "text": "me",
+    "ts": "1775063400.212679",
+    "thread_ts": "1775062800.977886",
+    "parent_user_id": "U014"
+  },
+  {
+    "type": "message",
+    "user": "U016",
+    "text": "amazing, adding you <@U006>",
+    "ts": "1775063900.216873",
+    "thread_ts": "1775062800.977886",
+    "parent_user_id": "U014",
+    "reactions": [
+      {
+        "name": "runner",
+        "users": [
+          "U006"
+        ],
+        "count": 1
+      }
+    ]
+  },
+  {
+    "type": "message",
+    "user": "U009",
+    "text": "I'll cheer from the sidelines with a coffee",
+    "ts": "1775064600.481803",
+    "thread_ts": "1775062800.977886",
+    "parent_user_id": "U014",
+    "reactions": [
+      {
+        "name": "coffee",
+        "users": [
+          "U014",
+          "U016",
+          "U019"
+        ],
+        "count": 3
+      }
+    ]
+  }
+]

@@ -1,0 +1,103 @@
+[
+  {
+    "type": "message",
+    "user": "U014",
+    "text": "Morning all, and happy Monday. Welcome back to a full week.",
+    "ts": "1770039600.514781",
+    "reactions": [
+      {
+        "count": 3,
+        "name": "coffee",
+        "users": [
+          "U015",
+          "U019",
+          "U005"
+        ]
+      }
+    ]
+  },
+  {
+    "type": "message",
+    "user": "U015",
+    "text": "The coffee machine on 9 is down again. Just flagging.",
+    "ts": "1770040320.761720",
+    "thread_ts": "1770039600.514781",
+    "parent_user_id": "U014"
+  },
+  {
+    "type": "message",
+    "user": "U019",
+    "text": "Vendor is in Wednesday. Kitchen on 8 in the meantime.",
+    "ts": "1770040860.238561",
+    "thread_ts": "1770039600.514781",
+    "parent_user_id": "U014"
+  },
+  {
+    "type": "message",
+    "user": "U018",
+    "text": "Reminder: laptops should be rebooting at least weekly. The patch backlog only clears on reboot.",
+    "ts": "1770042000.803938"
+  },
+  {
+    "type": "message",
+    "user": "U010",
+    "text": "Compliance: Q1 personal trading attestation window opens 1 March. Calendar holds going out this week.",
+    "ts": "1770044100.404862"
+  },
+  {
+    "type": "message",
+    "user": "U001",
+    "text": "Pleased to share we closed the Northwind diligence phase on Friday. Strong work from the Consumer team over the holidays. Full readout at the next all hands.",
+    "ts": "1770046200.805612",
+    "reactions": [
+      {
+        "count": 6,
+        "name": "tada",
+        "users": [
+          "U002",
+          "U005",
+          "U014",
+          "U016",
+          "U017",
+          "U019"
+        ]
+      },
+      {
+        "count": 2,
+        "name": "raised_hands",
+        "users": [
+          "U003",
+          "U008"
+        ]
+      }
+    ]
+  },
+  {
+    "type": "message",
+    "user": "U002",
+    "text": "Proud of the team on this one.",
+    "ts": "1770046860.119255",
+    "thread_ts": "1770046200.805612",
+    "parent_user_id": "U001"
+  },
+  {
+    "type": "message",
+    "user": "U016",
+    "text": "Great way to start the quarter.",
+    "ts": "1770047280.554812",
+    "thread_ts": "1770046200.805612",
+    "parent_user_id": "U001"
+  },
+  {
+    "type": "message",
+    "user": "U017",
+    "text": "Talent: 2026 hiring plan is approved. Two openings on Consumer, one on Ops. JD review with hiring managers this week.",
+    "ts": "1770049800.023483"
+  },
+  {
+    "type": "message",
+    "user": "U019",
+    "text": "Building note: freight elevator out of service until Thursday. Use the south bank for any deliveries.",
+    "ts": "1770059400.803545"
+  }
+]

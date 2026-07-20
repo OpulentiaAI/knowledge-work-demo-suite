@@ -1,0 +1,20 @@
+[
+  {
+    "type": "message",
+    "user": "U014",
+    "text": "Heads up, half-day Friday before the long weekend is 17 April this year, not this week. Several people have asked.",
+    "ts": "1773411600.120700"
+  },
+  {
+    "type": "message",
+    "user": "U015",
+    "text": "Patch Tuesday catch-up reboots happening tonight. Save your work.",
+    "ts": "1773421200.385666"
+  },
+  {
+    "type": "message",
+    "user": "U010",
+    "text": "Restricted list update is delayed to Monday, data feed issue at the provider.",
+    "ts": "1773430200.265642"
+  }
+]

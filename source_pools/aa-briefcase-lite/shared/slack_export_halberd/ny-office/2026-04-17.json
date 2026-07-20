@@ -1,0 +1,94 @@
+[
+  {
+    "type": "message",
+    "user": "U019",
+    "text": "Building cleaning vendor is changing on 1 May. Old vendor's last day is 30 April, new vendor (Carlin Building Services) starts 1 May. Same rotation, you shouldn't notice.",
+    "ts": "1776427200.560388",
+    "reactions": [
+      {
+        "count": 2,
+        "name": "+1",
+        "users": [
+          "U014",
+          "U016"
+        ]
+      }
+    ]
+  },
+  {
+    "type": "message",
+    "user": "U019",
+    "text": "Carlin will use the same loading dock window 06:00 to 08:00. You shouldn't notice.",
+    "ts": "1776430800.362481",
+    "thread_ts": "1776427200.560388",
+    "parent_user_id": "U019"
+  },
+  {
+    "type": "message",
+    "user": "U014",
+    "text": "Do they handle the recycling rota too, or is that separate?",
+    "ts": "1776432600.885641",
+    "thread_ts": "1776427200.560388",
+    "parent_user_id": "U019"
+  },
+  {
+    "type": "message",
+    "user": "U019",
+    "text": "Same scope, same rota. I'll watch the first week closely.",
+    "ts": "1776434400.602639",
+    "thread_ts": "1776427200.560388",
+    "parent_user_id": "U019"
+  },
+  {
+    "type": "message",
+    "user": "U016",
+    "text": "Tearing down the old ESG comms display in the 9th floor lounge tomorrow. I'll re skin it Friday.",
+    "ts": "1776436200.570010"
+  },
+  {
+    "type": "message",
+    "user": "U017",
+    "text": "want a hand?",
+    "ts": "1776437100.792616",
+    "thread_ts": "1776436200.570010",
+    "parent_user_id": "U016"
+  },
+  {
+    "type": "message",
+    "user": "U016",
+    "text": "yes please, 10am?",
+    "ts": "1776438000.040169",
+    "thread_ts": "1776436200.570010",
+    "parent_user_id": "U016",
+    "reactions": [
+      {
+        "count": 1,
+        "name": "+1",
+        "users": [
+          "U017"
+        ]
+      }
+    ]
+  },
+  {
+    "type": "message",
+    "user": "U014",
+    "text": "Building manager confirmed the cleaning vendor change will not affect parking. Same routine.",
+    "ts": "1776439800.616887"
+  },
+  {
+    "type": "message",
+    "user": "U018",
+    "text": "Office printers down 20:00 to 22:00 tonight for firmware. Print before you leave.",
+    "ts": "1776448800.646583",
+    "reactions": [
+      {
+        "count": 1,
+        "name": "pray",
+        "users": [
+          "U016"
+        ]
+      }
+    ]
+  }
+]

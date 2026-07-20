@@ -1,0 +1,90 @@
+[
+  {
+    "type": "message",
+    "user": "U001",
+    "text": "Sector partners, your weekly tracker is due 17:00 today. <@U003> that's you.",
+    "ts": "1775209500.215045"
+  },
+  {
+    "type": "message",
+    "user": "U010",
+    "text": "Compliance: new MNPI training module pushed to LMS this morning. 35 minutes, due 30 April. Yes, even if you did the old one in February.",
+    "ts": "1775218200.497794",
+    "reactions": [
+      {
+        "count": 3,
+        "name": "sweat_smile",
+        "users": [
+          "U006",
+          "U005",
+          "U017"
+        ]
+      }
+    ]
+  },
+  {
+    "type": "message",
+    "user": "U016",
+    "text": "Reminder: ESG carbon-accounting templates are version 2.4. The old 2.3 reports won't be accepted from May.",
+    "ts": "1775221200.072541"
+  },
+  {
+    "type": "message",
+    "user": "U015",
+    "text": "If you got a 'shared drive quota' email this morning, that's me. We're clearing the legacy fileshare ahead of decommission. Migrate anything still on \\\\halberd-fs-01 by 30 April.",
+    "ts": "1775226000.106472"
+  },
+  {
+    "type": "message",
+    "user": "U018",
+    "text": "FYI, new conditional access policy goes live Monday for personnel traveling outside US/EU. You'll need MFA on the laptop too, not just the phone.",
+    "ts": "1775233800.079622"
+  },
+  {
+    "type": "message",
+    "user": "U018",
+    "text": "Office WiFi will flicker briefly at 18:00 for a certificate rollover.",
+    "ts": "1775237400.227649"
+  },
+  {
+    "type": "message",
+    "user": "U014",
+    "text": "All-hands deck on Tuesday 15 April, 12:00 ET, hybrid. Lunch in Boardroom 1; Zoom for everyone else. Calendar invites going out today.",
+    "ts": "1775239860.082142",
+    "reactions": [
+      {
+        "count": 4,
+        "name": "+1",
+        "users": [
+          "U001",
+          "U002",
+          "U016",
+          "U017"
+        ]
+      },
+      {
+        "count": 1,
+        "name": "eyes",
+        "users": [
+          "U005"
+        ]
+      }
+    ]
+  },
+  {
+    "type": "message",
+    "user": "U005",
+    "text": "Will Auckland get a recording?",
+    "ts": "1775247600.140541",
+    "thread_ts": "1775239860.082142",
+    "parent_user_id": "U014"
+  },
+  {
+    "type": "message",
+    "user": "U014",
+    "text": "Yes, posted same evening ET.",
+    "ts": "1775248500.571351",
+    "thread_ts": "1775239860.082142",
+    "parent_user_id": "U014"
+  }
+]

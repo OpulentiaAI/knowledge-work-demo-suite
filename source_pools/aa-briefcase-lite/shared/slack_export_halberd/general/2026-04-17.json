@@ -1,0 +1,52 @@
+[
+  {
+    "type": "message",
+    "user": "U001",
+    "text": "Operating Partners, sync moved to 17:00 today. Marcus has a portfolio fire.",
+    "ts": "1776421800.394226"
+  },
+  {
+    "type": "message",
+    "user": "U014",
+    "text": "Q1 LP report shipped this morning. Thanks to the deal teams for the case studies on Northwind and Ridgeline.",
+    "ts": "1776430800.917131",
+    "reactions": [
+      {
+        "count": 3,
+        "name": "raised_hands",
+        "users": [
+          "U001",
+          "U002",
+          "U005"
+        ]
+      },
+      {
+        "count": 1,
+        "name": "clap",
+        "users": [
+          "U016"
+        ]
+      }
+    ]
+  },
+  {
+    "type": "message",
+    "user": "U017",
+    "text": "From Talent: the 2026 mid-year performance check-in window opens 1 June. Managers will receive guidance the week before.",
+    "ts": "1776437700.566808"
+  },
+  {
+    "type": "message",
+    "user": "U014",
+    "text": "Q2 LP comms cadence is live in the team folder. Heads of sector should review their slots.",
+    "ts": "1776438000.738706"
+  },
+  {
+    "type": "message",
+    "user": "U016",
+    "text": "Nicely done, the case studies read well.",
+    "ts": "1776452400.207161",
+    "thread_ts": "1776430800.917131",
+    "parent_user_id": "U014"
+  }
+]

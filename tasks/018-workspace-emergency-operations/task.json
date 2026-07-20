@@ -1,0 +1,18 @@
+{
+  "id": "018-workspace-emergency-operations",
+  "title": "Logistics Manager: Logistics Operations",
+  "domain": "logistics-operations",
+  "work_type": "workspace-analysis",
+  "persona": "Logistics Manager",
+  "difficulty": "medium",
+  "dataset": "Workspace-Bench-Lite",
+  "upstream_id": "72",
+  "upstream_url": "https://huggingface.co/datasets/Workspace-Bench/Workspace-Bench-Lite?row=72",
+  "license": "MIT",
+  "prompt": "prompt.md",
+  "source_docs": "source_docs",
+  "deliverables": [
+    "emergency_end_to_end_operation_manual.doc"
+  ],
+  "rubric": "rubric.json"
+}

@@ -1,0 +1,57 @@
+#Information report
+
+## 1. Graded reporting process
+### (1) Information reception
+1. The company’s emergency rescue organization sets up a 24-hour hotline.
+2. Reporting process for the person who first discovered the accident warning conditions:
+   - **Minor accident/not serious and the department has the ability to handle**: The discoverer immediately informs surrounding personnel → reports to the department head → the department head directly exercises command authority and reports within the company.
+   - **Serious production safety accidents (causing casualties and property losses)**: The discoverer reports immediately → the department head immediately reports to the general manager after receiving the report and informs other departments.
+   - **Extremely serious production safety accidents (which cannot be handled by oneself)**: Personnel at all levels can report directly to the XX District Production Safety Emergency Response Center.
+
+### (2) Formal reporting process
+When a production safety accident occurs, the department initiates an on-site disposal plan and reports to the general manager of the company. The general manager immediately reports to the XX District Production Safety Emergency Response Center and the XX Production Safety Committee Office after receiving the alarm information.
+
+## 2. Report objects of accidents of different severity
+| Incident severity | Report to whom |
+|---------|---------|
+| Minor accidents | Company internal notification, department head handling |
+| Serious accident | Department head → General manager |
+| Extremely serious accidents | Can be reported directly to the XX District Production Safety Emergency Response Center |
+| All accidents | must eventually be reported to the XX District Work Safety Emergency Response Center and the XX Work Safety Committee Office |
+
+## 3. Report content requirements
+### (1) The complete written report should include:
+1. Basic information such as the name and address of the unit where the accident occurred;
+2. The time, place and situation of the accident;
+3. Brief history of the accident (including accident emergency rescue situations);
+4. The number of casualties that the accident has caused or may cause (including those whose whereabouts are unknown and those involved in danger) and the preliminary estimated direct economic losses;
+5. Measures already taken;
+6. Other situations that should be reported.
+
+### (2) Telephone express report should include:
+1. Name, address and nature of the unit where the accident occurred;
+2. The time and place of the accident;
+3. The number of casualties that the accident has caused or may cause (including those whose whereabouts are unknown and those who are in danger).
+
+### (3) Reporting time limit and requirements
+- The accident should be reported immediately from the moment it occurs;
+- If the specific circumstances of the accident are temporarily unclear, you can report the accident summary first, and then make a supplementary report of the entire accident;
+- When reporting by phone, the person who receives the report does not hang up the phone, and the reporter is not allowed to hang up the phone;
+- Whether it is a completed or near-missed accident, accident information must be reported according to procedures.
+
+### (4) Responsible person
+Person responsible for accident information reporting: XX (138XXXXXXXX)
+
+## 4. Information transmission
+1. **Notify to surrounding companies**: The logistics support team is responsible for following the instructions of the commander-in-chief and using mobile phones to report accident information to surrounding companies and inform them of possible hazards and precautions.
+2. **Medical Rescue Request**: When someone is injured, the medical rescue team should immediately contact Jiangbei People's Hospital and request emergency assistance.
+
+---
+
+## Attachment: List of emergency contact numbers
+| Contact unit/department | Contact number | Remarks |
+|---------|---------|---------|
+| The company's 24-hour emergency hotline | XXXX | 24-hour duty |
+| XX District Production Safety Emergency Response Center | 0XX-XXXX0119 / XXXX119 | Particularly serious accidents can be reported directly |
+| XX Production Safety Committee Office | 0XX-XXXX9111 | |
+| Jiangbei People's Hospital | Separate registration required | Medical assistance request |

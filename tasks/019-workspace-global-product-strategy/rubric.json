@@ -1,0 +1,145 @@
+{
+  "rubrics": [
+    "Is the report file Global_Product_Strategy.md successfully generated and can be read normally?",
+    "Does the analysis include all five markets (USCA, Asia Pacific, Europe, LATAM, Africa) with a total of 1000 order records?",
+    "Are total sales reported at $1,710,971.47, total profit at $288,920.44, and overall profit margin at 16.89%?",
+    "Are Asia Pacific sales reported as $800,511.75 (highest), Africa margins reported as 23.91% (highest), and LATAM margins reported as 14.78% (lowest)?",
+    "Are the Europe market sales reported at $503,568.21 and a profit margin of 17.70%, and the USCA profit margin at 22.15%?",
+    "Does the report clearly state that the Technology category has the highest overall profit margin of 19.16%, and the Furniture category has the lowest overall profit margin of 13.66%?",
+    "Is the overall Office Supplies category profit margin reported at 17.49%, between Technology and Furniture?",
+    "Is the total logistics cost calculated correctly in the report as $272,384.90, accounting for 15.92% of total sales?",
+    "In the report, does Standard Class logistics have an average cost of $219.75 and an average delivery time of 4.92 days? Does Same Day have an average cost of $333.80 and an average delivery time of 0.02 days?",
+    "Are the number of orders, average costs, and delivery days for First Class and Second Class in the report accurately presented?",
+    "Is the Consumer customer segment marked in the report with sales of $873,512.42 and profit margin of 18.11% (highest contribution)?",
+    "Does the report indicate that the Home Office customer segment has a profit margin of 13.34% (lowest) and an average discount of 0.0971 (highest discount)?",
+    "Does the Corporate customer segmentation data in the report indicate that the order quantity is 300, the sales volume is $524,287.05, and the profit margin is 16.96%?",
+    "Is the high discount range (>20%) marked in the report with 101 orders and an overall profit margin of -35.00% (overall loss)?",
+    "Does the report include sales, profit, and profit margin breakdown tables for each product category in each of the five markets?",
+    "Does the report make specific suggestions for market expansion (deeply cultivate Asia Pacific, maintain Africa's advantages, and improve LATAM profit margins)?",
+    "Does the report make specific recommendations for the product portfolio (prioritize the promotion of Technology, re-evaluate Furniture pricing)?",
+    "Does the report make specific recommendations for logistics cost optimization (guide non-urgent orders to use Standard Class, Same Day is limited to high-value and high-profit orders)?",
+    "Does the report make specific suggestions for customer group management (focus on serving Consumers, tighten Home Office discounts)?",
+    "Does the report provide specific suggestions for discount policies (discounts exceeding 20% without approval are prohibited, and high discounts lead to losses)",
+    "Does the report conclude with a summary: highly attractive markets (Africa/USCA), the most profitable categories (Technology), the largest cost factors (logistics), and the four major policy correction directions?",
+    "Does the analysis report integrate the data analysis results from the four dimensions of market, product, logistics, and customer, rather than just listing the data?",
+    "Are the final strategic recommendations based on the results of the data analysis, with each recommendation corresponding to the problems identified in the previous analysis?",
+    "Does the report clearly set out the expected target of increasing the overall profit margin by 2-4 percentage points to 19%-21%?",
+    "Does the report provide control suggestions for establishing a management approval mechanism for high discount orders?"
+  ],
+  "rubric_types": [
+    "Basic Evaluation",
+    "Basic Evaluation",
+    "Outcome Evaluation",
+    "Outcome Evaluation",
+    "Outcome Evaluation",
+    "Outcome Evaluation",
+    "Outcome Evaluation",
+    "Outcome Evaluation",
+    "Outcome Evaluation",
+    "Outcome Evaluation",
+    "Outcome Evaluation",
+    "Outcome Evaluation",
+    "Outcome Evaluation",
+    "Outcome Evaluation",
+    "Outcome Evaluation",
+    "Outcome Evaluation",
+    "Outcome Evaluation",
+    "Outcome Evaluation",
+    "Outcome Evaluation",
+    "Outcome Evaluation",
+    "Outcome Evaluation",
+    "Process Evaluation",
+    "Process Evaluation",
+    "Outcome Evaluation",
+    "Outcome Evaluation"
+  ],
+  "file_dependency_graph": [
+    {
+      "from": "Africa_orders.csv",
+      "to": "product_info.csv"
+    },
+    {
+      "from": "Asia_Pacific_orders.csv",
+      "to": "product_info.csv"
+    },
+    {
+      "from": "Europe_orders.csv",
+      "to": "product_info.csv"
+    },
+    {
+      "from": "LATAM_orders.csv",
+      "to": "product_info.csv"
+    },
+    {
+      "from": "USCA_orders.csv",
+      "to": "product_info.csv"
+    },
+    {
+      "from": "Africa_orders.csv",
+      "to": "shipping_by_mode.csv"
+    },
+    {
+      "from": "Asia_Pacific_orders.csv",
+      "to": "shipping_by_mode.csv"
+    },
+    {
+      "from": "Europe_orders.csv",
+      "to": "shipping_by_mode.csv"
+    },
+    {
+      "from": "LATAM_orders.csv",
+      "to": "shipping_by_mode.csv"
+    },
+    {
+      "from": "USCA_orders.csv",
+      "to": "shipping_by_mode.csv"
+    },
+    {
+      "from": "Africa_orders.csv",
+      "to": "segment_performance.csv"
+    },
+    {
+      "from": "Asia_Pacific_orders.csv",
+      "to": "segment_performance.csv"
+    },
+    {
+      "from": "Europe_orders.csv",
+      "to": "segment_performance.csv"
+    },
+    {
+      "from": "LATAM_orders.csv",
+      "to": "segment_performance.csv"
+    },
+    {
+      "from": "USCA_orders.csv",
+      "to": "segment_performance.csv"
+    },
+    {
+      "from": "Africa_orders.csv",
+      "to": "priority_codebook.txt"
+    },
+    {
+      "from": "Asia_Pacific_orders.csv",
+      "to": "priority_codebook.txt"
+    },
+    {
+      "from": "Europe_orders.csv",
+      "to": "priority_codebook.txt"
+    },
+    {
+      "from": "LATAM_orders.csv",
+      "to": "priority_codebook.txt"
+    },
+    {
+      "from": "USCA_orders.csv",
+      "to": "priority_codebook.txt"
+    }
+  ],
+  "tested_capabilities": [
+    "Workspace Exploration",
+    "Result-Providing Files Utilization",
+    "Lineage Tracing",
+    "Semantic Content Relations Understanding",
+    "Heterogeneous File Understanding"
+  ]
+}

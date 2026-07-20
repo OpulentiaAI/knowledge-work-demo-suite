@@ -1,0 +1,16 @@
+{
+  "id": "009-harvey-litigation-assessment",
+  "title": "Draft Case Assessment Memorandum — Litigation Risk Analysis for Distribution Agreement Dispute",
+  "domain": "legal-litigation",
+  "work_type": "draft",
+  "dataset": "Harvey Legal Agent Benchmark",
+  "upstream_id": "litigation-dispute-resolution/draft-case-assessment-memorandum",
+  "upstream_url": "https://github.com/OpulentiaAI/harvey-labs/tree/main/tasks/litigation-dispute-resolution/draft-case-assessment-memorandum",
+  "license": "MIT",
+  "prompt": "prompt.md",
+  "source_docs": "source_docs",
+  "deliverables": [
+    "case-assessment-memo.docx"
+  ],
+  "rubric": "rubric.json"
+}

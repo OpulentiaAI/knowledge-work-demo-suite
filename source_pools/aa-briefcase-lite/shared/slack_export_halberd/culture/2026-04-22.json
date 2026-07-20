@@ -1,0 +1,92 @@
+[
+  {
+    "type": "message",
+    "user": "U015",
+    "text": "Picking Power Law if the vote stays tight, the LP chapters will resonate here.",
+    "ts": "1776879000.989605"
+  },
+  {
+    "type": "message",
+    "user": "U015",
+    "text": "if we pick Power Law I'm bringing the espresso machine",
+    "ts": "1776880800.212518",
+    "reactions": [
+      {
+        "name": "coffee",
+        "users": [
+          "U010",
+          "U017",
+          "U016"
+        ],
+        "count": 3
+      }
+    ]
+  },
+  {
+    "type": "message",
+    "user": "U019",
+    "text": "May birthday cake will be the lemon polenta. House majority, not mine.",
+    "ts": "1776886200.135131",
+    "reactions": [
+      {
+        "name": "cake",
+        "users": [
+          "U017",
+          "U005"
+        ],
+        "count": 2
+      }
+    ]
+  },
+  {
+    "type": "message",
+    "user": "U017",
+    "text": "Book club for May: voting between 'The Power Law' and 'When Genius Failed'. Vote in the thread. We meet 27 May.",
+    "ts": "1776891600.452911",
+    "reactions": [
+      {
+        "name": "books",
+        "users": [
+          "U010",
+          "U015",
+          "U016"
+        ],
+        "count": 3
+      }
+    ]
+  },
+  {
+    "type": "message",
+    "user": "U010",
+    "text": "Power Law for me. Genius failed enough times already.",
+    "ts": "1776892100.247184",
+    "thread_ts": "1776891600.452911",
+    "parent_user_id": "U017",
+    "reactions": [
+      {
+        "name": "joy",
+        "users": [
+          "U015",
+          "U017"
+        ],
+        "count": 2
+      }
+    ]
+  },
+  {
+    "type": "message",
+    "user": "U015",
+    "text": "Genius Failed, timely given rates",
+    "ts": "1776892600.461167",
+    "thread_ts": "1776891600.452911",
+    "parent_user_id": "U017"
+  },
+  {
+    "type": "message",
+    "user": "U005",
+    "text": "Power Law",
+    "ts": "1776893100.410540",
+    "thread_ts": "1776891600.452911",
+    "parent_user_id": "U017"
+  }
+]

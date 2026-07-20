@@ -1,0 +1,16 @@
+{
+  "id": "008-harvey-dip-motion",
+  "title": "Draft First-Day DIP Financing Motion for Aerospace Manufacturer Chapter 11 Case",
+  "domain": "legal-bankruptcy",
+  "work_type": "draft",
+  "dataset": "Harvey Legal Agent Benchmark",
+  "upstream_id": "bankruptcy-restructuring/draft-dip-financing-motion",
+  "upstream_url": "https://github.com/OpulentiaAI/harvey-labs/tree/main/tasks/bankruptcy-restructuring/draft-dip-financing-motion",
+  "license": "MIT",
+  "prompt": "prompt.md",
+  "source_docs": "source_docs",
+  "deliverables": [
+    "dip-financing-motion.docx"
+  ],
+  "rubric": "rubric.json"
+}

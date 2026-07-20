@@ -1,0 +1,114 @@
+[
+  {
+    "type": "message",
+    "user": "U016",
+    "text": "ESG meet up calendar going around, several London dates already locked. Hotel block on the Heathrow Hilton if anyone wants in.",
+    "ts": "1775134800.857937",
+    "reactions": [
+      {
+        "count": 2,
+        "name": "+1",
+        "users": [
+          "U014",
+          "U015"
+        ]
+      }
+    ]
+  },
+  {
+    "type": "message",
+    "user": "U017",
+    "text": "count me in for the 12th",
+    "ts": "1775135700.890251",
+    "thread_ts": "1775134800.857937",
+    "parent_user_id": "U016",
+    "reactions": [
+      {
+        "count": 1,
+        "name": "raised_hands",
+        "users": [
+          "U016"
+        ]
+      }
+    ]
+  },
+  {
+    "type": "message",
+    "user": "U014",
+    "text": "Concur outage yesterday is resolved. Any pending submissions will process overnight.",
+    "ts": "1775136600.018366",
+    "reactions": [
+      {
+        "count": 2,
+        "name": "pray",
+        "users": [
+          "U015",
+          "U017"
+        ]
+      }
+    ]
+  },
+  {
+    "type": "message",
+    "user": "U015",
+    "text": "Heads up if you've got an Amex Platinum with the Centurion lounge. LGA terminal B closed for refurb until 1 June. Priority Pass alternative is the Chase Sapphire in C.",
+    "ts": "1775140200.144825",
+    "reactions": [
+      {
+        "count": 2,
+        "name": "eyes",
+        "users": [
+          "U016",
+          "U017"
+        ]
+      }
+    ]
+  },
+  {
+    "type": "message",
+    "user": "U017",
+    "text": "good to know, flying out of B next week",
+    "ts": "1775141100.978208",
+    "thread_ts": "1775140200.144825",
+    "parent_user_id": "U015"
+  },
+  {
+    "type": "message",
+    "user": "U015",
+    "text": "Use C, it's nicer anyway.",
+    "ts": "1775142000.379024",
+    "thread_ts": "1775140200.144825",
+    "parent_user_id": "U015"
+  },
+  {
+    "type": "message",
+    "user": "U014",
+    "text": "Egencia hotel rates for the SuperReturn Berlin block are now live. Book by 15 May for the negotiated rate.",
+    "ts": "1775143800.294057",
+    "reactions": [
+      {
+        "count": 2,
+        "name": "+1",
+        "users": [
+          "U016",
+          "U001"
+        ]
+      }
+    ]
+  },
+  {
+    "type": "message",
+    "user": "U015",
+    "text": "If you fly mostly United, the Polaris transcon upgrade list opens 24 hours out. Don't pay for upgrades.",
+    "ts": "1775145600.139172",
+    "reactions": [
+      {
+        "count": 1,
+        "name": "100",
+        "users": [
+          "U017"
+        ]
+      }
+    ]
+  }
+]

@@ -1,0 +1,129 @@
+[
+  {
+    "type": "message",
+    "user": "U014",
+    "text": "Q2 pacing readout for the partnership is locked for Friday. Sector partners review by Thursday EOD please.",
+    "ts": "1777455000.668000",
+    "reactions": [
+      {
+        "count": 3,
+        "name": "+1",
+        "users": [
+          "U002",
+          "U005",
+          "U008"
+        ]
+      }
+    ]
+  },
+  {
+    "type": "message",
+    "user": "U002",
+    "text": "For the Consumer & Agri team: please save the date for the sub-vertical strategy day on 12 June. NY office, all day, working lunch. Operating partners joining the second half.",
+    "ts": "1777464000.504178",
+    "reactions": [
+      {
+        "count": 3,
+        "name": "eyes",
+        "users": [
+          "U005",
+          "U003",
+          "U007"
+        ]
+      },
+      {
+        "count": 1,
+        "name": "+1",
+        "users": [
+          "U008"
+        ]
+      }
+    ]
+  },
+  {
+    "type": "message",
+    "user": "U017",
+    "text": "Reminder: ergonomic assessment slots still open for personnel hybrid since last summer. Book through the portal.",
+    "ts": "1777464600.585997"
+  },
+  {
+    "type": "message",
+    "user": "U018",
+    "text": "Pen-test wrap-up readout is Friday 14:00 ET. Heads of sector teams should attend or send a deputy.",
+    "ts": "1777476600.632608"
+  },
+  {
+    "type": "message",
+    "user": "U008",
+    "text": "Quick gripe from the OP seat - deal teams keep showing me three top-line levers and one cost-out line. That's not a real opportunity slide. Cost-out is where most of our value-creation has actually come from in the last three exits. If you're putting an opportunities page in front of the IC and the bottom-line side is a stub, please rebalance before we get there.",
+    "ts": "1777478400.996627",
+    "reactions": [
+      {
+        "count": 3,
+        "name": "100",
+        "users": [
+          "U003",
+          "U005",
+          "U009"
+        ]
+      },
+      {
+        "count": 2,
+        "name": "eyes",
+        "users": [
+          "U002",
+          "U016"
+        ]
+      }
+    ]
+  },
+  {
+    "type": "message",
+    "user": "U005",
+    "text": "Locked in my calendar.",
+    "ts": "1777480800.181071",
+    "thread_ts": "1777464000.504178",
+    "parent_user_id": "U002"
+  },
+  {
+    "type": "message",
+    "user": "U003",
+    "text": "Fair challenge. We'll rebalance the opportunities page before IC.",
+    "ts": "1777486200.632882",
+    "thread_ts": "1777478400.996627",
+    "parent_user_id": "U008"
+  },
+  {
+    "type": "message",
+    "user": "U009",
+    "text": "Agreed, cost-out deserves equal billing on the slide.",
+    "ts": "1777487100.307250",
+    "thread_ts": "1777478400.996627",
+    "parent_user_id": "U008"
+  },
+  {
+    "type": "message",
+    "user": "U017",
+    "text": "From Talent: 2026 promotion timelines published. Mid-year nominations due 8 May, full process closing mid-June.",
+    "ts": "1777489200.577203",
+    "reactions": [
+      {
+        "count": 3,
+        "name": "+1",
+        "users": [
+          "U005",
+          "U006",
+          "U015"
+        ]
+      }
+    ]
+  },
+  {
+    "type": "message",
+    "user": "U005",
+    "text": "Will reflect this in the Albatross deck shell.",
+    "ts": "1777489500.129673",
+    "thread_ts": "1777478400.996627",
+    "parent_user_id": "U008"
+  }
+]

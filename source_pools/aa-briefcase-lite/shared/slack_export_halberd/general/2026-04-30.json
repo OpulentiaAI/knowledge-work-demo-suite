@@ -1,0 +1,115 @@
+[
+  {
+    "type": "message",
+    "user": "U001",
+    "text": "Big news from the partnership: two VP promotions effective 1 May.",
+    "ts": "1777562640.713238",
+    "reactions": [
+      {
+        "count": 6,
+        "name": "tada",
+        "users": [
+          "U002",
+          "U005",
+          "U014",
+          "U016",
+          "U017",
+          "U019"
+        ]
+      },
+      {
+        "count": 2,
+        "name": "raised_hands",
+        "users": [
+          "U008",
+          "U003"
+        ]
+      }
+    ]
+  },
+  {
+    "type": "message",
+    "user": "U016",
+    "text": "Congrats both!",
+    "ts": "1777563000.982488",
+    "thread_ts": "1777562640.713238",
+    "parent_user_id": "U001"
+  },
+  {
+    "type": "message",
+    "user": "U005",
+    "text": "Huge, well deserved.",
+    "ts": "1777563900.406682",
+    "thread_ts": "1777562640.713238",
+    "parent_user_id": "U001"
+  },
+  {
+    "type": "message",
+    "user": "U019",
+    "text": "Drinks are on the calendar, see you all there.",
+    "ts": "1777565400.948978",
+    "thread_ts": "1777562640.713238",
+    "parent_user_id": "U001"
+  },
+  {
+    "type": "message",
+    "user": "U014",
+    "text": "Congratulations Aaron and Min, well-earned. Drinks Friday at the Whaler.",
+    "ts": "1777567200.259611",
+    "thread_ts": "1777562640.713238",
+    "parent_user_id": "U001",
+    "reactions": [
+      {
+        "name": "tada",
+        "users": [
+          "U001",
+          "U002",
+          "U005",
+          "U017",
+          "U019"
+        ],
+        "count": 5
+      },
+      {
+        "name": "champagne",
+        "users": [
+          "U001",
+          "U015"
+        ],
+        "count": 2
+      }
+    ]
+  },
+  {
+    "type": "message",
+    "user": "U016",
+    "text": "ESG advisory board candidates for FY26 are out for partner review. Three names, please give a thumbs up or down by Wednesday.",
+    "ts": "1777573800.902452"
+  },
+  {
+    "type": "message",
+    "user": "U001",
+    "text": "Welcome to our two new VPs, congrats Aaron and Min on the promotions. Big quarter and well-deserved.",
+    "ts": "1777574661.587031",
+    "reactions": [
+      {
+        "count": 4,
+        "name": "clap",
+        "users": [
+          "U002",
+          "U005",
+          "U016",
+          "U017"
+        ]
+      },
+      {
+        "count": 2,
+        "name": "champagne",
+        "users": [
+          "U014",
+          "U019"
+        ]
+      }
+    ]
+  }
+]

@@ -1,0 +1,116 @@
+[
+  {
+    "type": "message",
+    "user": "U001",
+    "text": "Morning all. Quick reminder Q2 kickoff dial-ins are at 09:00 ET sharp.",
+    "ts": "1775030700.301498",
+    "reactions": [
+      {
+        "count": 2,
+        "name": "+1",
+        "users": [
+          "U014",
+          "U005"
+        ]
+      }
+    ]
+  },
+  {
+    "type": "message",
+    "user": "U018",
+    "text": "IT: planned VPN gateway patch tonight 22:00-23:00 ET. Brief disconnects expected. Save your work.",
+    "ts": "1775034840.050834",
+    "reactions": [
+      {
+        "count": 1,
+        "name": "eyes",
+        "users": [
+          "U015"
+        ]
+      }
+    ]
+  },
+  {
+    "type": "message",
+    "user": "U014",
+    "text": "Q2 starts today. The 2026.1 expense policy supersedes the 2025.4 version. Links pinned in <#C0TRV001|travel>.",
+    "ts": "1775037720.672242"
+  },
+  {
+    "type": "message",
+    "user": "U001",
+    "text": "Q1 closed last week. Thanks to everyone for the lift on the Northwind signing. Hugh.",
+    "ts": "1775048531.195318",
+    "reactions": [
+      {
+        "count": 5,
+        "name": "raised_hands",
+        "users": [
+          "U002",
+          "U005",
+          "U016",
+          "U017",
+          "U019"
+        ]
+      },
+      {
+        "count": 2,
+        "name": "tada",
+        "users": [
+          "U014",
+          "U018"
+        ]
+      }
+    ]
+  },
+  {
+    "type": "message",
+    "user": "U005",
+    "text": "Big lift, congrats team.",
+    "ts": "1775048880.646103",
+    "thread_ts": "1775048531.195318",
+    "parent_user_id": "U001"
+  },
+  {
+    "type": "message",
+    "user": "U018",
+    "text": "Northwind data room will be archived next week. Reach out if you need anything pulled before then.",
+    "ts": "1775049480.079193",
+    "thread_ts": "1775048531.195318",
+    "parent_user_id": "U001"
+  },
+  {
+    "type": "message",
+    "user": "U016",
+    "text": "Congrats all.",
+    "ts": "1775051100.116453",
+    "thread_ts": "1775048531.195318",
+    "parent_user_id": "U001"
+  },
+  {
+    "type": "message",
+    "user": "U019",
+    "text": "Building reception will be closed tomorrow 12:00-13:00 for the lobby art rotation. Couriers re-routed to 8th floor.",
+    "ts": "1775053800.753109"
+  },
+  {
+    "type": "message",
+    "user": "U016",
+    "text": "ESG quarterly newsletter draft pinned for review. Sector partners, please flag any portco quotes you'd like trimmed.",
+    "ts": "1775064600.281065"
+  },
+  {
+    "type": "message",
+    "user": "U014",
+    "text": "Treasury reminder: corporate-card statements close Friday EOD. Code your transactions.",
+    "ts": "1775070000.172039"
+  },
+  {
+    "type": "message",
+    "user": "U017",
+    "text": "Coded, thanks.",
+    "ts": "1775076900.821338",
+    "thread_ts": "1775070000.172039",
+    "parent_user_id": "U014"
+  }
+]

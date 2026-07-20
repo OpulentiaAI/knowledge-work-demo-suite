@@ -1,0 +1,80 @@
+[
+  {
+    "type": "message",
+    "user": "U014",
+    "text": "Per diem reminder: tier 1 cap is meals only. The hotel goes against the lodging line, not the per diem. We had three resubmissions last month.",
+    "ts": "1777464000.281431",
+    "reactions": [
+      {
+        "count": 2,
+        "name": "pray",
+        "users": [
+          "U015",
+          "U017"
+        ]
+      }
+    ]
+  },
+  {
+    "type": "message",
+    "user": "U015",
+    "text": "this trips everyone up",
+    "ts": "1777464900.466314",
+    "thread_ts": "1777464000.281431",
+    "parent_user_id": "U014",
+    "reactions": [
+      {
+        "count": 1,
+        "name": "+1",
+        "users": [
+          "U016"
+        ]
+      }
+    ]
+  },
+  {
+    "type": "message",
+    "user": "U014",
+    "text": "Q1 expense reports older than 90 days will not be reimbursed without a Treasury exception. Get them in.",
+    "ts": "1777471200.667147",
+    "reactions": [
+      {
+        "count": 3,
+        "name": "eyes",
+        "users": [
+          "U015",
+          "U016",
+          "U017"
+        ]
+      }
+    ]
+  },
+  {
+    "type": "message",
+    "user": "U015",
+    "text": "Frequent flyer status push: if you're close to a status bump, the year end window is shorter this year. Plan trips accordingly.",
+    "ts": "1777477200.178277"
+  },
+  {
+    "type": "message",
+    "user": "U014",
+    "text": "If your phone GPS isn't picking up your hotel in Concur, switch to manual address entry. The map provider hit a temporary glitch.",
+    "ts": "1777480200.402456"
+  },
+  {
+    "type": "message",
+    "user": "U014",
+    "text": "Corporate card transactions older than 7 days that aren't coded will be auto flagged to the manager. Code them.",
+    "ts": "1777483800.218978",
+    "reactions": [
+      {
+        "count": 2,
+        "name": "white_check_mark",
+        "users": [
+          "U015",
+          "U017"
+        ]
+      }
+    ]
+  }
+]

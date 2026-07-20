@@ -1,0 +1,62 @@
+[
+  {
+    "type": "message",
+    "user": "U014",
+    "text": "Save the date: Q4 2025 results all hands is Thursday 26 February, 12:00 ET, hybrid. Lunch in Boardroom 1, Zoom for everyone else.",
+    "ts": "1771340400.597618",
+    "reactions": [
+      {
+        "count": 4,
+        "name": "+1",
+        "users": [
+          "U001",
+          "U002",
+          "U005",
+          "U016"
+        ]
+      }
+    ]
+  },
+  {
+    "type": "message",
+    "user": "U005",
+    "text": "Will the recording be posted for the Auckland crew?",
+    "ts": "1771341240.940810",
+    "thread_ts": "1771340400.597618",
+    "parent_user_id": "U014"
+  },
+  {
+    "type": "message",
+    "user": "U014",
+    "text": "Yes, on the intranet by the next morning ET.",
+    "ts": "1771341720.299679",
+    "thread_ts": "1771340400.597618",
+    "parent_user_id": "U014"
+  },
+  {
+    "type": "message",
+    "user": "U003",
+    "text": "Thanks, appreciated.",
+    "ts": "1771342200.287573",
+    "thread_ts": "1771340400.597618",
+    "parent_user_id": "U014"
+  },
+  {
+    "type": "message",
+    "user": "U017",
+    "text": "Managers: mid-year promotion calibration prework is due 6 March. Templates in Workday.",
+    "ts": "1771346700.409032"
+  },
+  {
+    "type": "message",
+    "user": "U018",
+    "text": "Multi-factor prompts may double up today while we migrate the auth backend. Approve both, it is expected.",
+    "ts": "1771355100.242296"
+  },
+  {
+    "type": "message",
+    "user": "U019",
+    "text": "Lobby badge readers being replaced Thursday morning. Reception will hand-check IDs, allow a few extra minutes.",
+    "ts": "1771363800.213290"
+  }
+]

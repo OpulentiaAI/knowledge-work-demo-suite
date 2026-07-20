@@ -1,0 +1,104 @@
+[
+  {
+    "type": "message",
+    "user": "U001",
+    "text": "Reminder: portfolio-day prep starts Thursday. Sector teams, I want the one-pagers in by Wednesday COB, not Friday.",
+    "ts": "1775637000.689521"
+  },
+  {
+    "type": "message",
+    "user": "U018",
+    "text": "Mobile device update. The MDM agent on your iPhone may show a one-time prompt today. Accept it. Yes, even at 3am.",
+    "ts": "1775647200.854000",
+    "reactions": [
+      {
+        "count": 3,
+        "name": "sweat_smile",
+        "users": [
+          "U015",
+          "U005",
+          "U017"
+        ]
+      },
+      {
+        "count": 1,
+        "name": "eyes",
+        "users": [
+          "U006"
+        ]
+      }
+    ]
+  },
+  {
+    "type": "message",
+    "user": "U017",
+    "text": "Talent: 2026 summer intern cohort confirmed. 6 incoming across IB and the funds. Buddy sign-ups open next week.",
+    "ts": "1775653200.143023",
+    "reactions": [
+      {
+        "count": 2,
+        "name": "tada",
+        "users": [
+          "U016",
+          "U019"
+        ]
+      }
+    ]
+  },
+  {
+    "type": "message",
+    "user": "U014",
+    "text": "All-hands prep: please send any AOB items to me by Friday EOD.",
+    "ts": "1775660400.534184"
+  },
+  {
+    "type": "message",
+    "user": "U001",
+    "text": "Sector Council moved to Thursday 11:30 ET this week only. Hugh has a board commitment Wednesday.",
+    "ts": "1775661000.655654",
+    "edited": {
+      "user": "U001",
+      "ts": "1775661720.571146"
+    }
+  },
+  {
+    "type": "message",
+    "user": "U019",
+    "text": "All-hands lunch order RSVPs close Friday 17:00. If you don't RSVP, you get the vegetable wrap.",
+    "ts": "1775666700.881223",
+    "reactions": [
+      {
+        "count": 4,
+        "name": "joy",
+        "users": [
+          "U001",
+          "U005",
+          "U016",
+          "U017"
+        ]
+      }
+    ]
+  },
+  {
+    "type": "message",
+    "user": "U005",
+    "text": "RSVPing immediately.",
+    "ts": "1775669700.755205",
+    "thread_ts": "1775666700.881223",
+    "parent_user_id": "U019"
+  },
+  {
+    "type": "message",
+    "user": "U016",
+    "text": "The wrap is not that bad. The wrap is that bad.",
+    "ts": "1775670600.811255",
+    "thread_ts": "1775666700.881223",
+    "parent_user_id": "U019"
+  },
+  {
+    "type": "message",
+    "user": "U017",
+    "text": "Talent: open roles posted internally first this week. Check the careers page before sharing externally.",
+    "ts": "1775674800.438617"
+  }
+]

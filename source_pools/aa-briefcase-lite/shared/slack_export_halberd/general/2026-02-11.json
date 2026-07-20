@@ -1,0 +1,63 @@
+[
+  {
+    "type": "message",
+    "user": "U018",
+    "text": "Planned maintenance on the VPN tonight 22:00 to 23:30 ET. Expect brief disconnects.",
+    "ts": "1770816600.747133"
+  },
+  {
+    "type": "message",
+    "user": "U019",
+    "text": "Snow expected tonight into tomorrow AM. Office is open but please use judgment on the commute. Remote is fine if conditions are bad.",
+    "ts": "1770829200.255119",
+    "reactions": [
+      {
+        "count": 4,
+        "name": "pray",
+        "users": [
+          "U005",
+          "U015",
+          "U017",
+          "U016"
+        ]
+      },
+      {
+        "count": 2,
+        "name": "+1",
+        "users": [
+          "U002",
+          "U014"
+        ]
+      }
+    ]
+  },
+  {
+    "type": "message",
+    "user": "U010",
+    "text": "Reminder.",
+    "ts": "1770832800.850619"
+  },
+  {
+    "type": "message",
+    "user": "U010",
+    "text": "Annual Code of Ethics attestation is live in the LMS. Thirty minutes, due 28 February. No, you cannot skip it because you did it last year.",
+    "ts": "1770832920.604032",
+    "reactions": [
+      {
+        "count": 3,
+        "name": "sweat_smile",
+        "users": [
+          "U014",
+          "U017",
+          "U006"
+        ]
+      }
+    ]
+  },
+  {
+    "type": "message",
+    "user": "U001",
+    "text": "Quick one: please keep deal-specific chatter out of #general. Use the deal channels. Thanks.",
+    "ts": "1770844800.944863"
+  }
+]

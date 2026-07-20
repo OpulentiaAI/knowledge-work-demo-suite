@@ -1,0 +1,264 @@
+[
+  {
+    "type": "message",
+    "user": "U019",
+    "text": "Welcome to <#C0ALB099|albatross-admin>. Use this channel for the boring stuff so <#C0ALB001|albatross-deal> stays clean. Standing kickoff sync is in your calendar; recurring deal-team standup also in calendar. Anything you need from me, just shout.",
+    "ts": "1777898520.868599",
+    "reactions": [
+      {
+        "count": 4,
+        "name": "raised_hands",
+        "users": [
+          "U003",
+          "U005",
+          "U006",
+          "U007"
+        ]
+      },
+      {
+        "count": 1,
+        "name": "+1",
+        "users": [
+          "U018"
+        ]
+      }
+    ]
+  },
+  {
+    "type": "message",
+    "user": "U003",
+    "text": "<@U019> please book Boardroom 2 every Wednesday 14:00-16:00 ET for the next four weeks for the deal-team review. Hugh joining the first one.",
+    "ts": "1777898610.525219"
+  },
+  {
+    "type": "message",
+    "user": "U019",
+    "text": "Done. Wed 1400-1600 ET booked through 28 May. Calendar invites going out.",
+    "ts": "1777898651.581757",
+    "reactions": [
+      {
+        "count": 2,
+        "name": "+1",
+        "users": [
+          "U003",
+          "U005"
+        ]
+      }
+    ]
+  },
+  {
+    "type": "message",
+    "user": "U018",
+    "text": "IT note: Albatross document repository is set up in SharePoint at /sites/Project-Albatross. Access list: deal team plus the standing group (Hugh, Vivian, Marcus, Priya, Iris). Let me know if you need to add anyone.",
+    "ts": "1777898762.602931",
+    "reactions": [
+      {
+        "count": 2,
+        "name": "white_check_mark",
+        "users": [
+          "U005",
+          "U007"
+        ]
+      },
+      {
+        "count": 1,
+        "name": "+1",
+        "users": [
+          "U003"
+        ]
+      }
+    ]
+  },
+  {
+    "type": "message",
+    "user": "U005",
+    "text": "Thanks <@U018>. <@U007> can you load the public sources we already have into /Sources/01_Public this morning?",
+    "ts": "1777898834.692469"
+  },
+  {
+    "type": "message",
+    "user": "U007",
+    "text": "On it. Will tag with the source-research bibliography. Should be loaded by lunch.",
+    "ts": "1777898872.480938"
+  },
+  {
+    "type": "message",
+    "user": "U019",
+    "text": "Lunch order for the kickoff Friday 1300: sandwiches plus salad, coffee. Vivian's allergic to walnuts; Marcus is a strict vegetarian. Let me know any other dietary needs by Wednesday 1700.",
+    "ts": "1777899660.281986"
+  },
+  {
+    "type": "message",
+    "user": "U006",
+    "text": "I'm gluten-free, thanks <@U019>.",
+    "ts": "1777899739.366131"
+  },
+  {
+    "type": "message",
+    "user": "U005",
+    "text": "All good, no allergies.",
+    "ts": "1777899870.484973"
+  },
+  {
+    "type": "message",
+    "user": "U007",
+    "text": "Same here, no allergies.",
+    "ts": "1777900091.789504"
+  },
+  {
+    "type": "message",
+    "user": "U018",
+    "text": "Access list applied. Ping me to add anyone.",
+    "ts": "1777900800.521288",
+    "thread_ts": "1777898762.602931",
+    "parent_user_id": "U005"
+  },
+  {
+    "type": "message",
+    "user": "U006",
+    "text": "<@U019> can you add a flip-chart and markers to Boardroom 2 for Friday? We'll be whiteboarding the finding tree.",
+    "ts": "1777903500.792503"
+  },
+  {
+    "type": "message",
+    "user": "U019",
+    "text": "Reminder: dial-in for the Friday 1300 meeting is the standard Boardroom 2 line. I'll add Auckland time to the invite (<@U002> <@U003> confirming your travel return is before Friday).",
+    "ts": "1777904040.047889"
+  },
+  {
+    "type": "message",
+    "user": "U003",
+    "text": "We'll be back Wednesday morning. All good.",
+    "ts": "1777904142.906484"
+  },
+  {
+    "type": "message",
+    "user": "U019",
+    "text": "Done, flip-chart and a fresh marker set in Boardroom 2 by Friday AM.",
+    "ts": "1777904280.562601",
+    "reactions": [
+      {
+        "count": 2,
+        "name": "raised_hands",
+        "users": [
+          "U005",
+          "U006"
+        ]
+      }
+    ]
+  },
+  {
+    "type": "message",
+    "user": "U007",
+    "text": "Public sources loaded into /Sources/01_Public. Catalog updated. Slack export drop folder created at /Sources/05_Internal_Slack with read-restrict on the access list.",
+    "ts": "1777908600.601866",
+    "reactions": [
+      {
+        "count": 2,
+        "name": "raised_hands",
+        "users": [
+          "U005",
+          "U003"
+        ]
+      },
+      {
+        "count": 1,
+        "name": "fire",
+        "users": [
+          "U006"
+        ]
+      }
+    ]
+  },
+  {
+    "type": "message",
+    "user": "U005",
+    "text": "Good. Daniel, any objection to me drafting the deck shell tomorrow morning for review at the Wednesday standup?",
+    "ts": "1777908738.095693"
+  },
+  {
+    "type": "message",
+    "user": "U003",
+    "text": "No objection. Use the standard Halberd preliminary findings template; we'll iterate.",
+    "ts": "1777908780.281723"
+  },
+  {
+    "type": "message",
+    "user": "U007",
+    "text": "Confirmed, all loaded by 12:30. Catalog link in the channel topic.",
+    "ts": "1777912260.990474",
+    "thread_ts": "1777898834.692469",
+    "parent_user_id": "U005"
+  },
+  {
+    "type": "message",
+    "user": "U003",
+    "text": "Parking validation for Friday: anyone driving in, send Renata your plate by Thursday EOD.",
+    "ts": "1777916400.949592"
+  },
+  {
+    "type": "message",
+    "user": "U019",
+    "text": "Hugh's EA confirmed 1300 Friday. Hugh attending in-person. Vivian dialling in from Auckland, she's 16 hours ahead of us by then. We'll keep it crisp.",
+    "ts": "1777916520.914957"
+  },
+  {
+    "type": "message",
+    "user": "U019",
+    "text": "Two plates in so far. Reminder to the rest of you.",
+    "ts": "1777917300.488199"
+  },
+  {
+    "type": "message",
+    "user": "U018",
+    "text": "FYI, IT pushing a planned MDM update to all firm laptops Sunday 03:00-05:00 ET. Save your work.",
+    "ts": "1777917611.458555",
+    "reactions": [
+      {
+        "count": 3,
+        "name": "eyes",
+        "users": [
+          "U005",
+          "U006",
+          "U007"
+        ]
+      }
+    ]
+  },
+  {
+    "type": "message",
+    "user": "U007",
+    "text": "Printed copies of the source catalog will be on the table Friday, plus the digital link.",
+    "ts": "1777921800.832404",
+    "reactions": [
+      {
+        "count": 2,
+        "name": "+1",
+        "users": [
+          "U005",
+          "U003"
+        ]
+      }
+    ]
+  },
+  {
+    "type": "message",
+    "user": "U003",
+    "text": "No objection, go ahead.",
+    "ts": "1777924800.908888",
+    "thread_ts": "1777908738.095693",
+    "parent_user_id": "U005"
+  },
+  {
+    "type": "message",
+    "user": "U006",
+    "text": "Quick one, is the Friday session recorded? Want to make sure Vivian can catch anything she misses on the Auckland delay.",
+    "ts": "1777926600.895328"
+  },
+  {
+    "type": "message",
+    "user": "U019",
+    "text": "Not recorded by default for this one given the room. I'll take detailed notes and circulate same day.",
+    "ts": "1777927320.620914"
+  }
+]

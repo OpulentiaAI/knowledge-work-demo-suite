@@ -1,0 +1,20 @@
+# Early warning start
+
+## 1. Four trigger scenarios for early warning activation
+1. **XX District Production Safety Emergency Response Center issued park warning**: After XX issued an early warning notice to the company, the company's emergency headquarters immediately initiated corresponding emergency measures, and the company headquarters issued emergency instructions.
+2. **XX Safety Production Committee Office issues early warning**: After the XX Safety Production Committee Office issues an early warning notice, the company’s emergency command department immediately initiates corresponding emergency measures, and the company’s command department issues emergency instructions.
+3. **Accidents in surrounding units trigger the company's emergency warning**: After a fire or other large-scale accident occurs in a nearby unit, those who discover the accident should immediately notify the company's emergency headquarters; the emergency headquarters should activate the company's early warning system (if necessary, the entire company will stop production in an emergency), and always pay attention to the accident situation to prevent chain accidents to the company.
+4. **Release of early warning information within the company**: The person who discovered the accident immediately informs the engineering department in the fastest way; the engineering department personnel analyze the accident based on the summary information of the accident report and report to the main person in charge of the company; the main person in charge activates the company-wide emergency rescue plan and company-wide emergency evacuation according to the situation, and the commander-in-chief authorizes or designates personnel to release information.
+
+## 2. Early warning methods and methods
+The fastest method should be used, mainly calling, telephone, hand-held loudspeaker, etc.
+
+## 3. Response preparation
+After receiving the early warning and analyzing and judging, prepare to launch the emergency plan according to the emergency response classification. A headquarters was quickly established in accordance with the emergency organization structure and the company's emergency resources were deployed. The logistics support team prepared the company's emergency rescue materials and the rescue team remained on standby at any time.
+
+## 4. Warning lifted
+- Social-level early warnings are issued by the XX District Production Safety Emergency Response Center and the park announces that the early warning has been lifted.
+- The emergency commander at the company level announces the lifting of the warning.
+
+## 5. Response startup
+Based on the results of early warning analysis and judgment, the response level is determined. The process of emergency response is: receiving the alarm → judging the alarm situation → emergency activation → emergency command → emergency action → resource allocation → emergency avoidance → situation control → expanded emergency → emergency termination → post-processing.

@@ -1,0 +1,106 @@
+[
+  {
+    "type": "message",
+    "user": "U014",
+    "text": "Concur tier definitions: London Tier 1, Berlin Tier 1, Singapore Tier 1, most NA cities Tier 2. Full list is pinned.",
+    "ts": "1775217600.060633",
+    "reactions": [
+      {
+        "count": 3,
+        "name": "+1",
+        "users": [
+          "U001",
+          "U015",
+          "U016"
+        ]
+      }
+    ]
+  },
+  {
+    "type": "message",
+    "user": "U014",
+    "text": "T&E reminder: per night caps refreshed in the 2026 policy. Tier 1 cities at USD 650, Tier 2 at USD 525. Use the Concur warning bar as your guide.",
+    "ts": "1775219400.937852"
+  },
+  {
+    "type": "message",
+    "user": "U016",
+    "text": "what about Zurich?",
+    "ts": "1775220300.728394",
+    "thread_ts": "1775219400.937852",
+    "parent_user_id": "U014"
+  },
+  {
+    "type": "message",
+    "user": "U014",
+    "text": "Tier 1. It's in the pinned list.",
+    "ts": "1775221200.369463",
+    "thread_ts": "1775219400.937852",
+    "parent_user_id": "U014",
+    "reactions": [
+      {
+        "count": 1,
+        "name": "+1",
+        "users": [
+          "U016"
+        ]
+      }
+    ]
+  },
+  {
+    "type": "message",
+    "user": "U014",
+    "text": "Egencia portal update: new search flow, two clicks instead of three. You'll love it for one week.",
+    "ts": "1775223000.521985",
+    "reactions": [
+      {
+        "count": 3,
+        "name": "joy",
+        "users": [
+          "U015",
+          "U016",
+          "U017"
+        ]
+      }
+    ]
+  },
+  {
+    "type": "message",
+    "user": "U016",
+    "text": "Anyone for SuperReturn Berlin in June? Sharing an Uber from BER would be sensible.",
+    "ts": "1775226600.587194",
+    "reactions": [
+      {
+        "count": 1,
+        "name": "raised_hands",
+        "users": [
+          "U017"
+        ]
+      }
+    ]
+  },
+  {
+    "type": "message",
+    "user": "U017",
+    "text": "in, ping me your flight",
+    "ts": "1775227500.083651",
+    "thread_ts": "1775226600.587194",
+    "parent_user_id": "U016"
+  },
+  {
+    "type": "message",
+    "user": "U001",
+    "text": "Per diem covers meals, not minibar items. Read the fine print.",
+    "ts": "1775237400.497983",
+    "reactions": [
+      {
+        "count": 2,
+        "name": "joy",
+        "users": [
+          "U014",
+          "U015"
+        ]
+      }
+    ]
+  }
+]

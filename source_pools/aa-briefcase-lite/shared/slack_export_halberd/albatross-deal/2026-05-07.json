@@ -1,0 +1,44 @@
+[
+  {
+    "type": "message",
+    "user": "U007",
+    "text": "Calthorpe Part 2 done - 47 min. Capex per bird NZ$45-65 depending on existing infrastructure, DOC supply waitlists 6-9 months from major NZ + AU breeders, 12-18 month build cycle once consents are in hand. Free-range premium currently 18-22% in transaction prices, not the 30%+ broker is quoting. Customer concentration: 'their top retail relationships are heavy on Foodstuffs and Woolworths NZ - wouldn't surprise me if those two are 60-70% of revenue.'",
+    "ts": "1778159501.342155"
+  },
+  {
+    "type": "message",
+    "user": "U002",
+    "text": "There's the customer concentration anchor. 60-70% top-2/3 is enormous risk.",
+    "ts": "1778159554.656843"
+  },
+  {
+    "type": "message",
+    "user": "U008",
+    "text": "And the 12-18mo build cycle plus 6-9mo DOC waitlist is your bridge math. If they haven't started consents already, end-2027 isn't happening.",
+    "ts": "1778159588.020797"
+  },
+  {
+    "type": "message",
+    "user": "U007",
+    "text": "Calthorpe Part 3 booked Monday. Will close the loop on top-down vs bottom-up reconciliation + final timeline view + bottom-line opportunities.",
+    "ts": "1778176509.615941"
+  },
+  {
+    "type": "message",
+    "user": "U002",
+    "text": "Perfect. Wednesday checkpoint moves to Friday morning given the Part 3 timing.",
+    "ts": "1778176874.294028"
+  },
+  {
+    "type": "message",
+    "user": "U006",
+    "text": "Geoff Whitlock call done. Useless as expected. He spent 35 min on Asian poultry markets and US trade policy and zero minutes on NZ flock data. Speculation about HPAI 'NZ next' which contradicts the WOAH self-declaration so I'll discount.",
+    "ts": "1778190128.958030"
+  },
+  {
+    "type": "message",
+    "user": "U002",
+    "text": "Good. Don't anchor anything on Whitlock. WOAH is ground truth - outbreak contained, stamped out.",
+    "ts": "1778190171.607561"
+  }
+]

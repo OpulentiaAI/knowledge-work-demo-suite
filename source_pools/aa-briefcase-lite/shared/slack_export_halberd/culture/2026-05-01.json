@@ -1,0 +1,89 @@
+[
+  {
+    "type": "message",
+    "user": "U014",
+    "text": "Wellness newsletter goes out Friday. Send pet photos for the back cover.",
+    "ts": "1777645800.732154",
+    "reactions": [
+      {
+        "name": "dog",
+        "users": [
+          "U005",
+          "U009"
+        ],
+        "count": 2
+      },
+      {
+        "name": "cat",
+        "users": [
+          "U019",
+          "U006"
+        ],
+        "count": 2
+      }
+    ]
+  },
+  {
+    "type": "message",
+    "user": "U009",
+    "text": "my cat is ready for her closeup",
+    "ts": "1777646300.037053",
+    "thread_ts": "1777645800.732154",
+    "parent_user_id": "U014",
+    "reactions": [
+      {
+        "name": "joy",
+        "users": [
+          "U014",
+          "U005"
+        ],
+        "count": 2
+      }
+    ]
+  },
+  {
+    "type": "message",
+    "user": "U017",
+    "text": "Spring giving campaign closes 15 May. Match window still open.",
+    "ts": "1777648980.622575"
+  },
+  {
+    "type": "message",
+    "user": "U019",
+    "text": "The lobby fiddle leaf is being retired. Honorable service. Replacement TBD.",
+    "ts": "1777653000.968770",
+    "reactions": [
+      {
+        "name": "pray",
+        "users": [
+          "U005",
+          "U017",
+          "U006"
+        ],
+        "count": 3
+      }
+    ]
+  },
+  {
+    "type": "message",
+    "user": "U017",
+    "text": "Newsletter is out. Pet photos due Wednesday for next month.",
+    "ts": "1777654800.718093"
+  },
+  {
+    "type": "message",
+    "user": "U017",
+    "text": "Spring giving final push, match window open through 15 May. Don't sleep on it.",
+    "ts": "1777658400.453001",
+    "reactions": [
+      {
+        "name": "raised_hands",
+        "users": [
+          "U014",
+          "U005"
+        ],
+        "count": 2
+      }
+    ]
+  }
+]

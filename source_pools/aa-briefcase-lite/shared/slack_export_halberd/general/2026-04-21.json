@@ -1,0 +1,78 @@
+[
+  {
+    "type": "message",
+    "user": "U018",
+    "text": "IT note: SaaS app inventory audit this week. If your team uses anything not on the approved list, log it. We'll review, not penalise.",
+    "ts": "1776771000.660520"
+  },
+  {
+    "type": "message",
+    "user": "U015",
+    "text": "Quarterly external risk briefing for personnel traveling to APAC: Tuesday 22 April, 10:00 ET. Sign up via the LMS; required for anyone with APAC travel scheduled in the next 90 days.",
+    "ts": "1776772800.966566",
+    "reactions": [
+      {
+        "count": 2,
+        "name": "+1",
+        "users": [
+          "U005",
+          "U015"
+        ]
+      }
+    ]
+  },
+  {
+    "type": "message",
+    "user": "U017",
+    "text": "Mid-year promotion nominations due 8 May. Managers, the form is in Workday.",
+    "ts": "1776777300.143798"
+  },
+  {
+    "type": "message",
+    "user": "U015",
+    "text": "APAC travel risk briefing recording is on the LMS for anyone who missed it live.",
+    "ts": "1776787200.367014"
+  },
+  {
+    "type": "message",
+    "user": "U001",
+    "text": "Honest pep talk: Q2 deal volume is light industry-wide. Stay disciplined. A bad deal still beats no deal, but no deal still beats a bad deal.",
+    "ts": "1776798000.340572",
+    "reactions": [
+      {
+        "count": 4,
+        "name": "100",
+        "users": [
+          "U002",
+          "U005",
+          "U008",
+          "U003"
+        ]
+      },
+      {
+        "count": 2,
+        "name": "fire",
+        "users": [
+          "U016",
+          "U017"
+        ]
+      }
+    ]
+  },
+  {
+    "type": "message",
+    "user": "U002",
+    "text": "Well said.",
+    "ts": "1776807000.092214",
+    "thread_ts": "1776798000.340572",
+    "parent_user_id": "U001"
+  },
+  {
+    "type": "message",
+    "user": "U008",
+    "text": "Discipline over deployment. Agreed.",
+    "ts": "1776807900.560167",
+    "thread_ts": "1776798000.340572",
+    "parent_user_id": "U001"
+  }
+]

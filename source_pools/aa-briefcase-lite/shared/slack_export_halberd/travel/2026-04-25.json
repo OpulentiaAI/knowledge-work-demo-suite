@@ -1,0 +1,79 @@
+[
+  {
+    "type": "message",
+    "user": "U015",
+    "text": "TSA PreCheck enrollment events in the city this month. Links in the travel pack.",
+    "ts": "1777118400.102698",
+    "reactions": [
+      {
+        "count": 1,
+        "name": "+1",
+        "users": [
+          "U017"
+        ]
+      }
+    ]
+  },
+  {
+    "type": "message",
+    "user": "U014",
+    "text": "Anyone heading to Singapore in the next month? Current visa on arrival rules updated last week, check the travel risk pack.",
+    "ts": "1777122000.569766",
+    "reactions": [
+      {
+        "count": 1,
+        "name": "eyes",
+        "users": [
+          "U015"
+        ]
+      }
+    ]
+  },
+  {
+    "type": "message",
+    "user": "U015",
+    "text": "The smoke season risk pack should be updated by June. Indonesia haze season starting earlier each year.",
+    "ts": "1777123800.073113",
+    "thread_ts": "1777122000.569766",
+    "parent_user_id": "U014"
+  },
+  {
+    "type": "message",
+    "user": "U016",
+    "text": "ugh the haze, brutal last year",
+    "ts": "1777124700.241149",
+    "thread_ts": "1777122000.569766",
+    "parent_user_id": "U014",
+    "reactions": [
+      {
+        "count": 1,
+        "name": "sweat_smile",
+        "users": [
+          "U015"
+        ]
+      }
+    ]
+  },
+  {
+    "type": "message",
+    "user": "U015",
+    "text": "Risk pack update: avoid driving in Mexico City on Saturdays for the next two months. Planned protests every weekend.",
+    "ts": "1777130400.220182",
+    "reactions": [
+      {
+        "count": 2,
+        "name": "eyes",
+        "users": [
+          "U014",
+          "U016"
+        ]
+      }
+    ]
+  },
+  {
+    "type": "message",
+    "user": "U014",
+    "text": "International travel pre approval is a Concur Trip Request, not a manager email.",
+    "ts": "1777136400.001810"
+  }
+]

@@ -1,0 +1,66 @@
+[
+  {
+    "type": "message",
+    "user": "U014",
+    "text": "Reminder: the refreshed T&E expense policy 2026.1 takes effect 1 April and supersedes 2025.4. Key change is the per diem update and the 90-day reimbursement cutoff. Links pinned in <#C0TRV001|travel>.",
+    "ts": "1773928200.930108",
+    "reactions": [
+      {
+        "count": 4,
+        "name": "eyes",
+        "users": [
+          "U005",
+          "U006",
+          "U017",
+          "U018"
+        ]
+      }
+    ]
+  },
+  {
+    "type": "message",
+    "user": "U006",
+    "text": "Does the per diem change apply to trips already booked?",
+    "ts": "1773929100.044351",
+    "thread_ts": "1773928200.930108",
+    "parent_user_id": "U014"
+  },
+  {
+    "type": "message",
+    "user": "U014",
+    "text": "Only to travel dated 1 April onward. Anything before that stays on 2025.4.",
+    "ts": "1773929880.756218",
+    "thread_ts": "1773928200.930108",
+    "parent_user_id": "U014"
+  },
+  {
+    "type": "message",
+    "user": "U006",
+    "text": "Got it, thanks.",
+    "ts": "1773930300.265038",
+    "thread_ts": "1773928200.930108",
+    "parent_user_id": "U014"
+  },
+  {
+    "type": "message",
+    "user": "U001",
+    "text": "Sector partners, Q1 pipeline review is next Thursday. I want the trackers current by Wednesday.",
+    "ts": "1773934800.061453"
+  },
+  {
+    "type": "message",
+    "user": "U019",
+    "text": "Spring cleaning of the supply closets this weekend. If you have a personal stash of anything in there, label it or lose it.",
+    "ts": "1773947700.223345",
+    "reactions": [
+      {
+        "count": 2,
+        "name": "sweat_smile",
+        "users": [
+          "U015",
+          "U017"
+        ]
+      }
+    ]
+  }
+]

@@ -1,0 +1,120 @@
+[
+  {
+    "type": "message",
+    "user": "U015",
+    "text": "AA Delta strike chatter at JFK Wednesday and Thursday next week. If you're flying through, give yourself buffer.",
+    "ts": "1775309400.844693",
+    "reactions": [
+      {
+        "count": 3,
+        "name": "eyes",
+        "users": [
+          "U014",
+          "U016",
+          "U017"
+        ]
+      }
+    ]
+  },
+  {
+    "type": "message",
+    "user": "U015",
+    "text": "TSA PreCheck expiring this year? The renewal window is 6 months. Don't wait.",
+    "ts": "1775311200.566737"
+  },
+  {
+    "type": "message",
+    "user": "U015",
+    "text": "Concur OCR receipt scanner is much better since the March update. Snap a photo, it usually nails the amount.",
+    "ts": "1775314800.266825",
+    "reactions": [
+      {
+        "count": 2,
+        "name": "raised_hands",
+        "users": [
+          "U014",
+          "U017"
+        ]
+      }
+    ]
+  },
+  {
+    "type": "message",
+    "user": "U017",
+    "text": "can confirm, saved me an hour",
+    "ts": "1775315700.878672",
+    "thread_ts": "1775314800.266825",
+    "parent_user_id": "U015",
+    "reactions": [
+      {
+        "count": 1,
+        "name": "100",
+        "users": [
+          "U015"
+        ]
+      }
+    ]
+  },
+  {
+    "type": "message",
+    "user": "U014",
+    "text": "London office: the new corporate apartment block is bookable through Concur from 15 April. Cheaper than the Hilton for stays over 3 nights.",
+    "ts": "1775320200.065342",
+    "reactions": [
+      {
+        "count": 2,
+        "name": "+1",
+        "users": [
+          "U016",
+          "U017"
+        ]
+      }
+    ]
+  },
+  {
+    "type": "message",
+    "user": "U014",
+    "text": "Anyone got a steakhouse rec near Chicago O'Hare? Late dinner Tuesday, bonus points for not being in the airport.",
+    "ts": "1775328300.158317"
+  },
+  {
+    "type": "message",
+    "user": "U001",
+    "text": "Gibsons in Rosemont. Close to the airport, worth the cab.",
+    "ts": "1775329200.763370",
+    "thread_ts": "1775328300.158317",
+    "parent_user_id": "U014",
+    "reactions": [
+      {
+        "count": 1,
+        "name": "raised_hands",
+        "users": [
+          "U014"
+        ]
+      },
+      {
+        "count": 1,
+        "name": "fire",
+        "users": [
+          "U015"
+        ]
+      }
+    ]
+  },
+  {
+    "type": "message",
+    "user": "U015",
+    "text": "Joe Beef if you can detour downtown, otherwise Gibsons.",
+    "ts": "1775330100.939496",
+    "thread_ts": "1775328300.158317",
+    "parent_user_id": "U014"
+  },
+  {
+    "type": "message",
+    "user": "U014",
+    "text": "Gibsons it is, thanks both.",
+    "ts": "1775331000.870292",
+    "thread_ts": "1775328300.158317",
+    "parent_user_id": "U014"
+  }
+]

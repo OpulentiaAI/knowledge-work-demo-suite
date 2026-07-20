@@ -1,0 +1,129 @@
+[
+  {
+    "type": "message",
+    "user": "U016",
+    "text": "Brooklyn Half training: Saturday long run is 12 km, office at 07:30.",
+    "ts": "1775134800.731901",
+    "reactions": [
+      {
+        "name": "runner",
+        "users": [
+          "U006",
+          "U015"
+        ],
+        "count": 2
+      }
+    ]
+  },
+  {
+    "type": "message",
+    "user": "U006",
+    "text": "07:30 is aggressive but ok",
+    "ts": "1775135400.241302",
+    "thread_ts": "1775134800.731901",
+    "parent_user_id": "U016"
+  },
+  {
+    "type": "message",
+    "user": "U016",
+    "text": "coffee after, promise",
+    "ts": "1775135900.903220",
+    "thread_ts": "1775134800.731901",
+    "parent_user_id": "U016",
+    "reactions": [
+      {
+        "name": "coffee",
+        "users": [
+          "U006",
+          "U015",
+          "U017"
+        ],
+        "count": 3
+      }
+    ]
+  },
+  {
+    "type": "message",
+    "user": "U017",
+    "text": "Never been to book club? It's lower key than it sounds. Show up, drink a coffee, argue about a chapter. Two hours.",
+    "ts": "1775140200.628400",
+    "reactions": [
+      {
+        "name": "books",
+        "users": [
+          "U010",
+          "U015"
+        ],
+        "count": 2
+      }
+    ]
+  },
+  {
+    "type": "message",
+    "user": "U005",
+    "text": "tempted",
+    "ts": "1775141000.487208",
+    "thread_ts": "1775140200.628400",
+    "parent_user_id": "U017"
+  },
+  {
+    "type": "message",
+    "user": "U017",
+    "text": "come <@U005> no homework required",
+    "ts": "1775141600.522672",
+    "thread_ts": "1775140200.628400",
+    "parent_user_id": "U017"
+  },
+  {
+    "type": "message",
+    "user": "U015",
+    "text": "Climbers, the Gunks trip Saturday is rain or shine. We'll switch to a gym if it pours.",
+    "ts": "1775151000.217949"
+  },
+  {
+    "type": "message",
+    "user": "U015",
+    "text": "who's in?",
+    "ts": "1775151400.180525",
+    "thread_ts": "1775151000.217949",
+    "parent_user_id": "U015"
+  },
+  {
+    "type": "message",
+    "user": "U006",
+    "text": "in",
+    "ts": "1775151900.160488",
+    "thread_ts": "1775151000.217949",
+    "parent_user_id": "U015"
+  },
+  {
+    "type": "message",
+    "user": "U015",
+    "text": "Book club this month is 'Chip War' by Chris Miller. Tuesday 22 April, 18:00, small library. rsvp here. New folks welcome.",
+    "ts": "1775165400.539532",
+    "reactions": [
+      {
+        "name": "books",
+        "users": [
+          "U010",
+          "U016",
+          "U005"
+        ],
+        "count": 3
+      },
+      {
+        "name": "raised_hands",
+        "users": [
+          "U017"
+        ],
+        "count": 1
+      }
+    ]
+  },
+  {
+    "type": "message",
+    "user": "U015",
+    "text": "Climbing crew is five strong now. Carpool from the office 07:30 Saturday, back by 18:00.",
+    "ts": "1775167500.271822"
+  }
+]

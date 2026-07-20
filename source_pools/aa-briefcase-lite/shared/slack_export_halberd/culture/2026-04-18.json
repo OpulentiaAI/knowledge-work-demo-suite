@@ -1,0 +1,104 @@
+[
+  {
+    "type": "message",
+    "user": "U019",
+    "text": "Q3 offsite venue voting closes Friday. Three options: Saratoga (return engagement), Lake Placid, Hudson Valley resort. Form linked above.",
+    "ts": "1776516300.861963",
+    "reactions": [
+      {
+        "name": "eyes",
+        "users": [
+          "U005",
+          "U009",
+          "U006"
+        ],
+        "count": 3
+      }
+    ]
+  },
+  {
+    "type": "message",
+    "user": "U005",
+    "text": "Saratoga, easy",
+    "ts": "1776516800.300163",
+    "thread_ts": "1776516300.861963",
+    "parent_user_id": "U019"
+  },
+  {
+    "type": "message",
+    "user": "U006",
+    "text": "Lake Placid has the better hikes though",
+    "ts": "1776517300.126132",
+    "thread_ts": "1776516300.861963",
+    "parent_user_id": "U019"
+  },
+  {
+    "type": "message",
+    "user": "U009",
+    "text": "vote in the form, you two",
+    "ts": "1776517800.784034",
+    "thread_ts": "1776516300.861963",
+    "parent_user_id": "U019",
+    "reactions": [
+      {
+        "name": "joy",
+        "users": [
+          "U005",
+          "U006",
+          "U019"
+        ],
+        "count": 3
+      }
+    ]
+  },
+  {
+    "type": "message",
+    "subtype": "tombstone",
+    "user": "U015",
+    "text": "This message was deleted.",
+    "ts": "1776522000.743898",
+    "hidden": true
+  },
+  {
+    "type": "message",
+    "user": "U014",
+    "text": "Please add dietary requirements to the offsite form. We're getting better at this but last summer's gluten free option was, by all accounts, a slice of cucumber.",
+    "ts": "1776524400.943731",
+    "reactions": [
+      {
+        "name": "cucumber",
+        "users": [
+          "U017",
+          "U019"
+        ],
+        "count": 2
+      },
+      {
+        "name": "joy",
+        "users": [
+          "U001",
+          "U016",
+          "U015",
+          "U002"
+        ],
+        "count": 4
+      }
+    ]
+  },
+  {
+    "type": "message",
+    "user": "U017",
+    "text": "Anyone want a Power Law audiobook rec? Favorite chapter is the Sequoia ratchet conversation. Just a teaser.",
+    "ts": "1776528000.859625",
+    "reactions": [
+      {
+        "name": "books",
+        "users": [
+          "U010",
+          "U015"
+        ],
+        "count": 2
+      }
+    ]
+  }
+]

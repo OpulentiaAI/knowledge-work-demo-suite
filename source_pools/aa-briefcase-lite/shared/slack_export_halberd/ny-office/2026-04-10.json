@@ -1,0 +1,80 @@
+[
+  {
+    "type": "message",
+    "user": "U019",
+    "text": "Fire drill scheduled for Tuesday 15 April at 14:00. Standard walkdown. We'll regroup at the southwest corner of Bryant Park.",
+    "ts": "1775822400.795218",
+    "reactions": [
+      {
+        "count": 3,
+        "name": "+1",
+        "users": [
+          "U001",
+          "U014",
+          "U016"
+        ]
+      }
+    ]
+  },
+  {
+    "type": "message",
+    "user": "U019",
+    "text": "If you're working from home Friday you don't need to come in. The drill is mandatory for in office personnel only.",
+    "ts": "1775827800.657670"
+  },
+  {
+    "type": "message",
+    "user": "U001",
+    "text": "<@U019> the building deserves a thank you for the lobby art change. The new piece is striking.",
+    "ts": "1775836800.904407",
+    "reactions": [
+      {
+        "count": 1,
+        "name": "raised_hands",
+        "users": [
+          "U019"
+        ]
+      }
+    ]
+  },
+  {
+    "type": "message",
+    "user": "U019",
+    "text": "Will pass it on. They'll be thrilled.",
+    "ts": "1775838600.695820",
+    "thread_ts": "1775836800.904407",
+    "parent_user_id": "U001"
+  },
+  {
+    "type": "message",
+    "user": "U016",
+    "text": "Which piece? The big blue one?",
+    "ts": "1775840400.556609",
+    "thread_ts": "1775836800.904407",
+    "parent_user_id": "U001"
+  },
+  {
+    "type": "message",
+    "user": "U001",
+    "text": "That's the one.",
+    "ts": "1775842200.033516",
+    "thread_ts": "1775836800.904407",
+    "parent_user_id": "U001"
+  },
+  {
+    "type": "message",
+    "user": "U019",
+    "text": "Drill briefing on the floor: stairwell B is preferred, stairwell A is accessibility only. Marshalls in orange vests.",
+    "ts": "1775847600.869212",
+    "thread_ts": "1775822400.795218",
+    "parent_user_id": "U019"
+  },
+  {
+    "type": "message",
+    "user": "U017",
+    "text": "got it",
+    "ts": "1775849400.239042",
+    "thread_ts": "1775822400.795218",
+    "parent_user_id": "U019"
+  }
+]

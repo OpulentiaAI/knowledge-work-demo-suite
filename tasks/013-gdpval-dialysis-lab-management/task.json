@@ -1,0 +1,18 @@
+{
+  "id": "013-gdpval-dialysis-lab-management",
+  "title": "Registered Nurses: Healthcare",
+  "domain": "healthcare",
+  "work_type": "professional-deliverable",
+  "sector": "Health Care and Social Assistance",
+  "occupation": "Registered Nurses",
+  "dataset": "OpenAI GDPval",
+  "upstream_id": "90edba97-74f0-425a-8ff6-8b93182eb7cb",
+  "upstream_url": "https://huggingface.co/datasets/openai/gdpval?row=90edba97-74f0-425a-8ff6-8b93182eb7cb",
+  "license": "Upstream terms apply; no standardized license declared in dataset card",
+  "prompt": "prompt.md",
+  "source_docs": "source_docs",
+  "deliverables": [
+    "Monthly Tracker Patient Lab Results Data1.xlsx"
+  ],
+  "rubric": "rubric.json"
+}

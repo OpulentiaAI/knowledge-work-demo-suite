@@ -1,0 +1,349 @@
+[
+  {
+    "id": "001-aa-market-overview",
+    "title": "Market Structure and Competitive Landscape",
+    "domain": "commercial-diligence",
+    "work_type": "analyze-and-create",
+    "dataset": "AA-Briefcase-Lite",
+    "upstream_id": "w1_t1",
+    "upstream_url": "https://huggingface.co/datasets/ArtificialAnalysis/AA-Briefcase-Lite/blob/main/tasks/w1_t1.md",
+    "license": "Apache-2.0",
+    "prompt": "prompt.md",
+    "source_docs": "source_docs",
+    "deliverables": [
+      "market_overview.tex",
+      "market_overview.pdf"
+    ],
+    "rubric": "rubric.jsonl"
+  },
+  {
+    "id": "002-aa-market-model",
+    "title": "Market Sizing, Forecast, and Cage-Ban Transition Model",
+    "domain": "financial-modeling",
+    "work_type": "analyze-and-create",
+    "dataset": "AA-Briefcase-Lite",
+    "upstream_id": "w1_t2",
+    "upstream_url": "https://huggingface.co/datasets/ArtificialAnalysis/AA-Briefcase-Lite/blob/main/tasks/w1_t2.md",
+    "license": "Apache-2.0",
+    "prompt": "prompt.md",
+    "source_docs": "source_docs",
+    "deliverables": [
+      "market_model.xlsx"
+    ],
+    "rubric": "rubric.jsonl"
+  },
+  {
+    "id": "003-aa-target-assessment",
+    "title": "Target Assessment, Opportunities, and Risks",
+    "domain": "strategy",
+    "work_type": "analyze-and-create",
+    "dataset": "AA-Briefcase-Lite",
+    "upstream_id": "w1_t3",
+    "upstream_url": "https://huggingface.co/datasets/ArtificialAnalysis/AA-Briefcase-Lite/blob/main/tasks/w1_t3.md",
+    "license": "Apache-2.0",
+    "prompt": "prompt.md",
+    "source_docs": "source_docs",
+    "deliverables": [
+      "target_assessment.pptx"
+    ],
+    "rubric": "rubric.jsonl"
+  },
+  {
+    "id": "004-aa-findings-briefing",
+    "title": "Preliminary Findings Executive Briefing",
+    "domain": "executive-communication",
+    "work_type": "analyze-and-create",
+    "dataset": "AA-Briefcase-Lite",
+    "upstream_id": "w1_t4",
+    "upstream_url": "https://huggingface.co/datasets/ArtificialAnalysis/AA-Briefcase-Lite/blob/main/tasks/w1_t4.md",
+    "license": "Apache-2.0",
+    "prompt": "prompt.md",
+    "source_docs": "source_docs",
+    "deliverables": [
+      "briefing.mp4",
+      "briefing.srt"
+    ],
+    "rubric": "rubric.jsonl"
+  },
+  {
+    "id": "005-harvey-ma-red-flags",
+    "title": "Review Data Room for Acquisition Red Flags — M&A Due Diligence Memo",
+    "domain": "legal-ma-diligence",
+    "work_type": "review",
+    "dataset": "Harvey Legal Agent Benchmark",
+    "upstream_id": "corporate-ma/review-data-room-red-flag-review",
+    "upstream_url": "https://github.com/OpulentiaAI/harvey-labs/tree/main/tasks/corporate-ma/review-data-room-red-flag-review",
+    "license": "MIT",
+    "prompt": "prompt.md",
+    "source_docs": "source_docs",
+    "deliverables": [
+      "red-flag-memo.docx",
+      "red-flag-tracker.xlsx"
+    ],
+    "rubric": "rubric.json"
+  },
+  {
+    "id": "006-harvey-real-estate-psa",
+    "title": "Extract Key Terms from Commercial Property Purchase and Sale Agreement",
+    "domain": "legal-real-estate",
+    "work_type": "analyze",
+    "dataset": "Harvey Legal Agent Benchmark",
+    "upstream_id": "real-estate/extract-psa-key-terms/scenario-01",
+    "upstream_url": "https://github.com/OpulentiaAI/harvey-labs/tree/main/tasks/real-estate/extract-psa-key-terms/scenario-01",
+    "license": "MIT",
+    "prompt": "prompt.md",
+    "source_docs": "source_docs",
+    "deliverables": [
+      "psa-term-sheet.docx"
+    ],
+    "rubric": "rubric.json"
+  },
+  {
+    "id": "007-harvey-nda-playbook",
+    "title": "Review DataPulse Draft NDA Against Hightower Playbook and Prepare Deviation Report",
+    "domain": "legal-contract-review",
+    "work_type": "review",
+    "dataset": "Harvey Legal Agent Benchmark",
+    "upstream_id": "corporate-governance/review-nda-playbook-review",
+    "upstream_url": "https://github.com/OpulentiaAI/harvey-labs/tree/main/tasks/corporate-governance/review-nda-playbook-review",
+    "license": "MIT",
+    "prompt": "prompt.md",
+    "source_docs": "source_docs",
+    "deliverables": [
+      "nda-deviation-report.docx"
+    ],
+    "rubric": "rubric.json"
+  },
+  {
+    "id": "008-harvey-dip-motion",
+    "title": "Draft First-Day DIP Financing Motion for Aerospace Manufacturer Chapter 11 Case",
+    "domain": "legal-bankruptcy",
+    "work_type": "draft",
+    "dataset": "Harvey Legal Agent Benchmark",
+    "upstream_id": "bankruptcy-restructuring/draft-dip-financing-motion",
+    "upstream_url": "https://github.com/OpulentiaAI/harvey-labs/tree/main/tasks/bankruptcy-restructuring/draft-dip-financing-motion",
+    "license": "MIT",
+    "prompt": "prompt.md",
+    "source_docs": "source_docs",
+    "deliverables": [
+      "dip-financing-motion.docx"
+    ],
+    "rubric": "rubric.json"
+  },
+  {
+    "id": "009-harvey-litigation-assessment",
+    "title": "Draft Case Assessment Memorandum — Litigation Risk Analysis for Distribution Agreement Dispute",
+    "domain": "legal-litigation",
+    "work_type": "draft",
+    "dataset": "Harvey Legal Agent Benchmark",
+    "upstream_id": "litigation-dispute-resolution/draft-case-assessment-memorandum",
+    "upstream_url": "https://github.com/OpulentiaAI/harvey-labs/tree/main/tasks/litigation-dispute-resolution/draft-case-assessment-memorandum",
+    "license": "MIT",
+    "prompt": "prompt.md",
+    "source_docs": "source_docs",
+    "deliverables": [
+      "case-assessment-memo.docx"
+    ],
+    "rubric": "rubric.json"
+  },
+  {
+    "id": "010-harvey-cross-border-tax",
+    "title": "Cross-Border Acquisition Tax Structure Memo",
+    "domain": "legal-tax",
+    "work_type": "draft",
+    "dataset": "Harvey Legal Agent Benchmark",
+    "upstream_id": "tax/draft-cross-border-acquisition-tax-memo",
+    "upstream_url": "https://github.com/OpulentiaAI/harvey-labs/tree/main/tasks/tax/draft-cross-border-acquisition-tax-memo",
+    "license": "MIT",
+    "prompt": "prompt.md",
+    "source_docs": "source_docs",
+    "deliverables": [
+      "tax-structure-memo.docx",
+      "tax-cost-model.xlsx",
+      "action-item-tracker.xlsx"
+    ],
+    "rubric": "rubric.json"
+  },
+  {
+    "id": "011-gdpval-energy-portfolio-risk",
+    "title": "Financial and Investment Analysts: Quantitative Finance",
+    "domain": "quantitative-finance",
+    "work_type": "professional-deliverable",
+    "sector": "Finance and Insurance",
+    "occupation": "Financial and Investment Analysts",
+    "dataset": "OpenAI GDPval",
+    "upstream_id": "46b34f78-6c06-4416-87e2-77b6d8b20ce9",
+    "upstream_url": "https://huggingface.co/datasets/openai/gdpval?row=46b34f78-6c06-4416-87e2-77b6d8b20ce9",
+    "license": "Upstream terms apply; no standardized license declared in dataset card",
+    "prompt": "prompt.md",
+    "source_docs": "source_docs",
+    "deliverables": [
+      "Energy Trading and Sales Strategy.docx"
+    ],
+    "rubric": "rubric.json"
+  },
+  {
+    "id": "012-gdpval-materials-lab",
+    "title": "Mechanical Engineers: Mechanical Engineering",
+    "domain": "mechanical-engineering",
+    "work_type": "professional-deliverable",
+    "sector": "Manufacturing",
+    "occupation": "Mechanical Engineers",
+    "dataset": "OpenAI GDPval",
+    "upstream_id": "8077e700-2b31-402d-bd09-df4d33c39653",
+    "upstream_url": "https://huggingface.co/datasets/openai/gdpval?row=8077e700-2b31-402d-bd09-df4d33c39653",
+    "license": "Upstream terms apply; no standardized license declared in dataset card",
+    "prompt": "prompt.md",
+    "source_docs": "source_docs",
+    "deliverables": [
+      "Results Memo v2.pdf"
+    ],
+    "rubric": "rubric.json"
+  },
+  {
+    "id": "013-gdpval-dialysis-lab-management",
+    "title": "Registered Nurses: Healthcare",
+    "domain": "healthcare",
+    "work_type": "professional-deliverable",
+    "sector": "Health Care and Social Assistance",
+    "occupation": "Registered Nurses",
+    "dataset": "OpenAI GDPval",
+    "upstream_id": "90edba97-74f0-425a-8ff6-8b93182eb7cb",
+    "upstream_url": "https://huggingface.co/datasets/openai/gdpval?row=90edba97-74f0-425a-8ff6-8b93182eb7cb",
+    "license": "Upstream terms apply; no standardized license declared in dataset card",
+    "prompt": "prompt.md",
+    "source_docs": "source_docs",
+    "deliverables": [
+      "Monthly Tracker Patient Lab Results Data1.xlsx"
+    ],
+    "rubric": "rubric.json"
+  },
+  {
+    "id": "014-gdpval-ai-project-controls",
+    "title": "Project Management Specialists: Project Management",
+    "domain": "project-management",
+    "work_type": "professional-deliverable",
+    "sector": "Professional, Scientific, and Technical Services",
+    "occupation": "Project Management Specialists",
+    "dataset": "OpenAI GDPval",
+    "upstream_id": "3c19c6d1-672c-467a-8437-6fe21afb8eae",
+    "upstream_url": "https://huggingface.co/datasets/openai/gdpval?row=3c19c6d1-672c-467a-8437-6fe21afb8eae",
+    "license": "Upstream terms apply; no standardized license declared in dataset card",
+    "prompt": "prompt.md",
+    "source_docs": "source_docs",
+    "deliverables": [
+      "OUTPUT 1 BridgeMind AI POC project Common Ground Bikes POC Monthly report FINAL.pptx"
+    ],
+    "rubric": "rubric.json"
+  },
+  {
+    "id": "015-gdpval-regional-sales-analysis",
+    "title": "Sales Managers: Sales",
+    "domain": "sales",
+    "work_type": "professional-deliverable",
+    "sector": "Wholesale Trade",
+    "occupation": "Sales Managers",
+    "dataset": "OpenAI GDPval",
+    "upstream_id": "a69be28f-9a84-47c9-992e-b90446cdca9d",
+    "upstream_url": "https://huggingface.co/datasets/openai/gdpval?row=a69be28f-9a84-47c9-992e-b90446cdca9d",
+    "license": "Upstream terms apply; no standardized license declared in dataset card",
+    "prompt": "prompt.md",
+    "source_docs": "source_docs",
+    "deliverables": [
+      "Territory Fit Report DELIVERABLE FINAL.pdf"
+    ],
+    "rubric": "rubric.json"
+  },
+  {
+    "id": "016-gdpval-cloud-modernization",
+    "title": "Computer and Information Systems Managers: Systems Architecture",
+    "domain": "systems-architecture",
+    "work_type": "professional-deliverable",
+    "sector": "Professional, Scientific, and Technical Services",
+    "occupation": "Computer and Information Systems Managers",
+    "dataset": "OpenAI GDPval",
+    "upstream_id": "a45bc83b-22f9-4def-8d89-9c5661b2b86f",
+    "upstream_url": "https://huggingface.co/datasets/openai/gdpval?row=a45bc83b-22f9-4def-8d89-9c5661b2b86f",
+    "license": "Upstream terms apply; no standardized license declared in dataset card",
+    "prompt": "prompt.md",
+    "source_docs": "source_docs",
+    "deliverables": [
+      "Proposed_Architecture.pdf",
+      "POC_Implementation_Guide.docx",
+      "Proposed Architecture Summary.docx"
+    ],
+    "rubric": "rubric.json"
+  },
+  {
+    "id": "017-workspace-product-expense-analysis",
+    "title": "Product Manager: Product Management",
+    "domain": "product-management",
+    "work_type": "workspace-analysis",
+    "persona": "Product Manager",
+    "difficulty": "hard",
+    "dataset": "Workspace-Bench-Lite",
+    "upstream_id": "15",
+    "upstream_url": "https://huggingface.co/datasets/Workspace-Bench/Workspace-Bench-Lite?row=15",
+    "license": "MIT",
+    "prompt": "prompt.md",
+    "source_docs": "source_docs",
+    "deliverables": [
+      "financial-table-key-expense-analysis-concise-version.xlsx"
+    ],
+    "rubric": "rubric.json"
+  },
+  {
+    "id": "018-workspace-emergency-operations",
+    "title": "Logistics Manager: Logistics Operations",
+    "domain": "logistics-operations",
+    "work_type": "workspace-analysis",
+    "persona": "Logistics Manager",
+    "difficulty": "medium",
+    "dataset": "Workspace-Bench-Lite",
+    "upstream_id": "72",
+    "upstream_url": "https://huggingface.co/datasets/Workspace-Bench/Workspace-Bench-Lite?row=72",
+    "license": "MIT",
+    "prompt": "prompt.md",
+    "source_docs": "source_docs",
+    "deliverables": [
+      "emergency_end_to_end_operation_manual.doc"
+    ],
+    "rubric": "rubric.json"
+  },
+  {
+    "id": "019-workspace-global-product-strategy",
+    "title": "Operations Manager: Global Operations",
+    "domain": "global-operations",
+    "work_type": "workspace-analysis",
+    "persona": "Operations Manager",
+    "difficulty": "hard",
+    "dataset": "Workspace-Bench-Lite",
+    "upstream_id": "107",
+    "upstream_url": "https://huggingface.co/datasets/Workspace-Bench/Workspace-Bench-Lite?row=107",
+    "license": "MIT",
+    "prompt": "prompt.md",
+    "source_docs": "source_docs",
+    "deliverables": [
+      "Global_Product_Strategy.md"
+    ],
+    "rubric": "rubric.json"
+  },
+  {
+    "id": "020-workspace-llm-memory-survey",
+    "title": "Researcher: Research",
+    "domain": "research",
+    "work_type": "workspace-analysis",
+    "persona": "Researcher",
+    "difficulty": "medium",
+    "dataset": "Workspace-Bench-Lite",
+    "upstream_id": "363",
+    "upstream_url": "https://huggingface.co/datasets/Workspace-Bench/Workspace-Bench-Lite?row=363",
+    "license": "MIT",
+    "prompt": "prompt.md",
+    "source_docs": "source_docs",
+    "deliverables": [
+      "LLM_personalized_memory_survey.pdf"
+    ],
+    "rubric": "rubric.json"
+  }
+]

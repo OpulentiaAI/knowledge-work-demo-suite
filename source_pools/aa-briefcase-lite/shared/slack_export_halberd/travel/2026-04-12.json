@@ -1,0 +1,89 @@
+[
+  {
+    "type": "message",
+    "user": "U014",
+    "text": "Egencia moved the dial on red eye change fees with a few preferred carriers. Talk to me if you've got a pattern of changes coming up.",
+    "ts": "1775995200.233641",
+    "reactions": [
+      {
+        "count": 1,
+        "name": "+1",
+        "users": [
+          "U015"
+        ]
+      }
+    ]
+  },
+  {
+    "type": "message",
+    "user": "U014",
+    "text": "The Egencia mobile app gets the same negotiated rates as the desktop. No reason to call.",
+    "ts": "1776000600.914135"
+  },
+  {
+    "type": "message",
+    "user": "U014",
+    "text": "If anyone's hitting Lima this summer, the new United route from Newark beats the AA Miami connection by about 4 hours.",
+    "ts": "1776002400.287848",
+    "reactions": [
+      {
+        "count": 2,
+        "name": "raised_hands",
+        "users": [
+          "U016",
+          "U017"
+        ]
+      }
+    ]
+  },
+  {
+    "type": "message",
+    "user": "U015",
+    "text": "Singapore visa on arrival rules updated last week. Read the risk pack.",
+    "ts": "1776004200.985018",
+    "reactions": [
+      {
+        "count": 1,
+        "name": "eyes",
+        "users": [
+          "U014"
+        ]
+      }
+    ]
+  },
+  {
+    "type": "message",
+    "user": "U001",
+    "text": "I owe several of you Singapore restaurant recs. Will get a list out this week.",
+    "ts": "1776009600.858113",
+    "reactions": [
+      {
+        "count": 3,
+        "name": "pray",
+        "users": [
+          "U014",
+          "U016",
+          "U017"
+        ]
+      }
+    ]
+  },
+  {
+    "type": "message",
+    "user": "U016",
+    "text": "holding you to that",
+    "ts": "1776010500.551118",
+    "thread_ts": "1776009600.858113",
+    "parent_user_id": "U001",
+    "reactions": [
+      {
+        "count": 2,
+        "name": "joy",
+        "users": [
+          "U001",
+          "U015"
+        ]
+      }
+    ]
+  }
+]

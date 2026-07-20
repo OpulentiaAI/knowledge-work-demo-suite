@@ -1,0 +1,18 @@
+{
+  "id": "011-gdpval-energy-portfolio-risk",
+  "title": "Financial and Investment Analysts: Quantitative Finance",
+  "domain": "quantitative-finance",
+  "work_type": "professional-deliverable",
+  "sector": "Finance and Insurance",
+  "occupation": "Financial and Investment Analysts",
+  "dataset": "OpenAI GDPval",
+  "upstream_id": "46b34f78-6c06-4416-87e2-77b6d8b20ce9",
+  "upstream_url": "https://huggingface.co/datasets/openai/gdpval?row=46b34f78-6c06-4416-87e2-77b6d8b20ce9",
+  "license": "Upstream terms apply; no standardized license declared in dataset card",
+  "prompt": "prompt.md",
+  "source_docs": "source_docs",
+  "deliverables": [
+    "Energy Trading and Sales Strategy.docx"
+  ],
+  "rubric": "rubric.json"
+}

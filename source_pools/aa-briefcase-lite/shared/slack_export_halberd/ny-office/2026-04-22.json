@@ -1,0 +1,114 @@
+[
+  {
+    "type": "message",
+    "user": "U016",
+    "text": "Boardroom AV: the HDMI in Boardroom 2 is flaky again. Use Boardroom 3 if you can.",
+    "ts": "1776866400.075042",
+    "reactions": [
+      {
+        "count": 2,
+        "name": "eyes",
+        "users": [
+          "U017",
+          "U015"
+        ]
+      }
+    ]
+  },
+  {
+    "type": "message",
+    "user": "U017",
+    "text": "Boardroom 2 HDMI fixed, new cable. The old one was, predictably, the issue.",
+    "ts": "1776870000.678345",
+    "thread_ts": "1776866400.075042",
+    "parent_user_id": "U016",
+    "reactions": [
+      {
+        "count": 2,
+        "name": "white_check_mark",
+        "users": [
+          "U016",
+          "U019"
+        ]
+      },
+      {
+        "count": 1,
+        "name": "100",
+        "users": [
+          "U015"
+        ]
+      }
+    ]
+  },
+  {
+    "type": "message",
+    "user": "U016",
+    "text": "thank you",
+    "ts": "1776870900.097084",
+    "thread_ts": "1776866400.075042",
+    "parent_user_id": "U016"
+  },
+  {
+    "type": "message",
+    "user": "U019",
+    "text": "Building intercom test Thursday morning. One long tone, then a voice test. Not an emergency.",
+    "ts": "1776877200.723738"
+  },
+  {
+    "type": "message",
+    "user": "U015",
+    "text": "good to know, would've jumped",
+    "ts": "1776878100.613165",
+    "reactions": [
+      {
+        "count": 2,
+        "name": "joy",
+        "users": [
+          "U019",
+          "U017"
+        ]
+      }
+    ]
+  },
+  {
+    "type": "message",
+    "user": "U019",
+    "text": "Memorial Day weekend confirmed. Office closes EOB Friday 22 May, reopens Tuesday 26 May.",
+    "ts": "1776880800.966334",
+    "reactions": [
+      {
+        "count": 5,
+        "name": "tada",
+        "users": [
+          "U014",
+          "U016",
+          "U017",
+          "U015",
+          "U001"
+        ]
+      }
+    ]
+  },
+  {
+    "type": "message",
+    "user": "U014",
+    "text": "long weekend, finally",
+    "ts": "1776881700.896451",
+    "reactions": [
+      {
+        "count": 2,
+        "name": "raised_hands",
+        "users": [
+          "U016",
+          "U017"
+        ]
+      }
+    ]
+  },
+  {
+    "type": "message",
+    "user": "U019",
+    "text": "Building will be staffed for the relocation team over the weekend but the office itself is closed.",
+    "ts": "1776882600.190606"
+  }
+]

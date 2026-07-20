@@ -1,0 +1,88 @@
+[
+  {
+    "type": "message",
+    "user": "U019",
+    "text": "<!here> weather watch for Friday. Heavy rain forecast all day. We are open as normal, please use Citi Bike with care or take the subway.",
+    "ts": "1777464000.648513",
+    "reactions": [
+      {
+        "count": 3,
+        "name": "rain_cloud",
+        "users": [
+          "U016",
+          "U017",
+          "U015"
+        ]
+      }
+    ]
+  },
+  {
+    "type": "message",
+    "user": "U001",
+    "text": "If the rain hits, the office is the better commute. I'll be on Zoom Friday.",
+    "ts": "1777465800.249879"
+  },
+  {
+    "type": "message",
+    "user": "U016",
+    "text": "Bring a coat in tomorrow, getting cold for late April.",
+    "ts": "1777467600.970487",
+    "reactions": [
+      {
+        "count": 1,
+        "name": "+1",
+        "users": [
+          "U017"
+        ]
+      }
+    ]
+  },
+  {
+    "type": "message",
+    "user": "U017",
+    "text": "umbrella weather all week apparently",
+    "ts": "1777469400.060214",
+    "thread_ts": "1777464000.648513",
+    "parent_user_id": "U019",
+    "reactions": [
+      {
+        "count": 1,
+        "name": "rain_cloud",
+        "users": [
+          "U016"
+        ]
+      }
+    ]
+  },
+  {
+    "type": "message",
+    "user": "U019",
+    "text": "Friday lobby will smell of wet umbrellas. Apologies in advance.",
+    "ts": "1777471200.098779",
+    "thread_ts": "1777464000.648513",
+    "parent_user_id": "U019",
+    "reactions": [
+      {
+        "count": 3,
+        "name": "joy",
+        "users": [
+          "U015",
+          "U017",
+          "U016"
+        ]
+      }
+    ]
+  },
+  {
+    "type": "message",
+    "user": "U019",
+    "text": "Lobby umbrella stand will be set up Friday. Please use it.",
+    "ts": "1777483800.381326"
+  },
+  {
+    "type": "message",
+    "user": "U015",
+    "text": "thanks",
+    "ts": "1777485600.326176"
+  }
+]

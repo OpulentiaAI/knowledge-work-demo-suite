@@ -1,0 +1,119 @@
+[
+  {
+    "type": "message",
+    "user": "U017",
+    "text": "We meet 27 May, same room. Coffee on <@U001>, who has predictably refused to admit reading it before.",
+    "ts": "1777469400.118743",
+    "reactions": [
+      {
+        "name": "joy",
+        "users": [
+          "U010",
+          "U015",
+          "U016"
+        ],
+        "count": 3
+      },
+      {
+        "name": "coffee",
+        "users": [
+          "U001"
+        ],
+        "count": 1
+      }
+    ]
+  },
+  {
+    "type": "message",
+    "user": "U001",
+    "text": "no comment",
+    "ts": "1777469900.454497",
+    "thread_ts": "1777469400.118743",
+    "parent_user_id": "U017",
+    "reactions": [
+      {
+        "name": "joy",
+        "users": [
+          "U017",
+          "U010",
+          "U015",
+          "U016"
+        ],
+        "count": 4
+      }
+    ]
+  },
+  {
+    "type": "message",
+    "user": "U015",
+    "text": "I'll draft the May questions. Three themes: incentives, talent density, what changed post 2010.",
+    "ts": "1777470400.873694",
+    "thread_ts": "1777469400.118743",
+    "parent_user_id": "U017",
+    "reactions": [
+      {
+        "name": "raised_hands",
+        "users": [
+          "U017",
+          "U010"
+        ],
+        "count": 2
+      }
+    ]
+  },
+  {
+    "type": "message",
+    "user": "U017",
+    "text": "Focus question for May: how the LP-GP fee compression chapter has aged this cycle.",
+    "ts": "1777474800.855478"
+  },
+  {
+    "type": "message",
+    "user": "U015",
+    "text": "Q3 reading list is being drafted, happy to take recommendations. No biographies please.",
+    "ts": "1777478400.012818"
+  },
+  {
+    "type": "message",
+    "user": "U010",
+    "text": "strongly disagree on the no biographies rule but otherwise on board",
+    "ts": "1777478900.296472",
+    "thread_ts": "1777478400.012818",
+    "parent_user_id": "U015",
+    "reactions": [
+      {
+        "name": "joy",
+        "users": [
+          "U015",
+          "U016",
+          "U017"
+        ],
+        "count": 3
+      }
+    ]
+  },
+  {
+    "type": "message",
+    "user": "U016",
+    "text": "seconded, the Volcker one was great",
+    "ts": "1777479400.429269",
+    "thread_ts": "1777478400.012818",
+    "parent_user_id": "U015"
+  },
+  {
+    "type": "message",
+    "user": "U010",
+    "text": "I'll draft a one page reading prep tomorrow. Light prep, three big themes.",
+    "ts": "1777483800.344851",
+    "reactions": [
+      {
+        "name": "books",
+        "users": [
+          "U017",
+          "U015"
+        ],
+        "count": 2
+      }
+    ]
+  }
+]

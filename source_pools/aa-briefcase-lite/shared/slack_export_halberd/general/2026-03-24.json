@@ -1,0 +1,45 @@
+[
+  {
+    "type": "message",
+    "user": "U001",
+    "text": "Quick note of thanks to the Ops team for the portfolio review marathon last week. Long days, well handled.",
+    "ts": "1774356300.221889",
+    "reactions": [
+      {
+        "count": 3,
+        "name": "heart",
+        "users": [
+          "U008",
+          "U009",
+          "U014"
+        ]
+      },
+      {
+        "count": 2,
+        "name": "clap",
+        "users": [
+          "U005",
+          "U016"
+        ]
+      }
+    ]
+  },
+  {
+    "type": "message",
+    "user": "U010",
+    "text": "MNPI refresher training drops to the LMS next week. 35 minutes. Yes, it is new content, not last year's.",
+    "ts": "1774362600.371280"
+  },
+  {
+    "type": "message",
+    "user": "U018",
+    "text": "We are decommissioning the legacy fileshare \\\\halberd-fs-01 at the end of April. Start migrating now, do not wait for the last week.",
+    "ts": "1774372800.642507"
+  },
+  {
+    "type": "message",
+    "user": "U017",
+    "text": "Promotion calibration sessions are booked for the week of 13 April. Managers, your prework is the gating item.",
+    "ts": "1774383000.273190"
+  }
+]

@@ -1,0 +1,73 @@
+{
+  "rubrics": [
+    "Is the output file LLM_personalized_memory_survey.pdf successfully generated and in legal pdf format?",
+    "Does the review include separate abstract sections for the four papers, each covering the research questions, methods, and main findings?",
+    "Does the abstract of the SPRInG paper correctly state that the research question is to address the problem of continuous personalization of user preferences evolving over time?",
+    "Are the two core methods of drift-driven selective adaptation and logarithmic interpolation correctly described in the SPRInG paper abstract?",
+    "Does the abstract of the MemoryRewardBench paper state that this is the first benchmark to evaluate the long-term memory management capabilities of reward models?",
+    "Does the MemoryRewardBench paper abstract correctly state that the benchmark covers 10 different settings, with context lengths ranging from 8K to 128K tokens?",
+    "Does the abstract of the EthnographicAnnotation paper correctly conclude that LLM cannot currently replace human experts for ethnographic text annotation?",
+    "Does the abstract of the EthnographicAnnotation paper indicate that longer texts, ordinal distinguishing features, and fuzzy constructs are particularly difficult for LLM?",
+    "Is the research question correctly asked in the BeyondAccuracy paper abstract: Can testing human metrics predict LLM code comprehension success or failure?",
+    "Are the results given correctly in the BeyondAccuracy paper abstract: human metric prediction AUROC 0.63, shadow model AUROC 0.86?",
+    "Does the review include a comparative analysis chapter, comparing four papers from the three dimensions of research objectives, technical routes, and evaluation indicators?",
+    "Does the comparative analysis chapter include a comparison table of research objectives and correctly categorize the research areas of the four papers?",
+    "Does the comparative analysis point out that SPRInG and MemoryRewardBench directly focus on personalization and memory, while the other two studies study the boundary of capabilities from the side?",
+    "Does the review analysis point out that SPRInG is algorithmic innovation, MemoryRewardBench is benchmark construction, EthnographicAnnotation is empirical evaluation boundary, and BeyondAccuracy is methodological innovation?",
+    "Has the common challenge of balancing dynamics and stability been analyzed in the review?",
+    "Does the review discuss the common challenge of fundamental difficulties in assessment, pointing out problems with traditional aggregation accuracy?",
+    "Has the challenge of the tension between domain expertise and generalization abilities been discussed in the review?",
+    "Has the challenge of interpretability and lack of transparency been analyzed in the review?",
+    "Does the review propose at least five future research directions (theoretical framework of continuous personalization, science of memory management assessment, cross-cultural understanding of personalization, beyond accuracy assessment methodology, exploration of semi-parametric architectures)?",
+    "Have all four papers in the review added hyperlinks to the original arXiv papers?",
+    "Does the review include a reference list giving complete information on all four papers?",
+    "Is the PDF file format correct, including titles and chapter levels, and is the table format displayed correctly?"
+  ],
+  "rubric_types": [
+    "Basic Evaluation",
+    "Basic Evaluation",
+    "Outcome Evaluation",
+    "Outcome Evaluation",
+    "Outcome Evaluation",
+    "Outcome Evaluation",
+    "Outcome Evaluation",
+    "Outcome Evaluation",
+    "Outcome Evaluation",
+    "Outcome Evaluation",
+    "Outcome Evaluation",
+    "Outcome Evaluation",
+    "Outcome Evaluation",
+    "Outcome Evaluation",
+    "Outcome Evaluation",
+    "Outcome Evaluation",
+    "Outcome Evaluation",
+    "Outcome Evaluation",
+    "Outcome Evaluation",
+    "Basic Evaluation",
+    "Basic Evaluation",
+    "Basic Evaluation"
+  ],
+  "file_dependency_graph": [
+    {
+      "from": "2601.09974v1.pdf",
+      "to": "LLM_personalized_memory_survey.pdf"
+    },
+    {
+      "from": "2601.11969v2.pdf",
+      "to": "LLM_personalized_memory_survey.pdf"
+    },
+    {
+      "from": "2601.12099v1.pdf",
+      "to": "LLM_personalized_memory_survey.pdf"
+    },
+    {
+      "from": "2601.12951v1.pdf",
+      "to": "LLM_personalized_memory_survey.pdf"
+    }
+  ],
+  "tested_capabilities": [
+    "Task-Providing File Utilization",
+    "Result-Providing Files Utilization",
+    "Semantic Content Relations Understanding"
+  ]
+}

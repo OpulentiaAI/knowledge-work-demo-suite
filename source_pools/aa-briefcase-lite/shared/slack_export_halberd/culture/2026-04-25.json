@@ -1,0 +1,154 @@
+[
+  {
+    "type": "message",
+    "user": "U015",
+    "text": "Pickleball at McCarren this weekend, round robin 10am Saturday. Ping me.",
+    "ts": "1777122600.091158",
+    "reactions": [
+      {
+        "name": "raised_hands",
+        "users": [
+          "U009",
+          "U006"
+        ],
+        "count": 2
+      }
+    ]
+  },
+  {
+    "type": "message",
+    "user": "U009",
+    "text": "in",
+    "ts": "1777123100.602148",
+    "thread_ts": "1777122600.091158",
+    "parent_user_id": "U015"
+  },
+  {
+    "type": "message",
+    "user": "U006",
+    "text": "same, bringing a paddle for whoever forgets theirs",
+    "ts": "1777123600.305801",
+    "thread_ts": "1777122600.091158",
+    "parent_user_id": "U015",
+    "reactions": [
+      {
+        "name": "100",
+        "users": [
+          "U015"
+        ],
+        "count": 1
+      }
+    ]
+  },
+  {
+    "type": "message",
+    "user": "U017",
+    "text": "Volunteer day RSVPs at 28. Spots still open, the food pantry team would love more hands.",
+    "ts": "1777125600.153497"
+  },
+  {
+    "type": "message",
+    "user": "U017",
+    "text": "Final volunteer day reminder: Saturday 26 April. RSVPs at 32. Last day to sign up is tomorrow.",
+    "ts": "1777127400.849802",
+    "reactions": [
+      {
+        "name": "heart",
+        "users": [
+          "U019",
+          "U005",
+          "U014"
+        ],
+        "count": 3
+      }
+    ]
+  },
+  {
+    "type": "message",
+    "user": "U014",
+    "text": "Half day Friday next week plus drinks at the Whaler at 13:30. RSVP for headcount.",
+    "ts": "1777129200.198053",
+    "reactions": [
+      {
+        "name": "tada",
+        "users": [
+          "U005",
+          "U006",
+          "U009",
+          "U016",
+          "U015"
+        ],
+        "count": 5
+      },
+      {
+        "name": "beer",
+        "users": [
+          "U008",
+          "U002"
+        ],
+        "count": 2
+      }
+    ]
+  },
+  {
+    "type": "message",
+    "user": "U005",
+    "text": "first round on me",
+    "ts": "1777129700.953865",
+    "thread_ts": "1777129200.198053",
+    "parent_user_id": "U014",
+    "reactions": [
+      {
+        "name": "raised_hands",
+        "users": [
+          "U006",
+          "U009",
+          "U016"
+        ],
+        "count": 3
+      }
+    ]
+  },
+  {
+    "type": "message",
+    "user": "U016",
+    "text": "Brooklyn Half t-shirt vote: navy or gray. I refuse to be the deciding vote.",
+    "ts": "1777141800.175720",
+    "reactions": [
+      {
+        "name": "shirt",
+        "users": [
+          "U006",
+          "U015"
+        ],
+        "count": 2
+      }
+    ]
+  },
+  {
+    "type": "message",
+    "user": "U006",
+    "text": "navy",
+    "ts": "1777142300.823244",
+    "thread_ts": "1777141800.175720",
+    "parent_user_id": "U016"
+  },
+  {
+    "type": "message",
+    "user": "U015",
+    "text": "navy, no contest",
+    "ts": "1777142800.472772",
+    "thread_ts": "1777141800.175720",
+    "parent_user_id": "U016",
+    "reactions": [
+      {
+        "name": "100",
+        "users": [
+          "U006",
+          "U016"
+        ],
+        "count": 2
+      }
+    ]
+  }
+]

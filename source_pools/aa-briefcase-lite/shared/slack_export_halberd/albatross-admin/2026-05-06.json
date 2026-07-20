@@ -1,0 +1,75 @@
+[
+  {
+    "type": "message",
+    "user": "U007",
+    "text": "Thanks, joining as soon as I'm out.",
+    "ts": "1778073360.577111",
+    "thread_ts": "1778073240.708082",
+    "parent_user_id": "U007"
+  },
+  {
+    "type": "message",
+    "user": "U007",
+    "text": "Heads up, I'll be late to the 1400 Wednesday by ~10 minutes; clinic appointment ran over.",
+    "ts": "1778073240.708082"
+  },
+  {
+    "type": "message",
+    "user": "U005",
+    "text": "All good, we'll wait.",
+    "ts": "1778073300.720719"
+  },
+  {
+    "type": "message",
+    "user": "U019",
+    "text": "Friday lunch order placed. Boardroom 2 catering 1245. Coffee 1230. Tea on request.",
+    "ts": "1778089500.875242",
+    "reactions": [
+      {
+        "count": 3,
+        "name": "coffee",
+        "users": [
+          "U005",
+          "U006",
+          "U007"
+        ]
+      },
+      {
+        "count": 1,
+        "name": "raised_hands",
+        "users": [
+          "U003"
+        ]
+      }
+    ]
+  },
+  {
+    "type": "message",
+    "user": "U005",
+    "text": "Standup recap: deck shell reviewed, source catalog is current, Friday outputs land in /Drafts by 1100. Nothing blocking.",
+    "ts": "1778095800.065535",
+    "reactions": [
+      {
+        "count": 3,
+        "name": "white_check_mark",
+        "users": [
+          "U003",
+          "U006",
+          "U007"
+        ]
+      }
+    ]
+  },
+  {
+    "type": "message",
+    "user": "U019",
+    "text": "Boardroom 2 confirmed for Friday 1300. Catering and coffee timings as posted. Flip-chart is in.",
+    "ts": "1778098200.274172"
+  },
+  {
+    "type": "message",
+    "user": "U006",
+    "text": "Thanks <@U019>, all set on my end.",
+    "ts": "1778098800.180938"
+  }
+]

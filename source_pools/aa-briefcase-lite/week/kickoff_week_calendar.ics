@@ -1,0 +1,147 @@
+BEGIN:VCALENDAR
+version:2.0
+PRODID:-//Halberd Capital Partners//Outlook Export 16.0//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:VP Calendar - Project Albatross Kickoff Week
+X-WR-TIMEZONE:America/New_York
+BEGIN:VTIMEZONE
+TZID:America/New_York
+BEGIN:STANDARD
+DTSTART:20071104T020000
+TZOFFSETFROM:-0400
+TZOFFSETTO:-0500
+TZNAME:EST
+RRULE:FREQ=YEARLY;BYMONTH=11;BYDAY=1SU
+END:STANDARD
+BEGIN:DAYLIGHT
+DTSTART:20070311T020000
+TZOFFSETFROM:-0500
+TZOFFSETTO:-0400
+TZNAME:EDT
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=2SU
+END:DAYLIGHT
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:calendar-event-001@halberd.com
+DTSTAMP:20260504T080000Z
+DTSTART;TZID=America/New_York:20260505T090000
+DTEND;TZID=America/New_York:20260505T091500
+summary:Project Albatross - Daily Standup
+LOCATION:Phone Room 7C / Zoom
+description:Daily 15-min standup. Daniel (chair)\, Maya\, Theo\, Iris.
+RRULE:FREQ=daily;BYDAY=MO,TU,WE,TH,FR;until=20260530T130000Z
+ORGANIZER;CN=Daniel Reyes:mailto:daniel.reyes@halberd.com
+ATTENDEE;CN=Maya Okonkwo;ROLE=REQ-PARTICIPANT:mailto:maya.okonkwo@halberd.com
+ATTENDEE;CN=Theo Lindgren;ROLE=REQ-PARTICIPANT:mailto:theo.lindgren@halberd.com
+ATTENDEE;CN=Iris Beaumont;ROLE=REQ-PARTICIPANT:mailto:iris.beaumont@halberd.com
+END:VEVENT
+BEGIN:VEVENT
+UID:calendar-event-002@halberd.com
+DTSTAMP:20260504T080000Z
+DTSTART;TZID=America/New_York:20260508T130000
+DTEND;TZID=America/New_York:20260508T150000
+summary:Project Albatross - Kickoff
+LOCATION:Boardroom 2 / Zoom
+description:Project kickoff. Hugh in person. Vivian dialling in from Auckland (~05:00-07:00 local\, next morning). Lunch served 12:45.
+ORGANIZER;CN=Daniel Reyes:mailto:daniel.reyes@halberd.com
+ATTENDEE;CN=Hugh Pemberton;ROLE=REQ-PARTICIPANT:mailto:hugh.pemberton@halberd.com
+ATTENDEE;CN=Vivian Holst;ROLE=REQ-PARTICIPANT:mailto:vivian.holst@halberd.com
+ATTENDEE;CN=Maya Okonkwo;ROLE=REQ-PARTICIPANT:mailto:maya.okonkwo@halberd.com
+ATTENDEE;CN=Theo Lindgren;ROLE=REQ-PARTICIPANT:mailto:theo.lindgren@halberd.com
+ATTENDEE;CN=Iris Beaumont;ROLE=REQ-PARTICIPANT:mailto:iris.beaumont@halberd.com
+END:VEVENT
+BEGIN:VEVENT
+UID:calendar-event-003@halberd.com
+DTSTAMP:20260504T080000Z
+DTSTART;TZID=America/New_York:20260508T150000
+DTEND;TZID=America/New_York:20260508T153000
+summary:Project Albatross - Deal Team Debrief
+LOCATION:Boardroom 2
+description:Deal team only - no Hugh / Vivian.
+ORGANIZER;CN=Daniel Reyes:mailto:daniel.reyes@halberd.com
+ATTENDEE;CN=Maya Okonkwo;ROLE=REQ-PARTICIPANT:mailto:maya.okonkwo@halberd.com
+ATTENDEE;CN=Theo Lindgren;ROLE=REQ-PARTICIPANT:mailto:theo.lindgren@halberd.com
+ATTENDEE;CN=Iris Beaumont;ROLE=REQ-PARTICIPANT:mailto:iris.beaumont@halberd.com
+END:VEVENT
+BEGIN:VEVENT
+UID:calendar-event-004@halberd.com
+DTSTAMP:20260504T080000Z
+DTSTART;TZID=America/New_York:20260507T090000
+DTEND;TZID=America/New_York:20260507T100000
+summary:Theo - External call (held room)
+LOCATION:Phone Room 7B
+description:Theo's external call. Phone room 7B booked exclusively.
+ORGANIZER;CN=Theo Lindgren:mailto:theo.lindgren@halberd.com
+ATTENDEE;CN=Theo Lindgren;ROLE=REQ-PARTICIPANT:mailto:theo.lindgren@halberd.com
+END:VEVENT
+BEGIN:VEVENT
+UID:calendar-event-005@halberd.com
+DTSTAMP:20260504T080000Z
+DTSTART;TZID=America/New_York:20260514T140000
+DTEND;TZID=America/New_York:20260514T160000
+summary:Project Albatross - Deal Team Review
+LOCATION:Boardroom 2 / Zoom
+description:Recurring deal-team review. First session - Hugh attending in person; Vivian dialling in if calendar permits.
+RRULE:FREQ=weekly;BYDAY=TH;count=3
+ORGANIZER;CN=Daniel Reyes:mailto:daniel.reyes@halberd.com
+ATTENDEE;CN=Maya Okonkwo;ROLE=REQ-PARTICIPANT:mailto:maya.okonkwo@halberd.com
+ATTENDEE;CN=Theo Lindgren;ROLE=REQ-PARTICIPANT:mailto:theo.lindgren@halberd.com
+ATTENDEE;CN=Iris Beaumont;ROLE=REQ-PARTICIPANT:mailto:iris.beaumont@halberd.com
+ATTENDEE;CN=Hugh Pemberton;ROLE=OPT-PARTICIPANT:mailto:hugh.pemberton@halberd.com
+ATTENDEE;CN=Vivian Holst;ROLE=OPT-PARTICIPANT:mailto:vivian.holst@halberd.com
+END:VEVENT
+BEGIN:VEVENT
+UID:calendar-event-006@halberd.com
+DTSTAMP:20260504T080000Z
+DTSTART;TZID=America/New_York:20260515T130000
+DTEND;TZID=America/New_York:20260515T133000
+summary:Senior Sync - Hugh / Vivian / Daniel
+LOCATION:Boardroom 1
+description:EA-managed; do not reschedule without checking.
+ORGANIZER;CN=Hugh Pemberton:mailto:hugh.pemberton@halberd.com
+ATTENDEE;CN=Vivian Holst;ROLE=REQ-PARTICIPANT:mailto:vivian.holst@halberd.com
+ATTENDEE;CN=Daniel Reyes;ROLE=REQ-PARTICIPANT:mailto:daniel.reyes@halberd.com
+END:VEVENT
+BEGIN:VEVENT
+UID:calendar-event-007@halberd.com
+DTSTAMP:20260504T080000Z
+DTSTART;TZID=America/New_York:20260505T120000
+DTEND;TZID=America/New_York:20260505T130000
+summary:Lunch & Learn - Q1 Capital Markets Read (Roger)
+LOCATION:Boardroom 1
+description:Optional firmwide lunch & learn. Roger Cantrell presenting. Pizza.
+ORGANIZER;CN=Roger Cantrell:mailto:roger.cantrell@halberd.com
+END:VEVENT
+BEGIN:VEVENT
+UID:calendar-event-008@halberd.com
+DTSTAMP:20260504T080000Z
+DTSTART;TZID=America/New_York:20260507T123000
+DTEND;TZID=America/New_York:20260507T133000
+summary:Wellness - Yoga (Wellness Room)
+LOCATION:Wellness Room (4F)
+description:Standing weekly. Sign up via the wellness Slack.
+RRULE:FREQ=weekly;BYDAY=TU,TH;count=8
+ORGANIZER;CN=Renata Costa:mailto:renata.costa@halberd.com
+END:VEVENT
+BEGIN:VEVENT
+UID:calendar-event-009@halberd.com
+DTSTAMP:20260504T080000Z
+DTSTART;TZID=America/New_York:20260507T173000
+DTEND;TZID=America/New_York:20260507T193000
+summary:Book Club - The Power Law (kick-off)
+LOCATION:Small Library
+description:May book club. Coffee on Hugh.
+ORGANIZER;CN=Lara Bennett:mailto:lara.bennett@halberd.com
+END:VEVENT
+BEGIN:VEVENT
+UID:calendar-event-010@halberd.com
+DTSTAMP:20260504T080000Z
+DTSTART;TZID=America/New_York:20260506T140000
+DTEND;TZID=America/New_York:20260506T143000
+summary:IT - Quarterly Phishing Refresher (firm-wide)
+LOCATION:Zoom
+description:15 minutes; required for personnel who failed Q1 simulation, optional for others.
+ORGANIZER;CN=Ola Adeyemi:mailto:ola.adeyemi@halberd.com
+END:VEVENT
+END:VCALENDAR

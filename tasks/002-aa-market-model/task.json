@@ -1,0 +1,16 @@
+{
+  "id": "002-aa-market-model",
+  "title": "Market Sizing, Forecast, and Cage-Ban Transition Model",
+  "domain": "financial-modeling",
+  "work_type": "analyze-and-create",
+  "dataset": "AA-Briefcase-Lite",
+  "upstream_id": "w1_t2",
+  "upstream_url": "https://huggingface.co/datasets/ArtificialAnalysis/AA-Briefcase-Lite/blob/main/tasks/w1_t2.md",
+  "license": "Apache-2.0",
+  "prompt": "prompt.md",
+  "source_docs": "source_docs",
+  "deliverables": [
+    "market_model.xlsx"
+  ],
+  "rubric": "rubric.jsonl"
+}

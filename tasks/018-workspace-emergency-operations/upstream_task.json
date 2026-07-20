@@ -1,0 +1,94 @@
+{
+  "absolute_id": 72,
+  "language": "en",
+  "persona": "Logistics Manager",
+  "task": "Integrate the core content of four emergency response management files and create a complete `emergency_end_to_end_operation_manual.doc` covering early warning, information reporting, follow-up handling, and safeguard measures, and also organize the checklists referenced in the manual for daily emergency duty use.",
+  "task_diff": "medium",
+  "output_files": [
+    "emergency_end_to_end_operation_manual.doc"
+  ],
+  "rubrics": [
+    "Does emergency_end_to_end_operation_manual.doc include 4 types of early warning triggering scenarios in its entirety, namely, the early warning issued by the Production Safety Emergency Response Center in District XX, the early warning issued by the Office of the Production Safety Committee in District XX, the early warning triggered by accidents in surrounding units, and the early warning issued by the enterprise?",
+    "Is it clearly stated in emergency_end_to_end_operation_manual.doc that the social-level early warning shall be lifted by the Production Safety Emergency Response Center in District XX, and the company-level early warning shall be lifted by the Emergency General Commander?",
+    "Does emergency_end_to_end_operation_manual.doc include the specific work content of the response preparation phase, that is, the establishment of a command center, the deployment of emergency resources, the preparation of rescue materials, and the standby of the rescue team?",
+    "Is there a clear hierarchical reporting process in emergency_end_to_end_operation_manual.doc: Minor accidents are handled and reported internally by the department, and more serious accidents are reported to the general manager. Especially serious accidents can be directly reported to the Production Safety Emergency Response Center in District XX?",
+    "Does emergency_end_to_end_operation_manual.doc include a time limit for reporting incident information, i.e. should it be reported immediately from the time of the incident?",
+    "Does the list of attached emergency contact numbers in emergency_end_to_end_operation_manual.doc include the company's 24-hour on-duty phone number, the XX District Production Safety Emergency Response Center phone number, and the XX Production Safety Committee Office phone number?",
+    "Is it clear in emergency_end_to_end_operation_manual.doc that the person responsible for reporting the incident information is XX, and the contact number is 138XXXXXXXX?",
+    "Does emergency_end_to_end_operation_manual.doc fully cover the 6 core tasks of post-processing, namely pollutant treatment, accident consequence elimination, production order restoration, medical treatment, aftermath compensation, and emergency rescue assessment?",
+    "Is it clear in emergency_end_to_end_operation_manual.doc that the responsible subject for the elimination of the consequences of the accident is the emergency rescue team, and the responsible subject for the aftermath compensation is the Engineering Department?",
+    "Is it clear in emergency_end_to_end_operation_manual.doc that minor injury accidents need to be handled in writing to the accident investigation and handling team within 2 hours?",
+    "Is it clear in emergency_end_to_end_operation_manual.doc that the emergency response summary report should include the emergency response process, the resources used, the lessons learned from the problem, and the proposal for modification of the plan?",
+    "Does emergency_end_to_end_operation_manual.doc include four types of emergency support measures: communication and information support, emergency team support, material equipment support, and other support (including financial support)?",
+    "Is it clear in emergency_end_to_end_operation_manual.doc that all three types of communication information update responsible subjects are security officers and need to be communicated to relevant departments within 24 hours after the update?",
+    "Is it clear in emergency_end_to_end_operation_manual.doc that the emergency response team consists of five emergency response teams, namely, the emergency rescue team, the pollution control team, the alert evacuation team, the medical emergency team, and the logistics support team?",
+    "Is it clear in emergency_end_to_end_operation_manual.doc that emergency rescue funds are listed in the security fund investment and include four types of use?",
+    "Are the output files stored according to the classification of early warning, information reporting, post-processing, and safeguards?",
+    "Are the contents of the output file extracted from the core content of the original file, without additional information added by error?",
+    "Does emergency_end_to_end_operation_manual.doc have a complete emergency contact list attached at the end, and the form is clear and easy to consult on a daily basis?",
+    "Is the output file format layout clear, the title is hierarchical, and the content is clear and easy to use for emergency duty?",
+    "Is it clear in emergency_end_to_end_operation_manual.doc that the company has signed an emergency mutual assistance agreement with the surrounding enterprises, and can call the emergency resources of the surrounding enterprises?"
+  ],
+  "rubric_types": [
+    "Basic Evaluation",
+    "Basic Evaluation",
+    "Process Evaluation",
+    "Basic Evaluation",
+    "Basic Evaluation",
+    "Result Evaluation",
+    "Basic Evaluation",
+    "Basic Evaluation",
+    "Process Evaluation",
+    "Process Evaluation",
+    "Process Evaluation",
+    "Basic Evaluation",
+    "Process Evaluation",
+    "Basic Evaluation",
+    "Process Evaluation",
+    "Process Evaluation",
+    "Process Evaluation",
+    "Result Evaluation",
+    "Result Evaluation",
+    "Process Evaluation"
+  ],
+  "file_dep_graph": [
+    {
+      "from": "emergency_end_to_end_operation_manual.doc",
+      "to": "emergency_response_1.txt"
+    },
+    {
+      "from": "emergency_end_to_end_operation_manual.doc",
+      "to": "emergency_response_2.txt"
+    },
+    {
+      "from": "emergency_end_to_end_operation_manual.doc",
+      "to": "emergency_response_3.txt"
+    },
+    {
+      "from": "emergency_end_to_end_operation_manual.doc",
+      "to": "emergency_response_4.txt"
+    }
+  ],
+  "data_manifest": [
+    {
+      "filename": "emergency_response_1.txt",
+      "stored_relpath": "data/bcb66c58227e343d_emergency_response_1.txt"
+    },
+    {
+      "filename": "emergency_response_2.txt",
+      "stored_relpath": "data/2d1dc577c240ba25_emergency_response_2.txt"
+    },
+    {
+      "filename": "emergency_response_3.txt",
+      "stored_relpath": "data/27279c0f11776e4b_emergency_response_3.txt"
+    },
+    {
+      "filename": "emergency_response_4.txt",
+      "stored_relpath": "data/82cf1bb1a2940ff2_emergency_response_4.txt"
+    }
+  ],
+  "tested_capabilities": [
+    "Workspace Exploration",
+    "Result-Providing Files Utilization"
+  ]
+}

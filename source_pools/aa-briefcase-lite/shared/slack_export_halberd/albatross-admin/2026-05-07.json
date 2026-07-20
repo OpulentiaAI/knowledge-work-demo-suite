@@ -1,0 +1,92 @@
+[
+  {
+    "type": "message",
+    "user": "U003",
+    "text": "Reminder - please put your Friday outputs in /Drafts by 1100 so we have time to review before Hugh joins.",
+    "ts": "1778155200.506424",
+    "reactions": [
+      {
+        "count": 3,
+        "name": "white_check_mark",
+        "users": [
+          "U006",
+          "U005",
+          "U007"
+        ]
+      }
+    ]
+  },
+  {
+    "type": "message",
+    "user": "U006",
+    "text": "Will do.",
+    "ts": "1778157000.157222"
+  },
+  {
+    "type": "message",
+    "user": "U005",
+    "text": "Same.",
+    "ts": "1778157060.642876"
+  },
+  {
+    "type": "message",
+    "user": "U007",
+    "text": "Same.",
+    "ts": "1778157120.134309"
+  },
+  {
+    "type": "message",
+    "user": "U007",
+    "text": "Quick methodology note on the Friday outputs while you're drafting - watch the finding/question duplication. Worst pattern I keep flagging on pre-IC briefings is when the team takes the same point and frames it as both a headline finding and an open question. They're meant to be different beasts: findings are what we now believe; open questions are what we still don't know and need confirmatory to resolve. If a so-called finding has a clear unknown sitting underneath it, it's an open question, not a finding - pick one and move on. The three findings and three open questions should not paraphrase each other across the two groups.",
+    "ts": "1778157480.516977",
+    "reactions": [
+      {
+        "count": 2,
+        "name": "eyes",
+        "users": [
+          "U005",
+          "U006"
+        ]
+      },
+      {
+        "count": 1,
+        "name": "+1",
+        "users": [
+          "U003"
+        ]
+      }
+    ]
+  },
+  {
+    "type": "message",
+    "user": "U005",
+    "text": "Noted. I'll do a pass to make sure none of the three findings restate an open question.",
+    "ts": "1778160600.464903",
+    "thread_ts": "1778157480.516977",
+    "parent_user_id": "U007"
+  },
+  {
+    "type": "message",
+    "user": "U006",
+    "text": "Same on the model side, will keep findings and questions cleanly separated.",
+    "ts": "1778161500.474555",
+    "thread_ts": "1778157480.516977",
+    "parent_user_id": "U007"
+  },
+  {
+    "type": "message",
+    "user": "U003",
+    "text": "Good. Tight separation is what Hugh will be reading for.",
+    "ts": "1778162700.097024",
+    "thread_ts": "1778157480.516977",
+    "parent_user_id": "U007"
+  },
+  {
+    "type": "message",
+    "user": "U005",
+    "text": "Drafts are in /Drafts. Ready for review.",
+    "ts": "1778165400.676063",
+    "thread_ts": "1778155200.506424",
+    "parent_user_id": "U003"
+  }
+]

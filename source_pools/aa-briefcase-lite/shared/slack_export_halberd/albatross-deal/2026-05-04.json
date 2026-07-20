@@ -1,0 +1,212 @@
+[
+  {
+    "type": "message",
+    "user": "U003",
+    "text": "Project Albatross is live. Kickoff email just went out. Standard pre-LOI brief, four parallel workstreams, two-week sprint to indicative bid. Senior partner Friday.",
+    "ts": "1777897934.414415"
+  },
+  {
+    "type": "message",
+    "user": "U005",
+    "text": "On the deck - give me till Wed for a structure draft.",
+    "ts": "1777897981.675296"
+  },
+  {
+    "type": "message",
+    "user": "U006",
+    "text": "On the model. Reaching out to Treasury for the demographics analytical note now. Anyone got a current per-capita egg consumption figure handy?",
+    "ts": "1777897998.156942"
+  },
+  {
+    "type": "message",
+    "user": "U007",
+    "text": "229 eggs/person/year is the figure EPF has on their public stats page. I'll confirm with the spokesperson when we talk.",
+    "ts": "1777898082.013684"
+  },
+  {
+    "type": "message",
+    "user": "U006",
+    "text": "Cool, ta.",
+    "ts": "1777898111.647143"
+  },
+  {
+    "type": "message",
+    "user": "U002",
+    "text": "Reminder for the team - Hugh refreshed our analytical standards last quarter. Pull halberd_analytical_standards.docx from the deal-team shared drive before you start the comps and the opportunities work. Sequential haircut method is in section 1, opportunities discipline is in section 4, profit pool framework is in section 6. Use it as the methodology backbone, not a 'nice to have'.",
+    "ts": "1777898280.503664"
+  },
+  {
+    "type": "message",
+    "user": "U003",
+    "text": "Theo - before you start laying the model out, run the firm cell-formatting convention from the start. Hardcoded inputs, intra-tab calculation cells, cross-tab / assumption references, and headline outputs each get their own visual treatment - at least four categories visually distinguishable, applied consistently across every tab, and a legend (own tab or a clearly labeled block on the Assumptions tab) that names each category in plain language. That's the discipline. Specific colors / fonts / fills are up to you. Retrofitting that after the model is built is painful, please bake it in now.",
+    "ts": "1777898520.915456"
+  },
+  {
+    "type": "message",
+    "user": "U006",
+    "text": "Got it - blue for hardcoded inputs, black for in-tab calcs, green for cross-tab refs, bold-with-fill for headline outputs, legend block on the Assumptions tab. Will set up the styles before I start populating.",
+    "ts": "1777898640.501834"
+  },
+  {
+    "type": "message",
+    "user": "U006",
+    "text": "I'm pulling the RetailIQ NZ scan data extract for Q1 2026 - that gives us pricing × tier × promo cadence + own-/cross-price elasticity for the four tiers. Adds the channel mix backbone for the model and the elasticity input for the mix-shift analysis. Will be in shared sources by EOD.",
+    "ts": "1777898880.665135"
+  },
+  {
+    "type": "message",
+    "user": "U007",
+    "text": "Update on expert calls: EPFNZ have agreed (Helen Marsden, Wednesday 9am NZT). I've also lined up a guy a friend of mine recommends - Robert Calthorpe, ex-Mainland Poultry exec, now does private-investor advisory. Knows everyone's flock numbers. Booked initial Wed 4pm NZT.",
+    "ts": "1777899682.353731"
+  },
+  {
+    "type": "message",
+    "user": "U002",
+    "text": ":raised_hands: that's exactly the kind of source we need. Plan for two follow-ups with Calthorpe.",
+    "ts": "1777899724.559035"
+  },
+  {
+    "type": "message",
+    "user": "U007",
+    "text": "Also have two supplementary calls - a retired Tegel advisor named Geoff Whitlock, and a foodservice broker (Carla Tanaka). Don't expect much from either but worth taking the calls for completeness.",
+    "ts": "1777899768.163306"
+  },
+  {
+    "type": "message",
+    "user": "U003",
+    "text": "Take the calls. If they're useless we move on; if they surprise us, great.",
+    "ts": "1777899791.268959"
+  },
+  {
+    "type": "message",
+    "user": "U006",
+    "text": "Question: how am I treating Aurora in the bottom-up? They're not in any analyst coverage I can find.",
+    "ts": "1777904095.172724"
+  },
+  {
+    "type": "message",
+    "user": "U002",
+    "text": "We'll come back to this - first hear what Calthorpe says about who's where in the volume rankings.",
+    "ts": "1777904133.106555"
+  },
+  {
+    "type": "message",
+    "user": "U006",
+    "text": "The retail grocery study from NZCC has good channel-mix breakdowns btw. Will use that as the backbone.",
+    "ts": "1777906269.456075"
+  },
+  {
+    "type": "message",
+    "user": "U005",
+    "text": "Same for the comp benchmarking - pulling Cal-Maine 10-K and the AU/NZ poultry adjacency commentary.",
+    "ts": "1777906321.970121"
+  },
+  {
+    "type": "message",
+    "user": "U002",
+    "text": "Cal-Maine is at ~50x our target's scale though. Don't apply their multiples directly. Haircut for scale + commodity exposure.",
+    "ts": "1777907547.719490"
+  },
+  {
+    "type": "message",
+    "user": "U005",
+    "text": "Got it.",
+    "ts": "1777907581.502367"
+  },
+  {
+    "type": "message",
+    "user": "U005",
+    "text": "Vivian, quick question on how we treat the Cal-Maine multiple given the scale gap - straight haircut or layered?",
+    "ts": "1777908143.671634"
+  },
+  {
+    "type": "message",
+    "user": "U002",
+    "text": "Layered, per the standards. Scale haircut first, then private discount, then any deal-specific risk haircut. Don't collapse them into one number - the chain has to be visible.",
+    "ts": "1777908381.633996"
+  },
+  {
+    "type": "message",
+    "user": "U005",
+    "text": "Makes sense - I'll keep them sequential on the comps slide.",
+    "ts": "1777908442.811895"
+  },
+  {
+    "type": "message",
+    "user": "U003",
+    "text": "Vivian's must-test list just landed in inbox btw - three hypotheses + framing items. Read the message-3 reply, that's where the substantive content is.",
+    "ts": "1777909350.296760"
+  },
+  {
+    "type": "message",
+    "user": "U006",
+    "text": "Quick draft idea on the transition scenarios - what if we do (a) base case, (b) cage-ban deferred to 2030, (c) cage-ban accelerated to 2026? That gives us a nice 3-scenario fan.",
+    "ts": "1777914494.155479"
+  },
+  {
+    "type": "message",
+    "user": "U002",
+    "text": "Theo - no. The 2027 deadline is set by the major retailers' public commitments, not by regulation. It can't be 'deferred to 2030' unless Foodstuffs and Woolworths NZ both walk back commitments - which would be a separate news story we'd notice. The interesting variation isn't the deadline date, it's how the colony cohort actually transitions: managed conversion, capacity gap with imports, premium collapse. Those are the three scenarios I want to see.",
+    "ts": "1777914709.353309"
+  },
+  {
+    "type": "message",
+    "user": "U006",
+    "text": "Ah right - got it, thanks. Reframing now.",
+    "ts": "1777914753.658466"
+  },
+  {
+    "type": "message",
+    "user": "U007",
+    "text": "Quick fyi - both Calthorpe and Marsden will be calling from NZ; transcript turnaround Thursday morning your time.",
+    "ts": "1777917737.394058"
+  },
+  {
+    "type": "message",
+    "user": "U003",
+    "text": "Perfect.",
+    "ts": "1777917781.500483"
+  },
+  {
+    "type": "message",
+    "user": "U005",
+    "text": "Pulled the Navis press release on the Mainland Poultry / Zeagold deal from 2017. That's the only NZ-scale precedent we have.",
+    "ts": "1777922322.782218"
+  },
+  {
+    "type": "message",
+    "user": "U002",
+    "text": ":+1: anchor it as the headline comp.",
+    "ts": "1777922351.267613"
+  },
+  {
+    "type": "message",
+    "user": "U006",
+    "text": "Population data: Treasury demographic note for FY24 has the baseline at 5.22M with growth around 0.9% pa. Going to use that for the 5-year forecast.",
+    "ts": "1777927075.674312"
+  },
+  {
+    "type": "message",
+    "user": "U002",
+    "text": "Sounds right.",
+    "ts": "1777927110.894044"
+  },
+  {
+    "type": "message",
+    "user": "U006",
+    "text": "Stuck on production system mix. MPI Code of Welfare report has 33/33/34 colony / barn / free-range as of Dec 2022 but that's three and a half years stale. Anyone got more current?",
+    "ts": "1777928954.004798"
+  },
+  {
+    "type": "message",
+    "user": "U007",
+    "text": "Wait for Calthorpe - he'll have current numbers.",
+    "ts": "1777929004.264128"
+  },
+  {
+    "type": "message",
+    "user": "U006",
+    "text": "OK, parking it.",
+    "ts": "1777929262.271204"
+  }
+]

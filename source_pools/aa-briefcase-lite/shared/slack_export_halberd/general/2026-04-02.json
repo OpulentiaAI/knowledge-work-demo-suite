@@ -1,0 +1,125 @@
+[
+  {
+    "type": "message",
+    "user": "U018",
+    "text": "Reminder: Okta password rotation due for anyone still on the 12-month cadence. The portal will prompt you. Please don't ignore it again, <@U006>.",
+    "ts": "1775127900.834333"
+  },
+  {
+    "type": "message",
+    "user": "U010",
+    "text": "Reminder: 2026 Compliance Handbook attestation deadline is 31 December 2026. Don't make me chase. Anika",
+    "ts": "1775134020.387248"
+  },
+  {
+    "type": "message",
+    "user": "U017",
+    "text": "Talent: external recruiter slate for the Capital Markets Director role narrowed to four. Interview prep on Friday.",
+    "ts": "1775136600.316563",
+    "reactions": [
+      {
+        "count": 2,
+        "name": "+1",
+        "users": [
+          "U001",
+          "U014"
+        ]
+      }
+    ]
+  },
+  {
+    "type": "message",
+    "user": "U001",
+    "text": "Welcoming Sara K. to the Capital Markets team starting Monday. She'll sit on the 9th floor near Naomi.",
+    "ts": "1775143200.342848",
+    "reactions": [
+      {
+        "count": 5,
+        "name": "tada",
+        "users": [
+          "U016",
+          "U017",
+          "U019",
+          "U005",
+          "U002"
+        ]
+      },
+      {
+        "count": 2,
+        "name": "raised_hands",
+        "users": [
+          "U014",
+          "U015"
+        ]
+      }
+    ]
+  },
+  {
+    "type": "message",
+    "user": "U019",
+    "text": "Welcome Sara! Desk and badge are ready, see me Monday at 09:00.",
+    "ts": "1775144100.947228",
+    "thread_ts": "1775143200.342848",
+    "parent_user_id": "U001"
+  },
+  {
+    "type": "message",
+    "user": "U016",
+    "text": "Welcome Sara, looking forward to it!",
+    "ts": "1775144520.924776",
+    "thread_ts": "1775143200.342848",
+    "parent_user_id": "U001"
+  },
+  {
+    "type": "message",
+    "user": "U017",
+    "text": "Welcome to the team!",
+    "ts": "1775144881.382880",
+    "thread_ts": "1775143200.342848",
+    "parent_user_id": "U001"
+  },
+  {
+    "type": "message",
+    "user": "U015",
+    "text": "Welcome! Ping me if any laptop or access issues on day one.",
+    "ts": "1775145302.600566",
+    "thread_ts": "1775143200.342848",
+    "parent_user_id": "U001"
+  },
+  {
+    "type": "message",
+    "user": "U014",
+    "text": "Hugh's keynote at the Aspen Consumer summit is being livestreamed Wednesday 11:00 ET. Link in calendar.",
+    "ts": "1775146500.883522"
+  },
+  {
+    "type": "message",
+    "user": "U010",
+    "text": "Welcome aboard Sara.",
+    "ts": "1775150403.503718",
+    "thread_ts": "1775143200.342848",
+    "parent_user_id": "U001"
+  },
+  {
+    "type": "message",
+    "user": "U014",
+    "text": "Glad to have you, Sara.",
+    "ts": "1775153104.218671",
+    "thread_ts": "1775143200.342848",
+    "parent_user_id": "U001"
+  },
+  {
+    "type": "message",
+    "user": "U015",
+    "text": "Anyone still seeing the SharePoint sync error? IT got a fix in last night.",
+    "ts": "1775154600.944249"
+  },
+  {
+    "type": "message",
+    "user": "U018",
+    "text": "Should be resolved. If you still see it, clear the cache and re-sync.",
+    "ts": "1775155800.368790",
+    "thread_ts": "1775154600.944249",
+    "parent_user_id": "U015"
+  }
+]

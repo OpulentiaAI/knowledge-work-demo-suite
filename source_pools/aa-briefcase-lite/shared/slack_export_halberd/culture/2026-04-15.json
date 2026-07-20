@@ -1,0 +1,116 @@
+[
+  {
+    "type": "message",
+    "user": "U019",
+    "text": "Office photographer in Thursday for new joiners. Headshots 10 to 14:00.",
+    "ts": "1776261600.220307"
+  },
+  {
+    "type": "message",
+    "user": "U006",
+    "text": "do we have to smile",
+    "ts": "1776262100.816257",
+    "thread_ts": "1776261600.220307",
+    "parent_user_id": "U019"
+  },
+  {
+    "type": "message",
+    "user": "U019",
+    "text": "yes <@U006>",
+    "ts": "1776262600.120191",
+    "thread_ts": "1776261600.220307",
+    "parent_user_id": "U019",
+    "reactions": [
+      {
+        "name": "joy",
+        "users": [
+          "U005",
+          "U017",
+          "U014"
+        ],
+        "count": 3
+      }
+    ]
+  },
+  {
+    "type": "message",
+    "user": "U017",
+    "text": "Mental health awareness week is May 12 to 18. Quiet room and confidential listening. More to come.",
+    "ts": "1776267000.234785",
+    "reactions": [
+      {
+        "name": "heart",
+        "users": [
+          "U019",
+          "U005",
+          "U014",
+          "U002"
+        ],
+        "count": 4
+      }
+    ]
+  },
+  {
+    "type": "message",
+    "user": "U014",
+    "text": "Photos from the all hands lunch are up in the SharePoint library. Renata says we're absolutely never escaping the cake situation.",
+    "ts": "1776291240.665550",
+    "reactions": [
+      {
+        "name": "joy",
+        "users": [
+          "U019",
+          "U017",
+          "U001",
+          "U016"
+        ],
+        "count": 4
+      },
+      {
+        "name": "cake",
+        "users": [
+          "U005",
+          "U015"
+        ],
+        "count": 2
+      }
+    ]
+  },
+  {
+    "type": "message",
+    "user": "U019",
+    "text": "linked. Mateo's tie deserves its own album.",
+    "ts": "1776295800.865472",
+    "thread_ts": "1776291240.665550",
+    "parent_user_id": "U014",
+    "reactions": [
+      {
+        "name": "joy",
+        "users": [
+          "U014",
+          "U017",
+          "U001"
+        ],
+        "count": 3
+      }
+    ]
+  },
+  {
+    "type": "message",
+    "user": "U005",
+    "text": "that tie is a war crime",
+    "ts": "1776296300.891083",
+    "thread_ts": "1776291240.665550",
+    "parent_user_id": "U014",
+    "reactions": [
+      {
+        "name": "joy",
+        "users": [
+          "U019",
+          "U014"
+        ],
+        "count": 2
+      }
+    ]
+  }
+]

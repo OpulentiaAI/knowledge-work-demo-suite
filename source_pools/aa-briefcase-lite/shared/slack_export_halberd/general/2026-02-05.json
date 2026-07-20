@@ -1,0 +1,96 @@
+[
+  {
+    "type": "message",
+    "user": "U001",
+    "text": "Welcoming Priya Iyer, who joins us this week as Operating Partner on the Commercial side. Many of you know <@U009> already. She is on 8 near Marcus.",
+    "ts": "1770301800.177070",
+    "reactions": [
+      {
+        "count": 7,
+        "name": "tada",
+        "users": [
+          "U002",
+          "U005",
+          "U008",
+          "U014",
+          "U016",
+          "U017",
+          "U019"
+        ]
+      },
+      {
+        "count": 3,
+        "name": "raised_hands",
+        "users": [
+          "U003",
+          "U006",
+          "U007"
+        ]
+      }
+    ]
+  },
+  {
+    "type": "message",
+    "user": "U008",
+    "text": "Welcome <@U009> looking forward to working together.",
+    "ts": "1770302280.322464",
+    "thread_ts": "1770301800.177070",
+    "parent_user_id": "U001"
+  },
+  {
+    "type": "message",
+    "user": "U016",
+    "text": "Welcome aboard!",
+    "ts": "1770302520.920751",
+    "thread_ts": "1770301800.177070",
+    "parent_user_id": "U001"
+  },
+  {
+    "type": "message",
+    "user": "U019",
+    "text": "Welcome <@U009> Badge and desk are ready, come find me on 8 whenever.",
+    "ts": "1770303000.930424",
+    "thread_ts": "1770301800.177070",
+    "parent_user_id": "U001"
+  },
+  {
+    "type": "message",
+    "user": "U005",
+    "text": "Welcome!",
+    "ts": "1770303900.576905",
+    "thread_ts": "1770301800.177070",
+    "parent_user_id": "U001"
+  },
+  {
+    "type": "message",
+    "user": "U017",
+    "text": "So glad to have you, <@U009>",
+    "ts": "1770304800.955286",
+    "thread_ts": "1770301800.177070",
+    "parent_user_id": "U001"
+  },
+  {
+    "type": "message",
+    "user": "U015",
+    "text": "Heads up, there is a credential-phishing wave going around the sector this week. If an email asks you to re-authenticate Office, do not click. Forward to phishing@ instead.",
+    "ts": "1770308100.841047",
+    "reactions": [
+      {
+        "count": 4,
+        "name": "eyes",
+        "users": [
+          "U010",
+          "U014",
+          "U017",
+          "U018"
+        ]
+      }
+    ]
+  },
+  {
+    "type": "message",
+    "user": "U014",
+    "text": "Treasury: January corporate card statements close today. Please code by EOD.",
+    "ts": "1770324000.108279"
+  }
+]

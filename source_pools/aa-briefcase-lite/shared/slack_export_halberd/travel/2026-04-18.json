@@ -1,0 +1,89 @@
+[
+  {
+    "type": "message",
+    "user": "U014",
+    "text": "If you book directly with the airline, Concur won't pick up the change. Always book via Egencia or Concur Travel.",
+    "ts": "1776517200.174173",
+    "reactions": [
+      {
+        "count": 2,
+        "name": "+1",
+        "users": [
+          "U015",
+          "U016"
+        ]
+      }
+    ]
+  },
+  {
+    "type": "message",
+    "user": "U016",
+    "text": "ESG investor meetings stacking up in London for week of 12 May. If you'll be there, ping me, happy to do joint coffees.",
+    "ts": "1776519000.794630",
+    "reactions": [
+      {
+        "count": 1,
+        "name": "raised_hands",
+        "users": [
+          "U017"
+        ]
+      }
+    ]
+  },
+  {
+    "type": "message",
+    "user": "U015",
+    "text": "Heathrow strikes possible end of April. If you've got a London trip booked, build a buffer day or shift to City airport routings.",
+    "ts": "1776522600.267725",
+    "reactions": [
+      {
+        "count": 2,
+        "name": "eyes",
+        "users": [
+          "U014",
+          "U016"
+        ]
+      }
+    ]
+  },
+  {
+    "type": "message",
+    "user": "U017",
+    "text": "shifting mine to LCY, thanks",
+    "ts": "1776523500.285332",
+    "thread_ts": "1776522600.267725",
+    "parent_user_id": "U015",
+    "reactions": [
+      {
+        "count": 1,
+        "name": "+1",
+        "users": [
+          "U015"
+        ]
+      }
+    ]
+  },
+  {
+    "type": "message",
+    "user": "U016",
+    "text": "Hotel block at the Claremont for the Berkeley LP day: 8 rooms confirmed. Drop me a line for an attendee list.",
+    "ts": "1776526200.557800"
+  },
+  {
+    "type": "message",
+    "user": "U014",
+    "text": "If your trip changes mid flight, Egencia chat support is 24/7. Don't email me at 03:00.",
+    "ts": "1776535200.471670",
+    "reactions": [
+      {
+        "count": 3,
+        "name": "joy",
+        "users": [
+          "U015",
+          "U017",
+          "U016"
+        ]
+      }
+    ]
+  }
+]

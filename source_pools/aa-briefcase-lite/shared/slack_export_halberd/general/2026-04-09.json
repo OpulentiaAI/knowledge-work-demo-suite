@@ -1,0 +1,84 @@
+[
+  {
+    "type": "message",
+    "user": "U014",
+    "text": "Travel approvals are flowing again. Concur was queueing yesterday afternoon, should be cleared now.",
+    "ts": "1775726100.326966"
+  },
+  {
+    "type": "message",
+    "user": "U016",
+    "text": "ESG quarterly co-investor call is scheduled for 6 May. Materials lock 1 May.",
+    "ts": "1775741400.318481"
+  },
+  {
+    "type": "message",
+    "user": "U015",
+    "text": "Heads-up: there's a phishing wave targeting investor-relations inboxes industry-wide. <@U016> I've briefed your team separately.",
+    "ts": "1775743200.683526",
+    "reactions": [
+      {
+        "count": 3,
+        "name": "eyes",
+        "users": [
+          "U016",
+          "U014",
+          "U018"
+        ]
+      }
+    ]
+  },
+  {
+    "type": "message",
+    "user": "U002",
+    "text": "Consumer & agri team - pulling together attendance for the next monthly Sector Council. Reply in thread to confirm you're in, and flag if you'll be dialling in remotely so we can sort timings.",
+    "ts": "1775748120.726912"
+  },
+  {
+    "type": "message",
+    "user": "U015",
+    "text": "On it, thanks for the heads-up.",
+    "ts": "1775751000.619235",
+    "thread_ts": "1775743200.683526",
+    "parent_user_id": "U015"
+  },
+  {
+    "type": "message",
+    "user": "U005",
+    "text": "Sector Council attendance check. I'm dialing in from Auckland, 03:00 local. Please don't pick on me for camera.",
+    "ts": "1775758500.560420",
+    "thread_ts": "1775748120.726912",
+    "parent_user_id": "U002"
+  },
+  {
+    "type": "message",
+    "user": "U002",
+    "text": "Noted. Camera optional, no shame.",
+    "ts": "1775758920.350301",
+    "thread_ts": "1775748120.726912",
+    "parent_user_id": "U002"
+  },
+  {
+    "type": "message",
+    "user": "U002",
+    "text": "Consumer & Agri team, please save 14 April for a half-day sector deep dive. NY office, working lunch.",
+    "ts": "1775763000.610232"
+  },
+  {
+    "type": "message",
+    "user": "U002",
+    "text": "Reminder for the consumer & agri team: monthly Sector Council Wednesday 11:00 ET. Sourcing themes and the pipeline review. <@U003> and <@U005> are dialling in from Auckland, pre-records welcome from anyone with conflicts.",
+    "ts": "1775767338.440583",
+    "reactions": [
+      {
+        "count": 3,
+        "name": "+1",
+        "users": [
+          "U005",
+          "U003",
+          "U007"
+        ]
+      }
+    ]
+  }
+]

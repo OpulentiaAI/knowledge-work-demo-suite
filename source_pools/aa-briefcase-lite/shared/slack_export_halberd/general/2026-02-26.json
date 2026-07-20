@@ -1,0 +1,76 @@
+[
+  {
+    "type": "message",
+    "user": "U014",
+    "text": "All hands starts at 12:00 in Boardroom 1 plus Zoom. Slido is open for questions, anonymous is fine.",
+    "ts": "1772116800.814371"
+  },
+  {
+    "type": "message",
+    "user": "U014",
+    "text": "Doors closing in 2 minutes. Come off mute when called for Q&A.",
+    "ts": "1772125080.209769"
+  },
+  {
+    "type": "message",
+    "user": "U001",
+    "text": "Thanks everyone, strong Q4 to close out 2025. Full deck and recording on the intranet shortly. Special thanks to the teams who carried the Northwind and Ridgeline work over the break.",
+    "ts": "1772130600.402093",
+    "reactions": [
+      {
+        "count": 7,
+        "name": "clap",
+        "users": [
+          "U002",
+          "U005",
+          "U014",
+          "U016",
+          "U017",
+          "U019",
+          "U008"
+        ]
+      },
+      {
+        "count": 2,
+        "name": "heart",
+        "users": [
+          "U003",
+          "U006"
+        ]
+      }
+    ]
+  },
+  {
+    "type": "message",
+    "user": "U016",
+    "text": "Recording and slides are up now. ESG section starts at 41:00.",
+    "ts": "1772131920.099830",
+    "thread_ts": "1772130600.402093",
+    "parent_user_id": "U001"
+  },
+  {
+    "type": "message",
+    "user": "U017",
+    "text": "Thanks <@U001> great session.",
+    "ts": "1772132700.860482",
+    "thread_ts": "1772130600.402093",
+    "parent_user_id": "U001"
+  },
+  {
+    "type": "message",
+    "user": "U019",
+    "text": "Reminder, lunch leftovers in the 9th floor kitchen, help yourselves.",
+    "ts": "1772133600.395802",
+    "reactions": [
+      {
+        "count": 3,
+        "name": "raised_hands",
+        "users": [
+          "U015",
+          "U005",
+          "U006"
+        ]
+      }
+    ]
+  }
+]

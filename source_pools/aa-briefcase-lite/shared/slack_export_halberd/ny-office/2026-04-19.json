@@ -1,0 +1,114 @@
+[
+  {
+    "type": "message",
+    "user": "U019",
+    "text": "Building parking app: if you can't get it working, I have the backup paper QR codes. Email me, don't message.",
+    "ts": "1776603600.421416"
+  },
+  {
+    "type": "message",
+    "user": "U019",
+    "text": "Visitor parking validation now via the building app. Email me if you need help getting it on your phone.",
+    "ts": "1776605400.857115",
+    "reactions": [
+      {
+        "count": 1,
+        "name": "+1",
+        "users": [
+          "U014"
+        ]
+      }
+    ]
+  },
+  {
+    "type": "message",
+    "user": "U016",
+    "text": "8th floor printer fixed by IT. Should be steady through end of week.",
+    "ts": "1776610800.625275",
+    "reactions": [
+      {
+        "count": 2,
+        "name": "raised_hands",
+        "users": [
+          "U017",
+          "U015"
+        ]
+      }
+    ]
+  },
+  {
+    "type": "message",
+    "user": "U015",
+    "text": "famous last words",
+    "ts": "1776611700.249212",
+    "thread_ts": "1776610800.625275",
+    "parent_user_id": "U016",
+    "reactions": [
+      {
+        "count": 2,
+        "name": "joy",
+        "users": [
+          "U016",
+          "U017"
+        ]
+      }
+    ]
+  },
+  {
+    "type": "message",
+    "subtype": "tombstone",
+    "user": "U015",
+    "text": "This message was deleted.",
+    "ts": "1776614400.389206",
+    "hidden": true
+  },
+  {
+    "type": "message",
+    "user": "U017",
+    "text": "The 8th floor whiteboard has been blank for a week. Someone's planning to break the streak any moment now.",
+    "ts": "1776616200.316620",
+    "reactions": [
+      {
+        "count": 2,
+        "name": "eyes",
+        "users": [
+          "U016",
+          "U015"
+        ]
+      }
+    ]
+  },
+  {
+    "type": "message",
+    "user": "U016",
+    "text": "Printer on 8 is jamming again. I've left a note. Use the 9th floor one in the meantime.",
+    "ts": "1776618000.526296",
+    "reactions": [
+      {
+        "count": 2,
+        "name": "sweat_smile",
+        "users": [
+          "U015",
+          "U017"
+        ]
+      }
+    ]
+  },
+  {
+    "type": "message",
+    "user": "U015",
+    "text": "called it",
+    "ts": "1776618900.604948",
+    "thread_ts": "1776618000.526296",
+    "parent_user_id": "U016",
+    "reactions": [
+      {
+        "count": 1,
+        "name": "joy",
+        "users": [
+          "U016"
+        ]
+      }
+    ]
+  }
+]

@@ -1,0 +1,16 @@
+{
+  "id": "007-harvey-nda-playbook",
+  "title": "Review DataPulse Draft NDA Against Hightower Playbook and Prepare Deviation Report",
+  "domain": "legal-contract-review",
+  "work_type": "review",
+  "dataset": "Harvey Legal Agent Benchmark",
+  "upstream_id": "corporate-governance/review-nda-playbook-review",
+  "upstream_url": "https://github.com/OpulentiaAI/harvey-labs/tree/main/tasks/corporate-governance/review-nda-playbook-review",
+  "license": "MIT",
+  "prompt": "prompt.md",
+  "source_docs": "source_docs",
+  "deliverables": [
+    "nda-deviation-report.docx"
+  ],
+  "rubric": "rubric.json"
+}

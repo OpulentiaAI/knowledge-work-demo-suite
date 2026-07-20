@@ -1,0 +1,18 @@
+{
+  "id": "019-workspace-global-product-strategy",
+  "title": "Operations Manager: Global Operations",
+  "domain": "global-operations",
+  "work_type": "workspace-analysis",
+  "persona": "Operations Manager",
+  "difficulty": "hard",
+  "dataset": "Workspace-Bench-Lite",
+  "upstream_id": "107",
+  "upstream_url": "https://huggingface.co/datasets/Workspace-Bench/Workspace-Bench-Lite?row=107",
+  "license": "MIT",
+  "prompt": "prompt.md",
+  "source_docs": "source_docs",
+  "deliverables": [
+    "Global_Product_Strategy.md"
+  ],
+  "rubric": "rubric.json"
+}

@@ -1,0 +1,50 @@
+[
+  {
+    "type": "message",
+    "user": "U001",
+    "text": "Morning. Reminder the Q4 results all hands is Thursday. Sector partners, please have your one-pagers to Claire by Wednesday COB.",
+    "ts": "1771854600.657418"
+  },
+  {
+    "type": "message",
+    "user": "U016",
+    "text": "ESG: 2025 Stewardship Report drafting kicks off this week. I will reach out to deal teams for case studies.",
+    "ts": "1771859400.725654"
+  },
+  {
+    "type": "message",
+    "user": "U010",
+    "text": "Restricted list refresh is out via the usual Compliance email. Please reflect on personal trading.",
+    "ts": "1771863600.965911"
+  },
+  {
+    "type": "message",
+    "user": "U014",
+    "text": "AOB for Thursday's all hands to me by Wednesday noon.",
+    "ts": "1771871700.858519"
+  },
+  {
+    "type": "message",
+    "user": "U015",
+    "text": "Phishing sim results from last week are in your manager dashboard. Firm-wide click rate 6%, down from 9%. Moving in the right direction.",
+    "ts": "1771876800.770966",
+    "reactions": [
+      {
+        "count": 3,
+        "name": "fire",
+        "users": [
+          "U017",
+          "U018",
+          "U014"
+        ]
+      },
+      {
+        "count": 1,
+        "name": "100",
+        "users": [
+          "U001"
+        ]
+      }
+    ]
+  }
+]

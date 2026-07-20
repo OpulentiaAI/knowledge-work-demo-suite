@@ -1,0 +1,18 @@
+{
+  "id": "020-workspace-llm-memory-survey",
+  "title": "Researcher: Research",
+  "domain": "research",
+  "work_type": "workspace-analysis",
+  "persona": "Researcher",
+  "difficulty": "medium",
+  "dataset": "Workspace-Bench-Lite",
+  "upstream_id": "363",
+  "upstream_url": "https://huggingface.co/datasets/Workspace-Bench/Workspace-Bench-Lite?row=363",
+  "license": "MIT",
+  "prompt": "prompt.md",
+  "source_docs": "source_docs",
+  "deliverables": [
+    "LLM_personalized_memory_survey.pdf"
+  ],
+  "rubric": "rubric.json"
+}

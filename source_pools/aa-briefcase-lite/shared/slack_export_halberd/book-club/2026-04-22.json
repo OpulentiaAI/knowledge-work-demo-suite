@@ -1,0 +1,77 @@
+[
+  {
+    "type": "message",
+    "user": "U010",
+    "text": "Power Law's a heavier read. We'd need to push the May meeting to 18:30 if we vote for it.",
+    "ts": "1776877200.369185"
+  },
+  {
+    "type": "message",
+    "user": "U016",
+    "text": "Power Law for me. The Sequoia chapter alone is worth it.",
+    "ts": "1776879000.389071",
+    "reactions": [
+      {
+        "name": "books",
+        "users": [
+          "U010",
+          "U015"
+        ],
+        "count": 2
+      }
+    ]
+  },
+  {
+    "type": "message",
+    "user": "U016",
+    "text": "vote in the form please, keeps <@U017> honest",
+    "ts": "1776880800.189635"
+  },
+  {
+    "type": "message",
+    "user": "U010",
+    "text": "if anyone's leaning Genius Failed, it's a quicker read and oddly current with the rates environment",
+    "ts": "1776882600.045514"
+  },
+  {
+    "type": "message",
+    "user": "U017",
+    "text": "Tonight's discussion was a good one. We're picking between 'The Power Law' and 'When Genius Failed' for May. Vote in the form.",
+    "ts": "1776897720.072365",
+    "reactions": [
+      {
+        "name": "ballot_box_with_ballot",
+        "users": [
+          "U015",
+          "U010",
+          "U016"
+        ],
+        "count": 3
+      }
+    ]
+  },
+  {
+    "type": "message",
+    "user": "U015",
+    "text": "When Genius Failed has aged really well, but Power Law is more current. Tough call.",
+    "ts": "1776898200.542351",
+    "thread_ts": "1776897720.072365",
+    "parent_user_id": "U017"
+  },
+  {
+    "type": "message",
+    "user": "U017",
+    "text": "roughly tied so far. voting closes Friday 17:00.",
+    "ts": "1776898800.498740",
+    "thread_ts": "1776897720.072365",
+    "parent_user_id": "U017"
+  },
+  {
+    "type": "message",
+    "user": "U010",
+    "text": "Power Law",
+    "ts": "1776899400.230850",
+    "thread_ts": "1776897720.072365",
+    "parent_user_id": "U017"
+  }
+]

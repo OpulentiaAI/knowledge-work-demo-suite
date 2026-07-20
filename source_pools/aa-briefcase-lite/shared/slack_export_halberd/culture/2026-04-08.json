@@ -1,0 +1,128 @@
+[
+  {
+    "type": "message",
+    "user": "U017",
+    "text": "Anniversary callouts: Daniel R. 7 years next week. Will say it properly Friday.",
+    "ts": "1775647800.550319",
+    "reactions": [
+      {
+        "name": "tada",
+        "users": [
+          "U019",
+          "U005",
+          "U016",
+          "U014"
+        ],
+        "count": 4
+      }
+    ]
+  },
+  {
+    "type": "message",
+    "user": "U003",
+    "text": "seven years, how",
+    "ts": "1775648300.021642",
+    "thread_ts": "1775647800.550319",
+    "parent_user_id": "U017"
+  },
+  {
+    "type": "message",
+    "user": "U005",
+    "text": "cake is how",
+    "ts": "1775648800.938830",
+    "thread_ts": "1775647800.550319",
+    "parent_user_id": "U017",
+    "reactions": [
+      {
+        "name": "cake",
+        "users": [
+          "U003",
+          "U019",
+          "U017"
+        ],
+        "count": 3
+      }
+    ]
+  },
+  {
+    "type": "message",
+    "user": "U014",
+    "text": "Wedding congrats to Liam (Operations) and his partner this weekend. Team chipped in for a Bushwick pottery class voucher, card going round today.",
+    "ts": "1775655000.615621",
+    "reactions": [
+      {
+        "name": "heart",
+        "users": [
+          "U001",
+          "U017",
+          "U019",
+          "U002",
+          "U016"
+        ],
+        "count": 5
+      }
+    ]
+  },
+  {
+    "type": "message",
+    "user": "U009",
+    "text": "where do I sign the card",
+    "ts": "1775655500.531986",
+    "thread_ts": "1775655000.615621",
+    "parent_user_id": "U014"
+  },
+  {
+    "type": "message",
+    "user": "U014",
+    "text": "it's on my desk, come find me",
+    "ts": "1775656000.856653",
+    "thread_ts": "1775655000.615621",
+    "parent_user_id": "U014"
+  },
+  {
+    "type": "message",
+    "user": "U016",
+    "text": "Brooklyn Half training: long run Saturday is 14 km. Same start, slightly longer route along the harbor.",
+    "ts": "1775658600.556349",
+    "reactions": [
+      {
+        "name": "runner",
+        "users": [
+          "U006"
+        ],
+        "count": 1
+      }
+    ]
+  },
+  {
+    "type": "message",
+    "user": "U019",
+    "text": "Spring volunteer day: Saturday 26 April at the East Harlem food pantry with our partner org. Sign up here. Family welcome, kids over 10 only.",
+    "ts": "1775662920.965299",
+    "reactions": [
+      {
+        "name": "heart",
+        "users": [
+          "U017",
+          "U005",
+          "U014"
+        ],
+        "count": 3
+      }
+    ]
+  },
+  {
+    "type": "message",
+    "user": "U008",
+    "text": "count me in",
+    "ts": "1775663400.294095",
+    "thread_ts": "1775662920.965299",
+    "parent_user_id": "U019"
+  },
+  {
+    "type": "message",
+    "user": "U019",
+    "text": "Anniversary callouts at the end of the month. If I miss yours, blame Workday, not me.",
+    "ts": "1775671200.294739"
+  }
+]

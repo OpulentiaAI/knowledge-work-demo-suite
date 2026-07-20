@@ -1,0 +1,236 @@
+[
+  {
+    "type": "message",
+    "user": "U007",
+    "text": "Carla Tanaka call also done. Foodservice generic protein trends, no NZ-egg signal. Filing this as low-yield.",
+    "ts": "1778245278.610807"
+  },
+  {
+    "type": "message",
+    "user": "U002",
+    "text": "Same - discount.",
+    "ts": "1778245308.302689"
+  },
+  {
+    "type": "message",
+    "user": "U006",
+    "text": "FYI - the RMA register pull for Selwyn finally went through, I'll drop the screenshots in the data room folder this afternoon.",
+    "ts": "1778246100.721995"
+  },
+  {
+    "type": "message",
+    "user": "U009",
+    "text": "Quick one for Daniel - are we still planning to circle on the supplier-exposure annex before Tuesday's OP review or has that slipped?",
+    "ts": "1778247200.183346"
+  },
+  {
+    "type": "message",
+    "user": "U003",
+    "text": "Still on for Tuesday. Annex is sitting with Marcus, he's redlining the labor section.",
+    "ts": "1778247380.371734"
+  },
+  {
+    "type": "message",
+    "user": "U008",
+    "text": "Yep have it. Back to you EOD Monday.",
+    "ts": "1778247500.626084"
+  },
+  {
+    "type": "message",
+    "user": "U007",
+    "text": "Reminder the EPF reception is Thursday next week if anyone in Auckland wants the cover - I'll be there for an hour or so.",
+    "ts": "1778249000.496728"
+  },
+  {
+    "type": "message",
+    "user": "U006",
+    "text": "Has anyone got the latest export of the deal pipeline tracker? Mine is showing a stale snapshot from last Friday.",
+    "ts": "1778249400.507776"
+  },
+  {
+    "type": "message",
+    "user": "U007",
+    "text": "Refresh the link - I re-shared it in the deal-room folder this morning.",
+    "ts": "1778249480.485663"
+  },
+  {
+    "type": "message",
+    "user": "U005",
+    "text": "Working chain on the comps slide: Cal-Maine cohort median ~10-11x -> scale haircut ~35-45% -> private discount ~20-25% -> colony-risk haircut tied to Aurora's 40% colony exposure. Lands ~5.0-6.5x FY24 EBITDA. Broker asking is 12-14x for context; calculation chain visible per standards section 1.2.",
+    "ts": "1778250000.101277"
+  },
+  {
+    "type": "message",
+    "user": "U002",
+    "text": "Good. That's the anchor for the deck - 5.0-6.5x as the central case, broker 12-14x lives on the page as the negotiation gap not the central number.",
+    "ts": "1778250120.508130"
+  },
+  {
+    "type": "message",
+    "user": "U005",
+    "text": "Will show the calculation chain on the comps slide explicitly - starting multiple, each haircut, fair-value range. As per standards 1.2.",
+    "ts": "1778250300.895735"
+  },
+  {
+    "type": "message",
+    "user": "U007",
+    "text": "+1 on the chain visibility being the point. Same gripe came up on Lockerbie last quarter.",
+    "ts": "1778250840.210377"
+  },
+  {
+    "type": "message",
+    "user": "U003",
+    "text": "Maya - also section 4.3 of the standards. Aurora as a platform suggests a roll-up thesis given how fragmented the long-tail is. Hartley Pearce's industry note has a candidate list including Heyden (succession question, behind on Phase 2) and the specialty cohort (~5-8 named operators). Synergy framework is in 4.3. At least call out the thesis - even if we're not sizing tuck-ins in detail, show that the platform extends beyond Aurora-standalone.",
+    "ts": "1778251680.019230"
+  },
+  {
+    "type": "message",
+    "user": "U006",
+    "text": "Quick admin - the offshore Calthorpe Part 4 transcript landed in the shared drive overnight, 28 pages. Will skim and flag the bits material to the model build.",
+    "ts": "1778252100.102649"
+  },
+  {
+    "type": "message",
+    "user": "U002",
+    "text": "On the top-line opportunities - the RetailIQ scan data carries the elasticity readings we should be pricing this section off, not gut-feel. Free-range commodity sits at the elastic end of the tier ladder by a clear margin, and the cross-elasticity to barn is non-trivial as barn supply scales. Maya - read the Elasticity tab and the PromoFrequency tab together and let the numbers drive the recommendation; the lever structure should fall out of the data. It's in shared sources.",
+    "ts": "1778252520.129223"
+  },
+  {
+    "type": "message",
+    "user": "U006",
+    "text": "Ack on the scan tabs - I'll mirror the same anchors into the Forecast tab so Maya's deck and my model don't drift.",
+    "ts": "1778253000.184571"
+  },
+  {
+    "type": "message",
+    "user": "U007",
+    "text": "Side note - my Carla follow-up is parked. She offered Friday next week, I'd rather hold the slot for someone closer to the pricing question.",
+    "ts": "1778253060.547843"
+  },
+  {
+    "type": "message",
+    "user": "U009",
+    "text": "Worth checking whether the scan-data sample covers North Island and South Island stores symmetrically before anchoring too hard on a single retailer's read.",
+    "ts": "1778253140.193368"
+  },
+  {
+    "type": "message",
+    "user": "U002",
+    "text": "It does. Cover tab spells the panel coverage out.",
+    "ts": "1778253200.415902"
+  },
+  {
+    "type": "message",
+    "user": "U002",
+    "text": "Reminder for the deck: broker asking is 12-14x FY24 EBITDA. Our fair-value range post colony-risk haircut should be more like 8-10x - that's NZ$80-110M EV. The deck doesn't have to land on a specific number, but it needs to make the haircut argument legible.",
+    "ts": "1778253249.109438"
+  },
+  {
+    "type": "message",
+    "user": "U005",
+    "text": "Will handle in the comps slide.",
+    "ts": "1778253291.541665"
+  },
+  {
+    "type": "message",
+    "user": "U003",
+    "text": "Heads up - the GC wants 15 minutes on the Aurora confidentiality side-letter at some point this week. Iris can you put it on the wall?",
+    "ts": "1778260200.337480"
+  },
+  {
+    "type": "message",
+    "user": "U007",
+    "text": "On it.",
+    "ts": "1778260340.760177"
+  },
+  {
+    "type": "message",
+    "user": "U006",
+    "text": "Coffee machine on the 14th floor is out again. Switched to the pour-over, please don't judge.",
+    "ts": "1778261000.937159"
+  },
+  {
+    "type": "message",
+    "user": "U002",
+    "text": "Quick reconcile on the two valuation framings I posted earlier - Maya / Theo to make sure we're not running both chains as if they were the same answer. Two different chains in play here. (1) The standards section 1.1 sequential method anchored on Cal-Maine (cohort-median public comp at ~10-11x mid-cycle, then scale haircut 35-45%, then private discount 20-25%, then colony-risk haircut tied to Aurora's ~40% colony exposure) is the analytically defensible chain for Aurora specifically - that's the one that lands at 5.0-6.5x FY24 EBITDA and that's where the deck should anchor and where we defend value to IC. The worked example inside standards 1.1 itself uses different illustrative inputs to demonstrate the method, so don't read the example's output as Aurora's number - start with Cal-Maine + Aurora's specific colony exposure and the chain produces 5.0-6.5x. (2) The 8-10x range I mentioned in the earlier reminder is the broker-asking-side haircut framing - start from the 12-14x broker ask, take off ~2x for private/scale, take off ~2x for colony risk, land at 8-10x. That's the asking-side talking point Tasman Mercantile will push back at us with in negotiation; it's not where we defend value to IC. The internal scanned brief also carries an 8-10x reference but that's the same framing (pre the standards-1.1 chain). The deck should anchor on the (1) chain landing at 5.0-6.5x as the working analytical case; the 8-10x is context for the negotiation gap, not the central case. Likewise if anyone in the team reads the standards worked example and lands at ~4.1-4.6x - that's the example's illustrative inputs, not Aurora's. Anchor: 5.0-6.5x.",
+    "ts": "1778262480.318602"
+  },
+  {
+    "type": "message",
+    "user": "U009",
+    "text": "Marcus - did your team end up shortlisting a procurement consultant for the post-close diligence on the AgriCorp deal? We're going to need similar bench for this one if it moves.",
+    "ts": "1778263000.723711"
+  },
+  {
+    "type": "message",
+    "user": "U008",
+    "text": "Two names. I'll forward separately - not for this channel.",
+    "ts": "1778263200.857949"
+  },
+  {
+    "type": "message",
+    "user": "U008",
+    "text": "Daniel - one for Maya on the bottom-line / cost-out sizing for the deck. Every lever has to anchor on a real external benchmark - Hartley Pearce, the Antipodean Agri Research industry note, Calthorpe Part 7's industry-body figures, or the Cal-Maine 10-K cost-structure disclosure. 'In our experience the industry runs X' or 'industry typically sees Y%' without a citable benchmark does not count. The bottom-line / cost-out slides will get questioned at IC if any lever isn't anchored to an external benchmark source - internal opinion and training-data estimates are out. Standards 4.2 and 8 both pin this and Hugh has been holding the line on it.",
+    "ts": "1778264400.789158"
+  },
+  {
+    "type": "message",
+    "user": "U003",
+    "text": "Marcus - +1. Maya - lock that in for every bottom-line lever before the Friday draft. If a lever doesn't have an external-benchmark cite, either anchor it or take it off.",
+    "ts": "1778264580.517961"
+  },
+  {
+    "type": "message",
+    "user": "U005",
+    "text": "Will do. Going through the cost-out levers now to make sure each one carries a sourced cite - Cal-Maine 10-K feed-cost ratio, Hartley Pearce for grading / packing, Calthorpe Part 7 for the labor and energy ranges.",
+    "ts": "1778264700.645857"
+  },
+  {
+    "type": "message",
+    "user": "U006",
+    "text": "https://www.epf.org.nz/statistics-2024 - just dropping this here for the model build, dating notes inside the PDF are useful.",
+    "ts": "1778266400.192549"
+  },
+  {
+    "type": "message",
+    "user": "U003",
+    "text": "Theo - on the producer mix update, please make the supersession explicit in the assumptions tab. Hugh's been firm on this in pre-IC reviews.",
+    "ts": "1778267100.394532"
+  },
+  {
+    "type": "message",
+    "user": "U006",
+    "text": "Updating producer mix after Calthorpe Part 2 - central case landed at Aurora 18% (he refined from his Part 1 range), Mainland 27%, Heyden 13%, Better Eggs 9%, Zeagold 7%, Henergy 6%, long-tail 20%. Total flock 3.75M. Use this as the anchor going forward, supersedes my Wednesday draft.",
+    "ts": "1778268120.394667"
+  },
+  {
+    "type": "message",
+    "user": "U002",
+    "text": "Yes - Calthorpe Part 2 central case is the working anchor. Don't use Theo's Wednesday draft figures; they were before Part 2 refined.",
+    "ts": "1778268300.743601"
+  },
+  {
+    "type": "message",
+    "user": "U003",
+    "text": "Status check: Maya deck draft Friday morning, Theo model Friday morning, Iris market overview Thursday, briefing video Friday afternoon. Vivian, anything else before Friday?",
+    "ts": "1778272694.820476"
+  },
+  {
+    "type": "message",
+    "user": "U002",
+    "text": "Calthorpe Part 3 first thing Monday, then we lock final by end of Monday. Hugh's review Tuesday, IC Wednesday. Push hard on customer concentration top-3 figure in Part 3.",
+    "ts": "1778272761.190140"
+  },
+  {
+    "type": "message",
+    "user": "U001",
+    "text": "Iris - on the briefing video for senior partner: please make sure the visuals carry actual data - named figures, the colony 40% number, the 18-22% premium current vs 30% historical, the EBITDA-at-risk per year of slippage. Static title cards with no data don't earn the airtime. Visuals should reinforce the voice with specific numbers, not transcribe what's being said. And of course no recommendation - pure findings + open questions.",
+    "ts": "1778273100.045252"
+  },
+  {
+    "type": "message",
+    "user": "U007",
+    "text": "Acknowledged.",
+    "ts": "1778274093.560373"
+  }
+]

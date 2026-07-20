@@ -1,0 +1,86 @@
+[
+  {
+    "type": "message",
+    "user": "U001",
+    "text": "Lunch in Boardroom 1, chicken and the vegetable wrap option. Apologies in advance for the wrap.",
+    "ts": "1776254400.882076",
+    "reactions": [
+      {
+        "count": 3,
+        "name": "joy",
+        "users": [
+          "U005",
+          "U016",
+          "U017"
+        ]
+      }
+    ]
+  },
+  {
+    "type": "message",
+    "user": "U014",
+    "text": "If you have Q&A items, drop in the Slido. Anonymous is fine.",
+    "ts": "1776259800.288189"
+  },
+  {
+    "type": "message",
+    "user": "U014",
+    "text": "Doors closing in 60 seconds. Boardroom 1 plus Zoom.",
+    "ts": "1776268500.556017"
+  },
+  {
+    "type": "message",
+    "user": "U001",
+    "text": "All-hands kicking off in 2 minutes. Please come off mute when called on for Q&A.",
+    "ts": "1776268953.090652"
+  },
+  {
+    "type": "message",
+    "user": "U016",
+    "text": "Great Q1 numbers Hugh shared. The ESG slides start at 32:00 in the recording.",
+    "ts": "1776277800.723889",
+    "reactions": [
+      {
+        "name": "+1",
+        "users": [
+          "U001",
+          "U002",
+          "U017"
+        ],
+        "count": 3
+      }
+    ]
+  },
+  {
+    "type": "message",
+    "user": "U016",
+    "text": "ESG: shoutout to Maya for the case-study write-up that landed in this morning's deck. Strong work.",
+    "ts": "1776279600.833131",
+    "reactions": [
+      {
+        "count": 3,
+        "name": "raised_hands",
+        "users": [
+          "U002",
+          "U005",
+          "U001"
+        ]
+      },
+      {
+        "count": 1,
+        "name": "fire",
+        "users": [
+          "U014"
+        ]
+      }
+    ]
+  },
+  {
+    "type": "message",
+    "user": "U005",
+    "text": "Thank you! Team effort.",
+    "ts": "1776283800.820862",
+    "thread_ts": "1776279600.833131",
+    "parent_user_id": "U016"
+  }
+]

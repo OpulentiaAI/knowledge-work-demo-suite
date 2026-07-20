@@ -1,0 +1,123 @@
+[
+  {
+    "type": "message",
+    "user": "U015",
+    "text": "Yoga in the wellness room continues Tuesdays and Thursdays at 07:30. Sign up via the wellness Slack.",
+    "ts": "1776000600.693168",
+    "reactions": [
+      {
+        "name": "raised_hands",
+        "users": [
+          "U009",
+          "U005"
+        ],
+        "count": 2
+      }
+    ]
+  },
+  {
+    "type": "message",
+    "user": "U017",
+    "text": "Quiet reminder, the wellness room is for wellness, not Zoom calls. <@U006> I'm looking at you.",
+    "ts": "1776001200.536995",
+    "reactions": [
+      {
+        "name": "eyes",
+        "users": [
+          "U015",
+          "U019",
+          "U005"
+        ],
+        "count": 3
+      },
+      {
+        "name": "joy",
+        "users": [
+          "U014",
+          "U009"
+        ],
+        "count": 2
+      }
+    ]
+  },
+  {
+    "type": "message",
+    "user": "U006",
+    "text": "it was one call",
+    "ts": "1776001700.301117",
+    "thread_ts": "1776001200.536995",
+    "parent_user_id": "U017"
+  },
+  {
+    "type": "message",
+    "user": "U017",
+    "text": "it was three <@U006>",
+    "ts": "1776002000.046020",
+    "thread_ts": "1776001200.536995",
+    "parent_user_id": "U017",
+    "reactions": [
+      {
+        "name": "joy",
+        "users": [
+          "U006",
+          "U015",
+          "U019"
+        ],
+        "count": 3
+      }
+    ]
+  },
+  {
+    "type": "message",
+    "user": "U015",
+    "text": "Yoga sign up at capacity again. Adding a second Thursday slot at 17:30 if there's interest. Vote in thread.",
+    "ts": "1776002400.820169"
+  },
+  {
+    "type": "message",
+    "user": "U009",
+    "text": "yes please 🙏",
+    "ts": "1776002900.209208",
+    "thread_ts": "1776002400.820169",
+    "parent_user_id": "U015"
+  },
+  {
+    "type": "message",
+    "user": "U005",
+    "text": "+1",
+    "ts": "1776003400.018832",
+    "thread_ts": "1776002400.820169",
+    "parent_user_id": "U015"
+  },
+  {
+    "type": "message",
+    "user": "U002",
+    "text": "in if it's after 5",
+    "ts": "1776003900.086632",
+    "thread_ts": "1776002400.820169",
+    "parent_user_id": "U015",
+    "reactions": [
+      {
+        "name": "raised_hands",
+        "users": [
+          "U015"
+        ],
+        "count": 1
+      }
+    ]
+  },
+  {
+    "type": "message",
+    "user": "U019",
+    "text": "Office plant rotation: taking suggestions through Wednesday. The fiddle leaf is on its last legs.",
+    "ts": "1776007800.298268"
+  },
+  {
+    "type": "message",
+    "user": "U005",
+    "text": "RIP fiddle leaf",
+    "ts": "1776008300.675361",
+    "thread_ts": "1776007800.298268",
+    "parent_user_id": "U019"
+  }
+]

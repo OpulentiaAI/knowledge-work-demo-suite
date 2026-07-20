@@ -1,0 +1,151 @@
+[
+  {
+    "type": "message",
+    "user": "U019",
+    "text": "May birthdays! Hugh P. (3rd), Theo L. (8th), Naomi F. (14th), Iris B. (22nd), Susanne B. (29th). The cake situation continues.",
+    "ts": "1777550400.533887",
+    "reactions": [
+      {
+        "name": "tada",
+        "users": [
+          "U017",
+          "U005",
+          "U016",
+          "U014"
+        ],
+        "count": 4
+      },
+      {
+        "name": "cake",
+        "users": [
+          "U001",
+          "U006",
+          "U007"
+        ],
+        "count": 3
+      }
+    ]
+  },
+  {
+    "type": "message",
+    "user": "U006",
+    "text": "the 8th, noted, I accept all cake",
+    "ts": "1777550900.565928",
+    "thread_ts": "1777550400.533887",
+    "parent_user_id": "U019",
+    "reactions": [
+      {
+        "name": "joy",
+        "users": [
+          "U005",
+          "U019",
+          "U017"
+        ],
+        "count": 3
+      }
+    ]
+  },
+  {
+    "type": "message",
+    "user": "U007",
+    "text": "the 22nd is a good day, I've decided",
+    "ts": "1777551400.271703",
+    "thread_ts": "1777550400.533887",
+    "parent_user_id": "U019"
+  },
+  {
+    "type": "message",
+    "user": "U014",
+    "text": "Anniversaries this month: Anika 8 years, Renata 5 years, Hugh 11 years. Cake again. (Yes, another cake.)",
+    "ts": "1777552200.965865",
+    "reactions": [
+      {
+        "name": "cake",
+        "users": [
+          "U017",
+          "U015",
+          "U019",
+          "U016"
+        ],
+        "count": 4
+      },
+      {
+        "name": "tada",
+        "users": [
+          "U010",
+          "U005"
+        ],
+        "count": 2
+      }
+    ]
+  },
+  {
+    "type": "message",
+    "user": "U017",
+    "text": "Mateo's last day is 22 May, moving back to Toronto. Card going round next week.",
+    "ts": "1777554000.031271",
+    "reactions": [
+      {
+        "name": "heart",
+        "users": [
+          "U019",
+          "U014",
+          "U005",
+          "U016"
+        ],
+        "count": 4
+      }
+    ]
+  },
+  {
+    "type": "message",
+    "user": "U005",
+    "text": "gutted",
+    "ts": "1777554500.359024",
+    "thread_ts": "1777554000.031271",
+    "parent_user_id": "U017"
+  },
+  {
+    "type": "message",
+    "user": "U019",
+    "text": "Office plant rotation: the fiddle leaf is retiring. Replacement suggestions welcome (no more succulents).",
+    "ts": "1777572000.948407"
+  },
+  {
+    "type": "message",
+    "user": "U005",
+    "text": "a nice big monstera",
+    "ts": "1777572500.306087",
+    "thread_ts": "1777572000.948407",
+    "parent_user_id": "U019",
+    "reactions": [
+      {
+        "name": "100",
+        "users": [
+          "U019",
+          "U017"
+        ],
+        "count": 2
+      }
+    ]
+  },
+  {
+    "type": "message",
+    "user": "U014",
+    "text": "Anniversary celebrations Friday: a bigger than usual cake. Yes, of course, another cake.",
+    "ts": "1777573800.551747",
+    "reactions": [
+      {
+        "name": "cake",
+        "users": [
+          "U019",
+          "U017",
+          "U005",
+          "U016",
+          "U006"
+        ],
+        "count": 5
+      }
+    ]
+  }
+]

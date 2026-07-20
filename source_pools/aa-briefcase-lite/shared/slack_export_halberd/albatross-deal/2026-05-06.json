@@ -1,0 +1,122 @@
+[
+  {
+    "type": "message",
+    "user": "U008",
+    "text": "[Marcus jumping in late, sorry] - caught up on the deal. Two-year capex program on a colony-to-barn build at that flock scale, with end-2027 retailer deadline? That's tight. Pressure-test the bridge to 2027 - specifically: how much capex is committed vs aspirational, are planning consents lodged, and what's the DOC supply lead time look like.",
+    "ts": "1778069493.666516"
+  },
+  {
+    "type": "message",
+    "user": "U002",
+    "text": ":exactly: ask Calthorpe in Part 2.",
+    "ts": "1778069534.134546"
+  },
+  {
+    "type": "message",
+    "user": "U007",
+    "text": "Will queue it.",
+    "ts": "1778069581.921235"
+  },
+  {
+    "type": "message",
+    "user": "U006",
+    "text": "Bottom-up vs top-down - provisional. Pop × per-capita × wholesale × retail uplift gives me ~NZ$455M retail. Insider's flock numbers from Part 1 (multiplied through) gives me about NZ$540M. Gap is ~19%. Reconcile in Part 3?",
+    "ts": "1778074942.245943"
+  },
+  {
+    "type": "message",
+    "user": "U002",
+    "text": "Yes, ask Calthorpe directly which method he thinks is closer to producer reality. My guess is bottom-up captures industrial / own-use / institutional that the top-down via retail price misses. Don't normalize the gap - surface it.",
+    "ts": "1778074985.465417"
+  },
+  {
+    "type": "message",
+    "user": "U002",
+    "text": "One more for the deck: profit pool framework. Show where margin sits today across producer / grader / distributor / retailer tiers, and whether Aurora is already integrated across multiple tiers or is a single-tier producer. Material for the platform thesis.",
+    "ts": "1778079900.087239"
+  },
+  {
+    "type": "message",
+    "user": "U005",
+    "text": "Comp set update: Cal-Maine, AU/NZ poultry adjacency, Navis/Zeagold precedent. Adding Vital Farms to the list?",
+    "ts": "1778080694.349222"
+  },
+  {
+    "type": "message",
+    "user": "U002",
+    "text": "Skip Vital Farms - too small, too premium, distorts the picture. Cal-Maine + adjacency + Navis/Zeagold precedent. Three is enough.",
+    "ts": "1778080741.514402"
+  },
+  {
+    "type": "message",
+    "user": "U005",
+    "text": "Got it.",
+    "ts": "1778080762.118173"
+  },
+  {
+    "type": "message",
+    "user": "U009",
+    "text": "[Priya, late to the channel] - on the channel mix question. NZCC retail grocery study and USDA NZ retail foods both treat foodservice separately from industrial. Aurora at ~70% retail is consistent with NZ market structure overall. Top-3 retailer concentration is the question to push hard on.",
+    "ts": "1778088129.957147"
+  },
+  {
+    "type": "message",
+    "user": "U002",
+    "text": "+1 - that's confirmatory-DD priority #1.",
+    "ts": "1778088191.774753"
+  },
+  {
+    "type": "message",
+    "user": "U009",
+    "text": "Daniel - +1 to Marcus's note in general last week. Don't come to the OP review with two cost-outs and five top-line ideas. Equal weighting on the opportunities pages, please - same number of sized levers each side, sized to the same standard.",
+    "ts": "1778095200.586707"
+  },
+  {
+    "type": "message",
+    "user": "U003",
+    "text": "Got it - Maya is structuring both sides symmetrically.",
+    "ts": "1778095380.002185"
+  },
+  {
+    "type": "message",
+    "user": "U003",
+    "text": "Quick reminder - no recommendation language on any deliverable. We're surfacing findings + risks + open questions for the IC. Hugh has already turned a deck off mid-presentation this quarter for drifting into pitch mode.",
+    "ts": "1778097242.930367"
+  },
+  {
+    "type": "message",
+    "user": "U005",
+    "text": "Noted.",
+    "ts": "1778097278.443090"
+  },
+  {
+    "type": "message",
+    "user": "U006",
+    "text": "Same.",
+    "ts": "1778097291.920823"
+  },
+  {
+    "type": "message",
+    "user": "U003",
+    "text": "And Aurora is additive to the public producer roster - don't make Mainland's numbers smaller to fit Aurora in. Mainland is what Mainland is.",
+    "ts": "1778097314.752669"
+  },
+  {
+    "type": "message",
+    "user": "U003",
+    "text": "Maya - one more on the comps chain. Remember the colony-exposure haircut on top of the scale + private chain. 40% colony exposure isn't a small adjustment - it's the deal-defining structural risk and the standards 1.1 risk-specific haircut step is sized for exactly that kind of category-specific exposure. Don't let it get absorbed into the private discount.",
+    "ts": "1778099428.256870"
+  },
+  {
+    "type": "message",
+    "user": "U005",
+    "text": "Yep - keeping it as a discrete step after the private discount.",
+    "ts": "1778099501.693343"
+  },
+  {
+    "type": "message",
+    "user": "U007",
+    "text": "Subtitles for the briefing video - Hugh's IC-policy is verbatim, so don't paraphrase or summarize. Whatever the audio says, that's what the .srt says, with correct timestamps.",
+    "ts": "1778101334.634922"
+  }
+]

@@ -1,0 +1,16 @@
+{
+  "id": "006-harvey-real-estate-psa",
+  "title": "Extract Key Terms from Commercial Property Purchase and Sale Agreement",
+  "domain": "legal-real-estate",
+  "work_type": "analyze",
+  "dataset": "Harvey Legal Agent Benchmark",
+  "upstream_id": "real-estate/extract-psa-key-terms/scenario-01",
+  "upstream_url": "https://github.com/OpulentiaAI/harvey-labs/tree/main/tasks/real-estate/extract-psa-key-terms/scenario-01",
+  "license": "MIT",
+  "prompt": "prompt.md",
+  "source_docs": "source_docs",
+  "deliverables": [
+    "psa-term-sheet.docx"
+  ],
+  "rubric": "rubric.json"
+}

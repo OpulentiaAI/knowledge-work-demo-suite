@@ -1,0 +1,117 @@
+[
+  {
+    "type": "message",
+    "user": "U019",
+    "text": "Friday cake in the 7th floor kitchen at 15:30 for April birthdays. Daniel and Maya are dialling in, I'll get them on the screen.",
+    "ts": "1775307600.236756"
+  },
+  {
+    "type": "message",
+    "user": "U019",
+    "text": "Friday cake is the lemon polenta. Lara ran a poll. I voted carrot. Democracy.",
+    "ts": "1775307900.555588",
+    "reactions": [
+      {
+        "name": "cake",
+        "users": [
+          "U017",
+          "U015"
+        ],
+        "count": 2
+      },
+      {
+        "name": "joy",
+        "users": [
+          "U014",
+          "U016",
+          "U005"
+        ],
+        "count": 3
+      }
+    ]
+  },
+  {
+    "type": "message",
+    "user": "U017",
+    "text": "carrot was robbed",
+    "ts": "1775308000.995333",
+    "thread_ts": "1775307900.555588",
+    "parent_user_id": "U019"
+  },
+  {
+    "type": "message",
+    "user": "U005",
+    "text": "lemon polenta is elite, sorry <@U019>",
+    "ts": "1775308100.982758",
+    "thread_ts": "1775307900.555588",
+    "parent_user_id": "U019",
+    "reactions": [
+      {
+        "name": "100",
+        "users": [
+          "U014"
+        ],
+        "count": 1
+      }
+    ]
+  },
+  {
+    "type": "message",
+    "user": "U016",
+    "text": "Halberd 5K team for the Brooklyn Half, sign up by 15 April for the official roster. Small training group runs mornings out of the office.",
+    "ts": "1775308260.693966"
+  },
+  {
+    "type": "message",
+    "user": "U015",
+    "text": "Pickleball floated for the next offsite. Putting it on the survey.",
+    "ts": "1775311200.521780",
+    "reactions": [
+      {
+        "name": "eyes",
+        "users": [
+          "U006",
+          "U009"
+        ],
+        "count": 2
+      }
+    ]
+  },
+  {
+    "type": "message",
+    "user": "U009",
+    "text": "finally",
+    "ts": "1775311700.946559",
+    "thread_ts": "1775311200.521780",
+    "parent_user_id": "U015"
+  },
+  {
+    "type": "message",
+    "user": "U017",
+    "text": "New starter buddy program needs volunteers. 30 min a month. DM me.",
+    "ts": "1775316600.895494"
+  },
+  {
+    "type": "message",
+    "user": "U005",
+    "text": "happy to take one",
+    "ts": "1775317100.018334",
+    "thread_ts": "1775316600.895494",
+    "parent_user_id": "U017",
+    "reactions": [
+      {
+        "name": "raised_hands",
+        "users": [
+          "U017"
+        ],
+        "count": 1
+      }
+    ]
+  },
+  {
+    "type": "message",
+    "user": "U017",
+    "text": "Charity drive: please update your Benevity profile before the match window. Old roles still tagged for some folks.",
+    "ts": "1775324700.976422"
+  }
+]

@@ -1,0 +1,87 @@
+[
+  {
+    "type": "message",
+    "user": "U014",
+    "text": "AOB items received for the all-hands so far: cap intro speeches, the Brooklyn Half t-shirt vote, and (somehow) the kombucha decision. Please send anything substantive.",
+    "ts": "1775306700.522731"
+  },
+  {
+    "type": "message",
+    "user": "U015",
+    "text": "Phishing sim breakdown by team is in your manager's dashboard. Capital Markets won, Operating Partners came last by a noticeable margin. Make of that what you will.",
+    "ts": "1775311500.007371",
+    "reactions": [
+      {
+        "name": "joy",
+        "users": [
+          "U014",
+          "U016",
+          "U017"
+        ],
+        "count": 3
+      }
+    ]
+  },
+  {
+    "type": "message",
+    "user": "U015",
+    "text": "IT note: phishing simulation results from Q1 are out. 4% click-through, our best quarter to date. The 4% know who they are; please complete the targeted refresher.",
+    "ts": "1775312622.317564",
+    "reactions": [
+      {
+        "count": 3,
+        "name": "fire",
+        "users": [
+          "U001",
+          "U017",
+          "U014"
+        ]
+      },
+      {
+        "count": 1,
+        "name": "100",
+        "users": [
+          "U018"
+        ]
+      }
+    ]
+  },
+  {
+    "type": "message",
+    "user": "U014",
+    "text": "Halberd in the press today: Pensions & Investments quoted Hugh on mid-market consolidation. Comms will circulate the clipping.",
+    "ts": "1775318400.618025",
+    "reactions": [
+      {
+        "count": 2,
+        "name": "raised_hands",
+        "users": [
+          "U016",
+          "U001"
+        ]
+      }
+    ]
+  },
+  {
+    "type": "message",
+    "user": "U008",
+    "text": "Noted. The OP team will redeem itself next quarter.",
+    "ts": "1775320200.358710",
+    "thread_ts": "1775311500.007371",
+    "parent_user_id": "U015"
+  },
+  {
+    "type": "message",
+    "user": "U015",
+    "text": "I'll hold you to it.",
+    "ts": "1775321100.312439",
+    "thread_ts": "1775311500.007371",
+    "parent_user_id": "U015"
+  },
+  {
+    "type": "message",
+    "user": "U010",
+    "text": "Compliance: new joiners since 1 Jan should have completed the AML refresher. I'll send chasers Monday.",
+    "ts": "1775322000.783176"
+  }
+]

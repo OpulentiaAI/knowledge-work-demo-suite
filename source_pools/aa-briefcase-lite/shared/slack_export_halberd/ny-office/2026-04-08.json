@@ -1,0 +1,120 @@
+[
+  {
+    "type": "message",
+    "user": "U019",
+    "text": "Quarterly desk health and safety check next week. Please clear cables.",
+    "ts": "1775647800.163738",
+    "reactions": [
+      {
+        "count": 2,
+        "name": "+1",
+        "users": [
+          "U015",
+          "U017"
+        ]
+      }
+    ]
+  },
+  {
+    "type": "message",
+    "user": "U019",
+    "text": "Bike storage moved to the lower ground level behind the loading dock. Use your building badge to access.",
+    "ts": "1775651400.069223"
+  },
+  {
+    "type": "message",
+    "user": "U018",
+    "text": "Building access: badges unused for 30 days get auto deactivated. Three people locked out this week already.",
+    "ts": "1775655000.142256",
+    "reactions": [
+      {
+        "count": 3,
+        "name": "eyes",
+        "users": [
+          "U019",
+          "U014",
+          "U016"
+        ]
+      }
+    ]
+  },
+  {
+    "type": "message",
+    "user": "U014",
+    "text": "Can we shorten that window? 30 days is rough for anyone on a long deal trip.",
+    "ts": "1775656800.078998",
+    "thread_ts": "1775655000.142256",
+    "parent_user_id": "U018"
+  },
+  {
+    "type": "message",
+    "user": "U018",
+    "text": "Building sets it, not us. I can pre approve known travel though. Send me dates.",
+    "ts": "1775658600.022749",
+    "thread_ts": "1775655000.142256",
+    "parent_user_id": "U018"
+  },
+  {
+    "type": "message",
+    "user": "U014",
+    "text": "Will do, thanks.",
+    "ts": "1775659500.986111",
+    "thread_ts": "1775655000.142256",
+    "parent_user_id": "U018"
+  },
+  {
+    "type": "message",
+    "user": "U019",
+    "text": "Boardroom 1 conflicts on Wednesday. If you've held it for back to backs all afternoon, please release the slots you're not using.",
+    "ts": "1775660400.194787"
+  },
+  {
+    "type": "message",
+    "user": "U016",
+    "text": "released mine",
+    "ts": "1775661300.426599",
+    "thread_ts": "1775660400.194787",
+    "parent_user_id": "U019",
+    "reactions": [
+      {
+        "count": 1,
+        "name": "white_check_mark",
+        "users": [
+          "U019"
+        ]
+      }
+    ]
+  },
+  {
+    "type": "message",
+    "user": "U015",
+    "text": "Reminder: laptop stickers are fine, laptop modifications are not. The leasing co will charge us.",
+    "ts": "1775667600.509839",
+    "reactions": [
+      {
+        "count": 3,
+        "name": "joy",
+        "users": [
+          "U016",
+          "U017",
+          "U014"
+        ]
+      }
+    ]
+  },
+  {
+    "type": "message",
+    "user": "U017",
+    "text": "rip the custom feet",
+    "ts": "1775669400.255582",
+    "reactions": [
+      {
+        "count": 1,
+        "name": "sweat_smile",
+        "users": [
+          "U015"
+        ]
+      }
+    ]
+  }
+]

@@ -1,0 +1,101 @@
+[
+  {
+    "type": "message",
+    "user": "U019",
+    "text": "Half day Friday, cleaning crew shifted to 14:00. Office should be quiet by then anyway.",
+    "ts": "1777633200.366821"
+  },
+  {
+    "type": "message",
+    "user": "U019",
+    "text": "Coffee machine update: new beans rotation starts today. The third button is now Ethiopian.",
+    "ts": "1777635900.046600",
+    "reactions": [
+      {
+        "count": 4,
+        "name": "coffee",
+        "users": [
+          "U015",
+          "U017",
+          "U014",
+          "U001"
+        ]
+      }
+    ]
+  },
+  {
+    "type": "message",
+    "user": "U017",
+    "text": "Finally. The medium roast was unforgiving.",
+    "ts": "1777644000.780047",
+    "thread_ts": "1777635900.046600",
+    "parent_user_id": "U019",
+    "reactions": [
+      {
+        "count": 4,
+        "name": "coffee",
+        "users": [
+          "U015",
+          "U019",
+          "U014",
+          "U001"
+        ]
+      },
+      {
+        "count": 1,
+        "name": "100",
+        "users": [
+          "U016"
+        ]
+      }
+    ]
+  },
+  {
+    "type": "message",
+    "user": "U015",
+    "text": "much better",
+    "ts": "1777644900.425457",
+    "thread_ts": "1777635900.046600",
+    "parent_user_id": "U019"
+  },
+  {
+    "type": "message",
+    "user": "U015",
+    "text": "Office WiFi has been excellent this quarter. Whatever Ola did, please keep doing it.",
+    "ts": "1777647600.573327",
+    "reactions": [
+      {
+        "count": 2,
+        "name": "raised_hands",
+        "users": [
+          "U018",
+          "U016"
+        ]
+      },
+      {
+        "count": 1,
+        "name": "fire",
+        "users": [
+          "U017"
+        ]
+      }
+    ]
+  },
+  {
+    "type": "message",
+    "user": "U018",
+    "text": "appreciated",
+    "ts": "1777649400.693933",
+    "thread_ts": "1777647600.573327",
+    "parent_user_id": "U015",
+    "reactions": [
+      {
+        "count": 1,
+        "name": "pray",
+        "users": [
+          "U015"
+        ]
+      }
+    ]
+  }
+]

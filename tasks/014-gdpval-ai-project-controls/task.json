@@ -1,0 +1,18 @@
+{
+  "id": "014-gdpval-ai-project-controls",
+  "title": "Project Management Specialists: Project Management",
+  "domain": "project-management",
+  "work_type": "professional-deliverable",
+  "sector": "Professional, Scientific, and Technical Services",
+  "occupation": "Project Management Specialists",
+  "dataset": "OpenAI GDPval",
+  "upstream_id": "3c19c6d1-672c-467a-8437-6fe21afb8eae",
+  "upstream_url": "https://huggingface.co/datasets/openai/gdpval?row=3c19c6d1-672c-467a-8437-6fe21afb8eae",
+  "license": "Upstream terms apply; no standardized license declared in dataset card",
+  "prompt": "prompt.md",
+  "source_docs": "source_docs",
+  "deliverables": [
+    "OUTPUT 1 BridgeMind AI POC project Common Ground Bikes POC Monthly report FINAL.pptx"
+  ],
+  "rubric": "rubric.json"
+}

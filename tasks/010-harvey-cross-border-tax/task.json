@@ -1,0 +1,18 @@
+{
+  "id": "010-harvey-cross-border-tax",
+  "title": "Cross-Border Acquisition Tax Structure Memo",
+  "domain": "legal-tax",
+  "work_type": "draft",
+  "dataset": "Harvey Legal Agent Benchmark",
+  "upstream_id": "tax/draft-cross-border-acquisition-tax-memo",
+  "upstream_url": "https://github.com/OpulentiaAI/harvey-labs/tree/main/tasks/tax/draft-cross-border-acquisition-tax-memo",
+  "license": "MIT",
+  "prompt": "prompt.md",
+  "source_docs": "source_docs",
+  "deliverables": [
+    "tax-structure-memo.docx",
+    "tax-cost-model.xlsx",
+    "action-item-tracker.xlsx"
+  ],
+  "rubric": "rubric.json"
+}

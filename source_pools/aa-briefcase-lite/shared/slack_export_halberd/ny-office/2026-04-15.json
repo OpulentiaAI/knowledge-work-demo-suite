@@ -1,0 +1,117 @@
+[
+  {
+    "type": "message",
+    "user": "U019",
+    "text": "Drill day procedure: do NOT bring laptops out. We've had three drops in the stairwell already this year.",
+    "ts": "1776258000.352183",
+    "reactions": [
+      {
+        "count": 3,
+        "name": "eyes",
+        "users": [
+          "U015",
+          "U017",
+          "U016"
+        ]
+      }
+    ]
+  },
+  {
+    "type": "message",
+    "user": "U001",
+    "text": "Drills aside, the building is in great shape this quarter. Pass that to the building manager.",
+    "ts": "1776270600.355690",
+    "reactions": [
+      {
+        "count": 2,
+        "name": "raised_hands",
+        "users": [
+          "U019",
+          "U014"
+        ]
+      }
+    ]
+  },
+  {
+    "type": "message",
+    "user": "U019",
+    "text": "Drill complete. Best evacuation time on record, thank you. The 12th floor team beat the partners by 90 seconds, again.",
+    "ts": "1776276120.085922",
+    "reactions": [
+      {
+        "count": 4,
+        "name": "tada",
+        "users": [
+          "U014",
+          "U016",
+          "U017",
+          "U001"
+        ]
+      },
+      {
+        "count": 1,
+        "name": "joy",
+        "users": [
+          "U015"
+        ]
+      }
+    ]
+  },
+  {
+    "type": "message",
+    "user": "U001",
+    "text": "Was it actually 90 seconds? Asking for a friend.",
+    "ts": "1776277020.233465",
+    "thread_ts": "1776276120.085922",
+    "parent_user_id": "U019",
+    "reactions": [
+      {
+        "count": 3,
+        "name": "joy",
+        "users": [
+          "U019",
+          "U014",
+          "U016"
+        ]
+      }
+    ]
+  },
+  {
+    "type": "message",
+    "user": "U019",
+    "text": "Building manager says 87 seconds. Either way.",
+    "ts": "1776277920.556491",
+    "thread_ts": "1776276120.085922",
+    "parent_user_id": "U019"
+  },
+  {
+    "type": "message",
+    "user": "U001",
+    "text": "I'll take it.",
+    "ts": "1776278820.254433",
+    "thread_ts": "1776276120.085922",
+    "parent_user_id": "U019"
+  },
+  {
+    "type": "message",
+    "user": "U019",
+    "text": "Lobby art rotation tomorrow, some big pieces coming in. Please don't comment on them within earshot of the artist's rep.",
+    "ts": "1776281400.432919"
+  },
+  {
+    "type": "message",
+    "user": "U016",
+    "text": "noted, lips sealed",
+    "ts": "1776283200.047880",
+    "reactions": [
+      {
+        "count": 2,
+        "name": "zipper_mouth_face",
+        "users": [
+          "U019",
+          "U017"
+        ]
+      }
+    ]
+  }
+]

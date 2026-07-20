@@ -1,0 +1,99 @@
+[
+  {
+    "type": "message",
+    "user": "U014",
+    "text": "Mateo S., happy birthday for next week. We have cake. We always have cake.",
+    "ts": "1775223000.623970",
+    "reactions": [
+      {
+        "name": "cake",
+        "users": [
+          "U019",
+          "U017",
+          "U005",
+          "U016"
+        ],
+        "count": 4
+      }
+    ]
+  },
+  {
+    "type": "message",
+    "user": "U015",
+    "text": "Any climbers? Few of us heading to Gunks Saturday. Day trip, intermediate routes, spare gear for one or two newcomers.",
+    "ts": "1775224800.787710"
+  },
+  {
+    "type": "message",
+    "user": "U009",
+    "text": "I'd come but my forearms are still recovering from last time",
+    "ts": "1775225300.806080",
+    "thread_ts": "1775224800.787710",
+    "parent_user_id": "U015"
+  },
+  {
+    "type": "message",
+    "user": "U015",
+    "text": "ha, fair",
+    "ts": "1775225800.625980",
+    "thread_ts": "1775224800.787710",
+    "parent_user_id": "U015"
+  },
+  {
+    "type": "message",
+    "user": "U014",
+    "text": "New hire intros, please welcome Min Ho (Capital Markets) and Yara Mendez (Talent), both starting Monday. Bios on the intranet.",
+    "ts": "1775226600.811781",
+    "reactions": [
+      {
+        "name": "wave",
+        "users": [
+          "U001",
+          "U017",
+          "U019",
+          "U015"
+        ],
+        "count": 4
+      },
+      {
+        "name": "tada",
+        "users": [
+          "U016",
+          "U010"
+        ],
+        "count": 2
+      }
+    ]
+  },
+  {
+    "type": "message",
+    "user": "U005",
+    "text": "welcome both!",
+    "ts": "1775227100.822596",
+    "thread_ts": "1775226600.811781",
+    "parent_user_id": "U014"
+  },
+  {
+    "type": "message",
+    "user": "U002",
+    "text": "welcome 👋",
+    "ts": "1775227600.617689",
+    "thread_ts": "1775226600.811781",
+    "parent_user_id": "U014"
+  },
+  {
+    "type": "message",
+    "user": "U019",
+    "text": "Wellness committee Friday confirmed. Lunch covered, six person cap, sign up by Thursday.",
+    "ts": "1775242800.605444",
+    "reactions": [
+      {
+        "name": "raised_hands",
+        "users": [
+          "U017"
+        ],
+        "count": 1
+      }
+    ]
+  }
+]

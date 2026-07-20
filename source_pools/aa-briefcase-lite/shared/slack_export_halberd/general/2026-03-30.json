@@ -1,0 +1,81 @@
+[
+  {
+    "type": "message",
+    "user": "U001",
+    "text": "Last week of Q1. Strong finish please. Q2 kickoff dial-ins are 09:00 ET on 1 April, calendars are out.",
+    "ts": "1774873800.001204",
+    "reactions": [
+      {
+        "count": 4,
+        "name": "fire",
+        "users": [
+          "U002",
+          "U005",
+          "U014",
+          "U017"
+        ]
+      },
+      {
+        "count": 1,
+        "name": "100",
+        "users": [
+          "U008"
+        ]
+      }
+    ]
+  },
+  {
+    "type": "message",
+    "user": "U014",
+    "text": "Kickoff invites resent this morning, check your calendars.",
+    "ts": "1774874640.588720",
+    "thread_ts": "1774873800.001204",
+    "parent_user_id": "U001"
+  },
+  {
+    "type": "message",
+    "user": "U002",
+    "text": "Consumer team is ready.",
+    "ts": "1774875120.663656",
+    "thread_ts": "1774873800.001204",
+    "parent_user_id": "U001"
+  },
+  {
+    "type": "message",
+    "user": "U016",
+    "text": "ESG quarterly newsletter draft will be pinned for review on 1 April. Sector partners, flag any portco quotes you want trimmed.",
+    "ts": "1774880100.265796"
+  },
+  {
+    "type": "message",
+    "user": "U014",
+    "text": "Q1 close housekeeping: corporate card statements and outstanding expenses must be coded by Friday. Treasury is strict on the quarter boundary.",
+    "ts": "1774885800.598914"
+  },
+  {
+    "type": "message",
+    "user": "U019",
+    "text": "New beans rotation in the kitchens from today. The vendor swears it is better. Feedback welcome.",
+    "ts": "1774895400.870906",
+    "reactions": [
+      {
+        "count": 5,
+        "name": "coffee",
+        "users": [
+          "U015",
+          "U005",
+          "U006",
+          "U017",
+          "U014"
+        ]
+      },
+      {
+        "count": 1,
+        "name": "thinking_face",
+        "users": [
+          "U018"
+        ]
+      }
+    ]
+  }
+]

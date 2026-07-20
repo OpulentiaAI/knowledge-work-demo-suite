@@ -1,0 +1,128 @@
+[
+  {
+    "type": "message",
+    "user": "U019",
+    "text": "HVAC maintenance tonight 23:00 to 03:00. Office will be warm by start of business tomorrow.",
+    "ts": "1775043000.314166"
+  },
+  {
+    "type": "message",
+    "user": "U018",
+    "text": "Network gear refresh tomorrow morning. WiFi may dip 06:00 to 07:00. Most of you won't notice.",
+    "ts": "1775043600.413580",
+    "reactions": [
+      {
+        "count": 2,
+        "name": "eyes",
+        "users": [
+          "U015",
+          "U019"
+        ]
+      }
+    ]
+  },
+  {
+    "type": "message",
+    "user": "U019",
+    "text": "Front desk cover. I'm out tomorrow afternoon, Niall has reception 13:00 to 17:00.",
+    "ts": "1775044200.483002"
+  },
+  {
+    "type": "message",
+    "user": "U017",
+    "text": "noted",
+    "ts": "1775045100.412034"
+  },
+  {
+    "type": "message",
+    "user": "U019",
+    "text": "Room booking note: if you book and don't show within 15 minutes, the room auto releases. Working as intended.",
+    "ts": "1775055600.215216",
+    "reactions": [
+      {
+        "count": 3,
+        "name": "+1",
+        "users": [
+          "U016",
+          "U014",
+          "U001"
+        ]
+      }
+    ]
+  },
+  {
+    "type": "message",
+    "user": "U016",
+    "text": "finally",
+    "ts": "1775056500.784457",
+    "reactions": [
+      {
+        "count": 2,
+        "name": "100",
+        "users": [
+          "U017",
+          "U015"
+        ]
+      }
+    ]
+  },
+  {
+    "type": "message",
+    "user": "U019",
+    "text": "Loading dock in use 09:00 to 11:00 tomorrow for a courier collection. If you're expecting a delivery, tell me so I can route it.",
+    "ts": "1775061000.227422"
+  },
+  {
+    "type": "message",
+    "user": "U015",
+    "text": "on it",
+    "ts": "1775061900.203604",
+    "thread_ts": "1775061000.227422",
+    "parent_user_id": "U019"
+  },
+  {
+    "type": "message",
+    "user": "U017",
+    "text": "Got a box coming from Staples, will flag the tracking.",
+    "ts": "1775062800.966782",
+    "thread_ts": "1775061000.227422",
+    "parent_user_id": "U019"
+  },
+  {
+    "type": "message",
+    "user": "U019",
+    "text": "Perfect, send it over.",
+    "ts": "1775063700.540533",
+    "thread_ts": "1775061000.227422",
+    "parent_user_id": "U019"
+  },
+  {
+    "type": "message",
+    "user": "U014",
+    "text": "Cleaners did a great job overnight. The conference room glass is finally streak free.",
+    "ts": "1775066400.773901",
+    "reactions": [
+      {
+        "count": 2,
+        "name": "sparkles",
+        "users": [
+          "U019",
+          "U001"
+        ]
+      },
+      {
+        "count": 1,
+        "name": "raised_hands",
+        "users": [
+          "U016"
+        ]
+      }
+    ]
+  },
+  {
+    "type": "message",
+    "user": "U015",
+    "text": "WiFi blip done early, all clear.",
+    "ts": "1775068200.142457"
+  }
+]

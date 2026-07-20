@@ -1,0 +1,88 @@
+[
+  {
+    "type": "message",
+    "user": "U015",
+    "text": "Three weeks in and Chip War has been the strongest pick this year. Let's keep the bar.",
+    "ts": "1776286800.694716",
+    "reactions": [
+      {
+        "name": "100",
+        "users": [
+          "U010",
+          "U016",
+          "U017"
+        ],
+        "count": 3
+      }
+    ]
+  },
+  {
+    "type": "message",
+    "user": "U015",
+    "text": "which chapter aged worst already? mine is the export control optimism in ch.17",
+    "ts": "1776292200.695043"
+  },
+  {
+    "type": "message",
+    "user": "U010",
+    "text": "ch.17, agreed",
+    "ts": "1776292800.602522",
+    "thread_ts": "1776292200.695043",
+    "parent_user_id": "U015"
+  },
+  {
+    "type": "message",
+    "user": "U016",
+    "text": "Done. Strong read. Discussion question for next week: what's the equivalent multi decade arc in our portfolio sectors?",
+    "ts": "1776294000.230338",
+    "reactions": [
+      {
+        "name": "thinking_face",
+        "users": [
+          "U017",
+          "U015",
+          "U010"
+        ],
+        "count": 3
+      }
+    ]
+  },
+  {
+    "type": "message",
+    "user": "U017",
+    "text": "good one, I'll seed the thread Friday. bring something to add please.",
+    "ts": "1776295800.334276",
+    "thread_ts": "1776294000.230338",
+    "parent_user_id": "U016"
+  },
+  {
+    "type": "message",
+    "user": "U015",
+    "text": "two decade arc for energy storage? or too narrow",
+    "ts": "1776296700.762079",
+    "thread_ts": "1776294000.230338",
+    "parent_user_id": "U016"
+  },
+  {
+    "type": "message",
+    "user": "U010",
+    "text": "The pharma R&D to blockbuster arc would be a good one. The latency from molecule to market mirrors the semis story (meant the post 2000 cohort, not the heyday).",
+    "ts": "1776297300.399330",
+    "thread_ts": "1776294000.230338",
+    "parent_user_id": "U016",
+    "edited": {
+      "user": "U010",
+      "ts": "1776298320.981144"
+    },
+    "reactions": [
+      {
+        "name": "sparkles",
+        "users": [
+          "U016",
+          "U017"
+        ],
+        "count": 2
+      }
+    ]
+  }
+]

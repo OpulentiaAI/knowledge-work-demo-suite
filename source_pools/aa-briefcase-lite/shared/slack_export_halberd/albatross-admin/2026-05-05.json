@@ -1,0 +1,122 @@
+[
+  {
+    "type": "message",
+    "user": "U006",
+    "text": "Got it, see you Thursday 0900.",
+    "ts": "1777984500.634332",
+    "thread_ts": "1777984271.378825",
+    "parent_user_id": "U019"
+  },
+  {
+    "type": "message",
+    "user": "U006",
+    "text": "Renata - could you book me a room separately Thursday morning for an interview I'm doing? Just need a small phone room for an hour.",
+    "ts": "1777984200.481243"
+  },
+  {
+    "type": "message",
+    "user": "U019",
+    "text": "Phone room 7B booked Thursday 0900-1000 ET. You're set.",
+    "ts": "1777984271.378825",
+    "reactions": [
+      {
+        "count": 1,
+        "name": "+1",
+        "users": [
+          "U006"
+        ]
+      }
+    ]
+  },
+  {
+    "type": "message",
+    "user": "U005",
+    "text": "Good call on the debrief slot. The four of us at 1500.",
+    "ts": "1777993500.752848",
+    "thread_ts": "1777993200.278396",
+    "parent_user_id": "U003"
+  },
+  {
+    "type": "message",
+    "user": "U003",
+    "text": "Renata - please add a 30-minute slot at the end of Friday's session for the team to debrief without Hugh and Vivian. Just the four of us.",
+    "ts": "1777993200.278396"
+  },
+  {
+    "type": "message",
+    "user": "U019",
+    "text": "Done. Friday 1500-1530 ET, same room. I'll let Hugh's EA know.",
+    "ts": "1777993260.880978",
+    "reactions": [
+      {
+        "count": 2,
+        "name": "+1",
+        "users": [
+          "U003",
+          "U005"
+        ]
+      }
+    ]
+  },
+  {
+    "type": "message",
+    "user": "U007",
+    "text": "Vintage column added to the Assumptions tab. Source plus date per input, no undated defaults.",
+    "ts": "1778011380.121119",
+    "thread_ts": "1778011200.450876",
+    "parent_user_id": "U007"
+  },
+  {
+    "type": "message",
+    "user": "U005",
+    "text": "Perfect, that'll make the pre-IC audit painless.",
+    "ts": "1778011440.495564",
+    "thread_ts": "1778011200.450876",
+    "parent_user_id": "U007"
+  },
+  {
+    "type": "message",
+    "user": "U007",
+    "text": "Theo - heads up, when you wire any of the Calthorpe figures into the Assumptions tab tag each input cell with both the file source and the interview date / part-N publication date. Same for the EPFNZ Marsden figures and anything off the RetailIQ scan-data export (use the date of pull there). Hugh has been firm on this in pre-IC reviews lately - every hardcoded input on the Assumptions tab needs both a named source and a vintage. The 'vintage TBC' / 'undated' flag is reserved for things we genuinely can't date, please don't use it as a default. Reviewer should be able to audit the vintage without opening the source.",
+    "ts": "1778011200.450876",
+    "reactions": [
+      {
+        "count": 2,
+        "name": "eyes",
+        "users": [
+          "U006",
+          "U005"
+        ]
+      },
+      {
+        "count": 1,
+        "name": "white_check_mark",
+        "users": [
+          "U006"
+        ]
+      }
+    ]
+  },
+  {
+    "type": "message",
+    "user": "U006",
+    "text": "Will do - adding a vintage column on the Assumptions tab so it's per-input alongside the source attribution. Cleaner than burying it in cell comments.",
+    "ts": "1778011320.689611",
+    "reactions": [
+      {
+        "count": 1,
+        "name": "raised_hands",
+        "users": [
+          "U007"
+        ]
+      },
+      {
+        "count": 1,
+        "name": "+1",
+        "users": [
+          "U005"
+        ]
+      }
+    ]
+  }
+]

@@ -1,0 +1,172 @@
+[
+  {
+    "type": "message",
+    "user": "U014",
+    "text": "AGM agenda v0.3 circulated to partners. Please send edits inline; track changes back to me by Friday.",
+    "ts": "1776848400.012063",
+    "reactions": [
+      {
+        "count": 3,
+        "name": "+1",
+        "users": [
+          "U001",
+          "U002",
+          "U016"
+        ]
+      },
+      {
+        "count": 1,
+        "name": "eyes",
+        "users": [
+          "U005"
+        ]
+      }
+    ]
+  },
+  {
+    "type": "message",
+    "user": "U002",
+    "text": "Edits back to you by Thursday.",
+    "ts": "1776853200.415909",
+    "thread_ts": "1776848400.012063",
+    "parent_user_id": "U014"
+  },
+  {
+    "type": "message",
+    "subtype": "tombstone",
+    "user": "U015",
+    "text": "This message was deleted.",
+    "ts": "1776855900.114789",
+    "hidden": true
+  },
+  {
+    "type": "message",
+    "user": "U017",
+    "text": "Buddy assignments for the summer intern cohort posted to the team channel. Six new buddies needed by 1 May.",
+    "ts": "1776862800.058891",
+    "reactions": [
+      {
+        "count": 3,
+        "name": "raised_hands",
+        "users": [
+          "U005",
+          "U006",
+          "U007"
+        ]
+      }
+    ]
+  },
+  {
+    "type": "message",
+    "user": "U018",
+    "text": "Repository maintenance confirmed for Sunday 03:00-05:00 ET. Document Cloud will be unavailable. Mobile app unaffected.",
+    "ts": "1776868200.889447"
+  },
+  {
+    "type": "message",
+    "user": "U001",
+    "text": "Firm-wide note, pinning this. Our Analytical Standards Guide is still on v3.8 from Q2 2024 - the v4.2 refresh has been sitting with IR for a couple of cycles and is overdue. Naomi and her team are flat out on the LP reporting window and the SASB update, so realistically republication is weeks away, not days. In the meantime, where my recent guidance in the deal-team channels has updated a directive that v3.8 covers, treat the Slack guidance as the current firm view and flag any conflict to your sector partner. We will repin the refreshed PDF the moment IR clears it.",
+    "ts": "1776869400.129451",
+    "pinned_to": [
+      "general"
+    ],
+    "reactions": [
+      {
+        "name": "+1",
+        "users": [
+          "U002",
+          "U003",
+          "U005",
+          "U008",
+          "U009"
+        ],
+        "count": 5
+      },
+      {
+        "name": "eyes",
+        "users": [
+          "U006",
+          "U007"
+        ],
+        "count": 2
+      },
+      {
+        "count": 2,
+        "name": "raised_hands",
+        "users": [
+          "U014",
+          "U016"
+        ]
+      },
+      {
+        "count": 1,
+        "name": "pray",
+        "users": [
+          "U017"
+        ]
+      }
+    ]
+  },
+  {
+    "type": "message",
+    "user": "U002",
+    "text": "Noted Hugh - C&A team will run with that.",
+    "ts": "1776870720.221699",
+    "thread_ts": "1776869400.129451",
+    "parent_user_id": "U001"
+  },
+  {
+    "type": "message",
+    "user": "U008",
+    "text": "Same on the Ops side, we'll defer to the channel guidance where it conflicts with v3.8.",
+    "ts": "1776877200.741515",
+    "thread_ts": "1776869400.129451",
+    "parent_user_id": "U001"
+  },
+  {
+    "type": "message",
+    "user": "U007",
+    "text": "Noted, thanks Hugh.",
+    "ts": "1776878280.119852",
+    "thread_ts": "1776869400.129451",
+    "parent_user_id": "U001"
+  },
+  {
+    "type": "message",
+    "user": "U016",
+    "text": "From IR: we're pushing hard to clear the refresh. Apologies for the lag.",
+    "ts": "1776883200.783632",
+    "thread_ts": "1776869400.129451",
+    "parent_user_id": "U001"
+  },
+  {
+    "type": "message",
+    "user": "U016",
+    "text": "ESG: the new Sustainability Accounting Standards Board update is relevant for our protein platforms. I'll circulate a summary Friday.",
+    "ts": "1776886200.653670",
+    "reactions": [
+      {
+        "count": 2,
+        "name": "+1",
+        "users": [
+          "U002",
+          "U005"
+        ]
+      }
+    ]
+  },
+  {
+    "type": "message",
+    "user": "U005",
+    "text": "Thanks for the notice.",
+    "ts": "1776890700.062674",
+    "thread_ts": "1776892200.740389",
+    "parent_user_id": "U018"
+  },
+  {
+    "type": "message",
+    "user": "U018",
+    "text": "Heads up: the IT team will be running a planned maintenance window on the document repository this Sunday 03:00-05:00 ET. Save your work.",
+    "ts": "1776892200.740389"
+  }
+]

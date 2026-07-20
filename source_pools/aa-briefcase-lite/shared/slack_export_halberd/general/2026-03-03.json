@@ -1,0 +1,37 @@
+[
+  {
+    "type": "message",
+    "user": "U010",
+    "text": "Personal trading attestation is now open. 72 hours to complete. The reminder bot will not be gentle.",
+    "ts": "1772547300.656526",
+    "reactions": [
+      {
+        "count": 3,
+        "name": "sweat_smile",
+        "users": [
+          "U006",
+          "U014",
+          "U017"
+        ]
+      }
+    ]
+  },
+  {
+    "type": "message",
+    "user": "U018",
+    "text": "FYI, we are rolling out conditional access on personal devices over the next two weeks. If your phone stops syncing mail, enroll it in MDM via the portal.",
+    "ts": "1772552400.604017"
+  },
+  {
+    "type": "message",
+    "user": "U017",
+    "text": "Talent: new joiner orientation moved to the first Monday of each month. Next session 2 March, sorry, 6 April.",
+    "ts": "1772555400.277764"
+  },
+  {
+    "type": "message",
+    "user": "U014",
+    "text": "Treasury reminder: February card statements close Friday.",
+    "ts": "1772571600.230652"
+  }
+]

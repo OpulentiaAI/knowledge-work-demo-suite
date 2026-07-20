@@ -1,0 +1,97 @@
+[
+  {
+    "type": "message",
+    "user": "U014",
+    "text": "Concur dropdowns expanded for hotel categories. Serviced apartment is finally an option. Some of you have been waiting six years.",
+    "ts": "1776859200.456707",
+    "reactions": [
+      {
+        "count": 2,
+        "name": "tada",
+        "users": [
+          "U016",
+          "U017"
+        ]
+      },
+      {
+        "count": 1,
+        "name": "joy",
+        "users": [
+          "U015"
+        ]
+      }
+    ]
+  },
+  {
+    "type": "message",
+    "user": "U014",
+    "text": "Egencia preferred airline list refreshed in April. Star Alliance bias for the moment. Read before booking.",
+    "ts": "1776864600.372908",
+    "reactions": [
+      {
+        "count": 1,
+        "name": "+1",
+        "users": [
+          "U016"
+        ]
+      }
+    ]
+  },
+  {
+    "type": "message",
+    "user": "U014",
+    "text": "London office: the Heathrow Express is reimbursable and faster than a black cab in peak. The expense policy isn't going to be the reason you're late to a meeting.",
+    "ts": "1776870900.022785"
+  },
+  {
+    "type": "message",
+    "user": "U001",
+    "text": "Heathrow Express. Always.",
+    "ts": "1776871800.949303",
+    "thread_ts": "1776870900.022785",
+    "parent_user_id": "U014",
+    "reactions": [
+      {
+        "count": 2,
+        "name": "train",
+        "users": [
+          "U015",
+          "U017"
+        ]
+      },
+      {
+        "count": 1,
+        "name": "100",
+        "users": [
+          "U016"
+        ]
+      }
+    ]
+  },
+  {
+    "type": "message",
+    "user": "U001",
+    "text": "The new Elizabeth Line is also reimbursable. Faster than the cab.",
+    "ts": "1776877200.275748",
+    "thread_ts": "1776870900.022785",
+    "parent_user_id": "U014",
+    "reactions": [
+      {
+        "count": 2,
+        "name": "+1",
+        "users": [
+          "U014",
+          "U015"
+        ]
+      }
+    ]
+  },
+  {
+    "type": "message",
+    "user": "U016",
+    "text": "Elizabeth Line is a game changer honestly",
+    "ts": "1776878100.511697",
+    "thread_ts": "1776870900.022785",
+    "parent_user_id": "U014"
+  }
+]

@@ -1,0 +1,88 @@
+[
+  {
+    "type": "message",
+    "user": "U019",
+    "text": "Coffee vendor rep is in tomorrow morning if you've got feedback on the new beans rotation. They want it.",
+    "ts": "1775818800.515782"
+  },
+  {
+    "type": "message",
+    "user": "U001",
+    "text": "LP AGM date set: 22-23 September, NY. Save the date.",
+    "ts": "1775822400.834785",
+    "reactions": [
+      {
+        "count": 3,
+        "name": "+1",
+        "users": [
+          "U014",
+          "U016",
+          "U002"
+        ]
+      },
+      {
+        "count": 1,
+        "name": "eyes",
+        "users": [
+          "U005"
+        ]
+      }
+    ]
+  },
+  {
+    "type": "message",
+    "user": "U014",
+    "text": "AGM logistics planning kicks off next week. <@U016> and I leading. Will reach out for sector breakouts.",
+    "ts": "1775823240.793653"
+  },
+  {
+    "type": "message",
+    "user": "U016",
+    "text": "ESG Stewardship Report 2025 is now published on the LP portal and on the public site. Big thanks to the deal teams for the case study contributions.",
+    "ts": "1775827020.480860",
+    "reactions": [
+      {
+        "count": 3,
+        "name": "raised_hands",
+        "users": [
+          "U001",
+          "U002",
+          "U005"
+        ]
+      },
+      {
+        "count": 1,
+        "name": "clap",
+        "users": [
+          "U014"
+        ]
+      }
+    ]
+  },
+  {
+    "type": "message",
+    "user": "U014",
+    "text": "AGM venue shortlist down to three, all in NY. Decision next week.",
+    "ts": "1775827800.502925"
+  },
+  {
+    "type": "message",
+    "user": "U018",
+    "text": "Quick note, if you're using personal email to forward anything work-related, please don't. The DLP system will catch it eventually.",
+    "ts": "1775842200.341395"
+  },
+  {
+    "type": "message",
+    "user": "U010",
+    "text": "Restricted list update will be late this Friday, data feed issue at the provider. Aim for Monday AM.",
+    "ts": "1775847600.098286"
+  },
+  {
+    "type": "message",
+    "user": "U016",
+    "text": "Adding to the ESG calendar now.",
+    "ts": "1775849400.209518",
+    "thread_ts": "1775822400.834785",
+    "parent_user_id": "U001"
+  }
+]

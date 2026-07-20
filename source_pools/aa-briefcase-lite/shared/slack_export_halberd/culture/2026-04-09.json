@@ -1,0 +1,123 @@
+[
+  {
+    "type": "message",
+    "user": "U016",
+    "text": "Brooklyn Half sign up closed today with 11 registered. Thanks for the showing.",
+    "ts": "1775737800.652564",
+    "reactions": [
+      {
+        "name": "tada",
+        "users": [
+          "U017",
+          "U014",
+          "U006"
+        ],
+        "count": 3
+      },
+      {
+        "name": "runner",
+        "users": [
+          "U015",
+          "U006"
+        ],
+        "count": 2
+      }
+    ]
+  },
+  {
+    "type": "message",
+    "user": "U015",
+    "text": "Yoga waitlist is at 12 again. Doing the new 17:30 Thursday slot for sure.",
+    "ts": "1775745000.355054"
+  },
+  {
+    "type": "message",
+    "user": "U009",
+    "text": "put me down for Thursday",
+    "ts": "1775745600.896979",
+    "thread_ts": "1775745000.355054",
+    "parent_user_id": "U015"
+  },
+  {
+    "type": "message",
+    "user": "U005",
+    "text": "same",
+    "ts": "1775746100.704387",
+    "thread_ts": "1775745000.355054",
+    "parent_user_id": "U015",
+    "reactions": [
+      {
+        "name": "raised_hands",
+        "users": [
+          "U015"
+        ],
+        "count": 1
+      }
+    ]
+  },
+  {
+    "type": "message",
+    "user": "U014",
+    "text": "Bring your kid to work day registrations open. Hugh has volunteered for the finance trivia round. Pity the children.",
+    "ts": "1775763000.074696",
+    "reactions": [
+      {
+        "name": "joy",
+        "users": [
+          "U017",
+          "U019",
+          "U005",
+          "U003",
+          "U016"
+        ],
+        "count": 5
+      }
+    ]
+  },
+  {
+    "type": "message",
+    "user": "U001",
+    "text": "the children will be fine. it's compound interest, not calculus",
+    "ts": "1775763500.705531",
+    "thread_ts": "1775763000.074696",
+    "parent_user_id": "U014",
+    "reactions": [
+      {
+        "name": "joy",
+        "users": [
+          "U014",
+          "U005",
+          "U019",
+          "U003"
+        ],
+        "count": 4
+      }
+    ]
+  },
+  {
+    "type": "message",
+    "user": "U005",
+    "text": "famous last words",
+    "ts": "1775764000.825023",
+    "thread_ts": "1775763000.074696",
+    "parent_user_id": "U014"
+  },
+  {
+    "type": "message",
+    "user": "U017",
+    "text": "Reminder: the firm matches charitable giving up to USD 5,000 per person per calendar year. Use the Benevity portal.",
+    "ts": "1775764800.165842"
+  },
+  {
+    "type": "message",
+    "user": "U017",
+    "text": "Just to clarify, the match is calendar year, not fiscal year. Reset 1 January.",
+    "ts": "1775768400.339164",
+    "thread_ts": "1775764800.165842",
+    "parent_user_id": "U017",
+    "edited": {
+      "user": "U017",
+      "ts": "1775769300.500109"
+    }
+  }
+]

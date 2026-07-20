@@ -1,0 +1,40 @@
+# Post-processing
+
+Post-processing includes a total of 6 core tasks. Each task and its responsible parties are as follows:
+
+## 1. Pollutant treatment
+**Core content**: Pollutants caused by accidents must not be discarded at will and should be properly collected. Pollutants and waste are handled in strict accordance with relevant laws and regulations, and environmental protection departments are requested to handle them when necessary.
+**Responsible entity**: Relevant emergency response teams cooperate with environmental protection departments (if necessary)
+
+## 2. Elimination of the consequences of accidents
+**Core content**: The main work includes cleaning up the accident site, including dismantling, repairing, and testing of damaged equipment. If you are unable to complete the task on your own, you should report it to the company leader, who will decide whether to seek help from an external professional team.
+**Responsible body**: Emergency rescue team
+
+## 3. Restoration of production order
+**Core content**: Production can only be resumed after the consequences of the accident have been eliminated, the cause of the accident has been identified and effective preventive measures have been taken, and permission has been obtained from the superior authority or the person in charge of the company.
+**Responsible entity**: person in charge of the company + approval by superior authorities
+
+## 4. Medical treatment
+**Core content**: Actively organize medical treatment for the injured; the company pays medical treatment expenses in a timely manner.
+**Responsible entity**: Medical rescue team, company administrative department
+
+## 5. Compensation for aftermath
+**Core content**: For employees who were injured in the accident, organize the aftermath, implement insurance claims, and provide certain compensation in accordance with legal provisions.
+**Responsible entity**: Engineering Department
+
+## 6. Emergency rescue assessment
+### Job content:
+1. **Minor injury accident**: The person in charge should submit written materials on the preliminary cause analysis of the accident, the accident process, and the accident rescue process to the company's accident investigation and handling team within 2 hours after the accident is handled; conduct inquiries and investigations with the relevant parties, and submit the records together.
+2. **General accidents and above**: The person in charge of the company must immediately report to the XX Emergency Management Bureau and actively cooperate with the investigation by the competent government departments.
+3. **Accident emergency response summary report**: After the emergency is over, the unit where the accident occurred is responsible for preparing it and reporting it to the engineering department. The summary report should include at least:
+   - Emergency response process;
+   - Various resources used in emergency response;
+   - Problems encountered, experiences gained and lessons learned during emergency response;
+   - Suggestions for modifications to emergency plans.
+4. **Comprehensive Assessment**: Based on the "Accident Emergency Response Summary Report", the company office organizes relevant departments involved in emergency work to conduct a comprehensive assessment of emergency rescue capabilities and other aspects, and is responsible for drafting the assessment report as a basis for revising the emergency plan.
+
+**Responsible body**:
+- Minor injury accident: person in charge of the accident → accident investigation and handling team
+- General accidents and above: Company leader → XX Emergency Management Bureau
+- Summary report: The unit where the accident occurred → Engineering Department
+- Assessment Report: Corporate Office

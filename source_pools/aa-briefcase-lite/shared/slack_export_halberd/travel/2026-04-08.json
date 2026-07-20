@@ -1,0 +1,68 @@
+[
+  {
+    "type": "message",
+    "user": "U014",
+    "text": "Hotel block for the Berkeley LP day: 12 May, 1 night, held at the Claremont. Drop in if you're attending.",
+    "ts": "1775649600.567363",
+    "reactions": [
+      {
+        "count": 1,
+        "name": "+1",
+        "users": [
+          "U016"
+        ]
+      }
+    ]
+  },
+  {
+    "type": "message",
+    "user": "U015",
+    "text": "AA Delta strike chatter at JFK Wednesday and Thursday next week. If you're on either carrier, build buffer. Egencia will let you reroute.",
+    "ts": "1775653200.799713"
+  },
+  {
+    "type": "message",
+    "user": "U014",
+    "text": "If you're booking trans Atlantic and have status with a oneworld carrier, the new AA IAG joint pricing usually beats the standalone fare.",
+    "ts": "1775658600.652745",
+    "reactions": [
+      {
+        "count": 2,
+        "name": "100",
+        "users": [
+          "U015",
+          "U017"
+        ]
+      }
+    ]
+  },
+  {
+    "type": "message",
+    "user": "U016",
+    "text": "good tip, booking LHR next week",
+    "ts": "1775660400.910760",
+    "thread_ts": "1775658600.652745",
+    "parent_user_id": "U014"
+  },
+  {
+    "type": "message",
+    "user": "U015",
+    "text": "Travel risk pack updates this week: Hong Kong, Lima, Mexico City. Read before booking.",
+    "ts": "1775667600.668097",
+    "reactions": [
+      {
+        "count": 1,
+        "name": "eyes",
+        "users": [
+          "U014"
+        ]
+      }
+    ]
+  },
+  {
+    "type": "message",
+    "user": "U014",
+    "text": "International travel pre approval lives in the Concur Trip Request workflow, not in email.",
+    "ts": "1775679600.012938"
+  }
+]

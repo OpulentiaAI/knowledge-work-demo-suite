@@ -1,0 +1,18 @@
+{
+  "id": "012-gdpval-materials-lab",
+  "title": "Mechanical Engineers: Mechanical Engineering",
+  "domain": "mechanical-engineering",
+  "work_type": "professional-deliverable",
+  "sector": "Manufacturing",
+  "occupation": "Mechanical Engineers",
+  "dataset": "OpenAI GDPval",
+  "upstream_id": "8077e700-2b31-402d-bd09-df4d33c39653",
+  "upstream_url": "https://huggingface.co/datasets/openai/gdpval?row=8077e700-2b31-402d-bd09-df4d33c39653",
+  "license": "Upstream terms apply; no standardized license declared in dataset card",
+  "prompt": "prompt.md",
+  "source_docs": "source_docs",
+  "deliverables": [
+    "Results Memo v2.pdf"
+  ],
+  "rubric": "rubric.json"
+}

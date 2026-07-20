@@ -1,0 +1,201 @@
+[
+  {
+    "id": "C0GEN001",
+    "name": "general",
+    "created": 1770039600,
+    "creator": "U001",
+    "is_archived": false,
+    "is_general": true,
+    "members": [
+      "U001",
+      "U002",
+      "U010",
+      "U014",
+      "U015",
+      "U016",
+      "U017",
+      "U018",
+      "U019"
+    ],
+    "topic": {
+      "value": "",
+      "creator": "",
+      "last_set": 0
+    },
+    "purpose": {
+      "value": "Firmwide announcements and admin from the partners and operations team. Read-only for IC channels; replies welcome here.",
+      "creator": "U001",
+      "last_set": 1775048531
+    }
+  },
+  {
+    "id": "C0CUL001",
+    "name": "culture",
+    "created": 1775044860,
+    "creator": "U001",
+    "is_archived": false,
+    "is_general": false,
+    "members": [
+      "U001",
+      "U002",
+      "U010",
+      "U014",
+      "U015",
+      "U016",
+      "U017",
+      "U018",
+      "U019"
+    ],
+    "topic": {
+      "value": "",
+      "creator": "",
+      "last_set": 0
+    },
+    "purpose": {
+      "value": "Office life, social events, birthdays, charity drives, book club, photo dump.",
+      "creator": "U001",
+      "last_set": 1775044860
+    }
+  },
+  {
+    "id": "C0NYO001",
+    "name": "ny-office",
+    "created": 1775043000,
+    "creator": "U001",
+    "is_archived": false,
+    "is_general": false,
+    "members": [
+      "U001",
+      "U002",
+      "U010",
+      "U014",
+      "U015",
+      "U016",
+      "U017",
+      "U018",
+      "U019"
+    ],
+    "topic": {
+      "value": "",
+      "creator": "",
+      "last_set": 0
+    },
+    "purpose": {
+      "value": "NY office logistics, building, vendors, weather closures.",
+      "creator": "U001",
+      "last_set": 1775043000
+    }
+  },
+  {
+    "id": "C0TRV001",
+    "name": "travel",
+    "created": 1775134800,
+    "creator": "U001",
+    "is_archived": false,
+    "is_general": false,
+    "members": [
+      "U001",
+      "U002",
+      "U010",
+      "U014",
+      "U015",
+      "U016",
+      "U017",
+      "U018",
+      "U019"
+    ],
+    "topic": {
+      "value": "",
+      "creator": "",
+      "last_set": 0
+    },
+    "purpose": {
+      "value": "Travel logistics, Egencia tips, hotel recommendations, T&E questions.",
+      "creator": "U001",
+      "last_set": 1775142000
+    }
+  },
+  {
+    "id": "C0BC001",
+    "name": "book-club",
+    "created": 1775136600,
+    "creator": "U001",
+    "is_archived": false,
+    "is_general": false,
+    "members": [
+      "U001",
+      "U002",
+      "U010",
+      "U014",
+      "U015",
+      "U016",
+      "U017",
+      "U018",
+      "U019"
+    ],
+    "topic": {
+      "value": "",
+      "creator": "",
+      "last_set": 0
+    },
+    "purpose": {
+      "value": "Halberd book club. Recommendations, discussion, scheduling.",
+      "creator": "U001",
+      "last_set": 1775138400
+    }
+  },
+  {
+    "id": "C0ALB001",
+    "name": "albatross-deal",
+    "created": 1777897934,
+    "creator": "U001",
+    "is_archived": false,
+    "is_general": false,
+    "members": [
+      "U001",
+      "U002",
+      "U003",
+      "U005",
+      "U006",
+      "U007",
+      "U008",
+      "U009"
+    ],
+    "topic": {
+      "value": "",
+      "creator": "",
+      "last_set": 0
+    },
+    "purpose": {
+      "value": "Project Albatross deal team \u2014 preliminary outside-in CDD on Aurora Eggs (NZ).",
+      "creator": "U001",
+      "last_set": 1777897934
+    }
+  },
+  {
+    "id": "C0ALB099",
+    "name": "albatross-admin",
+    "created": 1777898520,
+    "creator": "U003",
+    "is_archived": false,
+    "is_general": false,
+    "members": [
+      "U003",
+      "U005",
+      "U006",
+      "U007",
+      "U018",
+      "U019"
+    ],
+    "topic": {
+      "value": "",
+      "creator": "",
+      "last_set": 0
+    },
+    "purpose": {
+      "value": "Kickoff-week admin chatter - non-deal logistics for the Albatross deal team.",
+      "creator": "U003",
+      "last_set": 1777898520
+    }
+  }
+]

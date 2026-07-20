@@ -1,0 +1,80 @@
+[
+  {
+    "type": "message",
+    "user": "U001",
+    "text": "Reminder: business class on transcontinental US is not in policy regardless of how brutal Tuesday's weather makes the schedule. Take the meeting from a club.",
+    "ts": "1776254400.361132",
+    "reactions": [
+      {
+        "count": 2,
+        "name": "+1",
+        "users": [
+          "U014",
+          "U016"
+        ]
+      },
+      {
+        "count": 1,
+        "name": "pray",
+        "users": [
+          "U017"
+        ]
+      }
+    ]
+  },
+  {
+    "type": "message",
+    "user": "U015",
+    "text": "I will simply take notes from this thread.",
+    "ts": "1776256200.315909",
+    "thread_ts": "1776254400.361132",
+    "parent_user_id": "U001",
+    "reactions": [
+      {
+        "count": 2,
+        "name": "joy",
+        "users": [
+          "U014",
+          "U017"
+        ]
+      }
+    ]
+  },
+  {
+    "type": "message",
+    "subtype": "tombstone",
+    "user": "U015",
+    "text": "This message was deleted.",
+    "ts": "1776257100.651794",
+    "hidden": true,
+    "thread_ts": "1776254400.361132",
+    "parent_user_id": "U001"
+  },
+  {
+    "type": "message",
+    "user": "U014",
+    "text": "The entire travel team supports the policy. Quietly.",
+    "ts": "1776261600.511782",
+    "thread_ts": "1776254400.361132",
+    "parent_user_id": "U001",
+    "reactions": [
+      {
+        "count": 3,
+        "name": "joy",
+        "users": [
+          "U001",
+          "U015",
+          "U016"
+        ]
+      }
+    ]
+  },
+  {
+    "type": "message",
+    "user": "U014",
+    "text": "Confirming in writing: coach on transcon, the lounge is your friend.",
+    "ts": "1776263400.969617",
+    "thread_ts": "1776254400.361132",
+    "parent_user_id": "U001"
+  }
+]

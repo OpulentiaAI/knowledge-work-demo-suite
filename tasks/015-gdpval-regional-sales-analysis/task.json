@@ -1,0 +1,18 @@
+{
+  "id": "015-gdpval-regional-sales-analysis",
+  "title": "Sales Managers: Sales",
+  "domain": "sales",
+  "work_type": "professional-deliverable",
+  "sector": "Wholesale Trade",
+  "occupation": "Sales Managers",
+  "dataset": "OpenAI GDPval",
+  "upstream_id": "a69be28f-9a84-47c9-992e-b90446cdca9d",
+  "upstream_url": "https://huggingface.co/datasets/openai/gdpval?row=a69be28f-9a84-47c9-992e-b90446cdca9d",
+  "license": "Upstream terms apply; no standardized license declared in dataset card",
+  "prompt": "prompt.md",
+  "source_docs": "source_docs",
+  "deliverables": [
+    "Territory Fit Report DELIVERABLE FINAL.pdf"
+  ],
+  "rubric": "rubric.json"
+}

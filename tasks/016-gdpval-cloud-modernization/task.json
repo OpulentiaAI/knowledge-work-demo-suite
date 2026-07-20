@@ -1,0 +1,20 @@
+{
+  "id": "016-gdpval-cloud-modernization",
+  "title": "Computer and Information Systems Managers: Systems Architecture",
+  "domain": "systems-architecture",
+  "work_type": "professional-deliverable",
+  "sector": "Professional, Scientific, and Technical Services",
+  "occupation": "Computer and Information Systems Managers",
+  "dataset": "OpenAI GDPval",
+  "upstream_id": "a45bc83b-22f9-4def-8d89-9c5661b2b86f",
+  "upstream_url": "https://huggingface.co/datasets/openai/gdpval?row=a45bc83b-22f9-4def-8d89-9c5661b2b86f",
+  "license": "Upstream terms apply; no standardized license declared in dataset card",
+  "prompt": "prompt.md",
+  "source_docs": "source_docs",
+  "deliverables": [
+    "Proposed_Architecture.pdf",
+    "POC_Implementation_Guide.docx",
+    "Proposed Architecture Summary.docx"
+  ],
+  "rubric": "rubric.json"
+}

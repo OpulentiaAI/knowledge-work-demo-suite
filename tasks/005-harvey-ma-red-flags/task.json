@@ -1,0 +1,17 @@
+{
+  "id": "005-harvey-ma-red-flags",
+  "title": "Review Data Room for Acquisition Red Flags — M&A Due Diligence Memo",
+  "domain": "legal-ma-diligence",
+  "work_type": "review",
+  "dataset": "Harvey Legal Agent Benchmark",
+  "upstream_id": "corporate-ma/review-data-room-red-flag-review",
+  "upstream_url": "https://github.com/OpulentiaAI/harvey-labs/tree/main/tasks/corporate-ma/review-data-room-red-flag-review",
+  "license": "MIT",
+  "prompt": "prompt.md",
+  "source_docs": "source_docs",
+  "deliverables": [
+    "red-flag-memo.docx",
+    "red-flag-tracker.xlsx"
+  ],
+  "rubric": "rubric.json"
+}

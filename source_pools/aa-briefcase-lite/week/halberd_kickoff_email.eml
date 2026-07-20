@@ -1,0 +1,82 @@
+Delivered-To: deal-team-albatross@halberd.com
+Received: by mail-prv-eu-1.halberd.com with SMTP id 1c8da2;
+        Mon, 04 May 2026 08:31:14 -0400 (EDT)
+From: Daniel Reyes <daniel.reyes@halberd.com>
+To: deal-team-albatross@halberd.com
+Cc: Vivian Holst <vivian.holst@halberd.com>,
+    Marcus Vale <marcus.vale@halberd.com>,
+    Priya Iyer <priya.iyer@halberd.com>
+Subject: Project Albatross - kickoff and workstream allocation
+Date: Mon, 04 May 2026 08:31:12 -0400
+Message-ID: <CAH-kickoff.albatross.20260504@halberd.com>
+MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+
+Team,
+
+Kicking off Project Albatross today. This is a preliminary outside-in
+commercial DD on Aurora Eggs, the NZ shell-egg producer Vivian flagged a
+couple of weeks ago. The aim of this sprint is a preliminary view to take
+to senior partner Friday. Does this look like a deal we want to engage on
+further (request the CIM, sign NDA, move into confirmatory)? If yes,
+indicative bid follows the CIM read several weeks out, not now.
+
+A few things to be clear about up front:
+
+This is pre-LOI. We do not have a CIM, a polished bank presentation, or
+data-room access. What we have:
+
+  - Nicholas Chen's outreach email (forwarded around)
+  - Aurora's public-facing material (their website)
+  - Our internal deal-screening workbook, pipeline tracker entry
+  - Up to four expert relationships' worth of transcripts (Iris is locking
+    in the calls)
+  - Public industry sources we've gathered
+
+The four parallel workstreams. I want each of these completable independently
+from the deal materials, no waiting on each other. Senior partner sees all f=
+our
+on Friday.
+
+  1. Market structure & competitive landscape: single-page market overview
+     rendered in LaTeX with a TikZ diagram. Two files required:
+     market_overview.tex and market_overview.pdf. The PDF must compile from
+     the .tex (we recompile-check on submission). Depiction over prose:
+     a title and at most a sentence or two of intro, no body-text brief.
+
+  2. Market sizing, forecast & cage-ban transition model: Excel workbook.
+     Up to four tabs (historical sizing / forecast / transition scenarios /
+     assumptions). Five-year forecast driven by population and per-capita
+     consumption. MECE segmentation by channel and production system.
+     Explicit named transition scenarios, at least three, covering how
+     the colony cohort moves over the next 24-36 months under the 2027
+     retailer pledge. Top-down vs bottom-up reconciliation surfaced and
+     explained, not hidden.
+
+  3. Target assessment, opportunities & risks: PowerPoint deck for the IC.
+     Normal preliminary-findings deck size, anywhere from ten to twenty-five
+     slides. Asset profile, performance vs comps (with scale haircuts),
+     top-line and bottom-line opportunities, risks with prioritized register,
+     key findings synthesis.
+
+  4. Findings & open-questions briefing video, plus an accurate time-aligned
+     .srt subtitle file. Three preliminary findings, three open questions
+     for confirmatory DD. Subtitles need to match the audio word-for-word.
+     Hugh turns audio off in IC if subtitles are wrong.
+
+A few framing things to keep in mind:
+
+  - The MPI animal-welfare numbers everyone quotes are from 2022. Phase 2
+    (the retailer-driven cage-free pledge by end-2027) has shifted things
+    since. Cross-check.
+  - Comp benchmarks (Cal-Maine, Inghams adjacency) need haircuts for scale
+    and product mix. Don't quote Cal-Maine multiples directly.
+
+Vivian is sending the must-test list under separate cover today.
+
+- Daniel
+
+Daniel Reyes
+Principal, Halberd Capital Partners
+daniel.reyes@halberd.com | +1 (212) 555 0149

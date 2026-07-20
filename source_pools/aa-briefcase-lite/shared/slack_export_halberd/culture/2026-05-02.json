@@ -1,0 +1,123 @@
+[
+  {
+    "type": "message",
+    "user": "U019",
+    "text": "May birthday cake bake off committee meets 12:30 in the small kitchen. Yes, this is a real meeting.",
+    "ts": "1777726800.765662",
+    "reactions": [
+      {
+        "name": "cake",
+        "users": [
+          "U017",
+          "U005",
+          "U014",
+          "U006"
+        ],
+        "count": 4
+      },
+      {
+        "name": "joy",
+        "users": [
+          "U009",
+          "U016"
+        ],
+        "count": 2
+      }
+    ]
+  },
+  {
+    "type": "message",
+    "user": "U005",
+    "text": "most important meeting of the quarter",
+    "ts": "1777727300.520752",
+    "thread_ts": "1777726800.765662",
+    "parent_user_id": "U019",
+    "reactions": [
+      {
+        "name": "100",
+        "users": [
+          "U019",
+          "U017",
+          "U006"
+        ],
+        "count": 3
+      }
+    ]
+  },
+  {
+    "type": "message",
+    "user": "U015",
+    "text": "Anyone want to run the Coney Island 10k in late June? Good post half target.",
+    "ts": "1777730400.251363",
+    "reactions": [
+      {
+        "name": "runner",
+        "users": [
+          "U006",
+          "U016"
+        ],
+        "count": 2
+      }
+    ]
+  },
+  {
+    "type": "message",
+    "user": "U006",
+    "text": "in",
+    "ts": "1777730900.343051",
+    "thread_ts": "1777730400.251363",
+    "parent_user_id": "U015"
+  },
+  {
+    "type": "message",
+    "user": "U017",
+    "text": "Wellness check: if anyone's burning out heading into the Q2 push, talk to your manager or HR. It's not soft to flag it.",
+    "ts": "1777739400.007449",
+    "reactions": [
+      {
+        "name": "heart",
+        "users": [
+          "U019",
+          "U005",
+          "U014",
+          "U009",
+          "U002"
+        ],
+        "count": 5
+      }
+    ]
+  },
+  {
+    "type": "message",
+    "user": "U014",
+    "text": "Bring your kids to work day is Thursday 16 May. Art station and a finance trivia game. Yes really.",
+    "ts": "1777748400.788178",
+    "reactions": [
+      {
+        "name": "tada",
+        "users": [
+          "U005",
+          "U019"
+        ],
+        "count": 2
+      }
+    ]
+  },
+  {
+    "type": "message",
+    "user": "U017",
+    "text": "Pet photos for the newsletter, upload through Friday. Last quarter we got eleven cats and one tortoise.",
+    "ts": "1777750200.224398",
+    "reactions": [
+      {
+        "name": "turtle",
+        "users": [
+          "U005",
+          "U009",
+          "U019"
+        ],
+        "count": 3
+      }
+    ]
+  }
+]

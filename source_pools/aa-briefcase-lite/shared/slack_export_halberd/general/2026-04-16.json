@@ -1,0 +1,54 @@
+[
+  {
+    "type": "message",
+    "user": "U001",
+    "text": "Thanks again to everyone who joined yesterday. Sector partners, please follow up on the questions tagged to your sleeves in the Q&A doc.",
+    "ts": "1776342600.337066"
+  },
+  {
+    "type": "message",
+    "user": "U014",
+    "text": "All-hands recording is on the intranet. Slides too. Q&A doc with answers to the questions we couldn't get to live coming Friday.",
+    "ts": "1776342611.910073",
+    "reactions": [
+      {
+        "count": 3,
+        "name": "+1",
+        "users": [
+          "U001",
+          "U002",
+          "U017"
+        ]
+      }
+    ]
+  },
+  {
+    "type": "message",
+    "user": "U015",
+    "text": "Patch Tuesday hits us tomorrow, laptops may reboot overnight. Save your work.",
+    "ts": "1776344400.554293"
+  },
+  {
+    "type": "message",
+    "user": "U018",
+    "text": "Reminder: Slack message retention is 365 days for #general and the IC channels, 90 days for the rest. Don't store anything sensitive here.",
+    "ts": "1776348000.734408",
+    "reactions": [
+      {
+        "count": 3,
+        "name": "eyes",
+        "users": [
+          "U010",
+          "U014",
+          "U001"
+        ]
+      }
+    ]
+  },
+  {
+    "type": "message",
+    "user": "U017",
+    "text": "Mid-year reviews briefing for managers: Tuesday 28 April, 11:00 ET. Required attendance.",
+    "ts": "1776357000.275249"
+  }
+]
