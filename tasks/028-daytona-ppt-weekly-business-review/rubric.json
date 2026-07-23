@@ -1,0 +1,22 @@
+[
+  {
+    "score": 4,
+    "criterion": "Contains exactly five slides with the requested topics in order."
+  },
+  {
+    "score": 5,
+    "criterion": "Accurately shows W24 net sales of $79,500, 1,138 transactions, 2.1% refund rate, and 830 labor hours."
+  },
+  {
+    "score": 4,
+    "criterion": "Trend slide has a readable chart of sales and/or transactions across W22-W25."
+  },
+  {
+    "score": 4,
+    "criterion": "Treats display outages as observed and road construction as a hypothesis lacking traffic evidence."
+  },
+  {
+    "score": 3,
+    "criterion": "Final slide lists all three required decisions and a next-week measurement."
+  }
+]

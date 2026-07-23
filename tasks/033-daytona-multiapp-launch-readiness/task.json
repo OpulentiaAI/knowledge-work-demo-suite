@@ -1,0 +1,18 @@
+{
+  "id": "033-daytona-multiapp-launch-readiness",
+  "title": "Assemble a Launch Readiness Review",
+  "domain": "program-management",
+  "work_type": "multi-app-powerpoint-excel",
+  "dataset": "Daytona Windows OSWorld-Inspired Knowledge Work",
+  "upstream_id": "daytona-osworld-inspired/multiapp-launch-readiness",
+  "upstream_url": "https://www.daytona.io/dotfiles/osworld-on-daytona-windows-sandboxes",
+  "license": "Original task design and synthetic fixtures; Daytona article used as method reference; no OSWorld task files reproduced",
+  "prompt": "prompt.md",
+  "source_docs": "source_docs",
+  "deliverables": [
+    "launch_readiness_deck.pptx",
+    "launch_action_tracker.xlsx"
+  ],
+  "rubric": "rubric.json",
+  "daytona_windows_config": "daytona_windows.json"
+}

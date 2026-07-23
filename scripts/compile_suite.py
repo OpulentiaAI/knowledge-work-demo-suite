@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Compile a 20-task professional knowledge-work demo suite from live sources."""
+"""Compile the sourced task collection and preserve local deterministic task packets."""
 
 from __future__ import annotations
 
@@ -30,6 +30,22 @@ AA_REPO = "https://huggingface.co/datasets/ArtificialAnalysis/AA-Briefcase-Lite"
 GDP_REPO = "https://huggingface.co/datasets/openai/gdpval"
 WORKSPACE_REPO = "https://huggingface.co/datasets/Workspace-Bench/Workspace-Bench-Lite"
 HARVEY_RAW = "https://raw.githubusercontent.com/OpulentiaAI/harvey-labs/main"
+
+LOCAL_PACKET_TASKS = {
+    "021-synthetic-post-holiday-sales",
+    "022-synthetic-valentine-sales",
+    "023-synthetic-easter-sales",
+    "024-daytona-excel-reorder-plan",
+    "025-daytona-excel-campaign-variance",
+    "026-daytona-word-freezer-incident",
+    "027-daytona-word-vendor-notice",
+    "028-daytona-ppt-weekly-business-review",
+    "029-daytona-ppt-shift-handoff-training",
+    "030-daytona-multiapp-customer-escalation",
+    "031-daytona-multiapp-renewal-review",
+    "032-daytona-multiapp-procurement-decision",
+    "033-daytona-multiapp-launch-readiness",
+}
 
 AA_TASKS = [
     ("001-aa-market-overview", "w1_t1", "Market Structure and Competitive Landscape", "commercial-diligence"),
@@ -472,13 +488,24 @@ def write_catalog(records: list[dict[str, Any]]) -> None:
         "deliverables",
     ]
     with (ROOT / "catalog.csv").open("w", newline="", encoding="utf-8") as handle:
-        writer = csv.DictWriter(handle, fieldnames=fields)
+        writer = csv.DictWriter(handle, fieldnames=fields, lineterminator="\n")
         writer.writeheader()
         for record in ordered:
             row = {key: record.get(key, "") for key in fields}
             row["deliverables"] = ";".join(record["deliverables"])
             writer.writerow(row)
     write_json(ROOT / "catalog.json", ordered)
+
+
+def load_local_packet_records() -> list[dict[str, Any]]:
+    """Load original, committed packets that do not require an upstream download."""
+    records = []
+    for task_id in sorted(LOCAL_PACKET_TASKS):
+        task_file = TASKS_DIR / task_id / "task.json"
+        if not task_file.is_file():
+            raise RuntimeError(f"Local task packet is missing: {task_file}")
+        records.append(json.loads(task_file.read_text(encoding="utf-8")))
+    return records
 
 
 def write_coverage(records: list[dict[str, Any]]) -> None:
@@ -503,6 +530,8 @@ def write_coverage(records: list[dict[str, Any]]) -> None:
             "- Legal: M&A, real estate, contracts, bankruptcy, litigation, and cross-border tax.",
             "- Operations: healthcare, logistics, emergency response, project controls, and sales operations.",
             "- Technical: materials engineering, systems architecture, data-heavy product analysis, and AI research.",
+            "- Retail diagnostics: evidence-based explanations of sales increases, declines, category mix, refunds, discounts, and operational responses.",
+            "- Daytona Windows Office: deterministic Excel, Word, PowerPoint, and Outlook-plus-Office workflows designed for snapshot-backed, visible-UI-only sandboxes.",
             "- Communication formats: memo, PDF, XLSX, PPTX, LaTeX, video/subtitles, operating manual, and research survey.",
             "",
         ]
@@ -535,7 +564,7 @@ def main() -> int:
 
     expected = {
         entry[0] for entry in AA_TASKS + GDP_TASKS + WORKSPACE_TASKS
-    } | {entry["dir"] for entry in HARVEY_TASKS}
+    } | {entry["dir"] for entry in HARVEY_TASKS} | LOCAL_PACKET_TASKS
     clean_unselected_task_dirs(expected)
     SOURCE_POOLS_DIR.mkdir(parents=True, exist_ok=True)
 
@@ -544,6 +573,7 @@ def main() -> int:
     records.extend(compile_harvey(args.refresh))
     records.extend(compile_gdpval(args.refresh))
     records.extend(compile_workspace(args.refresh))
+    records.extend(load_local_packet_records())
     write_catalog(records)
     write_coverage(records)
     write_source_manifest()
@@ -553,4 +583,3 @@ def main() -> int:
 
 if __name__ == "__main__":
     raise SystemExit(main())
-

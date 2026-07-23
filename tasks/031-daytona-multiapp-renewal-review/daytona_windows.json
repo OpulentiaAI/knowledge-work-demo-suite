@@ -1,0 +1,53 @@
+{
+  "schema_version": "1.0",
+  "profile": "daytona-windows-office-v1",
+  "adapter_note": "Declarative task contract for a Daytona Windows runner; not a claim of byte-for-byte OSWorld schema compatibility.",
+  "os": "windows",
+  "snapshot_requirements": {
+    "applications": [
+      "Microsoft Outlook",
+      "Microsoft Excel",
+      "Microsoft Word"
+    ],
+    "network": "disabled after snapshot creation"
+  },
+  "agent_policy": {
+    "interaction": "visible-desktop-only",
+    "allowed_calls": [
+      "pyautogui",
+      "time"
+    ],
+    "blocked": [
+      "shell",
+      "filesystem_api",
+      "network",
+      "package_install"
+    ]
+  },
+  "setup": {
+    "stage_source_docs": "Documents\\KnowledgeWork\\031-daytona-multiapp-renewal-review\\source_docs",
+    "launch_apps": [
+      "Microsoft Outlook",
+      "Microsoft Excel",
+      "Microsoft Word"
+    ]
+  },
+  "output": {
+    "directory": "Documents\\KnowledgeWork\\031-daytona-multiapp-renewal-review\\output",
+    "required_files": [
+      "renewal_recommendations.xlsx",
+      "renewal_decision_memo.docx"
+    ]
+  },
+  "evaluation": {
+    "mode": "post-run artifact inspection",
+    "checks": [
+      "Workbook includes every account and formula-driven expected renewal ARR.",
+      "Uses 0% for Acorn, 8% for Beacon, and flags Cobalt's requested 15% discount as requiring executive approval.",
+      "Correctly calculates expected ARR of $120,000 for Acorn and $78,200 for Beacon; Cobalt is clearly conditional.",
+      "Memo recommends an action for each account and does not offer Acorn an unsupported discount.",
+      "Portfolio-level expected ARR separates approved/likely value from the Cobalt conditional scenario."
+    ]
+  },
+  "reset": "Start every attempt from the same snapshot and restage source_docs before the first screenshot."
+}

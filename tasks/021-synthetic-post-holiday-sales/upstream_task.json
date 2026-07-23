@@ -1,0 +1,10 @@
+{
+  "title": "Diagnose Post-Holiday Sales Weakness",
+  "instructions": "Analyze the provided store, chain, category, refund, discount, and calendar data. Draft a manager-ready diagnostic that quantifies the decline, ranks drivers, distinguishes evidence from hypotheses, assesses the proposed discount response, and recommends actions with a validation metric. Output: post_holiday_sales_diagnostic.md",
+  "criteria": [
+    "Uses the target and comparison periods correctly.",
+    "Attributes the decline primarily to transactions rather than basket value.",
+    "Treats post-holiday timing as context rather than unqualified proof of causality.",
+    "Avoids recommending unsupported blanket discounting."
+  ]
+}

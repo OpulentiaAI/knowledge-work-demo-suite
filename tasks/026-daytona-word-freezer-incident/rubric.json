@@ -1,0 +1,22 @@
+[
+  {
+    "score": 4,
+    "criterion": "Uses all required sections and a clearly titled incident report."
+  },
+  {
+    "score": 5,
+    "criterion": "Reports the recorded temperature movement from -8 C to 1 C between 05:40 and 07:05, without inventing an unrecorded duration."
+  },
+  {
+    "score": 5,
+    "criterion": "Product disposition table lists two ice-cream cartons and one frozen-meals carton with a total cost of $130.00."
+  },
+  {
+    "score": 4,
+    "criterion": "States product was moved at 07:05, maintenance ticket MNT-8821 was opened at 07:20, and technician visit was scheduled for 10:30."
+  },
+  {
+    "score": 3,
+    "criterion": "Treats compressor failure as suspected, not confirmed, and supplies sensible follow-up."
+  }
+]

@@ -18,6 +18,8 @@ EXPECTED_DATASET_COUNTS = {
     "Harvey Legal Agent Benchmark": 6,
     "OpenAI GDPval": 6,
     "Workspace-Bench-Lite": 4,
+    "Synthetic Retail POS 2026 (Mendeley Data)": 3,
+    "Daytona Windows OSWorld-Inspired Knowledge Work": 10,
 }
 
 
@@ -35,8 +37,8 @@ def fail(message: str) -> None:
 
 def main() -> int:
     task_dirs = sorted(path for path in TASKS_DIR.iterdir() if path.is_dir())
-    if len(task_dirs) != 20:
-        fail(f"Expected 20 task directories, found {len(task_dirs)}")
+    if len(task_dirs) != 33:
+        fail(f"Expected 33 task directories, found {len(task_dirs)}")
 
     ids: set[str] = set()
     datasets: Counter[str] = Counter()
@@ -89,13 +91,22 @@ def main() -> int:
         rubric_path = task_dir / metadata["rubric"]
         if not rubric_path.is_file() or rubric_path.stat().st_size == 0:
             fail(f"Missing rubric: {rubric_path}")
+        if metadata["dataset"] == "Daytona Windows OSWorld-Inspired Knowledge Work":
+            config_path = task_dir / metadata.get("daytona_windows_config", "")
+            if not config_path.is_file():
+                fail(f"Missing Daytona Windows config: {config_path}")
+            config = json.loads(config_path.read_text(encoding="utf-8"))
+            if config.get("os") != "windows":
+                fail(f"Daytona task must target Windows: {config_path}")
+            if config.get("output", {}).get("required_files") != metadata["deliverables"]:
+                fail(f"Daytona output mismatch: {config_path}")
 
     if dict(datasets) != EXPECTED_DATASET_COUNTS:
         fail(f"Unexpected dataset balance: {dict(datasets)}")
 
     catalog_rows = list(csv.DictReader((ROOT / "catalog.csv").open(encoding="utf-8")))
-    if len(catalog_rows) != 20:
-        fail(f"Expected 20 catalog rows, found {len(catalog_rows)}")
+    if len(catalog_rows) != 33:
+        fail(f"Expected 33 catalog rows, found {len(catalog_rows)}")
     if {row["id"] for row in catalog_rows} != ids:
         fail("catalog.csv task IDs do not match task directories")
 
@@ -113,7 +124,7 @@ def main() -> int:
             fail(f"SHA-256 mismatch: {path}")
 
     print(
-        "PASS: 20 tasks, 4 datasets, "
+        "PASS: 33 tasks, 6 datasets, "
         f"{len(resolved_source_files)} unique source files, all hashes verified"
     )
     return 0
@@ -125,4 +136,3 @@ if __name__ == "__main__":
     except AssertionError as error:
         print(f"FAIL: {error}", file=sys.stderr)
         raise SystemExit(1)
-

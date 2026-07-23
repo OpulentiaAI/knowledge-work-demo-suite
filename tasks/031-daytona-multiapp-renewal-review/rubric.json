@@ -1,0 +1,22 @@
+[
+  {
+    "score": 5,
+    "criterion": "Workbook includes every account and formula-driven expected renewal ARR."
+  },
+  {
+    "score": 5,
+    "criterion": "Uses 0% for Acorn, 8% for Beacon, and flags Cobalt's requested 15% discount as requiring executive approval."
+  },
+  {
+    "score": 4,
+    "criterion": "Correctly calculates expected ARR of $120,000 for Acorn and $78,200 for Beacon; Cobalt is clearly conditional."
+  },
+  {
+    "score": 4,
+    "criterion": "Memo recommends an action for each account and does not offer Acorn an unsupported discount."
+  },
+  {
+    "score": 3,
+    "criterion": "Portfolio-level expected ARR separates approved/likely value from the Cobalt conditional scenario."
+  }
+]

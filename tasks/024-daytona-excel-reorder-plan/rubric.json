@@ -1,0 +1,22 @@
+[
+  {
+    "score": 5,
+    "criterion": "Creates `Reorder Plan` and `Notes` sheets and includes all five SKUs."
+  },
+  {
+    "score": 6,
+    "criterion": "Uses formulas to calculate the target gap and rounds upward to a whole case pack."
+  },
+  {
+    "score": 6,
+    "criterion": "Returns order quantities of 96 for WTR-12, 144 for ENG-16, 12 for PRT-06, 10 for GRN-08, and 40 for CND-04."
+  },
+  {
+    "score": 4,
+    "criterion": "Marks WTR-12 and ENG-16 as Urgent and all other SKUs as Routine; urgent rows appear first."
+  },
+  {
+    "score": 3,
+    "criterion": "Notes sheet states the urgent SKUs and the round-up-to-case-pack rule."
+  }
+]

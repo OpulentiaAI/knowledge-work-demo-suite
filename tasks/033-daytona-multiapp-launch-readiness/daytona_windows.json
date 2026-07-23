@@ -1,0 +1,53 @@
+{
+  "schema_version": "1.0",
+  "profile": "daytona-windows-office-v1",
+  "adapter_note": "Declarative task contract for a Daytona Windows runner; not a claim of byte-for-byte OSWorld schema compatibility.",
+  "os": "windows",
+  "snapshot_requirements": {
+    "applications": [
+      "Microsoft Outlook",
+      "Microsoft Excel",
+      "Microsoft PowerPoint"
+    ],
+    "network": "disabled after snapshot creation"
+  },
+  "agent_policy": {
+    "interaction": "visible-desktop-only",
+    "allowed_calls": [
+      "pyautogui",
+      "time"
+    ],
+    "blocked": [
+      "shell",
+      "filesystem_api",
+      "network",
+      "package_install"
+    ]
+  },
+  "setup": {
+    "stage_source_docs": "Documents\\KnowledgeWork\\033-daytona-multiapp-launch-readiness\\source_docs",
+    "launch_apps": [
+      "Microsoft Outlook",
+      "Microsoft Excel",
+      "Microsoft PowerPoint"
+    ]
+  },
+  "output": {
+    "directory": "Documents\\KnowledgeWork\\033-daytona-multiapp-launch-readiness\\output",
+    "required_files": [
+      "launch_readiness_deck.pptx",
+      "launch_action_tracker.xlsx"
+    ]
+  },
+  "evaluation": {
+    "mode": "post-run artifact inspection",
+    "checks": [
+      "Deck contains exactly five requested slides and states the 2026-07-28 launch date.",
+      "Tracker includes every incomplete milestone and both risks with owner, due date, status, evidence source, mitigation, and impact.",
+      "Identifies R-17/payment-gateway certification as High and launch-blocking; it is not marked resolved.",
+      "Deck includes both decision requests: executive escalation path and overtime approval for support training.",
+      "Next-seven-days actions are grounded in the supplied deadlines and owners."
+    ]
+  },
+  "reset": "Start every attempt from the same snapshot and restage source_docs before the first screenshot."
+}

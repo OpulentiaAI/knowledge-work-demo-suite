@@ -1,0 +1,3 @@
+risk_id,risk,owner,severity,launch_impact,mitigation
+R-17,Payment-gateway certification may miss deadline,Rina Park,High,Blocks launch,Escalate daily with gateway provider
+R-22,Knowledge-base articles may be incomplete,Evan Cole,Medium,Degrades support readiness,Publish priority articles first

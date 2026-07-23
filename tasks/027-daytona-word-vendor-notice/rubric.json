@@ -1,0 +1,22 @@
+[
+  {
+    "score": 5,
+    "criterion": "Uses business-letter form and names Northline Logistics."
+  },
+  {
+    "score": 5,
+    "criterion": "States the effective date of 2026-07-15 and delivery window of 07:00-11:00 Monday through Saturday."
+  },
+  {
+    "score": 4,
+    "criterion": "Requests written acknowledgement by 2026-07-08 and keeps Maya Chen's listed escalation contact unchanged."
+  },
+  {
+    "score": 3,
+    "criterion": "Avoids attributing fault to Northline and explains the change as revised receiving coverage."
+  },
+  {
+    "score": 3,
+    "criterion": "Includes a `Next steps` section with exactly three numbered actions."
+  }
+]

@@ -1,0 +1,18 @@
+{
+  "id": "032-daytona-multiapp-procurement-decision",
+  "title": "Build a Procurement Decision Pack",
+  "domain": "procurement",
+  "work_type": "multi-app-word-excel",
+  "dataset": "Daytona Windows OSWorld-Inspired Knowledge Work",
+  "upstream_id": "daytona-osworld-inspired/multiapp-procurement-decision",
+  "upstream_url": "https://www.daytona.io/dotfiles/osworld-on-daytona-windows-sandboxes",
+  "license": "Original task design and synthetic fixtures; Daytona article used as method reference; no OSWorld task files reproduced",
+  "prompt": "prompt.md",
+  "source_docs": "source_docs",
+  "deliverables": [
+    "vendor_scorecard.xlsx",
+    "procurement_recommendation.docx"
+  ],
+  "rubric": "rubric.json",
+  "daytona_windows_config": "daytona_windows.json"
+}

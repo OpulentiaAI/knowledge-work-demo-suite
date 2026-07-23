@@ -1,0 +1,11 @@
+{
+  "title": "Build a Store Reorder Plan",
+  "instructions": "Complete the staged Windows Office workflow and save the required native deliverable(s).",
+  "criteria": [
+    "Creates `Reorder Plan` and `Notes` sheets and includes all five SKUs.",
+    "Uses formulas to calculate the target gap and rounds upward to a whole case pack.",
+    "Returns order quantities of 96 for WTR-12, 144 for ENG-16, 12 for PRT-06, 10 for GRN-08, and 40 for CND-04.",
+    "Marks WTR-12 and ENG-16 as Urgent and all other SKUs as Routine; urgent rows appear first.",
+    "Notes sheet states the urgent SKUs and the round-up-to-case-pack rule."
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "id": "025-daytona-excel-campaign-variance",
+  "title": "Reconcile a Campaign Variance Workbook",
+  "domain": "sales-operations",
+  "work_type": "excel-single-app",
+  "dataset": "Daytona Windows OSWorld-Inspired Knowledge Work",
+  "upstream_id": "daytona-osworld-inspired/excel-campaign-variance",
+  "upstream_url": "https://www.daytona.io/dotfiles/osworld-on-daytona-windows-sandboxes",
+  "license": "Original task design and synthetic fixtures; Daytona article used as method reference; no OSWorld task files reproduced",
+  "prompt": "prompt.md",
+  "source_docs": "source_docs",
+  "deliverables": [
+    "campaign_variance.xlsx"
+  ],
+  "rubric": "rubric.json",
+  "daytona_windows_config": "daytona_windows.json"
+}

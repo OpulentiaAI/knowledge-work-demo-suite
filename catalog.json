@@ -345,5 +345,227 @@
       "LLM_personalized_memory_survey.pdf"
     ],
     "rubric": "rubric.json"
+  },
+  {
+    "id": "021-synthetic-post-holiday-sales",
+    "title": "Diagnose Post-Holiday Sales Weakness — Store 04 San Antonio",
+    "domain": "retail-sales-diagnostics",
+    "work_type": "diagnose-and-recommend",
+    "dataset": "Synthetic Retail POS 2026 (Mendeley Data)",
+    "upstream_id": "39xdjxgnmf.1/post-holiday-sales-diagnostic",
+    "upstream_url": "https://data.mendeley.com/datasets/39xdjxgnmf/1",
+    "license": "CC BY 4.0; packet aggregates derived from the upstream dataset",
+    "prompt": "prompt.md",
+    "source_docs": "source_docs",
+    "deliverables": [
+      "post_holiday_sales_diagnostic.md"
+    ],
+    "rubric": "rubric.json"
+  },
+  {
+    "id": "022-synthetic-valentine-sales",
+    "title": "Diagnose Valentine Sales Growth and Mix — Store 09 Chicago",
+    "domain": "retail-sales-diagnostics",
+    "work_type": "diagnose-and-recommend",
+    "dataset": "Synthetic Retail POS 2026 (Mendeley Data)",
+    "upstream_id": "39xdjxgnmf.1/valentine-sales-diagnostic",
+    "upstream_url": "https://data.mendeley.com/datasets/39xdjxgnmf/1",
+    "license": "CC BY 4.0; packet aggregates derived from the upstream dataset",
+    "prompt": "prompt.md",
+    "source_docs": "source_docs",
+    "deliverables": [
+      "valentine_sales_diagnostic.md"
+    ],
+    "rubric": "rubric.json"
+  },
+  {
+    "id": "023-synthetic-easter-sales",
+    "title": "Assess Easter Sales Collapse and Response — Store 18 Memphis",
+    "domain": "retail-sales-diagnostics",
+    "work_type": "diagnose-and-recommend",
+    "dataset": "Synthetic Retail POS 2026 (Mendeley Data)",
+    "upstream_id": "39xdjxgnmf.1/easter-sales-diagnostic",
+    "upstream_url": "https://data.mendeley.com/datasets/39xdjxgnmf/1",
+    "license": "CC BY 4.0; packet aggregates derived from the upstream dataset",
+    "prompt": "prompt.md",
+    "source_docs": "source_docs",
+    "deliverables": [
+      "easter_sales_incident_memo.md"
+    ],
+    "rubric": "rubric.json"
+  },
+  {
+    "id": "024-daytona-excel-reorder-plan",
+    "title": "Build a Store Reorder Plan",
+    "domain": "retail-operations",
+    "work_type": "excel-single-app",
+    "dataset": "Daytona Windows OSWorld-Inspired Knowledge Work",
+    "upstream_id": "daytona-osworld-inspired/excel-reorder-plan",
+    "upstream_url": "https://www.daytona.io/dotfiles/osworld-on-daytona-windows-sandboxes",
+    "license": "Original task design and synthetic fixtures; Daytona article used as method reference; no OSWorld task files reproduced",
+    "prompt": "prompt.md",
+    "source_docs": "source_docs",
+    "deliverables": [
+      "reorder_plan.xlsx"
+    ],
+    "rubric": "rubric.json",
+    "daytona_windows_config": "daytona_windows.json"
+  },
+  {
+    "id": "025-daytona-excel-campaign-variance",
+    "title": "Reconcile a Campaign Variance Workbook",
+    "domain": "sales-operations",
+    "work_type": "excel-single-app",
+    "dataset": "Daytona Windows OSWorld-Inspired Knowledge Work",
+    "upstream_id": "daytona-osworld-inspired/excel-campaign-variance",
+    "upstream_url": "https://www.daytona.io/dotfiles/osworld-on-daytona-windows-sandboxes",
+    "license": "Original task design and synthetic fixtures; Daytona article used as method reference; no OSWorld task files reproduced",
+    "prompt": "prompt.md",
+    "source_docs": "source_docs",
+    "deliverables": [
+      "campaign_variance.xlsx"
+    ],
+    "rubric": "rubric.json",
+    "daytona_windows_config": "daytona_windows.json"
+  },
+  {
+    "id": "026-daytona-word-freezer-incident",
+    "title": "Draft a Freezer Incident Report",
+    "domain": "store-operations",
+    "work_type": "word-single-app",
+    "dataset": "Daytona Windows OSWorld-Inspired Knowledge Work",
+    "upstream_id": "daytona-osworld-inspired/word-freezer-incident",
+    "upstream_url": "https://www.daytona.io/dotfiles/osworld-on-daytona-windows-sandboxes",
+    "license": "Original task design and synthetic fixtures; Daytona article used as method reference; no OSWorld task files reproduced",
+    "prompt": "prompt.md",
+    "source_docs": "source_docs",
+    "deliverables": [
+      "freezer_incident_report.docx"
+    ],
+    "rubric": "rubric.json",
+    "daytona_windows_config": "daytona_windows.json"
+  },
+  {
+    "id": "027-daytona-word-vendor-notice",
+    "title": "Prepare a Vendor Service-Level Change Notice",
+    "domain": "vendor-management",
+    "work_type": "word-single-app",
+    "dataset": "Daytona Windows OSWorld-Inspired Knowledge Work",
+    "upstream_id": "daytona-osworld-inspired/word-vendor-notice",
+    "upstream_url": "https://www.daytona.io/dotfiles/osworld-on-daytona-windows-sandboxes",
+    "license": "Original task design and synthetic fixtures; Daytona article used as method reference; no OSWorld task files reproduced",
+    "prompt": "prompt.md",
+    "source_docs": "source_docs",
+    "deliverables": [
+      "vendor_service_change_notice.docx"
+    ],
+    "rubric": "rubric.json",
+    "daytona_windows_config": "daytona_windows.json"
+  },
+  {
+    "id": "028-daytona-ppt-weekly-business-review",
+    "title": "Create a Weekly Business Review Deck",
+    "domain": "business-performance",
+    "work_type": "powerpoint-single-app",
+    "dataset": "Daytona Windows OSWorld-Inspired Knowledge Work",
+    "upstream_id": "daytona-osworld-inspired/ppt-weekly-business-review",
+    "upstream_url": "https://www.daytona.io/dotfiles/osworld-on-daytona-windows-sandboxes",
+    "license": "Original task design and synthetic fixtures; Daytona article used as method reference; no OSWorld task files reproduced",
+    "prompt": "prompt.md",
+    "source_docs": "source_docs",
+    "deliverables": [
+      "weekly_business_review.pptx"
+    ],
+    "rubric": "rubric.json",
+    "daytona_windows_config": "daytona_windows.json"
+  },
+  {
+    "id": "029-daytona-ppt-shift-handoff-training",
+    "title": "Create Shift Handoff Training Slides",
+    "domain": "store-training",
+    "work_type": "powerpoint-single-app",
+    "dataset": "Daytona Windows OSWorld-Inspired Knowledge Work",
+    "upstream_id": "daytona-osworld-inspired/ppt-shift-handoff-training",
+    "upstream_url": "https://www.daytona.io/dotfiles/osworld-on-daytona-windows-sandboxes",
+    "license": "Original task design and synthetic fixtures; Daytona article used as method reference; no OSWorld task files reproduced",
+    "prompt": "prompt.md",
+    "source_docs": "source_docs",
+    "deliverables": [
+      "shift_handoff_training.pptx"
+    ],
+    "rubric": "rubric.json",
+    "daytona_windows_config": "daytona_windows.json"
+  },
+  {
+    "id": "030-daytona-multiapp-customer-escalation",
+    "title": "Resolve a Customer Escalation Across Office Apps",
+    "domain": "customer-operations",
+    "work_type": "multi-app-word-excel",
+    "dataset": "Daytona Windows OSWorld-Inspired Knowledge Work",
+    "upstream_id": "daytona-osworld-inspired/multiapp-customer-escalation",
+    "upstream_url": "https://www.daytona.io/dotfiles/osworld-on-daytona-windows-sandboxes",
+    "license": "Original task design and synthetic fixtures; Daytona article used as method reference; no OSWorld task files reproduced",
+    "prompt": "prompt.md",
+    "source_docs": "source_docs",
+    "deliverables": [
+      "escalation_brief.docx",
+      "case_actions.xlsx"
+    ],
+    "rubric": "rubric.json",
+    "daytona_windows_config": "daytona_windows.json"
+  },
+  {
+    "id": "031-daytona-multiapp-renewal-review",
+    "title": "Prepare a Renewal Review Packet",
+    "domain": "account-management",
+    "work_type": "multi-app-word-excel",
+    "dataset": "Daytona Windows OSWorld-Inspired Knowledge Work",
+    "upstream_id": "daytona-osworld-inspired/multiapp-renewal-review",
+    "upstream_url": "https://www.daytona.io/dotfiles/osworld-on-daytona-windows-sandboxes",
+    "license": "Original task design and synthetic fixtures; Daytona article used as method reference; no OSWorld task files reproduced",
+    "prompt": "prompt.md",
+    "source_docs": "source_docs",
+    "deliverables": [
+      "renewal_recommendations.xlsx",
+      "renewal_decision_memo.docx"
+    ],
+    "rubric": "rubric.json",
+    "daytona_windows_config": "daytona_windows.json"
+  },
+  {
+    "id": "032-daytona-multiapp-procurement-decision",
+    "title": "Build a Procurement Decision Pack",
+    "domain": "procurement",
+    "work_type": "multi-app-word-excel",
+    "dataset": "Daytona Windows OSWorld-Inspired Knowledge Work",
+    "upstream_id": "daytona-osworld-inspired/multiapp-procurement-decision",
+    "upstream_url": "https://www.daytona.io/dotfiles/osworld-on-daytona-windows-sandboxes",
+    "license": "Original task design and synthetic fixtures; Daytona article used as method reference; no OSWorld task files reproduced",
+    "prompt": "prompt.md",
+    "source_docs": "source_docs",
+    "deliverables": [
+      "vendor_scorecard.xlsx",
+      "procurement_recommendation.docx"
+    ],
+    "rubric": "rubric.json",
+    "daytona_windows_config": "daytona_windows.json"
+  },
+  {
+    "id": "033-daytona-multiapp-launch-readiness",
+    "title": "Assemble a Launch Readiness Review",
+    "domain": "program-management",
+    "work_type": "multi-app-powerpoint-excel",
+    "dataset": "Daytona Windows OSWorld-Inspired Knowledge Work",
+    "upstream_id": "daytona-osworld-inspired/multiapp-launch-readiness",
+    "upstream_url": "https://www.daytona.io/dotfiles/osworld-on-daytona-windows-sandboxes",
+    "license": "Original task design and synthetic fixtures; Daytona article used as method reference; no OSWorld task files reproduced",
+    "prompt": "prompt.md",
+    "source_docs": "source_docs",
+    "deliverables": [
+      "launch_readiness_deck.pptx",
+      "launch_action_tracker.xlsx"
+    ],
+    "rubric": "rubric.json",
+    "daytona_windows_config": "daytona_windows.json"
   }
 ]

@@ -1,0 +1,22 @@
+[
+  {
+    "score": 5,
+    "criterion": "Brief identifies Northstar, order 88421, six missing cases, and the Friday 3 PM CT response deadline."
+  },
+  {
+    "score": 5,
+    "criterion": "Treats CS-4102 as open and CS-4091 as a duplicate; does not count them as two separate incidents."
+  },
+  {
+    "score": 4,
+    "criterion": "Labels dispatch confirmation and any credit as unresolved/approval-dependent rather than promised facts."
+  },
+  {
+    "score": 4,
+    "criterion": "Tracker includes owner, due date, status, evidence source, and next action for the open work."
+  },
+  {
+    "score": 3,
+    "criterion": "Recommended response is concrete and respects the same-business-day service target."
+  }
+]

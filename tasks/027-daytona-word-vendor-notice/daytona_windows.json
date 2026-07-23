@@ -1,0 +1,48 @@
+{
+  "schema_version": "1.0",
+  "profile": "daytona-windows-office-v1",
+  "adapter_note": "Declarative task contract for a Daytona Windows runner; not a claim of byte-for-byte OSWorld schema compatibility.",
+  "os": "windows",
+  "snapshot_requirements": {
+    "applications": [
+      "Microsoft Word"
+    ],
+    "network": "disabled after snapshot creation"
+  },
+  "agent_policy": {
+    "interaction": "visible-desktop-only",
+    "allowed_calls": [
+      "pyautogui",
+      "time"
+    ],
+    "blocked": [
+      "shell",
+      "filesystem_api",
+      "network",
+      "package_install"
+    ]
+  },
+  "setup": {
+    "stage_source_docs": "Documents\\KnowledgeWork\\027-daytona-word-vendor-notice\\source_docs",
+    "launch_apps": [
+      "Microsoft Word"
+    ]
+  },
+  "output": {
+    "directory": "Documents\\KnowledgeWork\\027-daytona-word-vendor-notice\\output",
+    "required_files": [
+      "vendor_service_change_notice.docx"
+    ]
+  },
+  "evaluation": {
+    "mode": "post-run artifact inspection",
+    "checks": [
+      "Uses business-letter form and names Northline Logistics.",
+      "States the effective date of 2026-07-15 and delivery window of 07:00-11:00 Monday through Saturday.",
+      "Requests written acknowledgement by 2026-07-08 and keeps Maya Chen's listed escalation contact unchanged.",
+      "Avoids attributing fault to Northline and explains the change as revised receiving coverage.",
+      "Includes a `Next steps` section with exactly three numbered actions."
+    ]
+  },
+  "reset": "Start every attempt from the same snapshot and restage source_docs before the first screenshot."
+}

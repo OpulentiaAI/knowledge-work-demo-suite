@@ -1,0 +1,13 @@
+Date,Location,Category,Payment Net Sales,Gross Profit,Units,Transactions,Period
+2024-03-24,Store 18 - Memphis,Accessories,726.0,486.56,18,15,comparison
+2024-03-24,Store 18 - Memphis,Apparel,2161.11,1240.49,54,35,comparison
+2024-03-24,Store 18 - Memphis,Beauty,228.8,151.25,15,10,comparison
+2024-03-24,Store 18 - Memphis,Electronics,475.45,231.02999999999997,13,11,comparison
+2024-03-24,Store 18 - Memphis,Footwear,1332.25,644.85,20,17,comparison
+2024-03-24,Store 18 - Memphis,Home Goods,612.3,387.08,25,18,comparison
+2024-03-31,Store 18 - Memphis,Accessories,95.0,67.8,2,2,diagnostic
+2024-03-31,Store 18 - Memphis,Apparel,200.2,115.01,5,4,diagnostic
+2024-03-31,Store 18 - Memphis,Beauty,27.2,16.96,1,1,diagnostic
+2024-03-31,Store 18 - Memphis,Electronics,181.0,86.55,4,3,diagnostic
+2024-03-31,Store 18 - Memphis,Footwear,585.0,310.1,10,6,diagnostic
+2024-03-31,Store 18 - Memphis,Home Goods,12.8,8.32,1,1,diagnostic

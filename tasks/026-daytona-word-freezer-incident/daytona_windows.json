@@ -1,0 +1,48 @@
+{
+  "schema_version": "1.0",
+  "profile": "daytona-windows-office-v1",
+  "adapter_note": "Declarative task contract for a Daytona Windows runner; not a claim of byte-for-byte OSWorld schema compatibility.",
+  "os": "windows",
+  "snapshot_requirements": {
+    "applications": [
+      "Microsoft Word"
+    ],
+    "network": "disabled after snapshot creation"
+  },
+  "agent_policy": {
+    "interaction": "visible-desktop-only",
+    "allowed_calls": [
+      "pyautogui",
+      "time"
+    ],
+    "blocked": [
+      "shell",
+      "filesystem_api",
+      "network",
+      "package_install"
+    ]
+  },
+  "setup": {
+    "stage_source_docs": "Documents\\KnowledgeWork\\026-daytona-word-freezer-incident\\source_docs",
+    "launch_apps": [
+      "Microsoft Word"
+    ]
+  },
+  "output": {
+    "directory": "Documents\\KnowledgeWork\\026-daytona-word-freezer-incident\\output",
+    "required_files": [
+      "freezer_incident_report.docx"
+    ]
+  },
+  "evaluation": {
+    "mode": "post-run artifact inspection",
+    "checks": [
+      "Uses all required sections and a clearly titled incident report.",
+      "Reports the recorded temperature movement from -8 C to 1 C between 05:40 and 07:05, without inventing an unrecorded duration.",
+      "Product disposition table lists two ice-cream cartons and one frozen-meals carton with a total cost of $130.00.",
+      "States product was moved at 07:05, maintenance ticket MNT-8821 was opened at 07:20, and technician visit was scheduled for 10:30.",
+      "Treats compressor failure as suspected, not confirmed, and supplies sensible follow-up."
+    ]
+  },
+  "reset": "Start every attempt from the same snapshot and restage source_docs before the first screenshot."
+}

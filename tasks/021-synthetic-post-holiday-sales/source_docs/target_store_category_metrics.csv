@@ -1,0 +1,61 @@
+Date,Location,Category,Payment Net Sales,Gross Profit,Units,Transactions,Period
+2024-01-02,Store 04 - San Antonio,Accessories,156.7,97.02000000000001,5,4,diagnostic
+2024-01-02,Store 04 - San Antonio,Apparel,299.35,166.55,9,6,diagnostic
+2024-01-02,Store 04 - San Antonio,Beauty,48.0,33.6,4,2,diagnostic
+2024-01-02,Store 04 - San Antonio,Electronics,389.0,179.11,6,4,diagnostic
+2024-01-02,Store 04 - San Antonio,Footwear,258.0,123.84,2,2,diagnostic
+2024-01-02,Store 04 - San Antonio,Home Goods,74.4,50.22,3,3,diagnostic
+2024-01-03,Store 04 - San Antonio,Accessories,197.0,126.96000000000001,6,3,diagnostic
+2024-01-03,Store 04 - San Antonio,Apparel,261.7,151.29,6,5,diagnostic
+2024-01-03,Store 04 - San Antonio,Beauty,20.08,13.82,2,2,diagnostic
+2024-01-03,Store 04 - San Antonio,Electronics,88.4,36.2,2,2,diagnostic
+2024-01-03,Store 04 - San Antonio,Footwear,118.0,61.36,2,2,diagnostic
+2024-01-03,Store 04 - San Antonio,Home Goods,66.0,41.84,4,3,diagnostic
+2024-01-04,Store 04 - San Antonio,Accessories,163.0,108.0,4,3,diagnostic
+2024-01-04,Store 04 - San Antonio,Apparel,487.5,275.59000000000003,9,8,diagnostic
+2024-01-04,Store 04 - San Antonio,Beauty,53.6,36.160000000000004,2,2,diagnostic
+2024-01-04,Store 04 - San Antonio,Electronics,105.3,51.05,3,3,diagnostic
+2024-01-04,Store 04 - San Antonio,Footwear,219.1,118.3,5,3,diagnostic
+2024-01-04,Store 04 - San Antonio,Home Goods,44.0,29.72,2,2,diagnostic
+2024-01-05,Store 04 - San Antonio,Accessories,138.5,86.62,5,3,diagnostic
+2024-01-05,Store 04 - San Antonio,Apparel,181.68,108.48,6,6,diagnostic
+2024-01-05,Store 04 - San Antonio,Beauty,42.3,29.03,4,4,diagnostic
+2024-01-05,Store 04 - San Antonio,Electronics,237.4,116.35,6,4,diagnostic
+2024-01-05,Store 04 - San Antonio,Footwear,579.65,276.23,9,7,diagnostic
+2024-01-05,Store 04 - San Antonio,Home Goods,28.0,18.2,1,1,diagnostic
+2024-01-06,Store 04 - San Antonio,Accessories,250.0,163.6,6,4,diagnostic
+2024-01-06,Store 04 - San Antonio,Apparel,396.08,238.35999999999999,13,9,diagnostic
+2024-01-06,Store 04 - San Antonio,Beauty,51.58,36.59,5,4,diagnostic
+2024-01-06,Store 04 - San Antonio,Electronics,61.0,39.65,4,4,diagnostic
+2024-01-06,Store 04 - San Antonio,Footwear,516.4,249.74,8,7,diagnostic
+2024-01-06,Store 04 - San Antonio,Home Goods,202.8,136.9,9,6,diagnostic
+2024-01-09,Store 04 - San Antonio,Accessories,82.0,56.96,3,3,comparison
+2024-01-09,Store 04 - San Antonio,Apparel,281.4,170.16,10,6,comparison
+2024-01-09,Store 04 - San Antonio,Beauty,24.0,16.8,1,1,comparison
+2024-01-09,Store 04 - San Antonio,Electronics,64.6,36.8,3,2,comparison
+2024-01-09,Store 04 - San Antonio,Footwear,241.75,116.50999999999999,4,4,comparison
+2024-01-09,Store 04 - San Antonio,Home Goods,50.2,32.900000000000006,2,2,comparison
+2024-01-10,Store 04 - San Antonio,Accessories,121.8,79.08,5,3,comparison
+2024-01-10,Store 04 - San Antonio,Apparel,556.5,338.61,14,9,comparison
+2024-01-10,Store 04 - San Antonio,Beauty,12.0,8.4,1,1,comparison
+2024-01-10,Store 04 - San Antonio,Electronics,165.2,70.75,4,3,comparison
+2024-01-10,Store 04 - San Antonio,Footwear,420.05,197.89,7,4,comparison
+2024-01-10,Store 04 - San Antonio,Home Goods,13.6,9.12,1,1,comparison
+2024-01-11,Store 04 - San Antonio,Accessories,90.2,62.199999999999996,2,2,comparison
+2024-01-11,Store 04 - San Antonio,Apparel,379.0,209.17,8,4,comparison
+2024-01-11,Store 04 - San Antonio,Beauty,32.0,21.76,1,1,comparison
+2024-01-11,Store 04 - San Antonio,Electronics,28.0,19.6,2,1,comparison
+2024-01-11,Store 04 - San Antonio,Footwear,344.2,180.54,6,5,comparison
+2024-01-11,Store 04 - San Antonio,Home Goods,16.2,10.8,1,1,comparison
+2024-01-12,Store 04 - San Antonio,Accessories,261.25,169.13,9,7,comparison
+2024-01-12,Store 04 - San Antonio,Apparel,674.55,394.8,19,13,comparison
+2024-01-12,Store 04 - San Antonio,Beauty,92.0,63.76,4,3,comparison
+2024-01-12,Store 04 - San Antonio,Electronics,50.0,32.5,2,1,comparison
+2024-01-12,Store 04 - San Antonio,Footwear,839.8,389.6,10,9,comparison
+2024-01-12,Store 04 - San Antonio,Home Goods,100.0,67.24000000000001,4,2,comparison
+2024-01-13,Store 04 - San Antonio,Accessories,202.5,129.66,6,5,comparison
+2024-01-13,Store 04 - San Antonio,Apparel,872.6500000000001,491.26,22,13,comparison
+2024-01-13,Store 04 - San Antonio,Beauty,115.33,78.74,9,7,comparison
+2024-01-13,Store 04 - San Antonio,Electronics,388.09999999999997,190.63,10,8,comparison
+2024-01-13,Store 04 - San Antonio,Footwear,921.1,424.7,13,9,comparison
+2024-01-13,Store 04 - San Antonio,Home Goods,76.4,50.64,4,4,comparison

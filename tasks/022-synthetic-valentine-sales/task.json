@@ -1,0 +1,16 @@
+{
+  "id": "022-synthetic-valentine-sales",
+  "title": "Diagnose Valentine Sales Growth and Mix — Store 09 Chicago",
+  "domain": "retail-sales-diagnostics",
+  "work_type": "diagnose-and-recommend",
+  "dataset": "Synthetic Retail POS 2026 (Mendeley Data)",
+  "upstream_id": "39xdjxgnmf.1/valentine-sales-diagnostic",
+  "upstream_url": "https://data.mendeley.com/datasets/39xdjxgnmf/1",
+  "license": "CC BY 4.0; packet aggregates derived from the upstream dataset",
+  "prompt": "prompt.md",
+  "source_docs": "source_docs",
+  "deliverables": [
+    "valentine_sales_diagnostic.md"
+  ],
+  "rubric": "rubric.json"
+}

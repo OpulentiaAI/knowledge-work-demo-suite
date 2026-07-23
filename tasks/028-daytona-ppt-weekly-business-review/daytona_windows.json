@@ -1,0 +1,48 @@
+{
+  "schema_version": "1.0",
+  "profile": "daytona-windows-office-v1",
+  "adapter_note": "Declarative task contract for a Daytona Windows runner; not a claim of byte-for-byte OSWorld schema compatibility.",
+  "os": "windows",
+  "snapshot_requirements": {
+    "applications": [
+      "Microsoft PowerPoint"
+    ],
+    "network": "disabled after snapshot creation"
+  },
+  "agent_policy": {
+    "interaction": "visible-desktop-only",
+    "allowed_calls": [
+      "pyautogui",
+      "time"
+    ],
+    "blocked": [
+      "shell",
+      "filesystem_api",
+      "network",
+      "package_install"
+    ]
+  },
+  "setup": {
+    "stage_source_docs": "Documents\\KnowledgeWork\\028-daytona-ppt-weekly-business-review\\source_docs",
+    "launch_apps": [
+      "Microsoft PowerPoint"
+    ]
+  },
+  "output": {
+    "directory": "Documents\\KnowledgeWork\\028-daytona-ppt-weekly-business-review\\output",
+    "required_files": [
+      "weekly_business_review.pptx"
+    ]
+  },
+  "evaluation": {
+    "mode": "post-run artifact inspection",
+    "checks": [
+      "Contains exactly five slides with the requested topics in order.",
+      "Accurately shows W24 net sales of $79,500, 1,138 transactions, 2.1% refund rate, and 830 labor hours.",
+      "Trend slide has a readable chart of sales and/or transactions across W22-W25.",
+      "Treats display outages as observed and road construction as a hypothesis lacking traffic evidence.",
+      "Final slide lists all three required decisions and a next-week measurement."
+    ]
+  },
+  "reset": "Start every attempt from the same snapshot and restage source_docs before the first screenshot."
+}

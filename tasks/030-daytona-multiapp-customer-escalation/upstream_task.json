@@ -1,0 +1,11 @@
+{
+  "title": "Resolve a Customer Escalation Across Office Apps",
+  "instructions": "Complete the staged Windows Office workflow and save the required native deliverable(s).",
+  "criteria": [
+    "Brief identifies Northstar, order 88421, six missing cases, and the Friday 3 PM CT response deadline.",
+    "Treats CS-4102 as open and CS-4091 as a duplicate; does not count them as two separate incidents.",
+    "Labels dispatch confirmation and any credit as unresolved/approval-dependent rather than promised facts.",
+    "Tracker includes owner, due date, status, evidence source, and next action for the open work.",
+    "Recommended response is concrete and respects the same-business-day service target."
+  ]
+}

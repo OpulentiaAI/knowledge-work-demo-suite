@@ -1,0 +1,48 @@
+{
+  "schema_version": "1.0",
+  "profile": "daytona-windows-office-v1",
+  "adapter_note": "Declarative task contract for a Daytona Windows runner; not a claim of byte-for-byte OSWorld schema compatibility.",
+  "os": "windows",
+  "snapshot_requirements": {
+    "applications": [
+      "Microsoft Excel"
+    ],
+    "network": "disabled after snapshot creation"
+  },
+  "agent_policy": {
+    "interaction": "visible-desktop-only",
+    "allowed_calls": [
+      "pyautogui",
+      "time"
+    ],
+    "blocked": [
+      "shell",
+      "filesystem_api",
+      "network",
+      "package_install"
+    ]
+  },
+  "setup": {
+    "stage_source_docs": "Documents\\KnowledgeWork\\025-daytona-excel-campaign-variance\\source_docs",
+    "launch_apps": [
+      "Microsoft Excel"
+    ]
+  },
+  "output": {
+    "directory": "Documents\\KnowledgeWork\\025-daytona-excel-campaign-variance\\output",
+    "required_files": [
+      "campaign_variance.xlsx"
+    ]
+  },
+  "evaluation": {
+    "mode": "post-run artifact inspection",
+    "checks": [
+      "Creates formula-driven `Daily Detail` and `Summary` sheets with the supplied data.",
+      "Summary correctly reports $29,410 actual sales, $33,000 budget, and a -$3,590 variance.",
+      "Correctly reports a campaign variance of about -10.9% and 2,581 actual units.",
+      "Identifies 2026-06-05 as the largest negative daily variance at -$990.",
+      "Includes a readable actual-versus-budget chart and an evidence-limited manager takeaway."
+    ]
+  },
+  "reset": "Start every attempt from the same snapshot and restage source_docs before the first screenshot."
+}

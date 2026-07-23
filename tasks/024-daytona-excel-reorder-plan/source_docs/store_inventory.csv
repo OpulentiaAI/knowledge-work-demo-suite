@@ -1,0 +1,6 @@
+sku,item,on_hand_units,avg_daily_units,safety_stock_units,target_stock_units,case_pack
+WTR-12,Spring Water 12-pack,24,12,36,120,12
+ENG-16,Citrus Energy Drink,45,18,54,180,24
+PRT-06,Protein Bar,60,8,24,72,6
+GRN-08,Granola Cups,30,5,20,40,10
+CND-04,Chocolate Candy,130,20,60,160,20

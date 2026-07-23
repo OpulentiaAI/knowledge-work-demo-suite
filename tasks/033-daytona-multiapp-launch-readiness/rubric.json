@@ -1,0 +1,22 @@
+[
+  {
+    "score": 4,
+    "criterion": "Deck contains exactly five requested slides and states the 2026-07-28 launch date."
+  },
+  {
+    "score": 5,
+    "criterion": "Tracker includes every incomplete milestone and both risks with owner, due date, status, evidence source, mitigation, and impact."
+  },
+  {
+    "score": 5,
+    "criterion": "Identifies R-17/payment-gateway certification as High and launch-blocking; it is not marked resolved."
+  },
+  {
+    "score": 3,
+    "criterion": "Deck includes both decision requests: executive escalation path and overtime approval for support training."
+  },
+  {
+    "score": 3,
+    "criterion": "Next-seven-days actions are grounded in the supplied deadlines and owners."
+  }
+]

@@ -1,0 +1,11 @@
+{
+  "title": "Draft a Freezer Incident Report",
+  "instructions": "Complete the staged Windows Office workflow and save the required native deliverable(s).",
+  "criteria": [
+    "Uses all required sections and a clearly titled incident report.",
+    "Reports the recorded temperature movement from -8 C to 1 C between 05:40 and 07:05, without inventing an unrecorded duration.",
+    "Product disposition table lists two ice-cream cartons and one frozen-meals carton with a total cost of $130.00.",
+    "States product was moved at 07:05, maintenance ticket MNT-8821 was opened at 07:20, and technician visit was scheduled for 10:30.",
+    "Treats compressor failure as suspected, not confirmed, and supplies sensible follow-up."
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "title": "Reconcile a Campaign Variance Workbook",
+  "instructions": "Complete the staged Windows Office workflow and save the required native deliverable(s).",
+  "criteria": [
+    "Creates formula-driven `Daily Detail` and `Summary` sheets with the supplied data.",
+    "Summary correctly reports $29,410 actual sales, $33,000 budget, and a -$3,590 variance.",
+    "Correctly reports a campaign variance of about -10.9% and 2,581 actual units.",
+    "Identifies 2026-06-05 as the largest negative daily variance at -$990.",
+    "Includes a readable actual-versus-budget chart and an evidence-limited manager takeaway."
+  ]
+}

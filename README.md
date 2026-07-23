@@ -1,7 +1,7 @@
 # Knowledge Work Demo Suite
 
-A compact, source-grounded collection of 20 professional knowledge-work tasks
-compiled from four public benchmarks. Every task contains:
+A compact, source-grounded collection of 33 professional knowledge-work tasks
+compiled from six public benchmarks and task-design references. Every task contains:
 
 - `prompt.md` — a standalone assignment for an agent or model;
 - `task.json` — normalized metadata, provenance, inputs, and expected outputs;
@@ -25,7 +25,7 @@ cd knowledge-work-demo-suite
 python3 scripts/validate_suite.py
 ```
 
-The validator should report 20 tasks, four datasets, and verified hashes for
+The validator should report 33 tasks, six datasets, and verified hashes for
 all source files.
 
 ## Run one use case
@@ -180,9 +180,21 @@ scripts/
 | Harvey Legal Agent Benchmark | 6 | Legal analysis, review, drafting, transactions, disputes, and tax |
 | OpenAI GDPval | 6 | Cross-industry professional artifacts in finance, healthcare, engineering, project delivery, sales, and IT |
 | Workspace-Bench-Lite | 4 | File-heavy product, logistics, operations, and research work |
+| Synthetic Retail POS 2026 (Mendeley Data) | 3 | Evidence-based retail sales diagnosis with deterministic source packets |
+| Daytona Windows OSWorld-Inspired Knowledge Work | 10 | Original, snapshot-ready Office and multi-app workflows for strict visible-UI Daytona Windows sandbox runs |
 
 The collection is a curated demo set, not a replacement for any upstream
 benchmark and not suitable for reporting upstream leaderboard scores.
+
+## Daytona Windows Office tasks
+
+Tasks `024` through `033` are tailored to a Daytona Windows sandbox runtime.
+They use staged, offline synthetic evidence; resettable app state; and
+post-run inspection of native Office artifacts. The packet configuration
+enforces a visible-UI-only agent policy and names the required snapshot apps,
+workspace path, output path, and evaluator checks. See
+[the Daytona/OSWorld task design](docs/daytona-windows-osworld-task-design.md)
+for the run contract and task-family breakdown.
 
 ## Data and licensing
 

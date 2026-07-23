@@ -1,0 +1,48 @@
+{
+  "schema_version": "1.0",
+  "profile": "daytona-windows-office-v1",
+  "adapter_note": "Declarative task contract for a Daytona Windows runner; not a claim of byte-for-byte OSWorld schema compatibility.",
+  "os": "windows",
+  "snapshot_requirements": {
+    "applications": [
+      "Microsoft Excel"
+    ],
+    "network": "disabled after snapshot creation"
+  },
+  "agent_policy": {
+    "interaction": "visible-desktop-only",
+    "allowed_calls": [
+      "pyautogui",
+      "time"
+    ],
+    "blocked": [
+      "shell",
+      "filesystem_api",
+      "network",
+      "package_install"
+    ]
+  },
+  "setup": {
+    "stage_source_docs": "Documents\\KnowledgeWork\\024-daytona-excel-reorder-plan\\source_docs",
+    "launch_apps": [
+      "Microsoft Excel"
+    ]
+  },
+  "output": {
+    "directory": "Documents\\KnowledgeWork\\024-daytona-excel-reorder-plan\\output",
+    "required_files": [
+      "reorder_plan.xlsx"
+    ]
+  },
+  "evaluation": {
+    "mode": "post-run artifact inspection",
+    "checks": [
+      "Creates `Reorder Plan` and `Notes` sheets and includes all five SKUs.",
+      "Uses formulas to calculate the target gap and rounds upward to a whole case pack.",
+      "Returns order quantities of 96 for WTR-12, 144 for ENG-16, 12 for PRT-06, 10 for GRN-08, and 40 for CND-04.",
+      "Marks WTR-12 and ENG-16 as Urgent and all other SKUs as Routine; urgent rows appear first.",
+      "Notes sheet states the urgent SKUs and the round-up-to-case-pack rule."
+    ]
+  },
+  "reset": "Start every attempt from the same snapshot and restage source_docs before the first screenshot."
+}

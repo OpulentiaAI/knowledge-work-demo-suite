@@ -1,0 +1,53 @@
+{
+  "schema_version": "1.0",
+  "profile": "daytona-windows-office-v1",
+  "adapter_note": "Declarative task contract for a Daytona Windows runner; not a claim of byte-for-byte OSWorld schema compatibility.",
+  "os": "windows",
+  "snapshot_requirements": {
+    "applications": [
+      "Microsoft Outlook",
+      "Microsoft Excel",
+      "Microsoft Word"
+    ],
+    "network": "disabled after snapshot creation"
+  },
+  "agent_policy": {
+    "interaction": "visible-desktop-only",
+    "allowed_calls": [
+      "pyautogui",
+      "time"
+    ],
+    "blocked": [
+      "shell",
+      "filesystem_api",
+      "network",
+      "package_install"
+    ]
+  },
+  "setup": {
+    "stage_source_docs": "Documents\\KnowledgeWork\\032-daytona-multiapp-procurement-decision\\source_docs",
+    "launch_apps": [
+      "Microsoft Outlook",
+      "Microsoft Excel",
+      "Microsoft Word"
+    ]
+  },
+  "output": {
+    "directory": "Documents\\KnowledgeWork\\032-daytona-multiapp-procurement-decision\\output",
+    "required_files": [
+      "vendor_scorecard.xlsx",
+      "procurement_recommendation.docx"
+    ]
+  },
+  "evaluation": {
+    "mode": "post-run artifact inspection",
+    "checks": [
+      "Scorecard compares all vendors across every requested dimension and uses formula-driven weighted scoring.",
+      "Disqualifies BrightDesk because it lacks SOC 2 Type II despite cost and speed.",
+      "Recommends Apex Systems as the best qualifying option; it is within the $52,000 cap, certified, and faster than CoreServe.",
+      "Shows cost weight 40%, implementation 30%, support 20%, and security 10%.",
+      "Treats the eight-week preference as a concern rather than a mandatory requirement."
+    ]
+  },
+  "reset": "Start every attempt from the same snapshot and restage source_docs before the first screenshot."
+}

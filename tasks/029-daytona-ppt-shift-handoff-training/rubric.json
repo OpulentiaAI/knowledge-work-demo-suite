@@ -1,0 +1,22 @@
+[
+  {
+    "score": 4,
+    "criterion": "Contains exactly six slides with the requested training sequence."
+  },
+  {
+    "score": 6,
+    "criterion": "Checklist includes all nine mandatory SOP items."
+  },
+  {
+    "score": 4,
+    "criterion": "Correctly shows the three audit miss counts: handoff note 7, waste 5, maintenance tickets 4."
+  },
+  {
+    "score": 3,
+    "criterion": "Uses action-oriented opening and closing check instructions."
+  },
+  {
+    "score": 3,
+    "criterion": "Does not invent audit causes and is legible for a new shift lead."
+  }
+]

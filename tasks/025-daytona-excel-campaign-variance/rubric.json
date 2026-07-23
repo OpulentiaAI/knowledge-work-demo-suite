@@ -1,0 +1,22 @@
+[
+  {
+    "score": 5,
+    "criterion": "Creates formula-driven `Daily Detail` and `Summary` sheets with the supplied data."
+  },
+  {
+    "score": 5,
+    "criterion": "Summary correctly reports $29,410 actual sales, $33,000 budget, and a -$3,590 variance."
+  },
+  {
+    "score": 4,
+    "criterion": "Correctly reports a campaign variance of about -10.9% and 2,581 actual units."
+  },
+  {
+    "score": 4,
+    "criterion": "Identifies 2026-06-05 as the largest negative daily variance at -$990."
+  },
+  {
+    "score": 3,
+    "criterion": "Includes a readable actual-versus-budget chart and an evidence-limited manager takeaway."
+  }
+]

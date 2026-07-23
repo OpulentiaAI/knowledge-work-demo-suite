@@ -1,0 +1,11 @@
+{
+  "title": "Create Shift Handoff Training Slides",
+  "instructions": "Complete the staged Windows Office workflow and save the required native deliverable(s).",
+  "criteria": [
+    "Contains exactly six slides with the requested training sequence.",
+    "Checklist includes all nine mandatory SOP items.",
+    "Correctly shows the three audit miss counts: handoff note 7, waste 5, maintenance tickets 4.",
+    "Uses action-oriented opening and closing check instructions.",
+    "Does not invent audit causes and is legible for a new shift lead."
+  ]
+}

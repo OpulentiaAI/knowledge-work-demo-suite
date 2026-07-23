@@ -1,0 +1,10 @@
+{
+  "title": "Diagnose Valentine Sales Growth and Mix",
+  "instructions": "Analyze the provided store, chain, category, discount, profit, and calendar data. Determine whether the sales gain is most consistent with promotion, traffic, basket, or category mix; quantify the answer; state evidentiary limits; and recommend a measurable next-event action. Output: valentine_sales_diagnostic.md",
+  "criteria": [
+    "Uses a matched-weekday comparison.",
+    "Correctly separates traffic growth from basket decline.",
+    "Identifies Beauty and Accessories as the important mix movements.",
+    "Does not falsely attribute the gain to discounting."
+  ]
+}

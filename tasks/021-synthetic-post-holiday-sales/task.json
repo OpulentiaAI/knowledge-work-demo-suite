@@ -1,0 +1,16 @@
+{
+  "id": "021-synthetic-post-holiday-sales",
+  "title": "Diagnose Post-Holiday Sales Weakness — Store 04 San Antonio",
+  "domain": "retail-sales-diagnostics",
+  "work_type": "diagnose-and-recommend",
+  "dataset": "Synthetic Retail POS 2026 (Mendeley Data)",
+  "upstream_id": "39xdjxgnmf.1/post-holiday-sales-diagnostic",
+  "upstream_url": "https://data.mendeley.com/datasets/39xdjxgnmf/1",
+  "license": "CC BY 4.0; packet aggregates derived from the upstream dataset",
+  "prompt": "prompt.md",
+  "source_docs": "source_docs",
+  "deliverables": [
+    "post_holiday_sales_diagnostic.md"
+  ],
+  "rubric": "rubric.json"
+}

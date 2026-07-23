@@ -1,0 +1,34 @@
+[
+  {
+    "score": 3,
+    "criterion": "Identifies Store 04 — San Antonio and compares January 2–6, 2024 with January 9–13, 2024."
+  },
+  {
+    "score": 5,
+    "criterion": "Quantifies sales after refunds as approximately $5,624.52 versus $7,490.38, a decline of about $1,865.86 or 24.9%."
+  },
+  {
+    "score": 5,
+    "criterion": "Correctly identifies transaction decline as the primary observed driver: 73 versus 92 transactions, down about 20.7%; units fell from 187 to 152, about 18.7%."
+  },
+  {
+    "score": 4,
+    "criterion": "Distinguishes traffic from basket effects: average payment net basket fell only about 3.9% ($78.56 versus $81.70), so basket change is secondary."
+  },
+  {
+    "score": 4,
+    "criterion": "Notes that refunds worsened by about $84 ($110 negative refund net sales versus $26 negative) and gross profit fell from about $4,120.71 to $3,200.38, about 22.3%."
+  },
+  {
+    "score": 5,
+    "criterion": "Uses the calendar and chain comparison to characterize the post-holiday period as a supported seasonal explanation or hypothesis, not a proven store-specific merchandising failure. Chain payment net sales also fell from about $235,632.60 to $202,700.55, about 14.0%."
+  },
+  {
+    "score": 4,
+    "criterion": "Rejects a blanket discount response as unsupported: discount rate decreased from about 5.63% to 4.53%, so there is no evidence that higher discounting caused the decline or is the primary remedy."
+  },
+  {
+    "score": 4,
+    "criterion": "Gives two concrete immediate actions and a defined post-period measurement, such as matched-weekday transaction recovery, refund rate, gross profit, or category-level sales."
+  }
+]

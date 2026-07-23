@@ -1,0 +1,4 @@
+ticket_id,order,status,issue,owner,opened
+CS-4102,88421,Open,Six cases missing on delivery,Luis Romero,2026-06-18
+CS-4091,88421,Closed - duplicate,Six cases missing on delivery,Luis Romero,2026-06-18
+CS-3988,87995,Closed,Damaged case,Avery Patel,2026-06-05

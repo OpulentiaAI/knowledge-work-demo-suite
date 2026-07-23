@@ -1,0 +1,48 @@
+{
+  "schema_version": "1.0",
+  "profile": "daytona-windows-office-v1",
+  "adapter_note": "Declarative task contract for a Daytona Windows runner; not a claim of byte-for-byte OSWorld schema compatibility.",
+  "os": "windows",
+  "snapshot_requirements": {
+    "applications": [
+      "Microsoft PowerPoint"
+    ],
+    "network": "disabled after snapshot creation"
+  },
+  "agent_policy": {
+    "interaction": "visible-desktop-only",
+    "allowed_calls": [
+      "pyautogui",
+      "time"
+    ],
+    "blocked": [
+      "shell",
+      "filesystem_api",
+      "network",
+      "package_install"
+    ]
+  },
+  "setup": {
+    "stage_source_docs": "Documents\\KnowledgeWork\\029-daytona-ppt-shift-handoff-training\\source_docs",
+    "launch_apps": [
+      "Microsoft PowerPoint"
+    ]
+  },
+  "output": {
+    "directory": "Documents\\KnowledgeWork\\029-daytona-ppt-shift-handoff-training\\output",
+    "required_files": [
+      "shift_handoff_training.pptx"
+    ]
+  },
+  "evaluation": {
+    "mode": "post-run artifact inspection",
+    "checks": [
+      "Contains exactly six slides with the requested training sequence.",
+      "Checklist includes all nine mandatory SOP items.",
+      "Correctly shows the three audit miss counts: handoff note 7, waste 5, maintenance tickets 4.",
+      "Uses action-oriented opening and closing check instructions.",
+      "Does not invent audit causes and is legible for a new shift lead."
+    ]
+  },
+  "reset": "Start every attempt from the same snapshot and restage source_docs before the first screenshot."
+}

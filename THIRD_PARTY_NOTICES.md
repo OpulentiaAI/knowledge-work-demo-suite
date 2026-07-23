@@ -38,5 +38,12 @@ MIT license.
 - Included: four task rows, rubrics, dependency metadata, and the exact files
   named by each task's data manifest.
 
-Third-party trademarks and names are used only to identify provenance.
+## Daytona Windows OSWorld-Inspired Knowledge Work
 
+- Method reference: https://www.daytona.io/dotfiles/osworld-on-daytona-windows-sandboxes
+- Included: ten original task definitions, synthetic local evidence packets,
+  Daytona Windows runtime contracts, and original evaluation rubrics.
+- Not included: OSWorld Windows task files, Daytona source code, Office
+  software, private credentials, or live-web task state.
+
+Third-party trademarks and names are used only to identify provenance.

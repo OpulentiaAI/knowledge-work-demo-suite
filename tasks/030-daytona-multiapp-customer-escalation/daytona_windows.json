@@ -1,0 +1,53 @@
+{
+  "schema_version": "1.0",
+  "profile": "daytona-windows-office-v1",
+  "adapter_note": "Declarative task contract for a Daytona Windows runner; not a claim of byte-for-byte OSWorld schema compatibility.",
+  "os": "windows",
+  "snapshot_requirements": {
+    "applications": [
+      "Microsoft Outlook",
+      "Microsoft Excel",
+      "Microsoft Word"
+    ],
+    "network": "disabled after snapshot creation"
+  },
+  "agent_policy": {
+    "interaction": "visible-desktop-only",
+    "allowed_calls": [
+      "pyautogui",
+      "time"
+    ],
+    "blocked": [
+      "shell",
+      "filesystem_api",
+      "network",
+      "package_install"
+    ]
+  },
+  "setup": {
+    "stage_source_docs": "Documents\\KnowledgeWork\\030-daytona-multiapp-customer-escalation\\source_docs",
+    "launch_apps": [
+      "Microsoft Outlook",
+      "Microsoft Excel",
+      "Microsoft Word"
+    ]
+  },
+  "output": {
+    "directory": "Documents\\KnowledgeWork\\030-daytona-multiapp-customer-escalation\\output",
+    "required_files": [
+      "escalation_brief.docx",
+      "case_actions.xlsx"
+    ]
+  },
+  "evaluation": {
+    "mode": "post-run artifact inspection",
+    "checks": [
+      "Brief identifies Northstar, order 88421, six missing cases, and the Friday 3 PM CT response deadline.",
+      "Treats CS-4102 as open and CS-4091 as a duplicate; does not count them as two separate incidents.",
+      "Labels dispatch confirmation and any credit as unresolved/approval-dependent rather than promised facts.",
+      "Tracker includes owner, due date, status, evidence source, and next action for the open work.",
+      "Recommended response is concrete and respects the same-business-day service target."
+    ]
+  },
+  "reset": "Start every attempt from the same snapshot and restage source_docs before the first screenshot."
+}

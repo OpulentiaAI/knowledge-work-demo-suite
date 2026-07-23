@@ -22,6 +22,19 @@
 | 18 | Workspace-Bench-Lite | logistics-operations | [Logistics Manager: Logistics Operations](tasks/018-workspace-emergency-operations/prompt.md) | `emergency_end_to_end_operation_manual.doc` |
 | 19 | Workspace-Bench-Lite | global-operations | [Operations Manager: Global Operations](tasks/019-workspace-global-product-strategy/prompt.md) | `Global_Product_Strategy.md` |
 | 20 | Workspace-Bench-Lite | research | [Researcher: Research](tasks/020-workspace-llm-memory-survey/prompt.md) | `LLM_personalized_memory_survey.pdf` |
+| 21 | Synthetic Retail POS 2026 (Mendeley Data) | retail-sales-diagnostics | [Diagnose Post-Holiday Sales Weakness — Store 04 San Antonio](tasks/021-synthetic-post-holiday-sales/prompt.md) | `post_holiday_sales_diagnostic.md` |
+| 22 | Synthetic Retail POS 2026 (Mendeley Data) | retail-sales-diagnostics | [Diagnose Valentine Sales Growth and Mix — Store 09 Chicago](tasks/022-synthetic-valentine-sales/prompt.md) | `valentine_sales_diagnostic.md` |
+| 23 | Synthetic Retail POS 2026 (Mendeley Data) | retail-sales-diagnostics | [Assess Easter Sales Collapse and Response — Store 18 Memphis](tasks/023-synthetic-easter-sales/prompt.md) | `easter_sales_incident_memo.md` |
+| 24 | Daytona Windows OSWorld-Inspired Knowledge Work | retail-operations | [Build a Store Reorder Plan](tasks/024-daytona-excel-reorder-plan/prompt.md) | `reorder_plan.xlsx` |
+| 25 | Daytona Windows OSWorld-Inspired Knowledge Work | sales-operations | [Reconcile a Campaign Variance Workbook](tasks/025-daytona-excel-campaign-variance/prompt.md) | `campaign_variance.xlsx` |
+| 26 | Daytona Windows OSWorld-Inspired Knowledge Work | store-operations | [Draft a Freezer Incident Report](tasks/026-daytona-word-freezer-incident/prompt.md) | `freezer_incident_report.docx` |
+| 27 | Daytona Windows OSWorld-Inspired Knowledge Work | vendor-management | [Prepare a Vendor Service-Level Change Notice](tasks/027-daytona-word-vendor-notice/prompt.md) | `vendor_service_change_notice.docx` |
+| 28 | Daytona Windows OSWorld-Inspired Knowledge Work | business-performance | [Create a Weekly Business Review Deck](tasks/028-daytona-ppt-weekly-business-review/prompt.md) | `weekly_business_review.pptx` |
+| 29 | Daytona Windows OSWorld-Inspired Knowledge Work | store-training | [Create Shift Handoff Training Slides](tasks/029-daytona-ppt-shift-handoff-training/prompt.md) | `shift_handoff_training.pptx` |
+| 30 | Daytona Windows OSWorld-Inspired Knowledge Work | customer-operations | [Resolve a Customer Escalation Across Office Apps](tasks/030-daytona-multiapp-customer-escalation/prompt.md) | `escalation_brief.docx`, `case_actions.xlsx` |
+| 31 | Daytona Windows OSWorld-Inspired Knowledge Work | account-management | [Prepare a Renewal Review Packet](tasks/031-daytona-multiapp-renewal-review/prompt.md) | `renewal_recommendations.xlsx`, `renewal_decision_memo.docx` |
+| 32 | Daytona Windows OSWorld-Inspired Knowledge Work | procurement | [Build a Procurement Decision Pack](tasks/032-daytona-multiapp-procurement-decision/prompt.md) | `vendor_scorecard.xlsx`, `procurement_recommendation.docx` |
+| 33 | Daytona Windows OSWorld-Inspired Knowledge Work | program-management | [Assemble a Launch Readiness Review](tasks/033-daytona-multiapp-launch-readiness/prompt.md) | `launch_readiness_deck.pptx`, `launch_action_tracker.xlsx` |
 
 ## Domain groups
 
@@ -29,4 +42,6 @@
 - Legal: M&A, real estate, contracts, bankruptcy, litigation, and cross-border tax.
 - Operations: healthcare, logistics, emergency response, project controls, and sales operations.
 - Technical: materials engineering, systems architecture, data-heavy product analysis, and AI research.
+- Retail diagnostics: evidence-based explanations of sales increases, declines, category mix, refunds, discounts, and operational responses.
+- Daytona Windows Office: deterministic Excel, Word, PowerPoint, and Outlook-plus-Office workflows designed for snapshot-backed, visible-UI-only sandboxes.
 - Communication formats: memo, PDF, XLSX, PPTX, LaTeX, video/subtitles, operating manual, and research survey.

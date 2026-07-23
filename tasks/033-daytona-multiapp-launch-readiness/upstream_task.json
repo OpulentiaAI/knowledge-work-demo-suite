@@ -1,0 +1,11 @@
+{
+  "title": "Assemble a Launch Readiness Review",
+  "instructions": "Complete the staged Windows Office workflow and save the required native deliverable(s).",
+  "criteria": [
+    "Deck contains exactly five requested slides and states the 2026-07-28 launch date.",
+    "Tracker includes every incomplete milestone and both risks with owner, due date, status, evidence source, mitigation, and impact.",
+    "Identifies R-17/payment-gateway certification as High and launch-blocking; it is not marked resolved.",
+    "Deck includes both decision requests: executive escalation path and overtime approval for support training.",
+    "Next-seven-days actions are grounded in the supplied deadlines and owners."
+  ]
+}

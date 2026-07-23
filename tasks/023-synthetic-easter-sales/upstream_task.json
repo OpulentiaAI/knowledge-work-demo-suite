@@ -1,0 +1,10 @@
+{
+  "title": "Assess Easter Sales Collapse and Response",
+  "instructions": "Analyze the provided store, chain, category, discount, profit, and calendar data. Quantify the sales collapse, rank the evidence-supported drivers, rule out weaker explanations, assess whether a price promotion is justified, and recommend a measurable operational response. Output: easter_sales_incident_memo.md",
+  "criteria": [
+    "Uses a matched-Sunday comparison.",
+    "Identifies transaction loss as the primary driver and basket increase as contradictory to a basket explanation.",
+    "Does not equate an Easter traffic shock with a full closure or data loss.",
+    "Avoids recommending unsupported price promotion."
+  ]
+}

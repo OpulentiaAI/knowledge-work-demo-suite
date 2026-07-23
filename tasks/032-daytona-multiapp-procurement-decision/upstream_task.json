@@ -1,0 +1,11 @@
+{
+  "title": "Build a Procurement Decision Pack",
+  "instructions": "Complete the staged Windows Office workflow and save the required native deliverable(s).",
+  "criteria": [
+    "Scorecard compares all vendors across every requested dimension and uses formula-driven weighted scoring.",
+    "Disqualifies BrightDesk because it lacks SOC 2 Type II despite cost and speed.",
+    "Recommends Apex Systems as the best qualifying option; it is within the $52,000 cap, certified, and faster than CoreServe.",
+    "Shows cost weight 40%, implementation 30%, support 20%, and security 10%.",
+    "Treats the eight-week preference as a concern rather than a mandatory requirement."
+  ]
+}
