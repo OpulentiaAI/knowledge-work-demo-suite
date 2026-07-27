@@ -42,6 +42,13 @@
 | 38 | UC Berkeley DataAgentBench | media-revenue-analysis | [Identify the Highest-Revenue Song](tasks/038-dab-music-revenue-leader/prompt.md) | `answer.txt` |
 | 39 | UC Berkeley DataAgentBench | government-procurement-analysis | [Compare Agencies by Million-Dollar Contract Share](tasks/039-dab-usaspending-agency-million-dollar-share/prompt.md) | `answer.txt` |
 | 40 | UC Berkeley DataAgentBench | investment-performance-analysis | [Rank Indices by Long-Run Monthly Investment Returns](tasks/040-dab-stockindex-monthly-investment-returns/prompt.md) | `answer.txt` |
+| 41 | Tax Strategy Execution Manual-Inspired Advisory Work | tax-education-planning | [Build a 529 Funding and Distribution Plan](tasks/041-tax-529-plan-execution/prompt.md) | `529_strategy_memo.md`, `529_funding_schedule.xlsx` |
+| 42 | Tax Strategy Execution Manual-Inspired Advisory Work | tax-retirement-planning | [Calculate and Execute a Solo 401(k) Contribution Plan](tasks/042-tax-solo-401k-contribution-plan/prompt.md) | `solo_401k_execution_memo.md`, `solo_401k_contribution_workbook.xlsx` |
+| 43 | Tax Strategy Execution Manual-Inspired Advisory Work | benefits-plan-design | [Compare Small-Employer 401(k) Designs](tasks/043-tax-employer-401k-design/prompt.md) | `employer_401k_design_memo.md`, `employer_401k_cost_model.xlsx` |
+| 44 | Tax Strategy Execution Manual-Inspired Advisory Work | family-business-payroll | [Design a Compliant Owner-Child Employment Plan](tasks/044-tax-hiring-owner-child/prompt.md) | `child_employment_memo.md`, `child_payroll_schedule.xlsx` |
+| 45 | Tax Strategy Execution Manual-Inspired Advisory Work | family-business-payroll | [Model Owner-Spouse Wages and Benefits](tasks/045-tax-employing-owner-spouse/prompt.md) | `spouse_employment_memo.md`, `spouse_payroll_budget.xlsx` |
+| 46 | Tax Strategy Execution Manual-Inspired Advisory Work | tax-business-expense-planning | [Document a Section 280A(g) Home-Rental Arrangement](tasks/046-tax-augusta-rule-execution/prompt.md) | `augusta_rule_execution_memo.md`, `rental_event_log.xlsx` |
+| 47 | Tax Strategy Execution Manual-Inspired Advisory Work | tax-health-benefits | [Model HSA Eligibility and Funding Choices](tasks/047-tax-hsa-optimization/prompt.md) | `hsa_eligibility_funding_memo.md`, `hsa_contribution_schedule.xlsx` |
 
 ## Domain groups
 
@@ -50,6 +57,7 @@
 - Operations: healthcare, logistics, emergency response, project controls, and sales operations.
 - Technical: materials engineering, systems architecture, data-heavy product analysis, and AI research.
 - Data-agent analytics: cross-database publishing, civic, CRM, local-market, media, procurement, and investment questions.
+- Tax strategy execution: education savings, owner and employer retirement plans, family payroll, short-term home rental, and health savings accounts.
 - Retail diagnostics: evidence-based explanations of sales increases, declines, category mix, refunds, discounts, and operational responses.
 - Daytona Windows Office: deterministic Excel, Word, PowerPoint, and Outlook-plus-Office workflows designed for snapshot-backed, visible-UI-only sandboxes.
 - Communication formats: memo, PDF, XLSX, PPTX, LaTeX, video/subtitles, operating manual, and research survey.

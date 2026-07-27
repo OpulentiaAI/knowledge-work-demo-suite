@@ -1,0 +1,22 @@
+[
+  {
+    "score": 20,
+    "criterion": "Includes 10 eligible employees, correctly treats Jamie as eligible and Skyler as excluded, and totals $890,000 compensation."
+  },
+  {
+    "score": 20,
+    "criterion": "Calculates the 3% nonelective cost as $26,700."
+  },
+  {
+    "score": 20,
+    "criterion": "Applies the basic match formula employee by employee and calculates $28,450."
+  },
+  {
+    "score": 15,
+    "criterion": "Shows the $1,750 cost difference and the $2,250 startup-credit model plus separate potential $500 credit."
+  },
+  {
+    "score": 25,
+    "criterion": "Makes a reasoned recommendation and supplies a formula-driven workbook, implementation calendar, fiduciary controls, and qualification caveats."
+  }
+]

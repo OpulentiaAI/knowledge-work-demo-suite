@@ -21,6 +21,7 @@ EXPECTED_DATASET_COUNTS = {
     "Synthetic Retail POS 2026 (Mendeley Data)": 3,
     "Daytona Windows OSWorld-Inspired Knowledge Work": 10,
     "UC Berkeley DataAgentBench": 7,
+    "Tax Strategy Execution Manual-Inspired Advisory Work": 7,
 }
 
 
@@ -38,8 +39,8 @@ def fail(message: str) -> None:
 
 def main() -> int:
     task_dirs = sorted(path for path in TASKS_DIR.iterdir() if path.is_dir())
-    if len(task_dirs) != 40:
-        fail(f"Expected 40 task directories, found {len(task_dirs)}")
+    if len(task_dirs) != 47:
+        fail(f"Expected 47 task directories, found {len(task_dirs)}")
 
     ids: set[str] = set()
     datasets: Counter[str] = Counter()
@@ -120,13 +121,45 @@ def main() -> int:
                 fail(f"Missing DataAgentBench database description: {task_dir}")
             if not (source_path / "query_dataset").is_dir():
                 fail(f"Missing DataAgentBench query dataset: {task_dir}")
+        if metadata["dataset"] == "Tax Strategy Execution Manual-Inspired Advisory Work":
+            config_path = task_dir / metadata.get("tax_strategy_config", "")
+            if not config_path.is_file():
+                fail(f"Missing tax strategy config: {config_path}")
+            config = json.loads(config_path.read_text(encoding="utf-8"))
+            if config.get("effective_tax_year") != 2026:
+                fail(f"Tax strategy task must freeze the 2026 tax year: {config_path}")
+            manual = config.get("manual_method_reference", {})
+            if manual.get("confidential_manual_redistributed") is not False:
+                fail(f"Confidential manual redistribution flag is unsafe: {config_path}")
+            if config.get("output", {}).get("required_files") != metadata["deliverables"]:
+                fail(f"Tax strategy output mismatch: {config_path}")
+            if any(path.suffix.lower() == ".pdf" for path in source_files):
+                fail(f"Tax strategy packet must not redistribute the confidential PDF: {task_dir}")
+            required_sources = {
+                "calculation_inputs.csv",
+                "client_facts.md",
+                "official_guidance.md",
+            }
+            if {path.name for path in source_files} != required_sources:
+                fail(f"Tax strategy source packet mismatch: {task_dir}")
+            answer_key_path = task_dir / "answer_key.md"
+            if not answer_key_path.is_file() or answer_key_path.stat().st_size == 0:
+                fail(f"Missing tax strategy answer key: {answer_key_path}")
+            blind_run = config.get("blind_run", {})
+            hidden = set(blind_run.get("grader_hidden", []))
+            visible = set(blind_run.get("agent_visible", []))
+            if not {"rubric.json", "answer_key.md"} <= hidden or hidden & visible:
+                fail(f"Unsafe tax strategy blind-run isolation: {config_path}")
+            rubric_data = json.loads(rubric_path.read_text(encoding="utf-8"))
+            if sum(item.get("score", 0) for item in rubric_data) != 100:
+                fail(f"Tax strategy rubric must total 100 points: {rubric_path}")
 
     if dict(datasets) != EXPECTED_DATASET_COUNTS:
         fail(f"Unexpected dataset balance: {dict(datasets)}")
 
     catalog_rows = list(csv.DictReader((ROOT / "catalog.csv").open(encoding="utf-8")))
-    if len(catalog_rows) != 40:
-        fail(f"Expected 40 catalog rows, found {len(catalog_rows)}")
+    if len(catalog_rows) != 47:
+        fail(f"Expected 47 catalog rows, found {len(catalog_rows)}")
     if {row["id"] for row in catalog_rows} != ids:
         fail("catalog.csv task IDs do not match task directories")
 
@@ -144,7 +177,7 @@ def main() -> int:
             fail(f"SHA-256 mismatch: {path}")
 
     print(
-        "PASS: 40 tasks, 7 datasets, "
+        "PASS: 47 tasks, 8 datasets, "
         f"{len(resolved_source_files)} unique source files, all hashes verified"
     )
     return 0

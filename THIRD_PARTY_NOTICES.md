@@ -58,4 +58,16 @@ MIT license.
   database descriptions and configurations, and the bounded database files
   required by those queries.
 
+## Tax Strategy Execution Manual-Inspired Advisory Work
+
+- Private method reference: `Tax Strategy Execution Manual`, July 2026.
+- Not included: the confidential manual, page images, extracted text, or
+  quotations from it.
+- Included: seven original task definitions, synthetic client fact packets,
+  calculation inputs, evaluation rubrics, and links to official United States
+  government guidance.
+- United States government works and linked guidance are not relicensed by
+  this repository. The original task text and synthetic fixtures are covered
+  by the repository MIT license.
+
 Third-party trademarks and names are used only to identify provenance.

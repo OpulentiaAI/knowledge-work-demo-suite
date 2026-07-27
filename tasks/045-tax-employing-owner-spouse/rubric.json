@@ -1,0 +1,22 @@
+[
+  {
+    "score": 20,
+    "criterion": "Uses the $30 median and 750 hours to calculate $22,500 supportable wages and rejects unsupported $48,000 pay."
+  },
+  {
+    "score": 20,
+    "criterion": "Correctly identifies corporate wages as subject to FIT/FICA/FUTA and calculates $1,721.25 employee and employer FICA."
+  },
+  {
+    "score": 15,
+    "criterion": "Calculates estimated FUTA as $42 under the stated full-credit assumption."
+  },
+  {
+    "score": 25,
+    "criterion": "Maps $12,000 health premiums to modeled Box 1 of $34,500 and Boxes 3/5 of $22,500, with more-than-2% shareholder caveats."
+  },
+  {
+    "score": 20,
+    "criterion": "Provides an auditable workbook and documentation, payroll, benefits, and reasonable-compensation implementation controls."
+  }
+]

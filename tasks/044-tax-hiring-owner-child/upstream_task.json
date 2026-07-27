@@ -1,0 +1,11 @@
+{
+  "type": "original_public_safe_derivative",
+  "method_reference": "User-supplied Tax Strategy Execution Manual, July 2026",
+  "method_reference_sha256": "ef3d19962640979ecab443432fc2c6605f213744e516cf86e11d2fb51940b9d2",
+  "method_reference_pages": [
+    163
+  ],
+  "confidential_source_included": false,
+  "facts": "Synthetic and original",
+  "law_sources": "Official IRS, DOL, and U.S. Code links in source_docs/official_guidance.md"
+}

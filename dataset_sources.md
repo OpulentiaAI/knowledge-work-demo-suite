@@ -90,6 +90,27 @@ and the official transparent validator.
 
 Source: https://github.com/ucbepic/DataAgentBench
 
+### Tax Strategy Execution Manual-Inspired Advisory Work
+
+Seven original task packets translate an execution-oriented tax-advisory
+method into deterministic cases covering a 529 plan, solo and employer 401(k)
+plans, wages paid to an owner's child and spouse, a section 280A(g) home-rental
+arrangement, and HSA planning. Client names, facts, calculations, and output
+contracts are synthetic. The cases freeze their federal-law assumptions to
+2026 and cite current IRS, Department of Labor, and U.S. Code sources inside
+each packet.
+
+The user-supplied `Tax Strategy Execution Manual` (July 2026) was used only as
+a private method reference for workflow structure, execution controls, and
+review emphasis. Because the manual is marked confidential and for internal
+use, the PDF and its text are not redistributed in this public repository.
+
+Primary public sources:
+
+- https://www.irs.gov/
+- https://www.dol.gov/agencies/ebsa
+- https://uscode.house.gov/
+
 ## Considered but not selected
 
 - WorkBench focuses on database state changes such as sending email and
@@ -101,3 +122,5 @@ Source: https://github.com/ucbepic/DataAgentBench
   collection; the Daytona article is used solely as a public method reference.
 - The full DataAgentBench corpus contains much larger datasets and more query
   families; only seven bounded, independently runnable cases are included.
+- The confidential Tax Strategy Execution Manual is not vendored; its seven
+  cases use original fixtures and public government guidance.

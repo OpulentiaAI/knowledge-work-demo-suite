@@ -1,0 +1,22 @@
+[
+  {
+    "score": 25,
+    "criterion": "Uses the $18 median rate and 160 hours to calculate $2,880 reasonable wages and rejects the unsupported $8,000 amount."
+  },
+  {
+    "score": 20,
+    "criterion": "Correctly applies the sole-proprietor child rules: no FICA under 18 and no FUTA under 21, with ordinary payroll/W-2 controls."
+  },
+  {
+    "score": 20,
+    "criterion": "Calculates the dependent standard deduction as $3,330 and zero modeled taxable income absent other income."
+  },
+  {
+    "score": 15,
+    "criterion": "Limits modeled Roth IRA capacity to $2,880 of earned income and states qualification caveats."
+  },
+  {
+    "score": 20,
+    "criterion": "Provides a formula-driven payroll schedule plus timesheet, job-description, rate-support, labor-law, and records controls."
+  }
+]

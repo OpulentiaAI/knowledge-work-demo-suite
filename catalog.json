@@ -686,5 +686,131 @@
     ],
     "rubric": "rubric.json",
     "dataagentbench_config": "dataagentbench.json"
+  },
+  {
+    "id": "041-tax-529-plan-execution",
+    "title": "Build a 529 Funding and Distribution Plan",
+    "domain": "tax-education-planning",
+    "work_type": "tax-advisory-memo-and-model",
+    "dataset": "Tax Strategy Execution Manual-Inspired Advisory Work",
+    "upstream_id": "original/041-tax-529-plan-execution",
+    "upstream_url": "https://www.irs.gov/",
+    "license": "Original task design and synthetic client fixtures under repository MIT license; United States government guidance is cited by URL and not redistributed; the confidential methodology manual is not included",
+    "prompt": "prompt.md",
+    "source_docs": "source_docs",
+    "deliverables": [
+      "529_strategy_memo.md",
+      "529_funding_schedule.xlsx"
+    ],
+    "rubric": "rubric.json",
+    "tax_strategy_config": "tax_strategy.json"
+  },
+  {
+    "id": "042-tax-solo-401k-contribution-plan",
+    "title": "Calculate and Execute a Solo 401(k) Contribution Plan",
+    "domain": "tax-retirement-planning",
+    "work_type": "tax-advisory-memo-and-model",
+    "dataset": "Tax Strategy Execution Manual-Inspired Advisory Work",
+    "upstream_id": "original/042-tax-solo-401k-contribution-plan",
+    "upstream_url": "https://www.irs.gov/",
+    "license": "Original task design and synthetic client fixtures under repository MIT license; United States government guidance is cited by URL and not redistributed; the confidential methodology manual is not included",
+    "prompt": "prompt.md",
+    "source_docs": "source_docs",
+    "deliverables": [
+      "solo_401k_execution_memo.md",
+      "solo_401k_contribution_workbook.xlsx"
+    ],
+    "rubric": "rubric.json",
+    "tax_strategy_config": "tax_strategy.json"
+  },
+  {
+    "id": "043-tax-employer-401k-design",
+    "title": "Compare Small-Employer 401(k) Designs",
+    "domain": "benefits-plan-design",
+    "work_type": "benefits-advisory-memo-and-model",
+    "dataset": "Tax Strategy Execution Manual-Inspired Advisory Work",
+    "upstream_id": "original/043-tax-employer-401k-design",
+    "upstream_url": "https://www.irs.gov/",
+    "license": "Original task design and synthetic client fixtures under repository MIT license; United States government guidance is cited by URL and not redistributed; the confidential methodology manual is not included",
+    "prompt": "prompt.md",
+    "source_docs": "source_docs",
+    "deliverables": [
+      "employer_401k_design_memo.md",
+      "employer_401k_cost_model.xlsx"
+    ],
+    "rubric": "rubric.json",
+    "tax_strategy_config": "tax_strategy.json"
+  },
+  {
+    "id": "044-tax-hiring-owner-child",
+    "title": "Design a Compliant Owner-Child Employment Plan",
+    "domain": "family-business-payroll",
+    "work_type": "tax-advisory-memo-and-payroll-model",
+    "dataset": "Tax Strategy Execution Manual-Inspired Advisory Work",
+    "upstream_id": "original/044-tax-hiring-owner-child",
+    "upstream_url": "https://www.irs.gov/",
+    "license": "Original task design and synthetic client fixtures under repository MIT license; United States government guidance is cited by URL and not redistributed; the confidential methodology manual is not included",
+    "prompt": "prompt.md",
+    "source_docs": "source_docs",
+    "deliverables": [
+      "child_employment_memo.md",
+      "child_payroll_schedule.xlsx"
+    ],
+    "rubric": "rubric.json",
+    "tax_strategy_config": "tax_strategy.json"
+  },
+  {
+    "id": "045-tax-employing-owner-spouse",
+    "title": "Model Owner-Spouse Wages and Benefits",
+    "domain": "family-business-payroll",
+    "work_type": "tax-advisory-memo-and-payroll-model",
+    "dataset": "Tax Strategy Execution Manual-Inspired Advisory Work",
+    "upstream_id": "original/045-tax-employing-owner-spouse",
+    "upstream_url": "https://www.irs.gov/",
+    "license": "Original task design and synthetic client fixtures under repository MIT license; United States government guidance is cited by URL and not redistributed; the confidential methodology manual is not included",
+    "prompt": "prompt.md",
+    "source_docs": "source_docs",
+    "deliverables": [
+      "spouse_employment_memo.md",
+      "spouse_payroll_budget.xlsx"
+    ],
+    "rubric": "rubric.json",
+    "tax_strategy_config": "tax_strategy.json"
+  },
+  {
+    "id": "046-tax-augusta-rule-execution",
+    "title": "Document a Section 280A(g) Home-Rental Arrangement",
+    "domain": "tax-business-expense-planning",
+    "work_type": "tax-advisory-memo-and-recordkeeping-model",
+    "dataset": "Tax Strategy Execution Manual-Inspired Advisory Work",
+    "upstream_id": "original/046-tax-augusta-rule-execution",
+    "upstream_url": "https://www.irs.gov/",
+    "license": "Original task design and synthetic client fixtures under repository MIT license; United States government guidance is cited by URL and not redistributed; the confidential methodology manual is not included",
+    "prompt": "prompt.md",
+    "source_docs": "source_docs",
+    "deliverables": [
+      "augusta_rule_execution_memo.md",
+      "rental_event_log.xlsx"
+    ],
+    "rubric": "rubric.json",
+    "tax_strategy_config": "tax_strategy.json"
+  },
+  {
+    "id": "047-tax-hsa-optimization",
+    "title": "Model HSA Eligibility and Funding Choices",
+    "domain": "tax-health-benefits",
+    "work_type": "tax-advisory-memo-and-model",
+    "dataset": "Tax Strategy Execution Manual-Inspired Advisory Work",
+    "upstream_id": "original/047-tax-hsa-optimization",
+    "upstream_url": "https://www.irs.gov/",
+    "license": "Original task design and synthetic client fixtures under repository MIT license; United States government guidance is cited by URL and not redistributed; the confidential methodology manual is not included",
+    "prompt": "prompt.md",
+    "source_docs": "source_docs",
+    "deliverables": [
+      "hsa_eligibility_funding_memo.md",
+      "hsa_contribution_schedule.xlsx"
+    ],
+    "rubric": "rubric.json",
+    "tax_strategy_config": "tax_strategy.json"
   }
 ]

@@ -1,0 +1,22 @@
+[
+  {
+    "score": 25,
+    "criterion": "Reproduces the supplied model: $166,230 net earnings, $25,433.19 SE tax, and $12,716.60 deductible half."
+  },
+  {
+    "score": 20,
+    "criterion": "Calculates $167,283.40 adjusted compensation and a $33,456.68 employer contribution."
+  },
+  {
+    "score": 20,
+    "criterion": "Coordinates the shared elective-deferral limit, yielding $14,500 regular deferral plus $8,000 catch-up."
+  },
+  {
+    "score": 15,
+    "criterion": "Reports $55,956.68 to this plan and $47,956.68 counted toward the $72,000 section 415 limit."
+  },
+  {
+    "score": 20,
+    "criterion": "Provides formula-driven schedules, plan/deposit steps, and Form 5500-EZ and employee-assumption guardrails."
+  }
+]

@@ -1,7 +1,7 @@
 # Knowledge Work Demo Suite
 
-A compact, source-grounded collection of 40 professional knowledge-work tasks
-compiled from seven public benchmarks and task-design references. Every task contains:
+A compact, source-grounded collection of 47 professional knowledge-work tasks
+compiled from eight benchmark families and task-design references. Every task contains:
 
 - `prompt.md` — a standalone assignment for an agent or model;
 - `task.json` — normalized metadata, provenance, inputs, and expected outputs;
@@ -25,7 +25,7 @@ cd knowledge-work-demo-suite
 python3 scripts/validate_suite.py
 ```
 
-The validator should report 40 tasks, seven datasets, and verified hashes for
+The validator should report 47 tasks, eight datasets, and verified hashes for
 all source files.
 
 ## Run one use case
@@ -183,6 +183,7 @@ scripts/
 | Synthetic Retail POS 2026 (Mendeley Data) | 3 | Evidence-based retail sales diagnosis with deterministic source packets |
 | Daytona Windows OSWorld-Inspired Knowledge Work | 10 | Original, snapshot-ready Office and multi-app workflows for strict visible-UI Daytona Windows sandbox runs |
 | UC Berkeley DataAgentBench | 7 | Cross-database analysis across publishing, civic projects, CRM policy, local markets, music revenue, procurement, and investments |
+| Tax Strategy Execution Manual-Inspired Advisory Work | 7 | Execution-focused education, retirement, family-payroll, home-rental, and health-savings planning using synthetic facts and official federal guidance |
 
 The collection is a curated demo set, not a replacement for any upstream
 benchmark and not suitable for reporting upstream leaderboard scores.
@@ -244,6 +245,23 @@ PY
 The included grader files are for transparent local evaluation. Do not expose
 `ground_truth.csv`, `validate.py`, or `rubric.json` to the agent during a
 blind run.
+
+## Tax strategy execution tasks
+
+Tasks `041` through `047` cover a 529 plan, a solo 401(k), a small-employer
+401(k), employing an owner's child, employing an owner's spouse, a section
+280A(g) home-rental arrangement, and HSA eligibility and funding.
+
+The public packets contain original synthetic client facts and links to
+official IRS, Department of Labor, and U.S. Code guidance. The user-supplied
+`Tax Strategy Execution Manual` informed the execution-oriented task structure,
+but the confidential PDF is not included or quoted. Each answer contract is
+frozen to federal tax year 2026 and requires an advisory memo plus a
+formula-driven workbook.
+
+For a blind run, expose only the files listed in `tax_strategy.json`. Keep
+`rubric.json` and `answer_key.md` away from the agent, then use both to review
+the submitted memo and workbook.
 
 ## Data and licensing
 

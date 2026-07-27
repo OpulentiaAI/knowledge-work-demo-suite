@@ -1,0 +1,18 @@
+{
+  "id": "042-tax-solo-401k-contribution-plan",
+  "title": "Calculate and Execute a Solo 401(k) Contribution Plan",
+  "domain": "tax-retirement-planning",
+  "work_type": "tax-advisory-memo-and-model",
+  "dataset": "Tax Strategy Execution Manual-Inspired Advisory Work",
+  "upstream_id": "original/042-tax-solo-401k-contribution-plan",
+  "upstream_url": "https://www.irs.gov/",
+  "license": "Original task design and synthetic client fixtures under repository MIT license; United States government guidance is cited by URL and not redistributed; the confidential methodology manual is not included",
+  "prompt": "prompt.md",
+  "source_docs": "source_docs",
+  "deliverables": [
+    "solo_401k_execution_memo.md",
+    "solo_401k_contribution_workbook.xlsx"
+  ],
+  "rubric": "rubric.json",
+  "tax_strategy_config": "tax_strategy.json"
+}

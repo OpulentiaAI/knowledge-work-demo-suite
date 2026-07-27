@@ -1,0 +1,18 @@
+{
+  "id": "047-tax-hsa-optimization",
+  "title": "Model HSA Eligibility and Funding Choices",
+  "domain": "tax-health-benefits",
+  "work_type": "tax-advisory-memo-and-model",
+  "dataset": "Tax Strategy Execution Manual-Inspired Advisory Work",
+  "upstream_id": "original/047-tax-hsa-optimization",
+  "upstream_url": "https://www.irs.gov/",
+  "license": "Original task design and synthetic client fixtures under repository MIT license; United States government guidance is cited by URL and not redistributed; the confidential methodology manual is not included",
+  "prompt": "prompt.md",
+  "source_docs": "source_docs",
+  "deliverables": [
+    "hsa_eligibility_funding_memo.md",
+    "hsa_contribution_schedule.xlsx"
+  ],
+  "rubric": "rubric.json",
+  "tax_strategy_config": "tax_strategy.json"
+}

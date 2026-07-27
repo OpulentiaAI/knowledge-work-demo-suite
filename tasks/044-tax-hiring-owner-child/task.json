@@ -1,0 +1,18 @@
+{
+  "id": "044-tax-hiring-owner-child",
+  "title": "Design a Compliant Owner-Child Employment Plan",
+  "domain": "family-business-payroll",
+  "work_type": "tax-advisory-memo-and-payroll-model",
+  "dataset": "Tax Strategy Execution Manual-Inspired Advisory Work",
+  "upstream_id": "original/044-tax-hiring-owner-child",
+  "upstream_url": "https://www.irs.gov/",
+  "license": "Original task design and synthetic client fixtures under repository MIT license; United States government guidance is cited by URL and not redistributed; the confidential methodology manual is not included",
+  "prompt": "prompt.md",
+  "source_docs": "source_docs",
+  "deliverables": [
+    "child_employment_memo.md",
+    "child_payroll_schedule.xlsx"
+  ],
+  "rubric": "rubric.json",
+  "tax_strategy_config": "tax_strategy.json"
+}

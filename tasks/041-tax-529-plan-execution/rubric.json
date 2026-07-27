@@ -1,0 +1,22 @@
+[
+  {
+    "score": 20,
+    "criterion": "Correctly classifies all seven expenses and calculates $15,900 qualified and $3,750 nonqualified."
+  },
+  {
+    "score": 20,
+    "criterion": "Limits the distribution to $15,900 and explains the $20,000 K\u201312 ceiling and no-double-benefit rule."
+  },
+  {
+    "score": 20,
+    "criterion": "Models the $95,000 five-year election as $19,000 per year for 2026\u20132030 and flags Form 709."
+  },
+  {
+    "score": 20,
+    "criterion": "Caps the proposed 2026 Roth transfer at $7,500 and states the earned-income, annual, lifetime, account-age, and recent-contribution constraints."
+  },
+  {
+    "score": 20,
+    "criterion": "Produces an auditable formula-driven workbook plus a practical implementation and records checklist."
+  }
+]

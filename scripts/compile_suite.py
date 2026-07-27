@@ -49,6 +49,13 @@ LOCAL_PACKET_TASKS = {
     "031-daytona-multiapp-renewal-review",
     "032-daytona-multiapp-procurement-decision",
     "033-daytona-multiapp-launch-readiness",
+    "041-tax-529-plan-execution",
+    "042-tax-solo-401k-contribution-plan",
+    "043-tax-employer-401k-design",
+    "044-tax-hiring-owner-child",
+    "045-tax-employing-owner-spouse",
+    "046-tax-augusta-rule-execution",
+    "047-tax-hsa-optimization",
 }
 
 AA_TASKS = [
@@ -782,6 +789,7 @@ def write_coverage(records: list[dict[str, Any]]) -> None:
             "- Operations: healthcare, logistics, emergency response, project controls, and sales operations.",
             "- Technical: materials engineering, systems architecture, data-heavy product analysis, and AI research.",
             "- Data-agent analytics: cross-database publishing, civic, CRM, local-market, media, procurement, and investment questions.",
+            "- Tax strategy execution: education savings, owner and employer retirement plans, family payroll, short-term home rental, and health savings accounts.",
             "- Retail diagnostics: evidence-based explanations of sales increases, declines, category mix, refunds, discounts, and operational responses.",
             "- Daytona Windows Office: deterministic Excel, Word, PowerPoint, and Outlook-plus-Office workflows designed for snapshot-backed, visible-UI-only sandboxes.",
             "- Communication formats: memo, PDF, XLSX, PPTX, LaTeX, video/subtitles, operating manual, and research survey.",

@@ -1,0 +1,8 @@
+expense,amount_usd,evaluation_note
+High-school tuition,12500,potentially qualified K-12 expense
+Required curriculum materials,900,potentially qualified in 2026
+Qualified-subject tutoring,2400,potentially qualified in 2026
+AP examination fee,100,potentially qualified in 2026
+General-purpose laptop,1800,not a listed K-12 qualified expense
+School transportation,1200,not a qualified expense
+Athletics fee,750,not a listed qualified expense

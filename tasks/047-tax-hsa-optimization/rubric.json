@@ -1,0 +1,22 @@
+[
+  {
+    "score": 20,
+    "criterion": "Confirms the supplied $3,600 deductible and $16,500 out-of-pocket maximum satisfy the 2026 family HDHP thresholds."
+  },
+  {
+    "score": 20,
+    "criterion": "Correctly marks January\u2013June ineligible and July\u2013December eligible because of the general-purpose FSA."
+  },
+  {
+    "score": 20,
+    "criterion": "Calculates a $4,875 prorated limit and $2,875 remaining employee capacity after the $2,000 employer contribution."
+  },
+  {
+    "score": 20,
+    "criterion": "Calculates the $9,750 last-month-rule alternative and $7,750 remaining, with the December 31, 2027 testing period and 10% risk."
+  },
+  {
+    "score": 20,
+    "criterion": "Treats the $3,200 dental expense as potentially qualified with no-double-benefit records and provides an auditable formula-driven workbook."
+  }
+]

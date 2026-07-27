@@ -1,0 +1,18 @@
+{
+  "id": "041-tax-529-plan-execution",
+  "title": "Build a 529 Funding and Distribution Plan",
+  "domain": "tax-education-planning",
+  "work_type": "tax-advisory-memo-and-model",
+  "dataset": "Tax Strategy Execution Manual-Inspired Advisory Work",
+  "upstream_id": "original/041-tax-529-plan-execution",
+  "upstream_url": "https://www.irs.gov/",
+  "license": "Original task design and synthetic client fixtures under repository MIT license; United States government guidance is cited by URL and not redistributed; the confidential methodology manual is not included",
+  "prompt": "prompt.md",
+  "source_docs": "source_docs",
+  "deliverables": [
+    "529_strategy_memo.md",
+    "529_funding_schedule.xlsx"
+  ],
+  "rubric": "rubric.json",
+  "tax_strategy_config": "tax_strategy.json"
+}
