@@ -30,6 +30,10 @@ AA_REPO = "https://huggingface.co/datasets/ArtificialAnalysis/AA-Briefcase-Lite"
 GDP_REPO = "https://huggingface.co/datasets/openai/gdpval"
 WORKSPACE_REPO = "https://huggingface.co/datasets/Workspace-Bench/Workspace-Bench-Lite"
 HARVEY_RAW = "https://raw.githubusercontent.com/OpulentiaAI/harvey-labs/main"
+DAB_COMMIT = "af0bb94484987318bb7a2cfeb9d95b5f4ddd4eef"
+DAB_RAW = f"https://raw.githubusercontent.com/ucbepic/DataAgentBench/{DAB_COMMIT}"
+DAB_HF_REPO = "https://huggingface.co/datasets/ruiyingm/DataAgentBench-data"
+DAB_DATASET_NAME = "UC Berkeley DataAgentBench"
 
 LOCAL_PACKET_TASKS = {
     "021-synthetic-post-holiday-sales",
@@ -170,6 +174,87 @@ WORKSPACE_TASKS = [
     ("018-workspace-emergency-operations", "72", "logistics-operations"),
     ("019-workspace-global-product-strategy", "107", "global-operations"),
     ("020-workspace-llm-memory-survey", "363", "research"),
+]
+
+DAB_TASKS = [
+    {
+        "dir": "034-dab-bookreview-childrens-high-ratings",
+        "dataset_dir": "bookreview",
+        "query_id": "query3",
+        "title": "Identify Highly Rated Recent Children's Books",
+        "domain": "publishing-analytics",
+        "source_files": [
+            "query_dataset/books_info.sql",
+            "query_dataset/review_query.db",
+        ],
+    },
+    {
+        "dir": "035-dab-civic-capital-design-funding",
+        "dataset_dir": "civic_unstructured",
+        "query_id": "query1",
+        "title": "Find Funded Capital Projects Still in Design",
+        "domain": "public-sector-portfolio-analysis",
+        "source_files": [
+            "query_dataset/civic_docs_dump/civic_db/civic_docs.bson",
+            "query_dataset/funding.db",
+        ],
+    },
+    {
+        "dir": "036-dab-crm-quote-policy",
+        "dataset_dir": "crmarenapro",
+        "query_id": "query2",
+        "title": "Review a Sales Quote Against Company Policy",
+        "domain": "sales-operations-compliance",
+        "source_files": [
+            "query_dataset/products_orders.db",
+            "query_dataset/sales_pipeline.duckdb",
+            "query_dataset/support.sql",
+        ],
+    },
+    {
+        "dir": "037-dab-googlelocal-after-hours-ranking",
+        "dataset_dir": "googlelocal",
+        "query_id": "query3",
+        "title": "Rank Highly Rated Businesses with Evening Hours",
+        "domain": "local-market-research",
+        "source_files": [
+            "query_dataset/business_description.sql",
+            "query_dataset/review_query.db",
+        ],
+    },
+    {
+        "dir": "038-dab-music-revenue-leader",
+        "dataset_dir": "music_brainz_20k",
+        "query_id": "query3",
+        "title": "Identify the Highest-Revenue Song",
+        "domain": "media-revenue-analysis",
+        "source_files": [
+            "query_dataset/sales.duckdb",
+            "query_dataset/tracks.db",
+        ],
+    },
+    {
+        "dir": "039-dab-usaspending-agency-million-dollar-share",
+        "dataset_dir": "usaspending",
+        "query_id": "query4",
+        "title": "Compare Agencies by Million-Dollar Contract Share",
+        "domain": "government-procurement-analysis",
+        "source_files": [
+            "query_dataset/agencies.duckdb",
+            "query_dataset/contracts.sql",
+        ],
+    },
+    {
+        "dir": "040-dab-stockindex-monthly-investment-returns",
+        "dataset_dir": "stockindex",
+        "query_id": "query3",
+        "title": "Rank Indices by Long-Run Monthly Investment Returns",
+        "domain": "investment-performance-analysis",
+        "source_files": [
+            "query_dataset/indexInfo_query.db",
+            "query_dataset/indextrade_query.db",
+        ],
+    },
 ]
 
 
@@ -461,6 +546,172 @@ def compile_workspace(refresh: bool) -> list[dict[str, Any]]:
     return records
 
 
+def load_dab_manifest() -> dict[str, tuple[str, int]]:
+    content = request_bytes(f"{DAB_RAW}/dataset_manifest.tsv").decode("utf-8")
+    manifest: dict[str, tuple[str, int]] = {}
+    for line in content.splitlines():
+        if not line or line.startswith("#"):
+            continue
+        relative, digest, size = line.split("\t")
+        manifest[relative] = (digest, int(size))
+    return manifest
+
+
+def download_dab_source(
+    relative: str,
+    destination: Path,
+    refresh: bool,
+    manifest: dict[str, tuple[str, int]],
+) -> dict[str, Any]:
+    manifest_entry = manifest.get(relative)
+    if manifest_entry:
+        expected_digest, expected_size = manifest_entry
+        encoded = urllib.parse.quote(relative, safe="/")
+        url = f"{DAB_HF_REPO}/resolve/main/{encoded}"
+    else:
+        expected_digest = None
+        expected_size = None
+        encoded = urllib.parse.quote(relative, safe="/")
+        url = f"{DAB_RAW}/{encoded}"
+
+    download(url, destination, refresh)
+    if expected_size is not None and destination.stat().st_size != expected_size:
+        download(url, destination, True)
+    if expected_digest is not None and sha256_file(destination) != expected_digest:
+        download(url, destination, True)
+    if expected_size is not None and destination.stat().st_size != expected_size:
+        raise RuntimeError(f"DataAgentBench size mismatch for {relative}")
+    if expected_digest is not None and sha256_file(destination) != expected_digest:
+        raise RuntimeError(f"DataAgentBench SHA-256 mismatch for {relative}")
+    return {
+        "path": relative,
+        "url": url,
+        "sha256": expected_digest,
+        "size": expected_size,
+    }
+
+
+def compile_dataagentbench(refresh: bool) -> list[dict[str, Any]]:
+    print("Compiling UC Berkeley DataAgentBench...")
+    manifest = load_dab_manifest()
+    records: list[dict[str, Any]] = []
+    for selected in DAB_TASKS:
+        dataset_dir = selected["dataset_dir"]
+        query_id = selected["query_id"]
+        upstream_base = f"query_{dataset_dir}"
+        query_base = f"{upstream_base}/{query_id}"
+        task_dir = TASKS_DIR / selected["dir"]
+        source_dir = task_dir / "source_docs"
+        source_dir.mkdir(parents=True, exist_ok=True)
+
+        expected_source_paths = {
+            Path("db_config.yaml"),
+            Path("db_description.txt"),
+            *(Path(relative) for relative in selected["source_files"]),
+        }
+        for existing in sorted(source_dir.rglob("*"), reverse=True):
+            if existing.is_file() and existing.relative_to(source_dir) not in expected_source_paths:
+                existing.unlink()
+            elif existing.is_dir() and not any(existing.iterdir()):
+                existing.rmdir()
+
+        query = get_json(f"{DAB_RAW}/{query_base}/query.json")
+        if not isinstance(query, str) or not query.strip():
+            raise RuntimeError(f"Invalid DataAgentBench query: {query_base}")
+
+        download(
+            f"{DAB_RAW}/{upstream_base}/db_config.yaml",
+            source_dir / "db_config.yaml",
+            refresh,
+        )
+        download(
+            f"{DAB_RAW}/{upstream_base}/db_description.txt",
+            source_dir / "db_description.txt",
+            refresh,
+        )
+
+        source_provenance = []
+        for relative in selected["source_files"]:
+            upstream_relative = f"{upstream_base}/{relative}"
+            source_provenance.append(
+                download_dab_source(
+                    upstream_relative,
+                    source_dir / relative,
+                    refresh,
+                    manifest,
+                )
+            )
+
+        download(
+            f"{DAB_RAW}/{query_base}/ground_truth.csv",
+            task_dir / "ground_truth.csv",
+            refresh,
+        )
+        download(
+            f"{DAB_RAW}/{query_base}/validate.py",
+            task_dir / "validate.py",
+            refresh,
+        )
+        write_prompt(task_dir / "prompt.md", selected["title"], query, ["answer.txt"])
+        write_json(
+            task_dir / "rubric.json",
+            {
+                "evaluation_method": "DataAgentBench upstream validator",
+                "answer_file": "answer.txt",
+                "validator": "validate.py",
+                "ground_truth": "ground_truth.csv",
+                "instructions": (
+                    "Pass the complete contents of answer.txt to validate.validate. "
+                    "The validator returns a boolean and a diagnostic message."
+                ),
+            },
+        )
+        write_json(
+            task_dir / "dataagentbench.json",
+            {
+                "upstream_commit": DAB_COMMIT,
+                "database_config": "source_docs/db_config.yaml",
+                "database_description": "source_docs/db_description.txt",
+                "query_dataset": "source_docs/query_dataset",
+                "read_only": True,
+                "answer_file": "answer.txt",
+                "official_harness": "https://github.com/ucbepic/DataAgentBench",
+            },
+        )
+        upstream_task = {
+            "dataset": dataset_dir,
+            "query_id": query_id,
+            "query": query,
+            "upstream_commit": DAB_COMMIT,
+            "source_files": source_provenance,
+        }
+        write_json(task_dir / "upstream_task.json", upstream_task)
+        normalized = {
+            "id": selected["dir"],
+            "title": selected["title"],
+            "domain": selected["domain"],
+            "work_type": "cross-database-analysis",
+            "dataset": DAB_DATASET_NAME,
+            "upstream_id": f"{dataset_dir}/{query_id}",
+            "upstream_url": (
+                "https://github.com/ucbepic/DataAgentBench/tree/"
+                f"{DAB_COMMIT}/{query_base}"
+            ),
+            "license": (
+                "Upstream terms apply; DataAgentBench does not declare "
+                "a repository-wide license"
+            ),
+            "prompt": "prompt.md",
+            "source_docs": "source_docs",
+            "deliverables": ["answer.txt"],
+            "rubric": "rubric.json",
+            "dataagentbench_config": "dataagentbench.json",
+        }
+        write_json(task_dir / "task.json", normalized)
+        records.append(normalized)
+    return records
+
+
 def clean_unselected_task_dirs(expected: set[str]) -> None:
     TASKS_DIR.mkdir(parents=True, exist_ok=True)
     for child in TASKS_DIR.iterdir():
@@ -530,6 +781,7 @@ def write_coverage(records: list[dict[str, Any]]) -> None:
             "- Legal: M&A, real estate, contracts, bankruptcy, litigation, and cross-border tax.",
             "- Operations: healthcare, logistics, emergency response, project controls, and sales operations.",
             "- Technical: materials engineering, systems architecture, data-heavy product analysis, and AI research.",
+            "- Data-agent analytics: cross-database publishing, civic, CRM, local-market, media, procurement, and investment questions.",
             "- Retail diagnostics: evidence-based explanations of sales increases, declines, category mix, refunds, discounts, and operational responses.",
             "- Daytona Windows Office: deterministic Excel, Word, PowerPoint, and Outlook-plus-Office workflows designed for snapshot-backed, visible-UI-only sandboxes.",
             "- Communication formats: memo, PDF, XLSX, PPTX, LaTeX, video/subtitles, operating manual, and research survey.",
@@ -564,7 +816,7 @@ def main() -> int:
 
     expected = {
         entry[0] for entry in AA_TASKS + GDP_TASKS + WORKSPACE_TASKS
-    } | {entry["dir"] for entry in HARVEY_TASKS} | LOCAL_PACKET_TASKS
+    } | {entry["dir"] for entry in HARVEY_TASKS + DAB_TASKS} | LOCAL_PACKET_TASKS
     clean_unselected_task_dirs(expected)
     SOURCE_POOLS_DIR.mkdir(parents=True, exist_ok=True)
 
@@ -573,6 +825,7 @@ def main() -> int:
     records.extend(compile_harvey(args.refresh))
     records.extend(compile_gdpval(args.refresh))
     records.extend(compile_workspace(args.refresh))
+    records.extend(compile_dataagentbench(args.refresh))
     records.extend(load_local_packet_records())
     write_catalog(records)
     write_coverage(records)

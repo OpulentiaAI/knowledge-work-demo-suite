@@ -1,0 +1,20 @@
+{
+  "dataset": "usaspending",
+  "query_id": "query4",
+  "query": "Among awarding agencies that have issued at least 10 contracts, which agency has the highest proportion of contracts with an award amount greater than $1,000,000? Return the agency name, breaking ties alphabetically.",
+  "upstream_commit": "af0bb94484987318bb7a2cfeb9d95b5f4ddd4eef",
+  "source_files": [
+    {
+      "path": "query_usaspending/query_dataset/agencies.duckdb",
+      "url": "https://raw.githubusercontent.com/ucbepic/DataAgentBench/af0bb94484987318bb7a2cfeb9d95b5f4ddd4eef/query_usaspending/query_dataset/agencies.duckdb",
+      "sha256": null,
+      "size": null
+    },
+    {
+      "path": "query_usaspending/query_dataset/contracts.sql",
+      "url": "https://huggingface.co/datasets/ruiyingm/DataAgentBench-data/resolve/main/query_usaspending/query_dataset/contracts.sql",
+      "sha256": "7fdde155670e23568458570bdb17171b36f4789b49c95dde5461b03ca951a861",
+      "size": 4840083
+    }
+  ]
+}

@@ -1,0 +1,13 @@
+# Find Funded Capital Projects Still in Design
+
+## Assignment
+
+As of 2023-01-01, list all projects whose most recent report (dated on or before 2023-01-01) records both a type of 'capital' and a status of 'design' and that have accumulated total funding of more than $500,000. Accumulated total funding means the sum of all funding amounts granted to that project on or before 2023-01-01.
+
+## Source documents
+
+Use the files in `source_docs/`. Treat them as the authoritative task workspace.
+
+## Expected deliverables
+
+- `answer.txt`

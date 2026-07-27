@@ -1,7 +1,7 @@
 # Knowledge Work Demo Suite
 
-A compact, source-grounded collection of 33 professional knowledge-work tasks
-compiled from six public benchmarks and task-design references. Every task contains:
+A compact, source-grounded collection of 40 professional knowledge-work tasks
+compiled from seven public benchmarks and task-design references. Every task contains:
 
 - `prompt.md` — a standalone assignment for an agent or model;
 - `task.json` — normalized metadata, provenance, inputs, and expected outputs;
@@ -25,7 +25,7 @@ cd knowledge-work-demo-suite
 python3 scripts/validate_suite.py
 ```
 
-The validator should report 33 tasks, six datasets, and verified hashes for
+The validator should report 40 tasks, seven datasets, and verified hashes for
 all source files.
 
 ## Run one use case
@@ -182,6 +182,7 @@ scripts/
 | Workspace-Bench-Lite | 4 | File-heavy product, logistics, operations, and research work |
 | Synthetic Retail POS 2026 (Mendeley Data) | 3 | Evidence-based retail sales diagnosis with deterministic source packets |
 | Daytona Windows OSWorld-Inspired Knowledge Work | 10 | Original, snapshot-ready Office and multi-app workflows for strict visible-UI Daytona Windows sandbox runs |
+| UC Berkeley DataAgentBench | 7 | Cross-database analysis across publishing, civic projects, CRM policy, local markets, music revenue, procurement, and investments |
 
 The collection is a curated demo set, not a replacement for any upstream
 benchmark and not suitable for reporting upstream leaderboard scores.
@@ -195,6 +196,54 @@ enforces a visible-UI-only agent policy and names the required snapshot apps,
 workspace path, output path, and evaluator checks. See
 [the Daytona/OSWorld task design](docs/daytona-windows-osworld-task-design.md)
 for the run contract and task-family breakdown.
+
+## DataAgentBench tasks
+
+Tasks `034` through `040` preserve seven DataAgentBench queries and the exact
+database files needed to answer each one. Their `source_docs/` directories
+contain the upstream database description, database configuration, and
+read-only SQLite, DuckDB, PostgreSQL dump, or MongoDB BSON inputs. No live
+database is required if the runner can inspect those formats directly; an
+official-harness-compatible runner can instead load them using
+`source_docs/db_config.yaml`.
+
+Each task produces one plain-text deliverable:
+
+```bash
+TASK=036-dab-crm-quote-policy
+WORKSPACE="$(pwd)/runs/$TASK/workspace"
+rm -rf "$WORKSPACE"
+mkdir -p "$WORKSPACE" "runs/$TASK/output"
+cp "tasks/$TASK/prompt.md" "tasks/$TASK/task.json" \
+  "tasks/$TASK/dataagentbench.json" "$WORKSPACE/"
+ln -s "$(pwd)/tasks/$TASK/source_docs" "$WORKSPACE/source_docs"
+```
+
+Give only `$WORKSPACE` to the agent. This stages the prompt, normalized
+contract, runtime metadata, and source databases without exposing the grader.
+After the agent writes `runs/$TASK/output/answer.txt`, score it from the
+repository root:
+
+```bash
+python3 - "tasks/$TASK" "runs/$TASK/output/answer.txt" <<'PY'
+import importlib.util
+import pathlib
+import sys
+
+task_dir = pathlib.Path(sys.argv[1])
+answer = pathlib.Path(sys.argv[2]).read_text(encoding="utf-8")
+spec = importlib.util.spec_from_file_location("dab_validator", task_dir / "validate.py")
+module = importlib.util.module_from_spec(spec)
+spec.loader.exec_module(module)
+passed, reason = module.validate(answer)
+print("PASS" if passed else "FAIL", reason)
+raise SystemExit(0 if passed else 1)
+PY
+```
+
+The included grader files are for transparent local evaluation. Do not expose
+`ground_truth.csv`, `validate.py`, or `rubric.json` to the agent during a
+blind run.
 
 ## Data and licensing
 

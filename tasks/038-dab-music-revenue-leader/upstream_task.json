@@ -1,0 +1,20 @@
+{
+  "dataset": "music_brainz_20k",
+  "query_id": "query3",
+  "query": "Which song generated the highest total revenue in USD across all stores and countries?",
+  "upstream_commit": "af0bb94484987318bb7a2cfeb9d95b5f4ddd4eef",
+  "source_files": [
+    {
+      "path": "query_music_brainz_20k/query_dataset/sales.duckdb",
+      "url": "https://raw.githubusercontent.com/ucbepic/DataAgentBench/af0bb94484987318bb7a2cfeb9d95b5f4ddd4eef/query_music_brainz_20k/query_dataset/sales.duckdb",
+      "sha256": null,
+      "size": null
+    },
+    {
+      "path": "query_music_brainz_20k/query_dataset/tracks.db",
+      "url": "https://huggingface.co/datasets/ruiyingm/DataAgentBench-data/resolve/main/query_music_brainz_20k/query_dataset/tracks.db",
+      "sha256": "0c349f70e5bafcba1deb605b49e224abfa95c5a83a44688faa511f9e123a02cc",
+      "size": 2035712
+    }
+  ]
+}

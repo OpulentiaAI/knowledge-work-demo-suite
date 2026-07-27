@@ -567,5 +567,124 @@
     ],
     "rubric": "rubric.json",
     "daytona_windows_config": "daytona_windows.json"
+  },
+  {
+    "id": "034-dab-bookreview-childrens-high-ratings",
+    "title": "Identify Highly Rated Recent Children's Books",
+    "domain": "publishing-analytics",
+    "work_type": "cross-database-analysis",
+    "dataset": "UC Berkeley DataAgentBench",
+    "upstream_id": "bookreview/query3",
+    "upstream_url": "https://github.com/ucbepic/DataAgentBench/tree/af0bb94484987318bb7a2cfeb9d95b5f4ddd4eef/query_bookreview/query3",
+    "license": "Upstream terms apply; DataAgentBench does not declare a repository-wide license",
+    "prompt": "prompt.md",
+    "source_docs": "source_docs",
+    "deliverables": [
+      "answer.txt"
+    ],
+    "rubric": "rubric.json",
+    "dataagentbench_config": "dataagentbench.json"
+  },
+  {
+    "id": "035-dab-civic-capital-design-funding",
+    "title": "Find Funded Capital Projects Still in Design",
+    "domain": "public-sector-portfolio-analysis",
+    "work_type": "cross-database-analysis",
+    "dataset": "UC Berkeley DataAgentBench",
+    "upstream_id": "civic_unstructured/query1",
+    "upstream_url": "https://github.com/ucbepic/DataAgentBench/tree/af0bb94484987318bb7a2cfeb9d95b5f4ddd4eef/query_civic_unstructured/query1",
+    "license": "Upstream terms apply; DataAgentBench does not declare a repository-wide license",
+    "prompt": "prompt.md",
+    "source_docs": "source_docs",
+    "deliverables": [
+      "answer.txt"
+    ],
+    "rubric": "rubric.json",
+    "dataagentbench_config": "dataagentbench.json"
+  },
+  {
+    "id": "036-dab-crm-quote-policy",
+    "title": "Review a Sales Quote Against Company Policy",
+    "domain": "sales-operations-compliance",
+    "work_type": "cross-database-analysis",
+    "dataset": "UC Berkeley DataAgentBench",
+    "upstream_id": "crmarenapro/query2",
+    "upstream_url": "https://github.com/ucbepic/DataAgentBench/tree/af0bb94484987318bb7a2cfeb9d95b5f4ddd4eef/query_crmarenapro/query2",
+    "license": "Upstream terms apply; DataAgentBench does not declare a repository-wide license",
+    "prompt": "prompt.md",
+    "source_docs": "source_docs",
+    "deliverables": [
+      "answer.txt"
+    ],
+    "rubric": "rubric.json",
+    "dataagentbench_config": "dataagentbench.json"
+  },
+  {
+    "id": "037-dab-googlelocal-after-hours-ranking",
+    "title": "Rank Highly Rated Businesses with Evening Hours",
+    "domain": "local-market-research",
+    "work_type": "cross-database-analysis",
+    "dataset": "UC Berkeley DataAgentBench",
+    "upstream_id": "googlelocal/query3",
+    "upstream_url": "https://github.com/ucbepic/DataAgentBench/tree/af0bb94484987318bb7a2cfeb9d95b5f4ddd4eef/query_googlelocal/query3",
+    "license": "Upstream terms apply; DataAgentBench does not declare a repository-wide license",
+    "prompt": "prompt.md",
+    "source_docs": "source_docs",
+    "deliverables": [
+      "answer.txt"
+    ],
+    "rubric": "rubric.json",
+    "dataagentbench_config": "dataagentbench.json"
+  },
+  {
+    "id": "038-dab-music-revenue-leader",
+    "title": "Identify the Highest-Revenue Song",
+    "domain": "media-revenue-analysis",
+    "work_type": "cross-database-analysis",
+    "dataset": "UC Berkeley DataAgentBench",
+    "upstream_id": "music_brainz_20k/query3",
+    "upstream_url": "https://github.com/ucbepic/DataAgentBench/tree/af0bb94484987318bb7a2cfeb9d95b5f4ddd4eef/query_music_brainz_20k/query3",
+    "license": "Upstream terms apply; DataAgentBench does not declare a repository-wide license",
+    "prompt": "prompt.md",
+    "source_docs": "source_docs",
+    "deliverables": [
+      "answer.txt"
+    ],
+    "rubric": "rubric.json",
+    "dataagentbench_config": "dataagentbench.json"
+  },
+  {
+    "id": "039-dab-usaspending-agency-million-dollar-share",
+    "title": "Compare Agencies by Million-Dollar Contract Share",
+    "domain": "government-procurement-analysis",
+    "work_type": "cross-database-analysis",
+    "dataset": "UC Berkeley DataAgentBench",
+    "upstream_id": "usaspending/query4",
+    "upstream_url": "https://github.com/ucbepic/DataAgentBench/tree/af0bb94484987318bb7a2cfeb9d95b5f4ddd4eef/query_usaspending/query4",
+    "license": "Upstream terms apply; DataAgentBench does not declare a repository-wide license",
+    "prompt": "prompt.md",
+    "source_docs": "source_docs",
+    "deliverables": [
+      "answer.txt"
+    ],
+    "rubric": "rubric.json",
+    "dataagentbench_config": "dataagentbench.json"
+  },
+  {
+    "id": "040-dab-stockindex-monthly-investment-returns",
+    "title": "Rank Indices by Long-Run Monthly Investment Returns",
+    "domain": "investment-performance-analysis",
+    "work_type": "cross-database-analysis",
+    "dataset": "UC Berkeley DataAgentBench",
+    "upstream_id": "stockindex/query3",
+    "upstream_url": "https://github.com/ucbepic/DataAgentBench/tree/af0bb94484987318bb7a2cfeb9d95b5f4ddd4eef/query_stockindex/query3",
+    "license": "Upstream terms apply; DataAgentBench does not declare a repository-wide license",
+    "prompt": "prompt.md",
+    "source_docs": "source_docs",
+    "deliverables": [
+      "answer.txt"
+    ],
+    "rubric": "rubric.json",
+    "dataagentbench_config": "dataagentbench.json"
   }
 ]

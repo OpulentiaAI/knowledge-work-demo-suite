@@ -78,6 +78,18 @@ private OAuth credentials or live web state.
 
 Method source: https://www.daytona.io/dotfiles/osworld-on-daytona-windows-sandboxes
 
+### UC Berkeley DataAgentBench
+
+DataAgentBench evaluates agents on realistic questions that require joining,
+normalizing, and interpreting information across heterogeneous databases. The
+seven selected queries cover publishing analytics, civic project funding, CRM
+quote compliance, local-business research, music revenue, federal procurement,
+and long-run index performance. Each packet includes only the databases needed
+for that query, the upstream schema description and connection configuration,
+and the official transparent validator.
+
+Source: https://github.com/ucbepic/DataAgentBench
+
 ## Considered but not selected
 
 - WorkBench focuses on database state changes such as sending email and
@@ -87,3 +99,5 @@ Method source: https://www.daytona.io/dotfiles/osworld-on-daytona-windows-sandbo
   exceed 20 GB; the Lite source files named by the selected tasks are included.
 - OSWorld Windows task data is not vendored or represented as part of this
   collection; the Daytona article is used solely as a public method reference.
+- The full DataAgentBench corpus contains much larger datasets and more query
+  families; only seven bounded, independently runnable cases are included.

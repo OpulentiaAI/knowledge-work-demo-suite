@@ -20,6 +20,7 @@ EXPECTED_DATASET_COUNTS = {
     "Workspace-Bench-Lite": 4,
     "Synthetic Retail POS 2026 (Mendeley Data)": 3,
     "Daytona Windows OSWorld-Inspired Knowledge Work": 10,
+    "UC Berkeley DataAgentBench": 7,
 }
 
 
@@ -37,8 +38,8 @@ def fail(message: str) -> None:
 
 def main() -> int:
     task_dirs = sorted(path for path in TASKS_DIR.iterdir() if path.is_dir())
-    if len(task_dirs) != 33:
-        fail(f"Expected 33 task directories, found {len(task_dirs)}")
+    if len(task_dirs) != 40:
+        fail(f"Expected 40 task directories, found {len(task_dirs)}")
 
     ids: set[str] = set()
     datasets: Counter[str] = Counter()
@@ -100,13 +101,32 @@ def main() -> int:
                 fail(f"Daytona task must target Windows: {config_path}")
             if config.get("output", {}).get("required_files") != metadata["deliverables"]:
                 fail(f"Daytona output mismatch: {config_path}")
+        if metadata["dataset"] == "UC Berkeley DataAgentBench":
+            config_path = task_dir / metadata.get("dataagentbench_config", "")
+            validator_path = task_dir / "validate.py"
+            ground_truth_path = task_dir / "ground_truth.csv"
+            if not config_path.is_file():
+                fail(f"Missing DataAgentBench config: {config_path}")
+            if not validator_path.is_file() or not ground_truth_path.is_file():
+                fail(f"Missing DataAgentBench grader files: {task_dir}")
+            config = json.loads(config_path.read_text(encoding="utf-8"))
+            if config.get("read_only") is not True:
+                fail(f"DataAgentBench task must be read-only: {config_path}")
+            if config.get("answer_file") not in metadata["deliverables"]:
+                fail(f"DataAgentBench output mismatch: {config_path}")
+            if not (source_path / "db_config.yaml").is_file():
+                fail(f"Missing DataAgentBench database config: {task_dir}")
+            if not (source_path / "db_description.txt").is_file():
+                fail(f"Missing DataAgentBench database description: {task_dir}")
+            if not (source_path / "query_dataset").is_dir():
+                fail(f"Missing DataAgentBench query dataset: {task_dir}")
 
     if dict(datasets) != EXPECTED_DATASET_COUNTS:
         fail(f"Unexpected dataset balance: {dict(datasets)}")
 
     catalog_rows = list(csv.DictReader((ROOT / "catalog.csv").open(encoding="utf-8")))
-    if len(catalog_rows) != 33:
-        fail(f"Expected 33 catalog rows, found {len(catalog_rows)}")
+    if len(catalog_rows) != 40:
+        fail(f"Expected 40 catalog rows, found {len(catalog_rows)}")
     if {row["id"] for row in catalog_rows} != ids:
         fail("catalog.csv task IDs do not match task directories")
 
@@ -124,7 +144,7 @@ def main() -> int:
             fail(f"SHA-256 mismatch: {path}")
 
     print(
-        "PASS: 33 tasks, 6 datasets, "
+        "PASS: 40 tasks, 7 datasets, "
         f"{len(resolved_source_files)} unique source files, all hashes verified"
     )
     return 0

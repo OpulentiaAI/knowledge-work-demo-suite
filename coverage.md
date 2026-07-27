@@ -35,6 +35,13 @@
 | 31 | Daytona Windows OSWorld-Inspired Knowledge Work | account-management | [Prepare a Renewal Review Packet](tasks/031-daytona-multiapp-renewal-review/prompt.md) | `renewal_recommendations.xlsx`, `renewal_decision_memo.docx` |
 | 32 | Daytona Windows OSWorld-Inspired Knowledge Work | procurement | [Build a Procurement Decision Pack](tasks/032-daytona-multiapp-procurement-decision/prompt.md) | `vendor_scorecard.xlsx`, `procurement_recommendation.docx` |
 | 33 | Daytona Windows OSWorld-Inspired Knowledge Work | program-management | [Assemble a Launch Readiness Review](tasks/033-daytona-multiapp-launch-readiness/prompt.md) | `launch_readiness_deck.pptx`, `launch_action_tracker.xlsx` |
+| 34 | UC Berkeley DataAgentBench | publishing-analytics | [Identify Highly Rated Recent Children's Books](tasks/034-dab-bookreview-childrens-high-ratings/prompt.md) | `answer.txt` |
+| 35 | UC Berkeley DataAgentBench | public-sector-portfolio-analysis | [Find Funded Capital Projects Still in Design](tasks/035-dab-civic-capital-design-funding/prompt.md) | `answer.txt` |
+| 36 | UC Berkeley DataAgentBench | sales-operations-compliance | [Review a Sales Quote Against Company Policy](tasks/036-dab-crm-quote-policy/prompt.md) | `answer.txt` |
+| 37 | UC Berkeley DataAgentBench | local-market-research | [Rank Highly Rated Businesses with Evening Hours](tasks/037-dab-googlelocal-after-hours-ranking/prompt.md) | `answer.txt` |
+| 38 | UC Berkeley DataAgentBench | media-revenue-analysis | [Identify the Highest-Revenue Song](tasks/038-dab-music-revenue-leader/prompt.md) | `answer.txt` |
+| 39 | UC Berkeley DataAgentBench | government-procurement-analysis | [Compare Agencies by Million-Dollar Contract Share](tasks/039-dab-usaspending-agency-million-dollar-share/prompt.md) | `answer.txt` |
+| 40 | UC Berkeley DataAgentBench | investment-performance-analysis | [Rank Indices by Long-Run Monthly Investment Returns](tasks/040-dab-stockindex-monthly-investment-returns/prompt.md) | `answer.txt` |
 
 ## Domain groups
 
@@ -42,6 +49,7 @@
 - Legal: M&A, real estate, contracts, bankruptcy, litigation, and cross-border tax.
 - Operations: healthcare, logistics, emergency response, project controls, and sales operations.
 - Technical: materials engineering, systems architecture, data-heavy product analysis, and AI research.
+- Data-agent analytics: cross-database publishing, civic, CRM, local-market, media, procurement, and investment questions.
 - Retail diagnostics: evidence-based explanations of sales increases, declines, category mix, refunds, discounts, and operational responses.
 - Daytona Windows Office: deterministic Excel, Word, PowerPoint, and Outlook-plus-Office workflows designed for snapshot-backed, visible-UI-only sandboxes.
 - Communication formats: memo, PDF, XLSX, PPTX, LaTeX, video/subtitles, operating manual, and research survey.

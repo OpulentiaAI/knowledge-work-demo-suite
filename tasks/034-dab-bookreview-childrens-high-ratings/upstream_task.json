@@ -1,0 +1,20 @@
+{
+  "dataset": "bookreview",
+  "query_id": "query3",
+  "query": "Which books categorized as 'Children's Books' have received an average rating of at least 4.5 based on reviews from 2020 onwards?",
+  "upstream_commit": "af0bb94484987318bb7a2cfeb9d95b5f4ddd4eef",
+  "source_files": [
+    {
+      "path": "query_bookreview/query_dataset/books_info.sql",
+      "url": "https://huggingface.co/datasets/ruiyingm/DataAgentBench-data/resolve/main/query_bookreview/query_dataset/books_info.sql",
+      "sha256": "80acb3ece574f26b634107c9c553dc5ab0c95ca11f6b226c9602dff9465393d9",
+      "size": 649048
+    },
+    {
+      "path": "query_bookreview/query_dataset/review_query.db",
+      "url": "https://huggingface.co/datasets/ruiyingm/DataAgentBench-data/resolve/main/query_bookreview/query_dataset/review_query.db",
+      "sha256": "01f07a5894f058613374694a8f46d19341bf1fa316367494d019191e772b3e2c",
+      "size": 1093632
+    }
+  ]
+}

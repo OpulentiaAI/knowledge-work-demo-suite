@@ -1,0 +1,20 @@
+db_clients:
+  core_crm:
+    db_type: sqlite
+    db_path: query_dataset/core_crm.db
+  sales_pipeline:
+    db_type: duckdb
+    db_path: query_dataset/sales_pipeline.duckdb
+  support:
+    db_type: postgres
+    db_name: crm_support
+    sql_file: query_dataset/support.sql
+  products_orders:
+    db_type: sqlite
+    db_path: query_dataset/products_orders.db
+  activities:
+    db_type: duckdb
+    db_path: query_dataset/activities.duckdb
+  territory:
+    db_type: sqlite
+    db_path: query_dataset/territory.db

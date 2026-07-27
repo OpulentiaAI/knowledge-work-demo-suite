@@ -1,0 +1,7 @@
+{
+  "evaluation_method": "DataAgentBench upstream validator",
+  "answer_file": "answer.txt",
+  "validator": "validate.py",
+  "ground_truth": "ground_truth.csv",
+  "instructions": "Pass the complete contents of answer.txt to validate.validate. The validator returns a boolean and a diagnostic message."
+}

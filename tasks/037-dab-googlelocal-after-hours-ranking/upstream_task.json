@@ -1,0 +1,20 @@
+{
+  "dataset": "googlelocal",
+  "query_id": "query3",
+  "query": "What are the top 5 businesses that remain open after 6:00 PM on at least one weekday, ranked by highest average rating? Include their names, operating hours, and average ratings.",
+  "upstream_commit": "af0bb94484987318bb7a2cfeb9d95b5f4ddd4eef",
+  "source_files": [
+    {
+      "path": "query_googlelocal/query_dataset/business_description.sql",
+      "url": "https://huggingface.co/datasets/ruiyingm/DataAgentBench-data/resolve/main/query_googlelocal/query_dataset/business_description.sql",
+      "sha256": "cac36db1c60ab1fcbc661cc7df46c9980db1c2fcdaedb65b57f7a2618339ddd4",
+      "size": 38204
+    },
+    {
+      "path": "query_googlelocal/query_dataset/review_query.db",
+      "url": "https://huggingface.co/datasets/ruiyingm/DataAgentBench-data/resolve/main/query_googlelocal/query_dataset/review_query.db",
+      "sha256": "1e9ef561d4edf62ff49bf874253935caf8d404a79c60d21b9b0fc40ee041692c",
+      "size": 585728
+    }
+  ]
+}

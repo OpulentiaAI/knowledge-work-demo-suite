@@ -1,0 +1,8 @@
+db_clients:
+  indexinfo_database:
+    db_type: sqlite               
+    db_path: query_dataset/indexInfo_query.db  
+
+  indextrade_database:
+    db_type: duckdb               # Database type: DuckDB
+    db_path: query_dataset/indextrade_query.db       # Path to the DuckDB file

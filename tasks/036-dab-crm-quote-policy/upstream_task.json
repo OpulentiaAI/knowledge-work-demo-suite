@@ -1,0 +1,26 @@
+{
+  "dataset": "crmarenapro",
+  "query_id": "query2",
+  "query": "Does the cost and setup of this quote comply with our company policy? If it doesn't, which knowledge article is it in conflict with? Return only the Id of the knowledge article that the quote violates. If no violation is found, return None.\n\n## Quote approval guide.\nLook for relevant knowledge articles to justify the quote approval.\n\n- Quote Id to be considered is: 0Q0Wt000001WSDVKA4",
+  "upstream_commit": "af0bb94484987318bb7a2cfeb9d95b5f4ddd4eef",
+  "source_files": [
+    {
+      "path": "query_crmarenapro/query_dataset/products_orders.db",
+      "url": "https://huggingface.co/datasets/ruiyingm/DataAgentBench-data/resolve/main/query_crmarenapro/query_dataset/products_orders.db",
+      "sha256": "92ad52f2a624ee5e0cdf7cd4cc64ac60b1e3f7af2c672be27f651f80af4a6bdb",
+      "size": 143360
+    },
+    {
+      "path": "query_crmarenapro/query_dataset/sales_pipeline.duckdb",
+      "url": "https://huggingface.co/datasets/ruiyingm/DataAgentBench-data/resolve/main/query_crmarenapro/query_dataset/sales_pipeline.duckdb",
+      "sha256": "5b44cc3754820bff20c3f25e50cf09c6be401f86e69df6b9d3ee7a4cf64ac5af",
+      "size": 2371584
+    },
+    {
+      "path": "query_crmarenapro/query_dataset/support.sql",
+      "url": "https://huggingface.co/datasets/ruiyingm/DataAgentBench-data/resolve/main/query_crmarenapro/query_dataset/support.sql",
+      "sha256": "5248cd64cddf4936027859c5d6f74b2d32fbeb4e1939d784b2ff26d45d83950c",
+      "size": 8860941
+    }
+  ]
+}

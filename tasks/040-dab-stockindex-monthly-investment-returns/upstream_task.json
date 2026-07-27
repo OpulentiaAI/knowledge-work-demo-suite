@@ -1,0 +1,20 @@
+{
+  "dataset": "stockindex",
+  "query_id": "query3",
+  "query": "If an investor had made regular monthly investments in all indices since 2000, which 5 indices would have produced the highest overall returns, and what countries do they belong to?",
+  "upstream_commit": "af0bb94484987318bb7a2cfeb9d95b5f4ddd4eef",
+  "source_files": [
+    {
+      "path": "query_stockindex/query_dataset/indexInfo_query.db",
+      "url": "https://huggingface.co/datasets/ruiyingm/DataAgentBench-data/resolve/main/query_stockindex/query_dataset/indexInfo_query.db",
+      "sha256": "976511f3eb213269c81b286dd4517e4948b3d3bb776e221559943f0439916b55",
+      "size": 8192
+    },
+    {
+      "path": "query_stockindex/query_dataset/indextrade_query.db",
+      "url": "https://huggingface.co/datasets/ruiyingm/DataAgentBench-data/resolve/main/query_stockindex/query_dataset/indextrade_query.db",
+      "sha256": "12e9cf350be2a6396f6be9f0c2bb057013859956bc8269952dc7a85008973bb1",
+      "size": 4468736
+    }
+  ]
+}

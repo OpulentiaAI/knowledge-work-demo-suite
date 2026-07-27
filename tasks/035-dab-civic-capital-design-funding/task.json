@@ -1,0 +1,17 @@
+{
+  "id": "035-dab-civic-capital-design-funding",
+  "title": "Find Funded Capital Projects Still in Design",
+  "domain": "public-sector-portfolio-analysis",
+  "work_type": "cross-database-analysis",
+  "dataset": "UC Berkeley DataAgentBench",
+  "upstream_id": "civic_unstructured/query1",
+  "upstream_url": "https://github.com/ucbepic/DataAgentBench/tree/af0bb94484987318bb7a2cfeb9d95b5f4ddd4eef/query_civic_unstructured/query1",
+  "license": "Upstream terms apply; DataAgentBench does not declare a repository-wide license",
+  "prompt": "prompt.md",
+  "source_docs": "source_docs",
+  "deliverables": [
+    "answer.txt"
+  ],
+  "rubric": "rubric.json",
+  "dataagentbench_config": "dataagentbench.json"
+}

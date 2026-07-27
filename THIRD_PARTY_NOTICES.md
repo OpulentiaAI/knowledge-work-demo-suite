@@ -46,4 +46,16 @@ MIT license.
 - Not included: OSWorld Windows task files, Daytona source code, Office
   software, private credentials, or live-web task state.
 
+## UC Berkeley DataAgentBench
+
+- Publisher: UC Berkeley EPIC
+- Source: https://github.com/ucbepic/DataAgentBench
+- Data mirror: https://huggingface.co/datasets/ruiyingm/DataAgentBench-data
+- Upstream terms: the repository did not declare a repository-wide license
+  when these packets were compiled on 2026-07-26. Use and redistribution
+  remain subject to the upstream project and source-dataset terms.
+- Included: seven query prompts, official validators and ground-truth files,
+  database descriptions and configurations, and the bounded database files
+  required by those queries.
+
 Third-party trademarks and names are used only to identify provenance.

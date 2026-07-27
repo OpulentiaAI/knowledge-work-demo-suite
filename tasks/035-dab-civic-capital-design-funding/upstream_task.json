@@ -1,0 +1,20 @@
+{
+  "dataset": "civic_unstructured",
+  "query_id": "query1",
+  "query": "As of 2023-01-01, list all projects whose most recent report (dated on or before 2023-01-01) records both a type of 'capital' and a status of 'design' and that have accumulated total funding of more than $500,000. Accumulated total funding means the sum of all funding amounts granted to that project on or before 2023-01-01.",
+  "upstream_commit": "af0bb94484987318bb7a2cfeb9d95b5f4ddd4eef",
+  "source_files": [
+    {
+      "path": "query_civic_unstructured/query_dataset/civic_docs_dump/civic_db/civic_docs.bson",
+      "url": "https://huggingface.co/datasets/ruiyingm/DataAgentBench-data/resolve/main/query_civic_unstructured/query_dataset/civic_docs_dump/civic_db/civic_docs.bson",
+      "sha256": "57fd5ff32b81478b696b6af7583dfd64744c01b3ed6bf112b3f8ee00c2e45bce",
+      "size": 237654
+    },
+    {
+      "path": "query_civic_unstructured/query_dataset/funding.db",
+      "url": "https://huggingface.co/datasets/ruiyingm/DataAgentBench-data/resolve/main/query_civic_unstructured/query_dataset/funding.db",
+      "sha256": "7e2e209f30c79917882db69ef379e0d4f58be23e7117e6caf14c31ebdbbfefc3",
+      "size": 106496
+    }
+  ]
+}

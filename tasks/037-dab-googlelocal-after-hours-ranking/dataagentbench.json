@@ -1,0 +1,9 @@
+{
+  "upstream_commit": "af0bb94484987318bb7a2cfeb9d95b5f4ddd4eef",
+  "database_config": "source_docs/db_config.yaml",
+  "database_description": "source_docs/db_description.txt",
+  "query_dataset": "source_docs/query_dataset",
+  "read_only": true,
+  "answer_file": "answer.txt",
+  "official_harness": "https://github.com/ucbepic/DataAgentBench"
+}
