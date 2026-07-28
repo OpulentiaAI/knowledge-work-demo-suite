@@ -66,10 +66,13 @@ Source: https://data.mendeley.com/datasets/39xdjxgnmf/1
 
 ### Daytona Windows OSWorld-Inspired Knowledge Work
 
-These ten original task packets adapt the execution pattern described in
+These eleven original task packets adapt the execution pattern described in
 Daytona's Windows OSWorld article to the team's Daytona sandbox runtime. They
-cover two Excel, two Word, two PowerPoint, and four Outlook-plus-Office
-multi-app workflows. Each task stages only synthetic, local evidence; declares
+cover three Excel, two Word, two PowerPoint, and four Outlook-plus-Office
+multi-app workflows. The third Excel case preserves the workbook requirements
+from a user-provided screenshot while replacing the unseen source data with an
+original three-scenario crew and hourly-volume workbook. Each task stages only
+synthetic, local evidence; declares
 the required Office apps and output path; starts from a resettable Windows
 snapshot; restricts the agent to visible mouse/keyboard interaction; and uses
 post-run artifact inspection. This makes the tasks suitable for deterministic
@@ -120,6 +123,8 @@ Primary public sources:
   exceed 20 GB; the Lite source files named by the selected tasks are included.
 - OSWorld Windows task data is not vendored or represented as part of this
   collection; the Daytona article is used solely as a public method reference.
+- The private screenshot used to specify task `048` is not vendored; only its
+  workbook requirements and SHA-256 provenance are preserved.
 - The full DataAgentBench corpus contains much larger datasets and more query
   families; only seven bounded, independently runnable cases are included.
 - The confidential Tax Strategy Execution Manual is not vendored; its seven

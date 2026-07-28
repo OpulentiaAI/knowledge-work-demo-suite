@@ -812,5 +812,22 @@
     ],
     "rubric": "rubric.json",
     "tax_strategy_config": "tax_strategy.json"
+  },
+  {
+    "id": "048-daytona-excel-crew-gantt",
+    "title": "Build a Dynamic 168-Hour Crew Gantt",
+    "domain": "workforce-planning",
+    "work_type": "excel-single-app",
+    "dataset": "Daytona Windows OSWorld-Inspired Knowledge Work",
+    "upstream_id": "user-image/581a6c2204a1c821f684d3c427c9cf03ce1eb8d4a091f240a98add847bc36bd6",
+    "upstream_url": "https://github.com/OpulentiaAI/knowledge-work-demo-suite/tree/main/tasks/048-daytona-excel-crew-gantt",
+    "license": "Original task design and synthetic fixtures; user-provided screenshot used as a private design reference and not redistributed",
+    "prompt": "prompt.md",
+    "source_docs": "source_docs",
+    "deliverables": [
+      "crew_coverage_model.xlsx"
+    ],
+    "rubric": "rubric.json",
+    "daytona_windows_config": "daytona_windows.json"
   }
 ]

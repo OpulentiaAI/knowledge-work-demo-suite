@@ -1,0 +1,34 @@
+[
+  {
+    "score": 10,
+    "criterion": "Preserves all four input sheets, adds a presentation-ready `Crew Gantt` sheet, and uses `Scenario Control!B3` as the only scenario selector."
+  },
+  {
+    "score": 15,
+    "criterion": "Creates exactly 168 hourly columns from Monday 00:00 through Sunday 23:00 with distinct day banners and readable hour markers."
+  },
+  {
+    "score": 10,
+    "criterion": "Shows only the selected scenario's crews, sorted by headcount descending then Crew ID ascending, with the required six-field left block and useful frozen panes."
+  },
+  {
+    "score": 20,
+    "criterion": "Shift bars correctly apply workday flags and shift windows for all scenarios, including overnight crews B-D, P-D, P-H, and L-D wrapping across midnight."
+  },
+  {
+    "score": 10,
+    "criterion": "Uses a consistent, readable visual system and legend that lets a viewer distinguish both Role and FT/PT status."
+  },
+  {
+    "score": 20,
+    "criterion": "Scenario-driven KPIs are correct: Base = 8 crews, 130 total headcount, 1,150 peak volume, 66 peak people; Peak = 10, 212, 1,840, 96; Lean = 7, 88, 828, 46."
+  },
+  {
+    "score": 5,
+    "criterion": "The 168-hour coverage check is formula-driven, evaluates every hour, and reports PASS for Base, Peak, and Lean."
+  },
+  {
+    "score": 10,
+    "criterion": "Includes a readable, dynamically linked 168-point chart below the grid comparing package volume with headcount on shift, with no formula errors or hardcoded scenario results."
+  }
+]

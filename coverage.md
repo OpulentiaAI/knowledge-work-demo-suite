@@ -49,6 +49,7 @@
 | 45 | Tax Strategy Execution Manual-Inspired Advisory Work | family-business-payroll | [Model Owner-Spouse Wages and Benefits](tasks/045-tax-employing-owner-spouse/prompt.md) | `spouse_employment_memo.md`, `spouse_payroll_budget.xlsx` |
 | 46 | Tax Strategy Execution Manual-Inspired Advisory Work | tax-business-expense-planning | [Document a Section 280A(g) Home-Rental Arrangement](tasks/046-tax-augusta-rule-execution/prompt.md) | `augusta_rule_execution_memo.md`, `rental_event_log.xlsx` |
 | 47 | Tax Strategy Execution Manual-Inspired Advisory Work | tax-health-benefits | [Model HSA Eligibility and Funding Choices](tasks/047-tax-hsa-optimization/prompt.md) | `hsa_eligibility_funding_memo.md`, `hsa_contribution_schedule.xlsx` |
+| 48 | Daytona Windows OSWorld-Inspired Knowledge Work | workforce-planning | [Build a Dynamic 168-Hour Crew Gantt](tasks/048-daytona-excel-crew-gantt/prompt.md) | `crew_coverage_model.xlsx` |
 
 ## Domain groups
 
@@ -60,4 +61,5 @@
 - Tax strategy execution: education savings, owner and employer retirement plans, family payroll, short-term home rental, and health savings accounts.
 - Retail diagnostics: evidence-based explanations of sales increases, declines, category mix, refunds, discounts, and operational responses.
 - Daytona Windows Office: deterministic Excel, Word, PowerPoint, and Outlook-plus-Office workflows designed for snapshot-backed, visible-UI-only sandboxes.
+- Workforce visualization: scenario-driven 168-hour crew scheduling, overnight coverage logic, KPI reconciliation, and demand-versus-staffing charting.
 - Communication formats: memo, PDF, XLSX, PPTX, LaTeX, video/subtitles, operating manual, and research survey.

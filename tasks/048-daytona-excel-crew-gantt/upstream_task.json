@@ -1,0 +1,19 @@
+{
+  "type": "original_screenshot_inspired_task",
+  "private_reference": {
+    "filename": "IMG_7564.JPG",
+    "sha256": "581a6c2204a1c821f684d3c427c9cf03ce1eb8d4a091f240a98add847bc36bd6",
+    "redistributed": false
+  },
+  "preserved_requirements": [
+    "168-hour weekly shift-coverage grid",
+    "one row per crew ordered largest first",
+    "pinned crew metadata block",
+    "role and FT/PT colored shift bars",
+    "overnight wrapping and workday filtering",
+    "day banners and hour markers",
+    "scenario-driven KPI header",
+    "package volume versus headcount chart"
+  ],
+  "facts": "Original synthetic crew schedules and hourly volume data"
+}

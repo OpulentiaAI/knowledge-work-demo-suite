@@ -19,7 +19,7 @@ EXPECTED_DATASET_COUNTS = {
     "OpenAI GDPval": 6,
     "Workspace-Bench-Lite": 4,
     "Synthetic Retail POS 2026 (Mendeley Data)": 3,
-    "Daytona Windows OSWorld-Inspired Knowledge Work": 10,
+    "Daytona Windows OSWorld-Inspired Knowledge Work": 11,
     "UC Berkeley DataAgentBench": 7,
     "Tax Strategy Execution Manual-Inspired Advisory Work": 7,
 }
@@ -39,8 +39,8 @@ def fail(message: str) -> None:
 
 def main() -> int:
     task_dirs = sorted(path for path in TASKS_DIR.iterdir() if path.is_dir())
-    if len(task_dirs) != 47:
-        fail(f"Expected 47 task directories, found {len(task_dirs)}")
+    if len(task_dirs) != 48:
+        fail(f"Expected 48 task directories, found {len(task_dirs)}")
 
     ids: set[str] = set()
     datasets: Counter[str] = Counter()
@@ -158,8 +158,8 @@ def main() -> int:
         fail(f"Unexpected dataset balance: {dict(datasets)}")
 
     catalog_rows = list(csv.DictReader((ROOT / "catalog.csv").open(encoding="utf-8")))
-    if len(catalog_rows) != 47:
-        fail(f"Expected 47 catalog rows, found {len(catalog_rows)}")
+    if len(catalog_rows) != 48:
+        fail(f"Expected 48 catalog rows, found {len(catalog_rows)}")
     if {row["id"] for row in catalog_rows} != ids:
         fail("catalog.csv task IDs do not match task directories")
 
@@ -177,7 +177,7 @@ def main() -> int:
             fail(f"SHA-256 mismatch: {path}")
 
     print(
-        "PASS: 47 tasks, 8 datasets, "
+        "PASS: 48 tasks, 8 datasets, "
         f"{len(resolved_source_files)} unique source files, all hashes verified"
     )
     return 0

@@ -1,0 +1,66 @@
+{
+  "schema_version": "1.0",
+  "profile": "daytona-windows-office-v1",
+  "adapter_note": "Declarative task contract for a Daytona Windows runner; not a claim of byte-for-byte OSWorld schema compatibility.",
+  "os": "windows",
+  "snapshot_requirements": {
+    "applications": [
+      "Microsoft Excel"
+    ],
+    "network": "disabled after snapshot creation"
+  },
+  "agent_policy": {
+    "interaction": "visible-desktop-only",
+    "allowed_calls": [
+      "pyautogui",
+      "time"
+    ],
+    "blocked": [
+      "shell",
+      "filesystem_api",
+      "network",
+      "package_install"
+    ]
+  },
+  "setup": {
+    "stage_source_docs": "Documents\\KnowledgeWork\\048-daytona-excel-crew-gantt\\source_docs",
+    "launch_files": [
+      "source_docs\\crew_coverage_inputs.xlsx"
+    ],
+    "launch_apps": [
+      "Microsoft Excel"
+    ]
+  },
+  "output": {
+    "directory": "Documents\\KnowledgeWork\\048-daytona-excel-crew-gantt\\output",
+    "required_files": [
+      "crew_coverage_model.xlsx"
+    ]
+  },
+  "blind_run": {
+    "agent_visible": [
+      "prompt.md",
+      "task.json",
+      "daytona_windows.json",
+      "source_docs/"
+    ],
+    "grader_hidden": [
+      "rubric.json",
+      "answer_key.md"
+    ]
+  },
+  "evaluation": {
+    "mode": "post-run artifact inspection",
+    "checks": [
+      "Scenario Control!B3 drives every Crew Gantt row, KPI, shift bar, coverage result, and chart series.",
+      "The grid contains Monday 00:00 through Sunday 23:00 in exactly 168 hourly columns.",
+      "Selected crews are sorted by headcount descending and Crew ID ascending with the required pinned metadata.",
+      "Workday flags and overnight wrapping are correct for every scenario.",
+      "Base KPIs are 8 crews, 130 headcount, 1,150 peak volume, 66 peak people, PASS.",
+      "Peak KPIs are 10 crews, 212 headcount, 1,840 peak volume, 96 peak people, PASS.",
+      "Lean KPIs are 7 crews, 88 headcount, 828 peak volume, 46 peak people, PASS.",
+      "A dynamic 168-point chart compares package volume with people on shift."
+    ]
+  },
+  "reset": "Start every attempt from the same snapshot and restage source_docs before opening the workbook."
+}

@@ -56,6 +56,7 @@ LOCAL_PACKET_TASKS = {
     "045-tax-employing-owner-spouse",
     "046-tax-augusta-rule-execution",
     "047-tax-hsa-optimization",
+    "048-daytona-excel-crew-gantt",
 }
 
 AA_TASKS = [
@@ -792,6 +793,7 @@ def write_coverage(records: list[dict[str, Any]]) -> None:
             "- Tax strategy execution: education savings, owner and employer retirement plans, family payroll, short-term home rental, and health savings accounts.",
             "- Retail diagnostics: evidence-based explanations of sales increases, declines, category mix, refunds, discounts, and operational responses.",
             "- Daytona Windows Office: deterministic Excel, Word, PowerPoint, and Outlook-plus-Office workflows designed for snapshot-backed, visible-UI-only sandboxes.",
+            "- Workforce visualization: scenario-driven 168-hour crew scheduling, overnight coverage logic, KPI reconciliation, and demand-versus-staffing charting.",
             "- Communication formats: memo, PDF, XLSX, PPTX, LaTeX, video/subtitles, operating manual, and research survey.",
             "",
         ]

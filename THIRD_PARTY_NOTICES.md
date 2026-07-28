@@ -41,10 +41,11 @@ MIT license.
 ## Daytona Windows OSWorld-Inspired Knowledge Work
 
 - Method reference: https://www.daytona.io/dotfiles/osworld-on-daytona-windows-sandboxes
-- Included: ten original task definitions, synthetic local evidence packets,
+- Included: eleven original task definitions, synthetic local evidence packets,
   Daytona Windows runtime contracts, and original evaluation rubrics.
 - Not included: OSWorld Windows task files, Daytona source code, Office
-  software, private credentials, or live-web task state.
+  software, private credentials, live-web task state, or the user-provided
+  screenshot used as the private design reference for task `048`.
 
 ## UC Berkeley DataAgentBench
 

@@ -1,6 +1,6 @@
 # Knowledge Work Demo Suite
 
-A compact, source-grounded collection of 47 professional knowledge-work tasks
+A compact, source-grounded collection of 48 professional knowledge-work tasks
 compiled from eight benchmark families and task-design references. Every task contains:
 
 - `prompt.md` — a standalone assignment for an agent or model;
@@ -25,7 +25,7 @@ cd knowledge-work-demo-suite
 python3 scripts/validate_suite.py
 ```
 
-The validator should report 47 tasks, eight datasets, and verified hashes for
+The validator should report 48 tasks, eight datasets, and verified hashes for
 all source files.
 
 ## Run one use case
@@ -181,7 +181,7 @@ scripts/
 | OpenAI GDPval | 6 | Cross-industry professional artifacts in finance, healthcare, engineering, project delivery, sales, and IT |
 | Workspace-Bench-Lite | 4 | File-heavy product, logistics, operations, and research work |
 | Synthetic Retail POS 2026 (Mendeley Data) | 3 | Evidence-based retail sales diagnosis with deterministic source packets |
-| Daytona Windows OSWorld-Inspired Knowledge Work | 10 | Original, snapshot-ready Office and multi-app workflows for strict visible-UI Daytona Windows sandbox runs |
+| Daytona Windows OSWorld-Inspired Knowledge Work | 11 | Original, snapshot-ready Office and multi-app workflows for strict visible-UI Daytona Windows sandbox runs |
 | UC Berkeley DataAgentBench | 7 | Cross-database analysis across publishing, civic projects, CRM policy, local markets, music revenue, procurement, and investments |
 | Tax Strategy Execution Manual-Inspired Advisory Work | 7 | Execution-focused education, retirement, family-payroll, home-rental, and health-savings planning using synthetic facts and official federal guidance |
 
@@ -190,13 +190,20 @@ benchmark and not suitable for reporting upstream leaderboard scores.
 
 ## Daytona Windows Office tasks
 
-Tasks `024` through `033` are tailored to a Daytona Windows sandbox runtime.
-They use staged, offline synthetic evidence; resettable app state; and
+Tasks `024` through `033` and task `048` are tailored to a Daytona Windows
+sandbox runtime. They use staged, offline synthetic evidence; resettable app state; and
 post-run inspection of native Office artifacts. The packet configuration
 enforces a visible-UI-only agent policy and names the required snapshot apps,
 workspace path, output path, and evaluator checks. See
 [the Daytona/OSWorld task design](docs/daytona-windows-osworld-task-design.md)
 for the run contract and task-family breakdown.
+
+Task `048` adds a scenario-driven Excel workforce-planning case based on a
+user-provided visual specification. Its synthetic input workbook contains
+three crew-and-volume scenarios. The required output preserves the original
+168-hour Gantt, pinned crew fields, overnight wrapping, role and FT/PT colors,
+scenario KPIs, full-week coverage check, and volume-versus-staffing chart
+requirements. The reference image itself is not redistributed.
 
 ## DataAgentBench tasks
 
