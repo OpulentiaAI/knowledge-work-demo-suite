@@ -1,0 +1,12 @@
+[
+  {
+    "id": "ver_6ab475c82b184f7282b9ad3938aa518b",
+    "criterion_type": "Reasoning (numerical)",
+    "description": "Proposes the journal entry for Whitfield post-settlement holdback as $29,700 Dr Contingency Fee Revenue (or Account 4200), Cr Accrued Expenses (or Account 2050) (acceptable value is $29,700)"
+  },
+  {
+    "id": "ver_eb52d163a3cc4863a9acd057d88d13ad",
+    "criterion_type": "Reasoning (qualitative)",
+    "description": "Identifies no more than one journal entry."
+  }
+]

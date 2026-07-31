@@ -1,0 +1,18 @@
+{
+  "id": "055-apex-accounting-payroll-reconciliation",
+  "title": "Reconcile December Payroll Between Gusto and QBO",
+  "domain": "payroll-accounting",
+  "work_type": "cross-document-accounting-analysis",
+  "dataset": "Mercor APEX-Accounting Dev Set",
+  "upstream_id": "task_848b939d069a4378b3e6e1d989aca7fc",
+  "upstream_url": "https://huggingface.co/datasets/mercor/apex-accounting/blob/bf5e8c99117b7ee763d79ad2c64563ac844d77d2/tasks/world_9_task_05.json",
+  "license": "CC-BY-4.0",
+  "attribution": "Mercor and Ramp, APEX-Accounting public development set",
+  "prompt": "prompt.md",
+  "source_docs": "source_docs",
+  "deliverables": [
+    "answer.txt"
+  ],
+  "rubric": "rubric.json",
+  "apex_accounting_config": "apex_accounting.json"
+}

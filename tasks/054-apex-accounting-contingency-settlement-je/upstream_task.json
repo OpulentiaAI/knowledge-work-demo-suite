@@ -1,0 +1,35 @@
+{
+  "task_id": "task_baa139877a4d4fbfa601df50610262d5",
+  "task_name": "World 9 Task 4",
+  "world_id": "world_0645ad7c997c415e8c43f8de7cee2008",
+  "prompt": "Review the contingency case status and the journal entry register, together with relevant documents, and propose a journal entry where applicable for all relevant transactions. If entries have already been posted into the QBO journal entry register 2024 document, do not propose a journal entry.\n\nFor all of the above, focus on the settled case.\n\nProvide answers in the console, present amounts in $, and round numeric data to the nearest whole number, but do not round intermediate values.",
+  "context_files": [
+    "workpaper_contingency_case_status_2024.xlsx",
+    "workpaper_client_cost_advance_ledger_2024.xlsx",
+    "qbo_journal_entry_register_2024.xlsx",
+    "workpaper_whitfield_settlement_summary.xlsx",
+    "Whitfield_PostSettlement_Holdback_Memo.pdf"
+  ],
+  "rubric": [
+    {
+      "id": "ver_6ab475c82b184f7282b9ad3938aa518b",
+      "criterion_type": "Reasoning (numerical)",
+      "description": "Proposes the journal entry for Whitfield post-settlement holdback as $29,700 Dr Contingency Fee Revenue (or Account 4200), Cr Accrued Expenses (or Account 2050) (acceptable value is $29,700)"
+    },
+    {
+      "id": "ver_eb52d163a3cc4863a9acd057d88d13ad",
+      "criterion_type": "Reasoning (qualitative)",
+      "description": "Identifies no more than one journal entry."
+    }
+  ],
+  "gold_output": "Proposed JE\nDate: 12/31/2024\nMemo: Whitfield post-settlement administrator holdback - reversal of excess contingency fee\t\t\t\nAccount                                             --     Debit       --    Credit\n4200 Contingency Fee Revenue \t\t  --     $29,700\t  --\n2050 Accrued Expenses                     --\t                  --    $29,700",
+  "metadata": {
+    "category": "Data Entry",
+    "subcategory": "Revenue / contingency",
+    "output_type": "console_text",
+    "world_entity_type": "legal_services",
+    "estimated_completion_hours": 1.5,
+    "author_role": "expert",
+    "reviewer_role": "expert"
+  }
+}

@@ -146,6 +146,28 @@ Pinned source repositories:
 - https://github.com/brendan-duncan/archive
 - https://github.com/jwt/ruby-jwe
 
+### Mercor APEX-Accounting Dev Set
+
+APEX-Accounting is an expert-authored benchmark from Mercor and Ramp for
+realistic accounting work inside synthetic company worlds. The public release
+contains 10 development tasks from Sterling, Marsh & Associates LLP, a
+synthetic Philadelphia law firm completing its December 2024 close. The
+separate 160-task scored benchmark remains closed.
+
+Five public tasks were selected to cover all four released workflow
+categories: Data Entry, Reconciliation, Schedules & Accruals, and Variance
+Analysis. The packets preserve upstream prompts, binary rubric criteria, expert
+answers, and the exact author-identified source files. Each task runs against
+static accounting exports and documents rather than reproducing Mercor's
+unshipped accounting-software tool interface.
+
+The public development set is released under CC BY 4.0. This suite attributes
+Mercor and Ramp, pins revision
+`bf5e8c99117b7ee763d79ad2c64563ac844d77d2`, and preserves a copy of the
+upstream license in every task packet.
+
+Source: https://huggingface.co/datasets/mercor/apex-accounting
+
 ## Considered but not selected
 
 - WorkBench focuses on database state changes such as sending email and

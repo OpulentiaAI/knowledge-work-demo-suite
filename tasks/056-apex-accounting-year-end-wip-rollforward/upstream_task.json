@@ -1,0 +1,51 @@
+{
+  "task_id": "task_55332112bcb94ff4b489844dba2d91e0",
+  "task_name": "World 9 Task 7",
+  "world_id": "world_0645ad7c997c415e8c43f8de7cee2008",
+  "prompt": "Using the pre-adjustment December 31, 2024 unbilled work-in-process schedule, finalize the year-end WIP by applying the matter-level realization adjustments and the approved year-end write-downs called out by management in the matter status memo.\n\nProvide the post-adjustment unbilled WIP by practice group and in total, along with the net year-end adjustment journal entry.\n\nDo not round intermediate calculations. Round final answers to two decimal places. Answer in console. ",
+  "context_files": [
+    "workpaper_realization_rate_analysis_2024.xlsx",
+    "clio_billing_export_2024.csv",
+    "engagement_letter_summary_2024.xlsx",
+    "T1_Year_End_WIP_Schedule.pdf",
+    "Year_End_WIP_Realization_Methodology_Memo.pdf",
+    "Year_End_Matter_Status_Update.pdf"
+  ],
+  "rubric": [
+    {
+      "id": "ver_36b10ea69d0b49529f0c6e497de10147",
+      "criterion_type": "Reasoning (numerical)",
+      "description": "States the post-adjustment unbilled WIP for the Litigation practice group is $93,116.80 (acceptable range $93,111.80 to $93,121.80)"
+    },
+    {
+      "id": "ver_8447e100c6c041be913c659e05c5e8e9",
+      "criterion_type": "Reasoning (numerical)",
+      "description": "States the post-adjustment unbilled WIP for the Corporate-M&A practice group is $72,756.93 (acceptable range $72,751.93 to $72,761.93)"
+    },
+    {
+      "id": "ver_319999e8e8ec4a0b93cf02f74223b515",
+      "criterion_type": "Reasoning (numerical)",
+      "description": "States the post-adjustment unbilled WIP for the Real Estate practice group is $41,664.37 (acceptable range $41,659.37 to $41,669.37)"
+    },
+    {
+      "id": "ver_6130ca866a7845229741adf14f3a2cbd",
+      "criterion_type": "Reasoning (numerical)",
+      "description": "States the total post-adjustment unbilled WIP is $207,538.10 (acceptable range $207,533.10 to $207,543.10)"
+    },
+    {
+      "id": "ver_e6f0ceff3d5847a49227d6e028395f11",
+      "criterion_type": "Reasoning (numerical)",
+      "description": "Proposes the journal entry for the year-end WIP adjustment as $39,469.40 Dr Fee Discounts and Write-Downs (or Account 4900), Cr Unbilled WIP (or Account 1200) (Acceptable value is $39,469.40)"
+    }
+  ],
+  "gold_output": "Unbilled work-in-process by practice group\nPractice group               --     Pre-adjustment WIP        --    Post-adjustment WIP      --   Year-end decrease\nLitigation                       --       $112,699.64                   --          $93,116.80                --    $19,582.84\nCorporate-M&A            --        $88,750.80                    --          $72,756.93                --    $15,993.87\nReal Estate                     --        $45,557.06                    --          $41,664.37                --    $  3,892.69\nTotal                              --       $247,007.50                    --        $207,538.10                --    $39,469.40\n\n\nNet year-end adjustment JE:\nDate:12/31/2024\nMemo: To record year-end realization and approved write-down adjustments to unbilled WIP.\nAccount                                                   --        Debit               --      Credit\n4900 Fee Discounts and Write-Downs    --      $39,469.40         --  \n1200 Unbilled WIP                                   --                                --     $39,469.40",
+  "metadata": {
+    "category": "Schedules & Accruals",
+    "subcategory": "WIP rollforward",
+    "output_type": "console_text",
+    "world_entity_type": "legal_services",
+    "estimated_completion_hours": 3.5,
+    "author_role": "expert",
+    "reviewer_role": "expert"
+  }
+}

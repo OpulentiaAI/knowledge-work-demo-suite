@@ -1,0 +1,35 @@
+{
+  "schema_version": "1.0",
+  "profile": "apex-accounting-static-dev-v1",
+  "dataset_repository": "mercor/apex-accounting",
+  "dataset_commit": "bf5e8c99117b7ee763d79ad2c64563ac844d77d2",
+  "world_id": "world_0645ad7c997c415e8c43f8de7cee2008",
+  "source_mode": "task-required static exports, flattened",
+  "read_only": true,
+  "network": "disabled",
+  "answer_file": "answer.txt",
+  "grading": {
+    "mode": "binary criterion review of final answer",
+    "criteria_file": "rubric.json",
+    "gold_file": "answer_key.md",
+    "trajectory_used": false
+  },
+  "blind_run": {
+    "agent_visible": [
+      "prompt.md",
+      "task.json",
+      "apex_accounting.json",
+      "source_docs/"
+    ],
+    "grader_hidden": [
+      "rubric.json",
+      "answer_key.md",
+      "upstream_task.json"
+    ]
+  },
+  "output": {
+    "required_files": [
+      "answer.txt"
+    ]
+  }
+}

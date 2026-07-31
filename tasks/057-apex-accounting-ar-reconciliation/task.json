@@ -1,0 +1,18 @@
+{
+  "id": "057-apex-accounting-ar-reconciliation",
+  "title": "Finalize the Clio-to-QBO Accounts Receivable Reconciliation",
+  "domain": "accounts-receivable",
+  "work_type": "cross-document-accounting-analysis",
+  "dataset": "Mercor APEX-Accounting Dev Set",
+  "upstream_id": "task_3155ba0f5d37465cb051c89ead5ec9bb",
+  "upstream_url": "https://huggingface.co/datasets/mercor/apex-accounting/blob/bf5e8c99117b7ee763d79ad2c64563ac844d77d2/tasks/world_9_task_13.json",
+  "license": "CC-BY-4.0",
+  "attribution": "Mercor and Ramp, APEX-Accounting public development set",
+  "prompt": "prompt.md",
+  "source_docs": "source_docs",
+  "deliverables": [
+    "answer.txt"
+  ],
+  "rubric": "rubric.json",
+  "apex_accounting_config": "apex_accounting.json"
+}

@@ -1,0 +1,18 @@
+{
+  "id": "056-apex-accounting-year-end-wip-rollforward",
+  "title": "Finalize the Year-End Unbilled WIP Rollforward",
+  "domain": "revenue-accounting",
+  "work_type": "cross-document-accounting-analysis",
+  "dataset": "Mercor APEX-Accounting Dev Set",
+  "upstream_id": "task_55332112bcb94ff4b489844dba2d91e0",
+  "upstream_url": "https://huggingface.co/datasets/mercor/apex-accounting/blob/bf5e8c99117b7ee763d79ad2c64563ac844d77d2/tasks/world_9_task_07.json",
+  "license": "CC-BY-4.0",
+  "attribution": "Mercor and Ramp, APEX-Accounting public development set",
+  "prompt": "prompt.md",
+  "source_docs": "source_docs",
+  "deliverables": [
+    "answer.txt"
+  ],
+  "rubric": "rubric.json",
+  "apex_accounting_config": "apex_accounting.json"
+}

@@ -55,6 +55,11 @@
 | 51 | Devin Security Swarm Eval Fixtures | memory-safety | [Audit a C JSON Library's Document Destruction Path](tasks/051-security-yyjson-doc-free-double-free/prompt.md) | `security_findings.md` |
 | 52 | Devin Security Swarm Eval Fixtures | product-security | [Audit an Archive Extractor's Filesystem Boundaries](tasks/052-security-archive-symlink-traversal/prompt.md) | `security_findings.md` |
 | 53 | Devin Security Swarm Eval Fixtures | cryptographic-security | [Audit JWE Authenticated Decryption](tasks/053-security-ruby-jwe-gcm-tag-validation/prompt.md) | `security_findings.md` |
+| 54 | Mercor APEX-Accounting Dev Set | accounting-data-entry | [Propose a Contingency Settlement Journal Entry](tasks/054-apex-accounting-contingency-settlement-je/prompt.md) | `answer.txt` |
+| 55 | Mercor APEX-Accounting Dev Set | payroll-accounting | [Reconcile December Payroll Between Gusto and QBO](tasks/055-apex-accounting-payroll-reconciliation/prompt.md) | `answer.txt` |
+| 56 | Mercor APEX-Accounting Dev Set | revenue-accounting | [Finalize the Year-End Unbilled WIP Rollforward](tasks/056-apex-accounting-year-end-wip-rollforward/prompt.md) | `answer.txt` |
+| 57 | Mercor APEX-Accounting Dev Set | accounts-receivable | [Finalize the Clio-to-QBO Accounts Receivable Reconciliation](tasks/057-apex-accounting-ar-reconciliation/prompt.md) | `answer.txt` |
+| 58 | Mercor APEX-Accounting Dev Set | accounting-variance-analysis | [Analyze Monthly Collections Variance by Practice Group](tasks/058-apex-accounting-collections-variance/prompt.md) | `answer.txt` |
 
 ## Domain groups
 
@@ -68,4 +73,5 @@
 - Daytona Windows Office: deterministic Excel, Word, PowerPoint, and Outlook-plus-Office workflows designed for snapshot-backed, visible-UI-only sandboxes.
 - Workforce visualization: scenario-driven 168-hour crew scheduling, overnight coverage logic, KPI reconciliation, and demand-versus-staffing charting.
 - Security engineering: blind source audits spanning code injection, prototype inheritance, memory safety, filesystem boundaries, and authenticated encryption.
+- Accounting close: journal-entry preparation, payroll and receivables reconciliation, WIP rollforwards, and collections variance analysis.
 - Communication formats: memo, PDF, XLSX, PPTX, LaTeX, video/subtitles, operating manual, and research survey.

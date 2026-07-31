@@ -1,7 +1,7 @@
 # Knowledge Work Demo Suite
 
-A compact, source-grounded collection of 53 professional knowledge-work tasks
-compiled from nine benchmark families and task-design references. Every task contains:
+A compact, source-grounded collection of 58 professional knowledge-work tasks
+compiled from ten benchmark families and task-design references. Every task contains:
 
 - `prompt.md` — a standalone assignment for an agent or model;
 - `task.json` — normalized metadata, provenance, inputs, and expected outputs;
@@ -25,7 +25,7 @@ cd knowledge-work-demo-suite
 python3 scripts/validate_suite.py
 ```
 
-The validator should report 53 tasks, nine datasets, and verified hashes for
+The validator should report 58 tasks, ten datasets, and verified hashes for
 all source files.
 
 ## Run one use case
@@ -185,6 +185,7 @@ scripts/
 | UC Berkeley DataAgentBench | 7 | Cross-database analysis across publishing, civic projects, CRM policy, local markets, music revenue, procurement, and investments |
 | Tax Strategy Execution Manual-Inspired Advisory Work | 7 | Execution-focused education, retirement, family-payroll, home-rental, and health-savings planning using synthetic facts and official federal guidance |
 | Devin Security Swarm Eval Fixtures | 5 | Blind source-code audits covering code injection, prototype inheritance, memory safety, archive traversal, and authenticated encryption |
+| Mercor APEX-Accounting Dev Set | 5 | Month-end accounting work across journal entries, payroll, WIP, accounts receivable, and collections variance analysis |
 
 The collection is a curated demo set, not a replacement for any upstream
 benchmark and not suitable for reporting upstream leaderboard scores.
@@ -314,6 +315,53 @@ python3 scripts/build_security_eval_packets.py
 python3 scripts/compile_suite.py
 python3 scripts/validate_suite.py
 ```
+
+## APEX-Accounting tasks
+
+Tasks `054` through `058` package five tasks from the public Mercor and Ramp
+APEX-Accounting development set:
+
+- contingency-settlement journal-entry preparation;
+- December payroll reconciliation between Gusto and QBO;
+- year-end unbilled-WIP rollforward and adjusting entry;
+- Clio-to-QBO accounts-receivable reconciliation; and
+- monthly collections variance analysis by practice group.
+
+Every task preserves the exact upstream prompt, binary rubric criteria, expert
+answer, and author-identified context files from the pinned dataset revision.
+The accounting workbooks, exports, memos, and PDFs are flattened under
+`source_docs/`, matching the runtime filesystem described by Mercor. Rubrics,
+gold answers, and full upstream task records must remain hidden from the agent.
+
+To stage a blind run:
+
+```bash
+TASK=054-apex-accounting-contingency-settlement-je
+WORKSPACE="$(pwd)/runs/$TASK/workspace"
+OUTPUT_DIR="$(pwd)/runs/$TASK/output"
+rm -rf "$WORKSPACE"
+mkdir -p "$WORKSPACE" "$OUTPUT_DIR"
+cp "tasks/$TASK/prompt.md" "tasks/$TASK/task.json" \
+  "tasks/$TASK/apex_accounting.json" "$WORKSPACE/"
+ln -s "$(pwd)/tasks/$TASK/source_docs" "$WORKSPACE/source_docs"
+```
+
+Give the agent only `$WORKSPACE` and require `$OUTPUT_DIR/answer.txt`. Review
+the submission against the repository copies of `rubric.json` and
+`answer_key.md`.
+
+The committed packets are offline and independently runnable. Maintainers can
+rebuild them from the pinned Hugging Face revision with:
+
+```bash
+python3 scripts/build_apex_accounting_packets.py
+python3 scripts/compile_suite.py
+python3 scripts/validate_suite.py
+```
+
+These are public development-set adaptations, not the closed 160-task test
+set, and results must not be reported as official APEX-Accounting leaderboard
+scores.
 
 ## Data and licensing
 

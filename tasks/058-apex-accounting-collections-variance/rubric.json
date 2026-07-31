@@ -1,0 +1,82 @@
+[
+  {
+    "id": "ver_8cc07e662eea45399088a2cc23c0ffa4",
+    "criterion_type": "Reasoning (numerical)",
+    "description": "Identifies Corporate-M&A collections for October are $444,138.01 (Acceptable range is $444,133.01 to $444,143.01)"
+  },
+  {
+    "id": "ver_b8bd16da9cfc4521a34e50d6be3182c4",
+    "criterion_type": "Reasoning (numerical)",
+    "description": "Identifies Corporate-M&A collections for November are $328,465.18 (Acceptable range is $328,460.18 to $328,470.18)"
+  },
+  {
+    "id": "ver_cce80ba2a77a4d9a9e7244d2fdac4f87",
+    "criterion_type": "Reasoning (numerical)",
+    "description": "Identifies Corporate-M&A collections for December are $368,729.02 (Acceptable range is $368,724.02 to $368,734.02)"
+  },
+  {
+    "id": "ver_d39d06dee0f645d180920f4ae5bb6f73",
+    "criterion_type": "Reasoning (numerical)",
+    "description": "Identifies Litigation collections for October are $306,055.05 (Acceptable range is $306,050.05 to $306,060.05)"
+  },
+  {
+    "id": "ver_a9d3b9b0a53e451691856218d63081d5",
+    "criterion_type": "Reasoning (numerical)",
+    "description": "Identifies Litigation collections for November are $197,204.17 (Acceptable range is $197,199.17 to $197,209.17)"
+  },
+  {
+    "id": "ver_19cb86ad1d8c4a24a7dbad93541eb70e",
+    "criterion_type": "Reasoning (numerical)",
+    "description": "Identifies Litigation collections for December are $421,432.60 (Acceptable range is $421,427.60 to $421,437.60)"
+  },
+  {
+    "id": "ver_fab03b824aea4336bf37a7a7a37bab21",
+    "criterion_type": "Reasoning (numerical)",
+    "description": "Identifies Real Estate collections for October are $320,128.54 (Acceptable range is $320,123.54 to $320,133.54)"
+  },
+  {
+    "id": "ver_8e11c3d2e417484b96611fd1e007e9d1",
+    "criterion_type": "Reasoning (numerical)",
+    "description": "Identifies Real Estate collections for November are $150,418.25 (Acceptable range is $150,413.25 to $150,423.25)"
+  },
+  {
+    "id": "ver_b5b2881503c44b45840495b7afcdb7b2",
+    "criterion_type": "Reasoning (numerical)",
+    "description": "Identifies Real Estate collections for December are $105,955.56 (Acceptable range is $105,950.56 to $105,960.56)"
+  },
+  {
+    "id": "ver_4c7f6852076e4f80af26c88c82111861",
+    "criterion_type": "Reasoning (numerical)",
+    "description": "Flags the change in Corporate-M&A collections as being above the 15% threshold between October and November with a change of -26% (Acceptable value is -26%)"
+  },
+  {
+    "id": "ver_fc471beb35094c479445d9adf6ce332d",
+    "criterion_type": "Reasoning (numerical)",
+    "description": "Flags the change in Litigation collections as being above the 15% threshold between October and November with a change of -36% (Acceptable value is -36%)"
+  },
+  {
+    "id": "ver_858346455ee64d37bfd3de5717337481",
+    "criterion_type": "Reasoning (numerical)",
+    "description": "Flags the change in Litigation collections as being above the 15% threshold between November and December with a change of +114% (Acceptable value is 114%)"
+  },
+  {
+    "id": "ver_9c9b3a649374434e944d038c1c3d9fe2",
+    "criterion_type": "Reasoning (numerical)",
+    "description": "Flags the change in Real Estate collections as being above the 15% threshold between October and November with a change of -53% (Acceptable value is -53%)"
+  },
+  {
+    "id": "ver_2172b335196c4fc99676599b10767209",
+    "criterion_type": "Reasoning (numerical)",
+    "description": "Flags the change in Real Estate collections as being above the 15% threshold between November and December with a change of -30% (Acceptable value is -30%)"
+  },
+  {
+    "id": "ver_9dd1a1d53dbf4e99837669e6d8255851",
+    "criterion_type": "Reasoning (qualitative)",
+    "description": "Identifies the largest change in collections from November to December for Real Estate was Eastgate Plaza Development LLC. "
+  },
+  {
+    "id": "ver_0b50d3f3b5ff462ba54a88e61308d230",
+    "criterion_type": "Reasoning (numerical)",
+    "description": "Identifies no more than five practice-group MoM changes as crossing the 15% threshold"
+  }
+]

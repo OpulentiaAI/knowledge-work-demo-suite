@@ -1,0 +1,18 @@
+{
+  "id": "054-apex-accounting-contingency-settlement-je",
+  "title": "Propose a Contingency Settlement Journal Entry",
+  "domain": "accounting-data-entry",
+  "work_type": "cross-document-accounting-analysis",
+  "dataset": "Mercor APEX-Accounting Dev Set",
+  "upstream_id": "task_baa139877a4d4fbfa601df50610262d5",
+  "upstream_url": "https://huggingface.co/datasets/mercor/apex-accounting/blob/bf5e8c99117b7ee763d79ad2c64563ac844d77d2/tasks/world_9_task_04.json",
+  "license": "CC-BY-4.0",
+  "attribution": "Mercor and Ramp, APEX-Accounting public development set",
+  "prompt": "prompt.md",
+  "source_docs": "source_docs",
+  "deliverables": [
+    "answer.txt"
+  ],
+  "rubric": "rubric.json",
+  "apex_accounting_config": "apex_accounting.json"
+}

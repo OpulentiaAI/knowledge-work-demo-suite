@@ -23,6 +23,7 @@ EXPECTED_DATASET_COUNTS = {
     "UC Berkeley DataAgentBench": 7,
     "Tax Strategy Execution Manual-Inspired Advisory Work": 7,
     "Devin Security Swarm Eval Fixtures": 5,
+    "Mercor APEX-Accounting Dev Set": 5,
 }
 
 
@@ -40,8 +41,8 @@ def fail(message: str) -> None:
 
 def main() -> int:
     task_dirs = sorted(path for path in TASKS_DIR.iterdir() if path.is_dir())
-    if len(task_dirs) != 53:
-        fail(f"Expected 53 task directories, found {len(task_dirs)}")
+    if len(task_dirs) != 58:
+        fail(f"Expected 58 task directories, found {len(task_dirs)}")
 
     ids: set[str] = set()
     datasets: Counter[str] = Counter()
@@ -234,13 +235,95 @@ def main() -> int:
             ):
                 if secret and str(secret) in visible_contract:
                     fail(f"Security answer leakage in agent-visible contract: {task_dir}")
+        if metadata["dataset"] == "Mercor APEX-Accounting Dev Set":
+            config_path = task_dir / metadata.get("apex_accounting_config", "")
+            answer_key_path = task_dir / "answer_key.md"
+            upstream_path = task_dir / "upstream_task.json"
+            source_manifest = source_path / "SOURCE_FILES.sha256"
+            if not config_path.is_file():
+                fail(f"Missing APEX-Accounting config: {config_path}")
+            if not answer_key_path.is_file() or not upstream_path.is_file():
+                fail(f"Missing APEX-Accounting grader metadata: {task_dir}")
+            if not source_manifest.is_file():
+                fail(f"Missing APEX-Accounting source manifest: {source_manifest}")
+            if not (source_path / "UPSTREAM_LICENSE").is_file():
+                fail(f"Missing APEX-Accounting CC BY license: {source_path}")
+            config = json.loads(config_path.read_text(encoding="utf-8"))
+            if config.get("dataset_commit") != (
+                "bf5e8c99117b7ee763d79ad2c64563ac844d77d2"
+            ):
+                fail(f"Unpinned APEX-Accounting dataset revision: {config_path}")
+            if config.get("read_only") is not True or config.get("network") != "disabled":
+                fail(f"APEX-Accounting task must be read-only and offline: {config_path}")
+            if config.get("answer_file") not in metadata["deliverables"]:
+                fail(f"APEX-Accounting output mismatch: {config_path}")
+            if config.get("output", {}).get("required_files") != metadata["deliverables"]:
+                fail(f"APEX-Accounting required-files mismatch: {config_path}")
+            blind_run = config.get("blind_run", {})
+            hidden = set(blind_run.get("grader_hidden", []))
+            visible = set(blind_run.get("agent_visible", []))
+            required_hidden = {"rubric.json", "answer_key.md", "upstream_task.json"}
+            if not required_hidden <= hidden or hidden & visible:
+                fail(f"Unsafe APEX-Accounting blind-run isolation: {config_path}")
+            upstream = json.loads(upstream_path.read_text(encoding="utf-8"))
+            rubric_data = json.loads(rubric_path.read_text(encoding="utf-8"))
+            if not rubric_data or rubric_data != upstream.get("rubric"):
+                fail(f"APEX-Accounting rubric differs from upstream: {rubric_path}")
+            if upstream.get("gold_output", "").strip() not in answer_key_path.read_text(
+                encoding="utf-8"
+            ):
+                fail(f"APEX-Accounting answer key differs from upstream: {answer_key_path}")
+            if upstream.get("metadata", {}).get("output_type") != "console_text":
+                fail(f"Unexpected APEX-Accounting output type: {upstream_path}")
+            if upstream.get("prompt", "").strip() not in prompt_file.read_text(
+                encoding="utf-8"
+            ):
+                fail(f"APEX-Accounting prompt differs from upstream: {prompt_file}")
+            support_files = {
+                "SOURCE_FILES.sha256",
+                "SOURCE_PROVENANCE.md",
+                "UPSTREAM_LICENSE",
+            }
+            actual_context = {
+                path.name for path in source_files if path.name not in support_files
+            }
+            if actual_context != set(upstream.get("context_files", [])):
+                fail(f"APEX-Accounting context-file mismatch: {task_dir}")
+            packet_hashes: dict[Path, str] = {}
+            for line in source_manifest.read_text(encoding="utf-8").splitlines():
+                digest, relative = line.split("  ", 1)
+                packet_hashes[source_path / relative] = digest
+            expected_packet_files = {
+                path
+                for path in source_path.iterdir()
+                if path.is_file() and path != source_manifest
+            }
+            if set(packet_hashes) != expected_packet_files:
+                fail(f"APEX-Accounting packet hash inventory mismatch: {source_manifest}")
+            for path, expected_digest in packet_hashes.items():
+                if sha256_file(path) != expected_digest:
+                    fail(f"APEX-Accounting packet SHA-256 mismatch: {path}")
+            visible_contract = "\n".join(
+                [
+                    prompt_file.read_text(encoding="utf-8"),
+                    task_file.read_text(encoding="utf-8"),
+                    config_path.read_text(encoding="utf-8"),
+                    (source_path / "SOURCE_PROVENANCE.md").read_text(encoding="utf-8"),
+                ]
+            )
+            if upstream.get("gold_output", "").strip() in visible_contract:
+                fail(f"APEX-Accounting gold-output leakage: {task_dir}")
+            for criterion in rubric_data:
+                description = criterion.get("description", "").strip()
+                if description and description in visible_contract:
+                    fail(f"APEX-Accounting rubric leakage: {task_dir}")
 
     if dict(datasets) != EXPECTED_DATASET_COUNTS:
         fail(f"Unexpected dataset balance: {dict(datasets)}")
 
     catalog_rows = list(csv.DictReader((ROOT / "catalog.csv").open(encoding="utf-8")))
-    if len(catalog_rows) != 53:
-        fail(f"Expected 53 catalog rows, found {len(catalog_rows)}")
+    if len(catalog_rows) != 58:
+        fail(f"Expected 58 catalog rows, found {len(catalog_rows)}")
     if {row["id"] for row in catalog_rows} != ids:
         fail("catalog.csv task IDs do not match task directories")
 
@@ -258,7 +341,7 @@ def main() -> int:
             fail(f"SHA-256 mismatch: {path}")
 
     print(
-        "PASS: 53 tasks, 9 datasets, "
+        "PASS: 58 tasks, 10 datasets, "
         f"{len(resolved_source_files)} unique source files, all hashes verified"
     )
     return 0

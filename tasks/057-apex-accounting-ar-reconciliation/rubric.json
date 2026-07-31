@@ -1,0 +1,62 @@
+[
+  {
+    "id": "ver_be7a5aa5f10a4be8ad915c1ff9253a76",
+    "criterion_type": "Reasoning (numerical)",
+    "description": "States the QBO AR balance as $1,729,138.00 (acceptable value is $1,729,138.00)."
+  },
+  {
+    "id": "ver_b0e387abc0524cf6bb4825d62ac7d965",
+    "criterion_type": "Reasoning (numerical)",
+    "description": "Concludes the total balance variance between Clio and QBO is $0.00 (acceptable value is $0.00)."
+  },
+  {
+    "id": "ver_3f7f0a6af16e4f558f9f39504517d1be",
+    "criterion_type": "Reasoning (qualitative)",
+    "description": "Explains the Bayshore (M-2024-0005) $125.00 difference as an aging subledger error rather than a real AR discrepancy."
+  },
+  {
+    "id": "ver_4269edea06554f9d971af7747b5aea3d",
+    "criterion_type": "Reasoning (numerical)",
+    "description": "States the QBO AR balance for Bayshore as $23,818.10 (acceptable value is $23,818.10)."
+  },
+  {
+    "id": "ver_3bc58f93bab44d83986218814623c26d",
+    "criterion_type": "Reasoning (qualitative)",
+    "description": "Determines that the Northbridge (M-2024-0009) draft variance of $8,773.31 identified in the draft reconciliation is incorrect."
+  },
+  {
+    "id": "ver_443e8b6268734a14b26ce359387425ee",
+    "criterion_type": "Reasoning (numerical)",
+    "description": "States the QBO AR balance for Northbridge as $22,010.66 (acceptable value is $22,010.66)."
+  },
+  {
+    "id": "ver_b0be0ced66f447bc9bc889e7fda76098",
+    "criterion_type": "Reasoning (qualitative)",
+    "description": "Identifies Hartwell Construction INV-2024-0226 $897.44 as a write-off misclassified as a write-down in the draft."
+  },
+  {
+    "id": "ver_b292df9f650647f981c922eff9b6e8c5",
+    "criterion_type": "Reasoning (numerical)",
+    "description": "States the December write-down total as $125,873.38 (acceptable value is $125,873.38)."
+  },
+  {
+    "id": "ver_b0be6df02e344b98b2111dde12de3b80",
+    "criterion_type": "Reasoning (numerical)",
+    "description": "States the December write-off total as $897.44 (acceptable value is $897.44)."
+  },
+  {
+    "id": "ver_4e5208d8e548419cb69dedc5e578a469",
+    "criterion_type": "Reasoning (qualitative)",
+    "description": "Determines that the Cascade Foods (M-2024-0020) variance of $7,059.28 identified in the draft reconciliation is an error."
+  },
+  {
+    "id": "ver_f81dbb0a982141948900a94d58bf9829",
+    "criterion_type": "Reasoning (numerical)",
+    "description": "States the QBO AR balance for Cascade Foods as $77,588.63 (acceptable value is $77,588.63)."
+  },
+  {
+    "id": "ver_17749213131c468d9dad7ee801dd37fd",
+    "criterion_type": "Reasoning (numerical)",
+    "description": "States that after correcting the draft errors the reconciliation balances to $0.00 (acceptable value is $0.00)."
+  }
+]

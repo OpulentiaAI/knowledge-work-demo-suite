@@ -62,6 +62,11 @@ LOCAL_PACKET_TASKS = {
     "051-security-yyjson-doc-free-double-free",
     "052-security-archive-symlink-traversal",
     "053-security-ruby-jwe-gcm-tag-validation",
+    "054-apex-accounting-contingency-settlement-je",
+    "055-apex-accounting-payroll-reconciliation",
+    "056-apex-accounting-year-end-wip-rollforward",
+    "057-apex-accounting-ar-reconciliation",
+    "058-apex-accounting-collections-variance",
 }
 
 AA_TASKS = [
@@ -800,6 +805,7 @@ def write_coverage(records: list[dict[str, Any]]) -> None:
             "- Daytona Windows Office: deterministic Excel, Word, PowerPoint, and Outlook-plus-Office workflows designed for snapshot-backed, visible-UI-only sandboxes.",
             "- Workforce visualization: scenario-driven 168-hour crew scheduling, overnight coverage logic, KPI reconciliation, and demand-versus-staffing charting.",
             "- Security engineering: blind source audits spanning code injection, prototype inheritance, memory safety, filesystem boundaries, and authenticated encryption.",
+            "- Accounting close: journal-entry preparation, payroll and receivables reconciliation, WIP rollforwards, and collections variance analysis.",
             "- Communication formats: memo, PDF, XLSX, PPTX, LaTeX, video/subtitles, operating manual, and research survey.",
             "",
         ]

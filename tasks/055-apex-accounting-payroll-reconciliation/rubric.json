@@ -1,0 +1,22 @@
+[
+  {
+    "id": "ver_c57e736c563d46c68750238ebc0a7cb6",
+    "criterion_type": "Reasoning (numerical)",
+    "description": "States that the Stub Period Accrual (Dec 20-31) reconciling variance is $69,814.33 (acceptable range is $69,814.32 to $69,814.34)"
+  },
+  {
+    "id": "ver_7422fc2cab9a4c768a3f9a95e285dc8b",
+    "criterion_type": "Reasoning (numerical)",
+    "description": "States that the PTO Year-End Accrual reconciling variance is $25,043.75 (acceptable range is $25,043.74 to $25,043.76)         "
+  },
+  {
+    "id": "ver_2555235942ac4a1c86a87cf3fb92d2aa",
+    "criterion_type": "Reasoning (numerical)",
+    "description": "States that 6000 Salaries - Associates final balance is $933,842.59 (acceptable range is $933,842.58 to $933,842.60)"
+  },
+  {
+    "id": "ver_5a68bb4506f44891a47fd9b769238bf4",
+    "criterion_type": "Reasoning (numerical)",
+    "description": "States that 6010 Salaries - Of-Counsel final balance is $528,191.82 (acceptable range is $528,191.81 to $528,191.83)"
+  }
+]

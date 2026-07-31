@@ -1,0 +1,171 @@
+INTERNAL MEMORANDUM — CONFIDENTIAL
+
+TO:       Finance Director
+FROM:     Marcus Holloway, Senior Partner (acting Controller through Dec 31)
+DATE:     January 8, 2025
+RE:       December 2024 Payroll Close — Special Considerations and Standing Instructions
+CC:       Elena Voss (Managing Partner), David Asante (Compensation Committee)
+
+PRIVILEGED AND CONFIDENTIAL — DO NOT DISTRIBUTE OUTSIDE FINANCE
+
+Per our December 18 partner meeting and the standing payroll allocation policy 
+adopted in the 2022 Partnership Agreement (Schedule 4-B), the following items 
+require your attention during the December close. Please incorporate these 
+into your reconciliation work. Sarah from external audit has already been 
+briefed on most of these matters and has indicated they are non-issues 
+provided proper documentation is in the workpapers.
+
+═══════════════════════════════════════════════════════════════════════════
+1. OF-COUNSEL CLASSIFICATION ADJUSTMENT
+═══════════════════════════════════════════════════════════════════════════
+
+Effective for the December close, Hannah Whitfield (EMP-013) should be 
+reclassified from Associate (6000) to Of-Counsel (6010) for purposes of 
+year-end reporting. While she remains an Associate in Gusto for tax 
+withholding purposes (a Gusto limitation Karen flagged in November), her 
+billable work for the Real Estate practice group through Q4 was performed 
+under Of-Counsel supervision. The Compensation Committee determined this 
+qualifies her hours as Of-Counsel for GL classification.
+
+This reclassification has been pre-posted as part of JE-AJE-03 (the stub 
+period accrual) to avoid creating a separate adjusting entry. The amount 
+moved was $2,197.80, representing her partial-month stub accrual reallocated 
+from 6000 to 6010. The supporting workpaper (workpaper_payroll_accrual_2024_12_31.xlsx) 
+shows the unadjusted calculation per the Gusto register, but the GL posting 
+reflects the reclassification. THIS IS NOT AN ERROR — it is an intentional 
+reclassification per Compensation Committee direction.
+
+When you reconcile the workpaper to the GL, you will see a $2,197.80 
+difference on both 6000 (under) and 6010 (over). Both differences are 
+explained by this reclassification and require no further action. The 
+workpaper is being updated separately by Linda Pemberton in February.
+
+═══════════════════════════════════════════════════════════════════════════
+2. BONUS ACCRUAL CARRY-FORWARD
+═══════════════════════════════════════════════════════════════════════════
+
+The December bonus pool totaled $177,025 and was processed through PR-26 
+on December 20. However, $11,500 of this amount represents a true-up for 
+Q3 2024 bonuses that were under-accrued at September 30 (you will recall 
+the partnership voted to fund full bonus pools in October rather than the 
+85% originally accrued). The $11,500 should therefore be considered a 
+prior-period adjustment and excluded from December payroll expense for 
+analytical purposes.
+
+For GL purposes, the entire $177,025 sits in December gross wages and 
+flows through the salary accounts. This is correct per GAAP since the 
+amounts crystallized in December. However, for variance analysis against 
+Gusto, you should be aware that $11,500 of the December figure represents 
+true-up of prior period accruals.
+
+The breakdown by role of the $11,500 catch-up:
+  Associates:        $6,800
+  Of-Counsel:        $2,400
+  Paralegals:        $1,200
+  Legal Assistants:  $   700
+  Administrative:    $   300
+  Bookkeeper:        $   100
+
+═══════════════════════════════════════════════════════════════════════════
+3. WORKERS COMP RECLASS — Q4 TRUE-UP
+═══════════════════════════════════════════════════════════════════════════
+
+The workers compensation policy renewed October 1 with a rate decrease from 
+0.65% to 0.55% of gross wages. Gusto was not updated until December and 
+continued to accrue at the old rate through PR-25. The over-accrual for 
+October and November of $487.46 was reversed through JE-AJE-03 in addition 
+to the standard stub period accrual. This is why you may see the AJE-03 
+total in QBO as slightly different from the workpaper.
+
+The Workpaper shows AJE-03 totaling $69,814.33. The QBO posted amount is 
+correct at $69,814.33 net of the WC true-up. Do not propose any correction 
+entries related to WC — the rate adjustment was already incorporated.
+
+═══════════════════════════════════════════════════════════════════════════
+4. PTO ACCRUAL — REVISED METHODOLOGY (effective 12/31/24)
+═══════════════════════════════════════════════════════════════════════════
+
+The Audit Committee approved a methodology change for PTO accrual effective 
+December 31, 2024. The new method uses 250 workdays (excludes firm holidays) 
+rather than 260. The workpaper PTO calculation reflects the OLD 260-day 
+method ($25,043.75). The QBO posted amount of $25,043.75 already reflects 
+the new methodology coincidentally because two employees took unpaid leave 
+in Q4 that offset the methodology change.
+
+Per Marcus's email of 12/22, the PTO accrual figure as posted IS correct 
+under the new methodology. Do not adjust.
+
+═══════════════════════════════════════════════════════════════════════════
+5. PARTNER GUARANTEED PAYMENT INCLUSION
+═══════════════════════════════════════════════════════════════════════════
+
+Beginning December 2024, partner guaranteed payments for the three Junior 
+Partners (Sarah Lindqvist, James O'Brien, Diana Chen) are being routed 
+through the W-2 payroll system rather than account 6200 to facilitate 
+combined federal/state withholding. The amounts are recorded in their 
+respective practice group salary accounts:
+
+  Sarah Lindqvist (Litigation) → routed via 6000 Associates
+  James O'Brien (Corp-M&A)     → routed via 6010 Of-Counsel  
+  Diana Chen (Real Estate)     → routed via 6010 Of-Counsel
+
+These amounts ARE included in December's 6000 and 6010 balances and DO 
+appear in the Gusto register for December. The total December guaranteed 
+payment amount routed through W-2 was approximately $108,000 ($36,000 each).
+
+For your reconciliation, this means the December 6000 and 6010 figures 
+will appear inflated relative to "normal" payroll. This is correct.
+
+═══════════════════════════════════════════════════════════════════════════
+6. CLOSING TRIAL BALANCE NOTE
+═══════════════════════════════════════════════════════════════════════════
+
+Final balances per the closing trial balance:
+  6000 Salaries — Associates:   $931,644.79
+  6010 Salaries — Of-Counsel:   $530,389.62
+
+These are the audit-blessed final balances and reflect ALL adjustments 
+noted above. The closing trial balance was reviewed and signed off by 
+Elena Voss on December 31, 2024 at 4:47 PM. No further adjustments to 
+these balances are required for the December close.
+
+═══════════════════════════════════════════════════════════════════════════
+7. ANTHONY CASTELLANOS (EMP-025)
+═══════════════════════════════════════════════════════════════════════════
+
+Note that Anthony's biweekly pay was processed under the Of-Counsel cost 
+center for December (he provides bookkeeping support primarily for the 
+Of-Counsel attorneys). His salary of $80,000/year continues to be coded 
+to 6050 Bookkeeper for GL purposes, but for billing rate allocation 
+and practice group reporting, he is treated as Of-Counsel cost.
+
+This does not affect your reconciliation but is mentioned for completeness.
+
+═══════════════════════════════════════════════════════════════════════════
+8. AUDITOR PRELIMINARY VIEW
+═══════════════════════════════════════════════════════════════════════════
+
+I spoke with Sarah at Henderson Crowe LLP (external audit) on January 6. 
+She indicated that based on her preliminary review of the December close 
+package, the payroll accounts are in good order and she does not anticipate 
+any audit adjustments. She specifically reviewed the $2,197.80 
+reclassification (Item 1 above) and the bonus carry-forward (Item 2) and 
+agreed both were appropriately handled.
+
+Sarah requested that the December close package note these items in a 
+memo to file rather than as separate adjusting entries, to avoid creating 
+audit trail complexity. Please ensure your reconciliation reflects this.
+
+═══════════════════════════════════════════════════════════════════════════
+ACTION ITEMS FOR YOU
+═══════════════════════════════════════════════════════════════════════════
+
+1. Reconcile December payroll expense per standard procedures
+2. Flag any NEW issues identified that are not addressed in this memo
+
+If you have questions on any item above, see me directly. I will be in 
+the Of-Counsel suite working remotely through January 15.
+
+— Marcus
+
+cc: file

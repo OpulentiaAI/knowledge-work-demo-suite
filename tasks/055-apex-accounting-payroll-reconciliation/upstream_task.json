@@ -1,0 +1,48 @@
+{
+  "task_id": "task_848b939d069a4378b3e6e1d989aca7fc",
+  "task_name": "World 9 Task 5",
+  "world_id": "world_0645ad7c997c415e8c43f8de7cee2008",
+  "prompt": "1) Reconcile December payroll expense between the Gusto register and QBO payroll-related accounts. Output the reconciling variances.\n2) Output the final balance of 6000 Salaries Associates and 6010 Salaries Of-Counsel\n\nCheck the memo that has been shared by the acting Controller through Dec 31. Present numeric data in $ and rounded to two decimals.",
+  "context_files": [
+    "gusto_payroll_register_2024.csv",
+    "qbo_general_ledger_detail_2024.xlsx",
+    "workpaper_payroll_accrual_2024_12_31.xlsx",
+    "workpaper_pto_accrual_2024_12_31.xlsx",
+    "attorney_staff_roster.xlsx",
+    "partner_compensation_schedule.xlsx",
+    "gusto_employee_earnings_summary_2024.xlsx",
+    "Controller Memo 12_31.txt"
+  ],
+  "rubric": [
+    {
+      "id": "ver_c57e736c563d46c68750238ebc0a7cb6",
+      "criterion_type": "Reasoning (numerical)",
+      "description": "States that the Stub Period Accrual (Dec 20-31) reconciling variance is $69,814.33 (acceptable range is $69,814.32 to $69,814.34)"
+    },
+    {
+      "id": "ver_7422fc2cab9a4c768a3f9a95e285dc8b",
+      "criterion_type": "Reasoning (numerical)",
+      "description": "States that the PTO Year-End Accrual reconciling variance is $25,043.75 (acceptable range is $25,043.74 to $25,043.76)         "
+    },
+    {
+      "id": "ver_2555235942ac4a1c86a87cf3fb92d2aa",
+      "criterion_type": "Reasoning (numerical)",
+      "description": "States that 6000 Salaries - Associates final balance is $933,842.59 (acceptable range is $933,842.58 to $933,842.60)"
+    },
+    {
+      "id": "ver_5a68bb4506f44891a47fd9b769238bf4",
+      "criterion_type": "Reasoning (numerical)",
+      "description": "States that 6010 Salaries - Of-Counsel final balance is $528,191.82 (acceptable range is $528,191.81 to $528,191.83)"
+    }
+  ],
+  "gold_output": "December 2024 Payroll Reconciliation, Gusto to QBO - Sterling, Marsh & Associates LLP\n\nReconciliation: December Gusto payroll (runs PR-25 and PR-26) totals $368,078.87 and ties to the QBO payroll postings account by account with no variance. QBO December payroll expense totals $462,936.95. The reconciling variances are the two year-end accruals that have no Gusto counterpart: the December 20-31 stub period accrual of $69,814.33 (AJE-2024-03) and the year-end PTO accrual of $25,043.75 (AJE-2024-04). Gusto plus the two accruals equals QBO exactly, for a total variance of $94,858.08.\n\nInconsistency within the reconciliation work already done: the stub accrual as posted carries 6000 Salaries - Associates at $24,175.83 and 6010 Salaries - Of-Counsel at $17,362.63, while the payroll accrual workpaper's per-employee arithmetic gives $26,373.63 for the five Associates and $15,164.83 for the two Of-Counsel. The controller memo's explanation that $2,197.80 was intentionally reclassified for Hannah Whitfield does not verify against the records: her actual stub accrual is $4,450.55, not $2,197.80, and the PTO accrual carries no matching reclassification. The posted split is a $2,197.80 posting error between 6000 and 6010.\n\nFinal balances after correcting the $2,197.80 posting error:\n6000 Salaries - Associates: $933,842.59\n6010 Salaries - Of-Counsel: $528,191.82",
+  "metadata": {
+    "category": "Reconciliation",
+    "subcategory": "Payroll rec",
+    "output_type": "console_text",
+    "world_entity_type": "legal_services",
+    "estimated_completion_hours": 4.0,
+    "author_role": "expert",
+    "reviewer_role": "expert"
+  }
+}

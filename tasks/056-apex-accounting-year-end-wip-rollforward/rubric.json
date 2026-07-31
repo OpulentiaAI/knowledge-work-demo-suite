@@ -1,0 +1,27 @@
+[
+  {
+    "id": "ver_36b10ea69d0b49529f0c6e497de10147",
+    "criterion_type": "Reasoning (numerical)",
+    "description": "States the post-adjustment unbilled WIP for the Litigation practice group is $93,116.80 (acceptable range $93,111.80 to $93,121.80)"
+  },
+  {
+    "id": "ver_8447e100c6c041be913c659e05c5e8e9",
+    "criterion_type": "Reasoning (numerical)",
+    "description": "States the post-adjustment unbilled WIP for the Corporate-M&A practice group is $72,756.93 (acceptable range $72,751.93 to $72,761.93)"
+  },
+  {
+    "id": "ver_319999e8e8ec4a0b93cf02f74223b515",
+    "criterion_type": "Reasoning (numerical)",
+    "description": "States the post-adjustment unbilled WIP for the Real Estate practice group is $41,664.37 (acceptable range $41,659.37 to $41,669.37)"
+  },
+  {
+    "id": "ver_6130ca866a7845229741adf14f3a2cbd",
+    "criterion_type": "Reasoning (numerical)",
+    "description": "States the total post-adjustment unbilled WIP is $207,538.10 (acceptable range $207,533.10 to $207,543.10)"
+  },
+  {
+    "id": "ver_e6f0ceff3d5847a49227d6e028395f11",
+    "criterion_type": "Reasoning (numerical)",
+    "description": "Proposes the journal entry for the year-end WIP adjustment as $39,469.40 Dr Fee Discounts and Write-Downs (or Account 4900), Cr Unbilled WIP (or Account 1200) (Acceptable value is $39,469.40)"
+  }
+]

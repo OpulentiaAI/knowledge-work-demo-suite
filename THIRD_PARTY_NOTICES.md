@@ -97,4 +97,22 @@ MIT license.
 - Not included: full repository histories, fixed source revisions, complete
   upstream test suites, or unrelated files from the five source projects.
 
+## Mercor APEX-Accounting Dev Set
+
+- Publishers: Mercor and Ramp
+- Source:
+  https://huggingface.co/datasets/mercor/apex-accounting/tree/bf5e8c99117b7ee763d79ad2c64563ac844d77d2
+- License: Creative Commons Attribution 4.0 International
+- Included: five public development-set prompts, binary rubric criteria,
+  expert answers, task metadata, and the exact task-required accounting
+  workbooks, exports, PDFs, text files, and Word documents.
+- Adaptation: upstream console responses are normalized to an `answer.txt`
+  deliverable; source files are flattened to match the runtime layout
+  documented by the publisher.
+- Not included: the closed 160-task scored benchmark, unreleased worlds,
+  Mercor's internal grading template, or the unshipped accounting-software
+  interface used in official runs.
+- Results from these five public development tasks are not official
+  APEX-Accounting leaderboard scores.
+
 Third-party trademarks and names are used only to identify provenance.
