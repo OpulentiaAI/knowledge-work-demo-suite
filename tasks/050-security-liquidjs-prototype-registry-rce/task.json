@@ -1,0 +1,17 @@
+{
+  "id": "050-security-liquidjs-prototype-registry-rce",
+  "title": "Audit a Template Engine's Extension Registries",
+  "domain": "application-security",
+  "work_type": "blind-source-code-security-audit",
+  "dataset": "Devin Security Swarm Eval Fixtures",
+  "upstream_id": "liquidjs-prototype-registry-rce",
+  "upstream_url": "https://github.com/r2d4/devin-security-evals/blob/eeff76ad9232c1a2fc5ddfae453060b298dd53fd/fixtures/security-swarm-fixtures.yaml",
+  "license": "Fixture metadata: upstream terms apply because r2d4/devin-security-evals declares no repository-wide license; packaged harttle/liquidjs source: MIT",
+  "prompt": "prompt.md",
+  "source_docs": "source_docs",
+  "deliverables": [
+    "security_findings.md"
+  ],
+  "rubric": "rubric.json",
+  "security_eval_config": "security_eval.json"
+}

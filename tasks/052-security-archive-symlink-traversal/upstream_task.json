@@ -1,0 +1,39 @@
+{
+  "upstream_id": "archive-path-traversal",
+  "category": "parser-codec",
+  "repo": "brendan-duncan/archive",
+  "package": "archive",
+  "ecosystem": "Pub",
+  "language": "Dart",
+  "ghsa": "GHSA-9v85-q87q-g4vg",
+  "cve": "CVE-2023-39139",
+  "cvss": 7.8,
+  "cwe": "CWE-22",
+  "advisory_url": "https://github.com/advisories/GHSA-9v85-q87q-g4vg",
+  "fix_commit": "6de492385d72af044231c4163dff13a43d991c83",
+  "vulnerable_commit": "85ac8df7f8e800abe3bb1343cae596c82de8802c",
+  "target": "Symlink entries let archive extraction write files outside the target directory.",
+  "match_rule": "Finding must identify symlink-based archive extraction writing outside the intended destination.",
+  "fixture_repository": "r2d4/devin-security-evals",
+  "fixture_commit": "eeff76ad9232c1a2fc5ddfae453060b298dd53fd",
+  "fixture_url": "https://github.com/r2d4/devin-security-evals/blob/eeff76ad9232c1a2fc5ddfae453060b298dd53fd/fixtures/security-swarm-fixtures.yaml",
+  "source_snapshot": {
+    "repository": "brendan-duncan/archive",
+    "commit": "85ac8df7f8e800abe3bb1343cae596c82de8802c",
+    "included_paths": [
+      "lib",
+      "pubspec.yaml",
+      "analysis_options.yaml",
+      "LICENSE"
+    ],
+    "file_count": 59,
+    "license": "MIT",
+    "license_files": [
+      "LICENSE"
+    ]
+  },
+  "partial_fix_commit": "edb0d480733a44d28ff3d5e4e2779153ba645ce7",
+  "notes": [
+    "The fixture publishes the selected vulnerable commit as the run commit; the advisory references later symlink-validation commits."
+  ]
+}

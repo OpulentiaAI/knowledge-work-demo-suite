@@ -1,7 +1,7 @@
 # Knowledge Work Demo Suite
 
-A compact, source-grounded collection of 48 professional knowledge-work tasks
-compiled from eight benchmark families and task-design references. Every task contains:
+A compact, source-grounded collection of 53 professional knowledge-work tasks
+compiled from nine benchmark families and task-design references. Every task contains:
 
 - `prompt.md` — a standalone assignment for an agent or model;
 - `task.json` — normalized metadata, provenance, inputs, and expected outputs;
@@ -25,7 +25,7 @@ cd knowledge-work-demo-suite
 python3 scripts/validate_suite.py
 ```
 
-The validator should report 48 tasks, eight datasets, and verified hashes for
+The validator should report 53 tasks, nine datasets, and verified hashes for
 all source files.
 
 ## Run one use case
@@ -184,6 +184,7 @@ scripts/
 | Daytona Windows OSWorld-Inspired Knowledge Work | 11 | Original, snapshot-ready Office and multi-app workflows for strict visible-UI Daytona Windows sandbox runs |
 | UC Berkeley DataAgentBench | 7 | Cross-database analysis across publishing, civic projects, CRM policy, local markets, music revenue, procurement, and investments |
 | Tax Strategy Execution Manual-Inspired Advisory Work | 7 | Execution-focused education, retirement, family-payroll, home-rental, and health-savings planning using synthetic facts and official federal guidance |
+| Devin Security Swarm Eval Fixtures | 5 | Blind source-code audits covering code injection, prototype inheritance, memory safety, archive traversal, and authenticated encryption |
 
 The collection is a curated demo set, not a replacement for any upstream
 benchmark and not suitable for reporting upstream leaderboard scores.
@@ -260,8 +261,10 @@ Tasks `041` through `047` cover a 529 plan, a solo 401(k), a small-employer
 280A(g) home-rental arrangement, and HSA eligibility and funding.
 
 The public packets contain original synthetic client facts and links to
-official IRS, Department of Labor, and U.S. Code guidance. The user-supplied
-`Tax Strategy Execution Manual` informed the execution-oriented task structure,
+official IRS, Department of Labor, and U.S. Code guidance. Task `046` also
+includes a dated, URL-attributed extract of five public Chicago meeting-space
+asking rates; the listing pages are not copied into the repository. The
+user-supplied `Tax Strategy Execution Manual` informed the execution-oriented task structure,
 but the confidential PDF is not included or quoted. Each answer contract is
 frozen to federal tax year 2026 and requires an advisory memo plus a
 formula-driven workbook.
@@ -269,6 +272,48 @@ formula-driven workbook.
 For a blind run, expose only the files listed in `tax_strategy.json`. Keep
 `rubric.json` and `answer_key.md` away from the agent, then use both to review
 the submitted memo and workbook.
+
+## Security audit tasks
+
+Tasks `049` through `053` adapt five public fixture definitions from
+`r2d4/devin-security-evals` into independently runnable, blind source-review
+packets. They cover:
+
+- server-controlled expression evaluation in a Python database driver;
+- inherited prototype gadgets in JavaScript template registries;
+- allocator-state reentrancy and double-free behavior in a C JSON library;
+- symlink traversal in a Dart archive extractor; and
+- missing authentication-tag validation in Ruby JWE decryption.
+
+Each `source_docs/repo/` directory is a bounded, byte-exact slice of the
+original project's vulnerable commit. The agent-visible packet omits advisory
+IDs, fix commits, target descriptions, and semantic match rules. To stage a
+blind run:
+
+```bash
+TASK=049-security-redshift-vector-eval-rce
+WORKSPACE="$(pwd)/runs/$TASK/workspace"
+OUTPUT_DIR="$(pwd)/runs/$TASK/output"
+rm -rf "$WORKSPACE"
+mkdir -p "$WORKSPACE" "$OUTPUT_DIR"
+cp "tasks/$TASK/prompt.md" "tasks/$TASK/task.json" \
+  "tasks/$TASK/security_eval.json" "$WORKSPACE/"
+ln -s "$(pwd)/tasks/$TASK/source_docs" "$WORKSPACE/source_docs"
+```
+
+Give the agent only `$WORKSPACE` and require
+`$OUTPUT_DIR/security_findings.md`. Score the result from the repository copy
+of `rubric.json`, `answer_key.md`, and `upstream_task.json`; do not copy those
+files into the agent workspace.
+
+The committed packets work offline. Maintainers can rematerialize their pinned
+source slices from GitHub, then rebuild the suite indexes:
+
+```bash
+python3 scripts/build_security_eval_packets.py
+python3 scripts/compile_suite.py
+python3 scripts/validate_suite.py
+```
 
 ## Data and licensing
 

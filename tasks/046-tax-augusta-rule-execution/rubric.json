@@ -1,11 +1,11 @@
 [
   {
     "score": 20,
-    "criterion": "Uses the $1,150 median comparable rate and rejects the unsupported $1,800 rate."
+    "criterion": "Preserves all five dated Chicago listing observations, normalizes the Peerspace rate to $288, and calculates the $385 median."
   },
   {
     "score": 20,
-    "criterion": "Calculates total modeled rent as $16,100 for exactly 14 days and includes a formula-driven annual day-count control."
+    "criterion": "Rejects the unsupported $1,800 rate, calculates total modeled rent as $5,390 for exactly 14 days, and includes a formula-driven annual day-count control."
   },
   {
     "score": 20,
@@ -13,10 +13,10 @@
   },
   {
     "score": 20,
-    "criterion": "Keeps the company's section 162 analysis separate and conditional on business purpose and reasonable, substantiated related-party pricing."
+    "criterion": "Keeps the company's section 162 analysis separate and conditional on business purpose and reasonable, substantiated related-party pricing, while explaining asking-rate and comparability limitations."
   },
   {
     "score": 20,
-    "criterion": "Creates an auditable event log and implementation checklist covering agreement, approval, invoices, payments, agendas, attendees, comparables, and state/local review."
+    "criterion": "Creates an auditable event log and implementation checklist covering agreement, approval, invoices, payments, agendas, attendees, refreshed listing evidence, adjustments, and Chicago/state/local review."
   }
 ]

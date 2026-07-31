@@ -50,6 +50,11 @@
 | 46 | Tax Strategy Execution Manual-Inspired Advisory Work | tax-business-expense-planning | [Document a Section 280A(g) Home-Rental Arrangement](tasks/046-tax-augusta-rule-execution/prompt.md) | `augusta_rule_execution_memo.md`, `rental_event_log.xlsx` |
 | 47 | Tax Strategy Execution Manual-Inspired Advisory Work | tax-health-benefits | [Model HSA Eligibility and Funding Choices](tasks/047-tax-hsa-optimization/prompt.md) | `hsa_eligibility_funding_memo.md`, `hsa_contribution_schedule.xlsx` |
 | 48 | Daytona Windows OSWorld-Inspired Knowledge Work | workforce-planning | [Build a Dynamic 168-Hour Crew Gantt](tasks/048-daytona-excel-crew-gantt/prompt.md) | `crew_coverage_model.xlsx` |
+| 49 | Devin Security Swarm Eval Fixtures | application-security | [Audit a Database Driver's Vector Decoder](tasks/049-security-redshift-vector-eval-rce/prompt.md) | `security_findings.md` |
+| 50 | Devin Security Swarm Eval Fixtures | application-security | [Audit a Template Engine's Extension Registries](tasks/050-security-liquidjs-prototype-registry-rce/prompt.md) | `security_findings.md` |
+| 51 | Devin Security Swarm Eval Fixtures | memory-safety | [Audit a C JSON Library's Document Destruction Path](tasks/051-security-yyjson-doc-free-double-free/prompt.md) | `security_findings.md` |
+| 52 | Devin Security Swarm Eval Fixtures | product-security | [Audit an Archive Extractor's Filesystem Boundaries](tasks/052-security-archive-symlink-traversal/prompt.md) | `security_findings.md` |
+| 53 | Devin Security Swarm Eval Fixtures | cryptographic-security | [Audit JWE Authenticated Decryption](tasks/053-security-ruby-jwe-gcm-tag-validation/prompt.md) | `security_findings.md` |
 
 ## Domain groups
 
@@ -62,4 +67,5 @@
 - Retail diagnostics: evidence-based explanations of sales increases, declines, category mix, refunds, discounts, and operational responses.
 - Daytona Windows Office: deterministic Excel, Word, PowerPoint, and Outlook-plus-Office workflows designed for snapshot-backed, visible-UI-only sandboxes.
 - Workforce visualization: scenario-driven 168-hour crew scheduling, overnight coverage logic, KPI reconciliation, and demand-versus-staffing charting.
+- Security engineering: blind source audits spanning code injection, prototype inheritance, memory safety, filesystem boundaries, and authenticated encryption.
 - Communication formats: memo, PDF, XLSX, PPTX, LaTeX, video/subtitles, operating manual, and research survey.

@@ -1,0 +1,36 @@
+{
+  "upstream_id": "ruby-jwe-aes-gcm-tag-validation",
+  "category": "crypto",
+  "repo": "jwt/ruby-jwe",
+  "package": "jwe",
+  "ecosystem": "RubyGems",
+  "language": "Ruby",
+  "ghsa": "GHSA-c7p4-hx26-pr73",
+  "cve": "CVE-2025-54887",
+  "cvss": 9.1,
+  "cwe": "CWE-347",
+  "advisory_url": "https://github.com/advisories/GHSA-c7p4-hx26-pr73",
+  "fix_commit": "1e719d79ba3d7aadaa39a2f08c25df077a0f9ff1",
+  "vulnerable_commit": "9e828e2a41ce04cac9fcd6ca10a35982dabc663a",
+  "target": "Missing AES-GCM authentication tag validation allows forged encrypted JWE.",
+  "match_rule": "Finding must identify AES-GCM decrypt accepting invalid or missing authentication tags.",
+  "fixture_repository": "r2d4/devin-security-evals",
+  "fixture_commit": "eeff76ad9232c1a2fc5ddfae453060b298dd53fd",
+  "fixture_url": "https://github.com/r2d4/devin-security-evals/blob/eeff76ad9232c1a2fc5ddfae453060b298dd53fd/fixtures/security-swarm-fixtures.yaml",
+  "source_snapshot": {
+    "repository": "jwt/ruby-jwe",
+    "commit": "9e828e2a41ce04cac9fcd6ca10a35982dabc663a",
+    "included_paths": [
+      "lib",
+      "ruby-jwe.gemspec",
+      "Gemfile",
+      "LICENSE.md",
+      "README.md"
+    ],
+    "file_count": 28,
+    "license": "MIT",
+    "license_files": [
+      "LICENSE.md"
+    ]
+  }
+}

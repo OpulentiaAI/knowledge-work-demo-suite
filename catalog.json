@@ -785,7 +785,7 @@
     "dataset": "Tax Strategy Execution Manual-Inspired Advisory Work",
     "upstream_id": "original/046-tax-augusta-rule-execution",
     "upstream_url": "https://www.irs.gov/",
-    "license": "Original task design and synthetic client fixtures under repository MIT license; United States government guidance is cited by URL and not redistributed; the confidential methodology manual is not included",
+    "license": "Original task design and synthetic client facts under repository MIT license; dated factual asking-rate observations are attributed to their public listing pages and those pages are not redistributed; United States government guidance is cited by URL; the confidential methodology manual is not included",
     "prompt": "prompt.md",
     "source_docs": "source_docs",
     "deliverables": [
@@ -829,5 +829,90 @@
     ],
     "rubric": "rubric.json",
     "daytona_windows_config": "daytona_windows.json"
+  },
+  {
+    "id": "049-security-redshift-vector-eval-rce",
+    "title": "Audit a Database Driver's Vector Decoder",
+    "domain": "application-security",
+    "work_type": "blind-source-code-security-audit",
+    "dataset": "Devin Security Swarm Eval Fixtures",
+    "upstream_id": "redshift-vector-eval-rce",
+    "upstream_url": "https://github.com/r2d4/devin-security-evals/blob/eeff76ad9232c1a2fc5ddfae453060b298dd53fd/fixtures/security-swarm-fixtures.yaml",
+    "license": "Fixture metadata: upstream terms apply because r2d4/devin-security-evals declares no repository-wide license; packaged aws/amazon-redshift-python-driver source: Apache-2.0",
+    "prompt": "prompt.md",
+    "source_docs": "source_docs",
+    "deliverables": [
+      "security_findings.md"
+    ],
+    "rubric": "rubric.json",
+    "security_eval_config": "security_eval.json"
+  },
+  {
+    "id": "050-security-liquidjs-prototype-registry-rce",
+    "title": "Audit a Template Engine's Extension Registries",
+    "domain": "application-security",
+    "work_type": "blind-source-code-security-audit",
+    "dataset": "Devin Security Swarm Eval Fixtures",
+    "upstream_id": "liquidjs-prototype-registry-rce",
+    "upstream_url": "https://github.com/r2d4/devin-security-evals/blob/eeff76ad9232c1a2fc5ddfae453060b298dd53fd/fixtures/security-swarm-fixtures.yaml",
+    "license": "Fixture metadata: upstream terms apply because r2d4/devin-security-evals declares no repository-wide license; packaged harttle/liquidjs source: MIT",
+    "prompt": "prompt.md",
+    "source_docs": "source_docs",
+    "deliverables": [
+      "security_findings.md"
+    ],
+    "rubric": "rubric.json",
+    "security_eval_config": "security_eval.json"
+  },
+  {
+    "id": "051-security-yyjson-doc-free-double-free",
+    "title": "Audit a C JSON Library's Document Destruction Path",
+    "domain": "memory-safety",
+    "work_type": "blind-source-code-security-audit",
+    "dataset": "Devin Security Swarm Eval Fixtures",
+    "upstream_id": "yyjson-doc-free-double-free",
+    "upstream_url": "https://github.com/r2d4/devin-security-evals/blob/eeff76ad9232c1a2fc5ddfae453060b298dd53fd/fixtures/security-swarm-fixtures.yaml",
+    "license": "Fixture metadata: upstream terms apply because r2d4/devin-security-evals declares no repository-wide license; packaged ibireme/yyjson source: MIT",
+    "prompt": "prompt.md",
+    "source_docs": "source_docs",
+    "deliverables": [
+      "security_findings.md"
+    ],
+    "rubric": "rubric.json",
+    "security_eval_config": "security_eval.json"
+  },
+  {
+    "id": "052-security-archive-symlink-traversal",
+    "title": "Audit an Archive Extractor's Filesystem Boundaries",
+    "domain": "product-security",
+    "work_type": "blind-source-code-security-audit",
+    "dataset": "Devin Security Swarm Eval Fixtures",
+    "upstream_id": "archive-path-traversal",
+    "upstream_url": "https://github.com/r2d4/devin-security-evals/blob/eeff76ad9232c1a2fc5ddfae453060b298dd53fd/fixtures/security-swarm-fixtures.yaml",
+    "license": "Fixture metadata: upstream terms apply because r2d4/devin-security-evals declares no repository-wide license; packaged brendan-duncan/archive source: MIT",
+    "prompt": "prompt.md",
+    "source_docs": "source_docs",
+    "deliverables": [
+      "security_findings.md"
+    ],
+    "rubric": "rubric.json",
+    "security_eval_config": "security_eval.json"
+  },
+  {
+    "id": "053-security-ruby-jwe-gcm-tag-validation",
+    "title": "Audit JWE Authenticated Decryption",
+    "domain": "cryptographic-security",
+    "work_type": "blind-source-code-security-audit",
+    "dataset": "Devin Security Swarm Eval Fixtures",
+    "upstream_id": "ruby-jwe-aes-gcm-tag-validation",
+    "upstream_url": "https://github.com/r2d4/devin-security-evals/blob/eeff76ad9232c1a2fc5ddfae453060b298dd53fd/fixtures/security-swarm-fixtures.yaml",
+    "license": "Fixture metadata: upstream terms apply because r2d4/devin-security-evals declares no repository-wide license; packaged jwt/ruby-jwe source: MIT",
+    "prompt": "prompt.md",
+    "source_docs": "source_docs",
+    "deliverables": [
+      "security_findings.md"
+    ],
+    "rubric": "rubric.json",
+    "security_eval_config": "security_eval.json"
   }
 ]

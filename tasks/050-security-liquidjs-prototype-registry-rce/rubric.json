@@ -1,0 +1,26 @@
+[
+  {
+    "score": 40,
+    "criterion": "Finding must identify prototype lookup over filters/tags or comparable template gadget leading to Function/child_process execution."
+  },
+  {
+    "score": 20,
+    "criterion": "Names the affected location (src/liquid.ts: Liquid.filters and Liquid.tags) and traces the relevant attacker-controlled data or state to the unsafe operation."
+  },
+  {
+    "score": 15,
+    "criterion": "Explains a technically plausible trigger or exploit path and does not rely on an unrelated generic weakness."
+  },
+  {
+    "score": 10,
+    "criterion": "Describes the resulting security impact consistently with CWE-94 and the vulnerable code."
+  },
+  {
+    "score": 10,
+    "criterion": "Recommends an effective remediation: Store extension registries in null-prototype objects or perform own-property-only lookups so inherited prototype gadgets cannot resolve."
+  },
+  {
+    "score": 5,
+    "criterion": "Produces one clear, source-cited finding with no unsupported claims or distracting false-positive findings."
+  }
+]

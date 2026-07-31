@@ -1,0 +1,26 @@
+{
+  "schema_version": "1.0",
+  "profile": "blind-source-security-audit-v1",
+  "fixture_repository": "r2d4/devin-security-evals",
+  "fixture_commit": "eeff76ad9232c1a2fc5ddfae453060b298dd53fd",
+  "source_repository": "aws/amazon-redshift-python-driver",
+  "source_commit": "2c1dd5b9aca1945a1b8e01b2359075d9e8b0e77c",
+  "language": "Python",
+  "ecosystem": "PyPI",
+  "read_only": true,
+  "network": "disabled",
+  "answer_file": "security_findings.md",
+  "blind_run": {
+    "agent_visible": [
+      "prompt.md",
+      "task.json",
+      "security_eval.json",
+      "source_docs/"
+    ],
+    "grader_hidden": [
+      "rubric.json",
+      "answer_key.md",
+      "upstream_task.json"
+    ]
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "schema_version": "1.0",
+  "profile": "blind-source-security-audit-v1",
+  "fixture_repository": "r2d4/devin-security-evals",
+  "fixture_commit": "eeff76ad9232c1a2fc5ddfae453060b298dd53fd",
+  "source_repository": "jwt/ruby-jwe",
+  "source_commit": "9e828e2a41ce04cac9fcd6ca10a35982dabc663a",
+  "language": "Ruby",
+  "ecosystem": "RubyGems",
+  "read_only": true,
+  "network": "disabled",
+  "answer_file": "security_findings.md",
+  "blind_run": {
+    "agent_visible": [
+      "prompt.md",
+      "task.json",
+      "security_eval.json",
+      "source_docs/"
+    ],
+    "grader_hidden": [
+      "rubric.json",
+      "answer_key.md",
+      "upstream_task.json"
+    ]
+  }
+}

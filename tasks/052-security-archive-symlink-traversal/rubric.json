@@ -1,0 +1,26 @@
+[
+  {
+    "score": 40,
+    "criterion": "Finding must identify symlink-based archive extraction writing outside the intended destination."
+  },
+  {
+    "score": 20,
+    "criterion": "Names the affected location (lib/src/io/extract_archive_to_disk.dart) and traces the relevant attacker-controlled data or state to the unsafe operation."
+  },
+  {
+    "score": 15,
+    "criterion": "Explains a technically plausible trigger or exploit path and does not rely on an unrelated generic weakness."
+  },
+  {
+    "score": 10,
+    "criterion": "Describes the resulting security impact consistently with CWE-22 and the vulnerable code."
+  },
+  {
+    "score": 10,
+    "criterion": "Recommends an effective remediation: Reject absolute or escaping symlink targets and verify the normalized resolved link destination remains within the extraction root."
+  },
+  {
+    "score": 5,
+    "criterion": "Produces one clear, source-cited finding with no unsupported claims or distracting false-positive findings."
+  }
+]

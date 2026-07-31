@@ -1,8 +1,6 @@
-item,value
-Rental days,14
-Proposed daily rate,1800
-Comparable rate 1,950
-Comparable rate 2,1100
-Comparable rate 3,1150
-Comparable rate 4,1250
-Comparable rate 5,1400
+comparable_id,venue,chicago_location,capacity,listed_rate,normalization,normalized_day_rate_usd,retrieved_on,source_url
+CHI-01,Large Focus Room Located On Michigan Avenue,Near North Side / North Michigan Avenue,8,$40/hour with 10% discount for 8+ hours,$40 x 8 hours x 90%,288,2026-07-27,https://www.peerspace.com/pages/listings/57a0c3d8abe58d09009f4ca2
+CHI-02,VC Studio — Regus West Loop Riverside Plaza Center,West Loop / Riverside Plaza,6,from $363/day,Direct listed day rate,363,2026-07-27,https://book.workin.space/en/united-states/chicago/meeting-room
+CHI-03,Small Boardroom — Regus 125 South Wacker,125 South Wacker Drive,8,from $385/day,Direct listed day rate,385,2026-07-27,https://book.workin.space/en/united-states/chicago/meeting-room
+CHI-04,MR-15B — Spaces 1 North State Street,1 North State Street,8,from $553/day,Direct listed day rate,553,2026-07-27,https://book.workin.space/en/united-states/chicago/meeting-room
+CHI-05,MR03 — Signature 110 North Wacker Drive,110 North Wacker Drive,8,from $754/day,Direct listed day rate,754,2026-07-27,https://book.workin.space/en/united-states/chicago/meeting-room

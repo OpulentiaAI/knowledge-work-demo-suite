@@ -1,0 +1,26 @@
+[
+  {
+    "score": 40,
+    "criterion": "Finding must identify AES-GCM decrypt accepting invalid or missing authentication tags."
+  },
+  {
+    "score": 20,
+    "criterion": "Names the affected location (lib/jwe/enc/aes_gcm.rb: setup_cipher() and decrypt()) and traces the relevant attacker-controlled data or state to the unsafe operation."
+  },
+  {
+    "score": 15,
+    "criterion": "Explains a technically plausible trigger or exploit path and does not rely on an unrelated generic weakness."
+  },
+  {
+    "score": 10,
+    "criterion": "Describes the resulting security impact consistently with CWE-347 and the vulnerable code."
+  },
+  {
+    "score": 10,
+    "criterion": "Recommends an effective remediation: Require a complete 16-byte GCM authentication tag before decrypting, set it on the cipher, and fail closed on authentication errors."
+  },
+  {
+    "score": 5,
+    "criterion": "Produces one clear, source-cited finding with no unsupported claims or distracting false-positive findings."
+  }
+]

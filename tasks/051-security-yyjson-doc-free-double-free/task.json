@@ -1,0 +1,17 @@
+{
+  "id": "051-security-yyjson-doc-free-double-free",
+  "title": "Audit a C JSON Library's Document Destruction Path",
+  "domain": "memory-safety",
+  "work_type": "blind-source-code-security-audit",
+  "dataset": "Devin Security Swarm Eval Fixtures",
+  "upstream_id": "yyjson-doc-free-double-free",
+  "upstream_url": "https://github.com/r2d4/devin-security-evals/blob/eeff76ad9232c1a2fc5ddfae453060b298dd53fd/fixtures/security-swarm-fixtures.yaml",
+  "license": "Fixture metadata: upstream terms apply because r2d4/devin-security-evals declares no repository-wide license; packaged ibireme/yyjson source: MIT",
+  "prompt": "prompt.md",
+  "source_docs": "source_docs",
+  "deliverables": [
+    "security_findings.md"
+  ],
+  "rubric": "rubric.json",
+  "security_eval_config": "security_eval.json"
+}

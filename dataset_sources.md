@@ -98,10 +98,14 @@ Source: https://github.com/ucbepic/DataAgentBench
 Seven original task packets translate an execution-oriented tax-advisory
 method into deterministic cases covering a 529 plan, solo and employer 401(k)
 plans, wages paid to an owner's child and spouse, a section 280A(g) home-rental
-arrangement, and HSA planning. Client names, facts, calculations, and output
-contracts are synthetic. The cases freeze their federal-law assumptions to
-2026 and cite current IRS, Department of Labor, and U.S. Code sources inside
-each packet.
+arrangement, and HSA planning. Client names, taxpayer facts, and output
+contracts are synthetic. Task `046` adds five dated Chicago meeting-space
+asking-rate observations derived from linked public listings so that its
+market-rate analysis is location-specific and auditable. The listing pages are
+not copied, the asking rates are not represented as completed transactions,
+and the task requires refreshed quotes before real-world use. The cases freeze
+their federal-law assumptions to 2026 and cite current IRS, Department of
+Labor, and U.S. Code sources inside each packet.
 
 The user-supplied `Tax Strategy Execution Manual` (July 2026) was used only as
 a private method reference for workflow structure, execution controls, and
@@ -113,6 +117,34 @@ Primary public sources:
 - https://www.irs.gov/
 - https://www.dol.gov/agencies/ebsa
 - https://uscode.house.gov/
+- https://www.peerspace.com/pages/listings/57a0c3d8abe58d09009f4ca2
+- https://book.workin.space/en/united-states/chicago/meeting-room
+
+### Devin Security Swarm Eval Fixtures
+
+The public `r2d4/devin-security-evals` repository reconstructs 34 security
+fixtures around real published vulnerabilities and pins a vulnerable and fixed
+commit for each case. Five fixtures were selected to span Python, JavaScript,
+C, Dart, and Ruby, as well as code injection, prototype inheritance, memory
+safety, filesystem traversal, and cryptographic authentication.
+
+This suite converts those fixture definitions into blind, offline source-code
+audits. Each packet contains a generic audit prompt plus a bounded, byte-exact
+source slice from the named vulnerable commit. Advisory identifiers, fixed
+commits, target descriptions, semantic match rules, rubrics, and answer keys
+remain grader-only. The source snapshot records every included path and
+preserves the original project's license file.
+
+Fixture source:
+https://github.com/r2d4/devin-security-evals/tree/eeff76ad9232c1a2fc5ddfae453060b298dd53fd
+
+Pinned source repositories:
+
+- https://github.com/aws/amazon-redshift-python-driver
+- https://github.com/harttle/liquidjs
+- https://github.com/ibireme/yyjson
+- https://github.com/brendan-duncan/archive
+- https://github.com/jwt/ruby-jwe
 
 ## Considered but not selected
 

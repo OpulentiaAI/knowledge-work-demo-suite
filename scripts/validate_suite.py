@@ -22,6 +22,7 @@ EXPECTED_DATASET_COUNTS = {
     "Daytona Windows OSWorld-Inspired Knowledge Work": 11,
     "UC Berkeley DataAgentBench": 7,
     "Tax Strategy Execution Manual-Inspired Advisory Work": 7,
+    "Devin Security Swarm Eval Fixtures": 5,
 }
 
 
@@ -39,8 +40,8 @@ def fail(message: str) -> None:
 
 def main() -> int:
     task_dirs = sorted(path for path in TASKS_DIR.iterdir() if path.is_dir())
-    if len(task_dirs) != 48:
-        fail(f"Expected 48 task directories, found {len(task_dirs)}")
+    if len(task_dirs) != 53:
+        fail(f"Expected 53 task directories, found {len(task_dirs)}")
 
     ids: set[str] = set()
     datasets: Counter[str] = Counter()
@@ -86,8 +87,13 @@ def main() -> int:
         source_files = [path for path in source_path.rglob("*") if path.is_file()]
         if not source_files:
             fail(f"No source files for {task_dir.name}")
+        if not any(path.stat().st_size > 0 for path in source_files):
+            fail(f"No non-empty source material for {task_dir.name}")
         for source_file in source_files:
-            if source_file.stat().st_size == 0:
+            if (
+                source_file.stat().st_size == 0
+                and metadata["dataset"] != "Devin Security Swarm Eval Fixtures"
+            ):
                 fail(f"Empty source file: {source_file}")
             resolved_source_files.add(source_file.resolve())
         rubric_path = task_dir / metadata["rubric"]
@@ -153,13 +159,88 @@ def main() -> int:
             rubric_data = json.loads(rubric_path.read_text(encoding="utf-8"))
             if sum(item.get("score", 0) for item in rubric_data) != 100:
                 fail(f"Tax strategy rubric must total 100 points: {rubric_path}")
+        if metadata["dataset"] == "Devin Security Swarm Eval Fixtures":
+            config_path = task_dir / metadata.get("security_eval_config", "")
+            answer_key_path = task_dir / "answer_key.md"
+            upstream_path = task_dir / "upstream_task.json"
+            source_repo = source_path / "repo"
+            source_manifest = source_path / "SOURCE_FILES.sha256"
+            if not config_path.is_file():
+                fail(f"Missing security eval config: {config_path}")
+            if not answer_key_path.is_file() or not upstream_path.is_file():
+                fail(f"Missing security grader metadata: {task_dir}")
+            if not source_repo.is_dir() or not any(
+                path.is_file() for path in source_repo.rglob("*")
+            ):
+                fail(f"Missing vulnerable source snapshot: {source_repo}")
+            if not source_manifest.is_file():
+                fail(f"Missing security source manifest: {source_manifest}")
+            config = json.loads(config_path.read_text(encoding="utf-8"))
+            if config.get("read_only") is not True or config.get("network") != "disabled":
+                fail(f"Security eval must be read-only and offline: {config_path}")
+            if config.get("answer_file") not in metadata["deliverables"]:
+                fail(f"Security eval output mismatch: {config_path}")
+            blind_run = config.get("blind_run", {})
+            hidden = set(blind_run.get("grader_hidden", []))
+            visible = set(blind_run.get("agent_visible", []))
+            required_hidden = {"rubric.json", "answer_key.md", "upstream_task.json"}
+            if not required_hidden <= hidden or hidden & visible:
+                fail(f"Unsafe security blind-run isolation: {config_path}")
+            rubric_data = json.loads(rubric_path.read_text(encoding="utf-8"))
+            if sum(item.get("score", 0) for item in rubric_data) != 100:
+                fail(f"Security eval rubric must total 100 points: {rubric_path}")
+            upstream = json.loads(upstream_path.read_text(encoding="utf-8"))
+            if upstream.get("fixture_commit") != (
+                "eeff76ad9232c1a2fc5ddfae453060b298dd53fd"
+            ):
+                fail(f"Unpinned security fixture provenance: {upstream_path}")
+            snapshot = upstream.get("source_snapshot", {})
+            repo_files = [path for path in source_repo.rglob("*") if path.is_file()]
+            if snapshot.get("commit") != config.get("source_commit"):
+                fail(f"Security source commit mismatch: {task_dir}")
+            if snapshot.get("file_count") != len(repo_files):
+                fail(f"Security source file-count mismatch: {task_dir}")
+            for license_file in snapshot.get("license_files", []):
+                if not (source_repo / license_file).is_file():
+                    fail(f"Missing preserved upstream license: {source_repo / license_file}")
+            packet_hashes: dict[Path, str] = {}
+            for line in source_manifest.read_text(encoding="utf-8").splitlines():
+                digest, relative = line.split("  ", 1)
+                packet_hashes[source_path / relative] = digest
+            expected_packet_files = {
+                path
+                for path in source_path.rglob("*")
+                if path.is_file() and path != source_manifest
+            }
+            if set(packet_hashes) != expected_packet_files:
+                fail(f"Security packet hash inventory mismatch: {source_manifest}")
+            for path, expected_digest in packet_hashes.items():
+                if sha256_file(path) != expected_digest:
+                    fail(f"Security packet SHA-256 mismatch: {path}")
+            visible_contract = "\n".join(
+                [
+                    prompt_file.read_text(encoding="utf-8"),
+                    task_file.read_text(encoding="utf-8"),
+                    config_path.read_text(encoding="utf-8"),
+                    (source_path / "UPSTREAM_SOURCE.md").read_text(encoding="utf-8"),
+                ]
+            )
+            for secret in (
+                upstream.get("ghsa"),
+                upstream.get("cve"),
+                upstream.get("target"),
+                upstream.get("match_rule"),
+                upstream.get("fix_commit"),
+            ):
+                if secret and str(secret) in visible_contract:
+                    fail(f"Security answer leakage in agent-visible contract: {task_dir}")
 
     if dict(datasets) != EXPECTED_DATASET_COUNTS:
         fail(f"Unexpected dataset balance: {dict(datasets)}")
 
     catalog_rows = list(csv.DictReader((ROOT / "catalog.csv").open(encoding="utf-8")))
-    if len(catalog_rows) != 48:
-        fail(f"Expected 48 catalog rows, found {len(catalog_rows)}")
+    if len(catalog_rows) != 53:
+        fail(f"Expected 53 catalog rows, found {len(catalog_rows)}")
     if {row["id"] for row in catalog_rows} != ids:
         fail("catalog.csv task IDs do not match task directories")
 
@@ -177,7 +258,7 @@ def main() -> int:
             fail(f"SHA-256 mismatch: {path}")
 
     print(
-        "PASS: 48 tasks, 8 datasets, "
+        "PASS: 53 tasks, 9 datasets, "
         f"{len(resolved_source_files)} unique source files, all hashes verified"
     )
     return 0

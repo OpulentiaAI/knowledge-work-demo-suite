@@ -1,0 +1,26 @@
+[
+  {
+    "score": 40,
+    "criterion": "Finding must identify the doc_free allocator double-free path, not a generic parser memory issue."
+  },
+  {
+    "score": 20,
+    "criterion": "Names the affected location (src/yyjson.h: yyjson_doc_free() and src/yyjson.c: yyjson_mut_doc_free()) and traces the relevant attacker-controlled data or state to the unsafe operation."
+  },
+  {
+    "score": 15,
+    "criterion": "Explains a technically plausible trigger or exploit path and does not rely on an unrelated generic weakness."
+  },
+  {
+    "score": 10,
+    "criterion": "Describes the resulting security impact consistently with CWE-415 and the vulnerable code."
+  },
+  {
+    "score": 10,
+    "criterion": "Recommends an effective remediation: Clear the document's allocator state before invoking allocator callbacks, preventing reentrant destruction from reusing the same state."
+  },
+  {
+    "score": 5,
+    "criterion": "Produces one clear, source-cited finding with no unsupported claims or distracting false-positive findings."
+  }
+]

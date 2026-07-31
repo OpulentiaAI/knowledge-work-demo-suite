@@ -1,0 +1,35 @@
+{
+  "upstream_id": "yyjson-doc-free-double-free",
+  "category": "parser-codec",
+  "repo": "ibireme/yyjson",
+  "package": "github.com/ibireme/yyjson",
+  "ecosystem": "GitHub",
+  "language": "C",
+  "ghsa": "GHSA-whx6-m9j4-w2m2",
+  "cve": "CVE-2024-25713",
+  "cvss": 8.6,
+  "cwe": "CWE-415",
+  "advisory_url": "https://github.com/advisories/GHSA-whx6-m9j4-w2m2",
+  "fix_commit": "0eca326fe57aeeb866e6f04c9ef9ea9f8343157e",
+  "vulnerable_commit": "1f2e748396ac81f5ddabd3c51cfe01bae8845330",
+  "target": "Double free caused by document allocator state not being cleared during doc_free().",
+  "match_rule": "Finding must identify the doc_free allocator double-free path, not a generic parser memory issue.",
+  "fixture_repository": "r2d4/devin-security-evals",
+  "fixture_commit": "eeff76ad9232c1a2fc5ddfae453060b298dd53fd",
+  "fixture_url": "https://github.com/r2d4/devin-security-evals/blob/eeff76ad9232c1a2fc5ddfae453060b298dd53fd/fixtures/security-swarm-fixtures.yaml",
+  "source_snapshot": {
+    "repository": "ibireme/yyjson",
+    "commit": "1f2e748396ac81f5ddabd3c51cfe01bae8845330",
+    "included_paths": [
+      "src",
+      "CMakeLists.txt",
+      "LICENSE",
+      "README.md"
+    ],
+    "file_count": 5,
+    "license": "MIT",
+    "license_files": [
+      "LICENSE"
+    ]
+  }
+}

@@ -6,6 +6,6 @@
     28
   ],
   "confidential_source_included": false,
-  "facts": "Synthetic and original",
+  "facts": "Synthetic taxpayer and meeting facts; dated Chicago asking-rate observations derived from public listing pages cited in calculation_inputs.csv",
   "law_sources": "Official IRS, DOL, and U.S. Code links in source_docs/official_guidance.md"
 }

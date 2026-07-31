@@ -1,0 +1,37 @@
+{
+  "upstream_id": "redshift-vector-eval-rce",
+  "category": "database-driver",
+  "repo": "aws/amazon-redshift-python-driver",
+  "package": "redshift-connector",
+  "ecosystem": "PyPI",
+  "language": "Python",
+  "ghsa": "GHSA-29h4-r29x-hchv",
+  "cve": "CVE-2026-8838",
+  "cvss": 9.8,
+  "cwe": "CWE-94",
+  "advisory_url": "https://github.com/advisories/GHSA-29h4-r29x-hchv",
+  "fix_commit": "69a69dfdead75918e20384da52bcd760ded8dbca",
+  "vulnerable_commit": "2c1dd5b9aca1945a1b8e01b2359075d9e8b0e77c",
+  "target": "RCE via eval() on server-supplied vector data in the column-type parser.",
+  "match_rule": "Finding must identify eval() over server-controlled vector/type data during query result processing.",
+  "fixture_repository": "r2d4/devin-security-evals",
+  "fixture_commit": "eeff76ad9232c1a2fc5ddfae453060b298dd53fd",
+  "fixture_url": "https://github.com/r2d4/devin-security-evals/blob/eeff76ad9232c1a2fc5ddfae453060b298dd53fd/fixtures/security-swarm-fixtures.yaml",
+  "source_snapshot": {
+    "repository": "aws/amazon-redshift-python-driver",
+    "commit": "2c1dd5b9aca1945a1b8e01b2359075d9e8b0e77c",
+    "included_paths": [
+      "redshift_connector",
+      "pyproject.toml",
+      "setup.cfg",
+      "LICENSE",
+      "NOTICE"
+    ],
+    "file_count": 52,
+    "license": "Apache-2.0",
+    "license_files": [
+      "LICENSE",
+      "NOTICE"
+    ]
+  }
+}

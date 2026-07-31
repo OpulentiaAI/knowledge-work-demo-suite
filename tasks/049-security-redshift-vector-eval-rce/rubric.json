@@ -1,0 +1,26 @@
+[
+  {
+    "score": 40,
+    "criterion": "Finding must identify eval() over server-controlled vector/type data during query result processing."
+  },
+  {
+    "score": 20,
+    "criterion": "Names the affected location (redshift_connector/utils/type_utils.py: vector_in()) and traces the relevant attacker-controlled data or state to the unsafe operation."
+  },
+  {
+    "score": 15,
+    "criterion": "Explains a technically plausible trigger or exploit path and does not rely on an unrelated generic weakness."
+  },
+  {
+    "score": 10,
+    "criterion": "Describes the resulting security impact consistently with CWE-94 and the vulnerable code."
+  },
+  {
+    "score": 10,
+    "criterion": "Recommends an effective remediation: Replace expression evaluation with strict tokenization and integer conversion, rejecting malformed vector data."
+  },
+  {
+    "score": 5,
+    "criterion": "Produces one clear, source-cited finding with no unsupported claims or distracting false-positive findings."
+  }
+]

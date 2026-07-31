@@ -504,21 +504,43 @@ and `Sources & Assumptions` sheets.
         "work_type": "tax-advisory-memo-and-recordkeeping-model",
         "manual_pages": [28],
         "deliverables": ["augusta_rule_execution_memo.md", "rental_event_log.xlsx"],
+        "license": (
+            "Original task design and synthetic client facts under repository MIT license; "
+            "dated factual asking-rate observations are attributed to their public listing "
+            "pages and those pages are not redistributed; United States government guidance "
+            "is cited by URL; the confidential methodology manual is not included"
+        ),
+        "facts_provenance": (
+            "Synthetic taxpayer and meeting facts; dated Chicago asking-rate observations "
+            "derived from public listing pages cited in calculation_inputs.csv"
+        ),
+        "source_description": """\
+The taxpayer and residence facts are synthetic. `calculation_inputs.csv`
+contains dated factual asking-rate observations from the linked Chicago
+listing pages; the linked pages themselves are not redistributed. The official
+guidance links freeze the evaluation's 2026 federal-law answer contract.""",
         "assignment": """\
 Evaluate a proposed company rental of an owner's residence for documented
 business meetings. Establish a supportable daily rate, calculate the annual
 payment, explain the distinct owner and company tax analyses, and build a
 contemporaneous event-and-documentation log.""",
         "facts": """\
-# Synthetic client facts — Willow Strategy Inc.
+# Synthetic client facts — Willow Strategy Inc., Chicago
 
 - Willow Strategy Inc. is an S corporation legally separate from owner Taylor.
+- Taylor's residence is in Chicago's West Loop. The taxpayer and residence are
+  fictional; no actual home address is supplied.
 - Taylor's residence is not otherwise rented during 2026.
 - The company proposes 14 one-day leadership and client-planning meetings at
-  the residence in 2026, with a real business agenda and attendees for each.
+  the residence in 2026. Each meeting runs from 9:00 a.m. to 5:00 p.m., has
+  eight attendees, and has a documented business agenda.
 - The proposed rate is $1,800 per day.
-- Local comparable one-day meeting-space rates are $950, $1,100, $1,150,
-  $1,250, and $1,400. Use the median unless another rate is documented.
+- `calculation_inputs.csv` contains five real, publicly listed Chicago
+  meeting-space asking rates retrieved on July 27, 2026. Use the median
+  normalized eight-hour daily rate as the frozen planning benchmark.
+- Treat the listings as dated asking-rate evidence, not proof of completed
+  arm's-length transactions. Discuss comparability, taxes, booking fees,
+  amenities, capacity, and the need to refresh quotes before implementation.
 - The company will execute a written rental agreement, approve the arrangement
   through disinterested corporate action where possible, invoice each event,
   and pay from the corporate account.
@@ -526,14 +548,72 @@ contemporaneous event-and-documentation log.""",
   included. State and local lodging or sales taxes are outside this evaluation.
 """,
         "inputs": [
-            ["item", "value"],
-            ["Rental days", "14"],
-            ["Proposed daily rate", "1800"],
-            ["Comparable rate 1", "950"],
-            ["Comparable rate 2", "1100"],
-            ["Comparable rate 3", "1150"],
-            ["Comparable rate 4", "1250"],
-            ["Comparable rate 5", "1400"],
+            [
+                "comparable_id",
+                "venue",
+                "chicago_location",
+                "capacity",
+                "listed_rate",
+                "normalization",
+                "normalized_day_rate_usd",
+                "retrieved_on",
+                "source_url",
+            ],
+            [
+                "CHI-01",
+                "Large Focus Room Located On Michigan Avenue",
+                "Near North Side / North Michigan Avenue",
+                "8",
+                "$40/hour with 10% discount for 8+ hours",
+                "$40 x 8 hours x 90%",
+                "288",
+                "2026-07-27",
+                "https://www.peerspace.com/pages/listings/57a0c3d8abe58d09009f4ca2",
+            ],
+            [
+                "CHI-02",
+                "VC Studio — Regus West Loop Riverside Plaza Center",
+                "West Loop / Riverside Plaza",
+                "6",
+                "from $363/day",
+                "Direct listed day rate",
+                "363",
+                "2026-07-27",
+                "https://book.workin.space/en/united-states/chicago/meeting-room",
+            ],
+            [
+                "CHI-03",
+                "Small Boardroom — Regus 125 South Wacker",
+                "125 South Wacker Drive",
+                "8",
+                "from $385/day",
+                "Direct listed day rate",
+                "385",
+                "2026-07-27",
+                "https://book.workin.space/en/united-states/chicago/meeting-room",
+            ],
+            [
+                "CHI-04",
+                "MR-15B — Spaces 1 North State Street",
+                "1 North State Street",
+                "8",
+                "from $553/day",
+                "Direct listed day rate",
+                "553",
+                "2026-07-27",
+                "https://book.workin.space/en/united-states/chicago/meeting-room",
+            ],
+            [
+                "CHI-05",
+                "MR03 — Signature 110 North Wacker Drive",
+                "110 North Wacker Drive",
+                "8",
+                "from $754/day",
+                "Direct listed day rate",
+                "754",
+                "2026-07-27",
+                "https://book.workin.space/en/united-states/chicago/meeting-room",
+            ],
         ],
         "guidance": guidance(
             (
@@ -560,8 +640,12 @@ https://uscode.house.gov/view.xhtml?edition=prelim&num=0&req=granuleid%3AUSC-pre
         "expected": """\
 # Output expectations
 
-- Use the comparable median of **$1,150 per day**, not the unsupported $1,800.
-- Total modeled rent: 14 × $1,150 = **$16,100**.
+- Sort the normalized Chicago asking rates as $288, $363, $385, $553, and
+  $754. Use the median of **$385 per day**, not the unsupported $1,800.
+- Total modeled rent: 14 × $385 = **$5,390**.
+- Identify that these are dated public asking rates with differing amenities
+  and one six-person room. Recommend refreshed, saved quotes and documented
+  adjustments before using the benchmark for an actual related-party payment.
 - Under the supplied facts, the owner-side section 280A(g) analysis excludes
   the rental income and disallows rental-use deductions.
 - Treat the corporation's section 162 deduction as a separate, conditional
@@ -572,11 +656,11 @@ The workbook should include `Rate Support`, `Event Log`, `Payment Register`,
 `Annual Test`, and `Sources & Assumptions` sheets.
 """,
         "rubric": rubric(
-            (20, "Uses the $1,150 median comparable rate and rejects the unsupported $1,800 rate."),
-            (20, "Calculates total modeled rent as $16,100 for exactly 14 days and includes a formula-driven annual day-count control."),
+            (20, "Preserves all five dated Chicago listing observations, normalizes the Peerspace rate to $288, and calculates the $385 median."),
+            (20, "Rejects the unsupported $1,800 rate, calculates total modeled rent as $5,390 for exactly 14 days, and includes a formula-driven annual day-count control."),
             (20, "Correctly states the owner-side section 280A(g) income exclusion and rental-deduction prohibition under the facts."),
-            (20, "Keeps the company's section 162 analysis separate and conditional on business purpose and reasonable, substantiated related-party pricing."),
-            (20, "Creates an auditable event log and implementation checklist covering agreement, approval, invoices, payments, agendas, attendees, comparables, and state/local review."),
+            (20, "Keeps the company's section 162 analysis separate and conditional on business purpose and reasonable, substantiated related-party pricing, while explaining asking-rate and comparability limitations."),
+            (20, "Creates an auditable event log and implementation checklist covering agreement, approval, invoices, payments, agendas, attendees, refreshed listing evidence, adjustments, and Chicago/state/local review."),
         ),
     },
     {
@@ -689,6 +773,15 @@ def build_task(spec: dict[str, Any]) -> None:
     source_dir = task_dir / "source_docs"
     source_dir.mkdir(parents=True, exist_ok=True)
 
+    if "source_description" in spec:
+        source_section = (
+            "Read every file in `source_docs/`.\n\n"
+            + spec["source_description"].strip()
+        )
+    else:
+        source_section = """Read every file in `source_docs/`. The client packet is synthetic. The official
+guidance links identify the governing public sources used to freeze this
+evaluation's 2026 answer contract."""
     prompt = f"""# {spec["title"]}
 
 ## Assignment
@@ -699,9 +792,7 @@ def build_task(spec: dict[str, Any]) -> None:
 
 ## Source documents
 
-Read every file in `source_docs/`. The client packet is synthetic. The official
-guidance links identify the governing public sources used to freeze this
-evaluation's 2026 answer contract.
+{source_section}
 
 ## Expected deliverables
 
@@ -716,7 +807,7 @@ evaluation's 2026 answer contract.
         "dataset": DATASET,
         "upstream_id": f"original/{spec['id']}",
         "upstream_url": "https://www.irs.gov/",
-        "license": LICENSE,
+        "license": spec.get("license", LICENSE),
         "prompt": "prompt.md",
         "source_docs": "source_docs",
         "deliverables": spec["deliverables"],
@@ -753,7 +844,7 @@ evaluation's 2026 answer contract.
             "method_reference_sha256": MANUAL_SHA256,
             "method_reference_pages": spec["manual_pages"],
             "confidential_source_included": False,
-            "facts": "Synthetic and original",
+            "facts": spec.get("facts_provenance", "Synthetic and original"),
             "law_sources": "Official IRS, DOL, and U.S. Code links in source_docs/official_guidance.md",
         },
     )

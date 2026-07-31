@@ -21,9 +21,12 @@ contemporaneous event-and-documentation log.
 
 ## Source documents
 
-Read every file in `source_docs/`. The client packet is synthetic. The official
-guidance links identify the governing public sources used to freeze this
-evaluation's 2026 answer contract.
+Read every file in `source_docs/`.
+
+The taxpayer and residence facts are synthetic. `calculation_inputs.csv`
+contains dated factual asking-rate observations from the linked Chicago
+listing pages; the linked pages themselves are not redistributed. The official
+guidance links freeze the evaluation's 2026 federal-law answer contract.
 
 ## Expected deliverables
 

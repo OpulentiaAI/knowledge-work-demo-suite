@@ -1,0 +1,17 @@
+{
+  "id": "052-security-archive-symlink-traversal",
+  "title": "Audit an Archive Extractor's Filesystem Boundaries",
+  "domain": "product-security",
+  "work_type": "blind-source-code-security-audit",
+  "dataset": "Devin Security Swarm Eval Fixtures",
+  "upstream_id": "archive-path-traversal",
+  "upstream_url": "https://github.com/r2d4/devin-security-evals/blob/eeff76ad9232c1a2fc5ddfae453060b298dd53fd/fixtures/security-swarm-fixtures.yaml",
+  "license": "Fixture metadata: upstream terms apply because r2d4/devin-security-evals declares no repository-wide license; packaged brendan-duncan/archive source: MIT",
+  "prompt": "prompt.md",
+  "source_docs": "source_docs",
+  "deliverables": [
+    "security_findings.md"
+  ],
+  "rubric": "rubric.json",
+  "security_eval_config": "security_eval.json"
+}

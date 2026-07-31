@@ -65,10 +65,36 @@ MIT license.
 - Not included: the confidential manual, page images, extracted text, or
   quotations from it.
 - Included: seven original task definitions, synthetic client fact packets,
-  calculation inputs, evaluation rubrics, and links to official United States
-  government guidance.
+  calculation inputs, evaluation rubrics, links to official United States
+  government guidance, and a dated factual extract of five publicly listed
+  Chicago meeting-space asking rates for task `046`.
+- Not included: copies, screenshots, images, or descriptive text from the
+  Peerspace or workin.space listing pages. Listing names, locations, capacity,
+  rates, retrieval date, and source URLs are preserved as factual provenance.
 - United States government works and linked guidance are not relicensed by
   this repository. The original task text and synthetic fixtures are covered
   by the repository MIT license.
+
+## Devin Security Swarm Eval Fixtures
+
+- Fixture publisher: r2d4
+- Source:
+  https://github.com/r2d4/devin-security-evals/tree/eeff76ad9232c1a2fc5ddfae453060b298dd53fd
+- Fixture-repository terms: no repository-wide license was declared when the
+  five packets were compiled on 2026-07-31. The normalized prompts, run
+  contracts, and rubrics in this repository are original adaptations; fixture
+  facts and identifiers remain subject to upstream terms.
+- Included source snapshots and licenses:
+  - `aws/amazon-redshift-python-driver` — Apache License 2.0; `LICENSE` and
+    `NOTICE` preserved.
+  - `harttle/liquidjs` — MIT License; `LICENSE` preserved.
+  - `ibireme/yyjson` — MIT License; `LICENSE` preserved.
+  - `brendan-duncan/archive` — MIT License; `LICENSE` preserved.
+  - `jwt/ruby-jwe` — MIT License; `LICENSE.md` preserved.
+- Included: five bounded source slices from exact vulnerable commits, source
+  provenance and hashes, original blind prompts, grader-only semantic answer
+  keys, and normalized metadata.
+- Not included: full repository histories, fixed source revisions, complete
+  upstream test suites, or unrelated files from the five source projects.
 
 Third-party trademarks and names are used only to identify provenance.
